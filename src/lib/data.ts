@@ -99,14 +99,26 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20Lafite%20Rothschild%20Ch%C3%A2teau%20Lafite%20Rothschild",
     "scores": [
       {
-        "source": "Decanter",
+        "source": "Wine Spectator",
         "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
+        "source": "Robert Parker",
+        "score": 96,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
         "source": "James Suckling",
-        "score": 97,
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 95,
         "maxScore": 100,
         "vintage": 2020
       },
@@ -169,43 +181,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20Margaux%20Ch%C3%A2teau%20Margaux",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 94,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Jancis Robinson",
         "score": 19,
         "maxScore": 20,
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 93,
+        "source": "Wine Spectator",
+        "score": 95,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Wine Spectator",
+        "source": "Wine Enthusiast",
         "score": 97,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 96,
     "badges": [
       "Parker 95+",
       "Decanter World Wine Awards Gold"
@@ -255,39 +249,21 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20Mouton%20Rothschild%20Ch%C3%A2teau%20Mouton%20Rothschild",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.7,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
         "source": "Robert Parker",
         "score": 97,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Decanter",
-        "score": 93,
+        "source": "Tim Atkin",
+        "score": 95,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 96,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 96,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.7,
+        "maxScore": 5,
         "vintage": 2020
       }
     ],
@@ -341,31 +317,31 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20Haut-Brion%20Ch%C3%A2teau%20Haut-Brion",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 97,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 97,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "James Suckling",
         "score": 94,
         "maxScore": 100,
         "vintage": 2019
       },
       {
+        "source": "Wine Enthusiast",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Tim Atkin",
-        "score": 97,
+        "score": 95,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 96,
+    "aggregateScore": 94,
     "badges": [
       "Parker 95+",
       "Wine Spectator Top 100"
@@ -413,9 +389,33 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20P%C3%A9trus%20Ch%C3%A2teau%20P%C3%A9trus",
     "scores": [
       {
+        "source": "Wine Spectator",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
         "source": "Jancis Robinson",
         "score": 19,
         "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Robert Parker",
+        "score": 97,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 97,
+        "maxScore": 100,
         "vintage": 2018
       },
       {
@@ -423,15 +423,9 @@ export const wines: Wine[] = [
         "score": 96,
         "maxScore": 100,
         "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2018
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 96,
     "badges": [
       "Parker 95+",
       "James Suckling 100",
@@ -481,6 +475,18 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20Cheval%20Blanc%20Ch%C3%A2teau%20Cheval%20Blanc",
     "scores": [
       {
+        "source": "Vivino",
+        "score": 4.8,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Decanter",
         "score": 96,
         "maxScore": 100,
@@ -497,21 +503,9 @@ export const wines: Wine[] = [
         "score": 96,
         "maxScore": 100,
         "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.8,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2019
       }
     ],
-    "aggregateScore": 96,
+    "aggregateScore": 95,
     "badges": [
       "Parker 95+",
       "Decanter World Wine Awards Platinum"
@@ -561,25 +555,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20Lynch-Bages%20Ch%C3%A2teau%20Lynch-Bages",
     "scores": [
       {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
         "vintage": 2020
       },
       {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 91,
+        "source": "Tim Atkin",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 91,
     "badges": [
       "Parker 90+",
       "Best Value"
@@ -628,31 +622,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teau%20d'Yquem%20Ch%C3%A2teau%20d'Yquem",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 92,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.8,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": 2019
       },
       {
         "source": "Tim Atkin",
-        "score": 93,
+        "score": 95,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Robert Parker",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 94,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
+        "source": "Wine Spectator",
         "score": 92,
         "maxScore": 100,
         "vintage": 2019
@@ -708,25 +696,43 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Roman%C3%A9e-Conti%20Grand%20Cru%20Domaine%20de%20la%20Roman%C3%A9e-Conti",
     "scores": [
       {
+        "source": "Wine Spectator",
+        "score": 97,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
         "source": "Jancis Robinson",
         "score": 19,
         "maxScore": 20,
         "vintage": 2020
       },
       {
-        "source": "Tim Atkin",
+        "source": "Robert Parker",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 97,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
         "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Wine Spectator",
-        "score": 95,
+        "source": "Wine Enthusiast",
+        "score": 97,
         "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 94,
+    "aggregateScore": 96,
     "badges": [
       "Parker 95+",
       "James Suckling 100",
@@ -776,14 +782,8 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=La%20T%C3%A2che%20Grand%20Cru%20Domaine%20de%20la%20Roman%C3%A9e-Conti",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Tim Atkin",
-        "score": 94,
+        "score": 95,
         "maxScore": 100,
         "vintage": 2019
       },
@@ -797,6 +797,18 @@ export const wines: Wine[] = [
         "source": "Vivino",
         "score": 4.8,
         "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 94,
+        "maxScore": 100,
         "vintage": 2019
       }
     ],
@@ -855,30 +867,24 @@ export const wines: Wine[] = [
       },
       {
         "source": "Robert Parker",
-        "score": 93,
+        "score": 94,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 96,
+        "source": "Wine Enthusiast",
+        "score": 97,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 95,
+        "score": 96,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 96,
     "badges": [
       "Parker 95+"
     ],
@@ -926,30 +932,30 @@ export const wines: Wine[] = [
     "scores": [
       {
         "source": "Wine Spectator",
-        "score": 89,
+        "score": 90,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Decanter",
-        "score": 88,
+        "source": "Robert Parker",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
         "vintage": 2021
       },
       {
         "source": "Wine Enthusiast",
-        "score": 89,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2021
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 90,
     "badges": [
       "Parker 90+",
       "Best Value"
@@ -1005,24 +1011,36 @@ export const wines: Wine[] = [
       },
       {
         "source": "Robert Parker",
+        "score": 95,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
         "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Tim Atkin",
-        "score": 96,
+        "source": "Decanter",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "Wine Enthusiast",
-        "score": 96,
+        "score": 97,
         "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.7,
+        "maxScore": 5,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 96,
+    "aggregateScore": 95,
     "badges": [
       "Parker 95+",
       "Jancis Robinson 19/20"
@@ -1071,25 +1089,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Dom%20P%C3%A9rignon%20Mo%C3%ABt%20%26%20Chandon",
     "scores": [
       {
-        "source": "Robert Parker",
+        "source": "Wine Enthusiast",
         "score": 95,
         "maxScore": 100,
         "vintage": 2015
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
+        "source": "Vivino",
+        "score": 4.6,
+        "maxScore": 5,
         "vintage": 2015
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 94,
+        "source": "Robert Parker",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2015
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 93,
     "badges": [
       "James Suckling 95+",
       "Wine Spectator Top 100"
@@ -1139,25 +1157,31 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Cristal%20Louis%20Roederer",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 94,
+        "source": "James Suckling",
+        "score": 95,
         "maxScore": 100,
         "vintage": 2015
       },
       {
-        "source": "Wine Spectator",
-        "score": 93,
+        "source": "Jancis Robinson",
+        "score": 19,
+        "maxScore": 20,
+        "vintage": 2015
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 92,
         "maxScore": 100,
         "vintage": 2015
       },
       {
-        "source": "Robert Parker",
-        "score": 94,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.8,
+        "maxScore": 5,
         "vintage": 2015
       }
     ],
-    "aggregateScore": 94,
+    "aggregateScore": 95,
     "badges": [
       "Parker 95+",
       "James Suckling 95+"
@@ -1208,7 +1232,7 @@ export const wines: Wine[] = [
     "scores": [
       {
         "source": "Decanter",
-        "score": 92,
+        "score": 90,
         "maxScore": 100,
         "vintage": null
       },
@@ -1219,27 +1243,9 @@ export const wines: Wine[] = [
         "vintage": null
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": null
-      },
-      {
         "source": "Vivino",
-        "score": 4.6,
+        "score": 4.7,
         "maxScore": 5,
-        "vintage": null
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
         "vintage": null
       }
     ],
@@ -1292,25 +1298,37 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Hermitage%20La%20Chapelle%20Paul%20Jaboulet%20A%C3%AEn%C3%A9",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Tim Atkin",
-        "score": 93,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Wine Spectator",
+        "source": "Wine Enthusiast",
         "score": 91,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 91,
     "badges": [
       "Parker 95+",
       "Decanter World Wine Awards Gold"
@@ -1361,37 +1379,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ch%C3%A2teauneuf-du-Pape%20Ch%C3%A2teau%20de%20Beaucastel",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
         "score": 89,
         "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "Wine Enthusiast",
-        "score": 89,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 89,
     "badges": [
       "Parker 90+",
       "Best Value"
@@ -1439,37 +1445,37 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=C%C3%B4te-R%C3%B4tie%20La%20Landonne%20E.%20Guigal",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 93,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.7,
+        "maxScore": 5,
         "vintage": 2018
       },
       {
-        "source": "Wine Spectator",
+        "source": "Robert Parker",
         "score": 91,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Robert Parker",
-        "score": 92,
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "Wine Enthusiast",
-        "score": 94,
+        "score": 93,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Vivino",
-        "score": 4.7,
-        "maxScore": 5,
         "vintage": 2018
       }
     ],
-    "aggregateScore": 93,
+    "aggregateScore": 92,
     "badges": [
       "Parker 95+",
       "James Suckling 95+"
@@ -1517,8 +1523,14 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Sancerre%20Domaine%20Vacheron",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 87,
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
         "vintage": 2022
       },
@@ -1529,15 +1541,15 @@ export const wines: Wine[] = [
         "vintage": 2022
       },
       {
-        "source": "Tim Atkin",
-        "score": 86,
+        "source": "James Suckling",
+        "score": 85,
         "maxScore": 100,
         "vintage": 2022
       },
       {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": 2022
       }
     ],
@@ -1589,31 +1601,13 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Grand%20Cru%20Rangen%20de%20Thann%20Domaine%20Zind-Humbrecht",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "James Suckling",
-        "score": 90,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "Decanter",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
         "score": 87,
         "maxScore": 100,
         "vintage": 2020
@@ -1621,6 +1615,18 @@ export const wines: Wine[] = [
       {
         "source": "Tim Atkin",
         "score": 91,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
         "maxScore": 100,
         "vintage": 2020
       }
@@ -1674,20 +1680,20 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Sassicaia%20Tenuta%20San%20Guido",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 95,
+        "source": "Decanter",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "James Suckling",
+        "source": "Wine Spectator",
         "score": 94,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Decanter",
-        "score": 92,
+        "source": "Robert Parker",
+        "score": 94,
         "maxScore": 100,
         "vintage": 2020
       }
@@ -1743,15 +1749,21 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Tignanello%20Marchesi%20Antinori",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "Wine Enthusiast",
-        "score": 93,
+        "score": 89,
         "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": 2020
       },
       {
@@ -1759,9 +1771,15 @@ export const wines: Wine[] = [
         "score": 93,
         "maxScore": 100,
         "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 91,
     "badges": [
       "Parker 90+",
       "James Suckling 95+"
@@ -1809,31 +1827,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Brunello%20di%20Montalcino%20Biondi-Santi",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2017
-      },
-      {
         "source": "Decanter",
         "score": 89,
         "maxScore": 100,
         "vintage": 2017
       },
       {
-        "source": "James Suckling",
-        "score": 92,
+        "source": "Robert Parker",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2017
       },
       {
-        "source": "Robert Parker",
-        "score": 91,
-        "maxScore": 100,
+        "source": "Jancis Robinson",
+        "score": 19,
+        "maxScore": 20,
         "vintage": 2017
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 91,
     "badges": [
       "Parker 95+",
       "Decanter World Wine Awards Gold"
@@ -1884,25 +1896,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Ornellaia%20Tenuta%20dell'Ornellaia",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 92,
+        "source": "James Suckling",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
+        "source": "Robert Parker",
+        "score": 91,
+        "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Decanter",
-        "score": 95,
+        "source": "Wine Enthusiast",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 94,
+    "aggregateScore": 91,
     "badges": [
       "James Suckling 95+",
       "Parker 90+"
@@ -1950,32 +1962,26 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Barolo%20Monfortino%20Riserva%20Giacomo%20Conterno",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 95,
+        "source": "Wine Enthusiast",
+        "score": 96,
         "maxScore": 100,
         "vintage": 2015
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2015
-      },
-      {
-        "source": "Robert Parker",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2015
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 95,
+        "source": "Decanter",
+        "score": 96,
         "maxScore": 100,
         "vintage": 2015
       },
       {
         "source": "James Suckling",
-        "score": 95,
+        "score": 96,
+        "maxScore": 100,
+        "vintage": 2015
+      },
+      {
+        "source": "Robert Parker",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2015
       }
@@ -2029,15 +2035,15 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Barbaresco%20Gaja",
     "scores": [
       {
-        "source": "Robert Parker",
-        "score": 94,
+        "source": "James Suckling",
+        "score": 93,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
         "vintage": 2019
       },
       {
@@ -2045,21 +2051,9 @@ export const wines: Wine[] = [
         "score": 94,
         "maxScore": 100,
         "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 93,
     "badges": [
       "Parker 90+",
       "James Suckling 95+"
@@ -2109,26 +2103,14 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Amarone%20della%20Valpolicella%20Classico%20Giuseppe%20Quintarelli",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2013
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2013
-      },
-      {
-        "source": "Robert Parker",
-        "score": 93,
+        "source": "Decanter",
+        "score": 94,
         "maxScore": 100,
         "vintage": 2013
       },
       {
         "source": "Wine Enthusiast",
-        "score": 95,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2013
       },
@@ -2136,12 +2118,6 @@ export const wines: Wine[] = [
         "source": "Vivino",
         "score": 4.8,
         "maxScore": 5,
-        "vintage": 2013
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 94,
-        "maxScore": 100,
         "vintage": 2013
       }
     ],
@@ -2194,13 +2170,13 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Vega%20Sicilia%20%C3%9Anico%20Bodegas%20Vega%20Sicilia",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 95,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.6,
+        "maxScore": 5,
         "vintage": 2014
       },
       {
-        "source": "Tim Atkin",
+        "source": "James Suckling",
         "score": 95,
         "maxScore": 100,
         "vintage": 2014
@@ -2212,13 +2188,13 @@ export const wines: Wine[] = [
         "vintage": 2014
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
+        "source": "Wine Enthusiast",
+        "score": 91,
+        "maxScore": 100,
         "vintage": 2014
       }
     ],
-    "aggregateScore": 94,
+    "aggregateScore": 93,
     "badges": [
       "Parker 95+",
       "James Suckling 95+",
@@ -2267,6 +2243,24 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Pingus%20Dominio%20de%20Pingus",
     "scores": [
       {
+        "source": "Jancis Robinson",
+        "score": 19,
+        "maxScore": 20,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 96,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Vivino",
         "score": 4.7,
         "maxScore": 5,
@@ -2274,31 +2268,7 @@ export const wines: Wine[] = [
       },
       {
         "source": "Robert Parker",
-        "score": 94,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 97,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 97,
+        "score": 96,
         "maxScore": 100,
         "vintage": 2019
       }
@@ -2352,31 +2322,37 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=L'Ermita%20Velles%20Vinyes%20%C3%81lvaro%20Palacios",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Decanter",
         "score": 95,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Vivino",
-        "score": 4.8,
-        "maxScore": 5,
+        "source": "Robert Parker",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 95,
+        "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 94,
     "badges": [
       "Parker 95+",
       "Jancis Robinson 19/20"
@@ -2425,25 +2401,31 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Rioja%20Gran%20Reserva%20904%20La%20Rioja%20Alta",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": 2015
       },
       {
-        "source": "James Suckling",
-        "score": 89,
+        "source": "Tim Atkin",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2015
       },
       {
         "source": "Vivino",
-        "score": 4.4,
+        "score": 4.5,
         "maxScore": 5,
+        "vintage": 2015
+      },
+      {
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
         "vintage": 2015
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 90,
     "badges": [
       "Parker 90+",
       "Best Value",
@@ -2497,31 +2479,37 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Opus%20One%20Opus%20One%20Winery",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.8,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
+        "source": "Wine Enthusiast",
         "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
+        "source": "Vivino",
+        "score": 4.6,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 92,
+        "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 93,
     "badges": [
       "Parker 95+",
       "James Suckling 95+"
@@ -2570,31 +2558,43 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Screaming%20Eagle%20Cabernet%20Sauvignon%20Screaming%20Eagle",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 94,
+        "source": "Vivino",
+        "score": 4.8,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 96,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 97,
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 94,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Tim Atkin",
-        "score": 97,
+        "score": 93,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
+        "source": "Robert Parker",
+        "score": 95,
+        "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 96,
+    "aggregateScore": 95,
     "badges": [
       "Parker 95+",
       "James Suckling 100",
@@ -2644,7 +2644,7 @@ export const wines: Wine[] = [
     "scores": [
       {
         "source": "Wine Spectator",
-        "score": 93,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       },
@@ -2661,25 +2661,13 @@ export const wines: Wine[] = [
         "vintage": 2019
       },
       {
-        "source": "Robert Parker",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "James Suckling",
         "score": 89,
         "maxScore": 100,
         "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2019
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 90,
     "badges": [
       "Wine Spectator Top 100",
       "Parker 90+"
@@ -2730,27 +2718,21 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Insignia%20Joseph%20Phelps%20Vineyards",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 95,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
+        "source": "Decanter",
         "score": 93,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.8,
-        "maxScore": 5,
+        "source": "Tim Atkin",
+        "score": 94,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 95,
+        "maxScore": 100,
         "vintage": 2020
       }
     ],
@@ -2802,32 +2784,20 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Beaux%20Fr%C3%A8res%20Pinot%20Noir%20Beaux%20Fr%C3%A8res",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 87,
+        "source": "Decanter",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Decanter",
+        "source": "Tim Atkin",
         "score": 88,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "James Suckling",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
+        "source": "Wine Enthusiast",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2021
       }
@@ -2881,20 +2851,26 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Grange%20Penfolds",
     "scores": [
       {
+        "source": "Robert Parker",
+        "score": 96,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Wine Spectator",
-        "score": 93,
+        "score": 96,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 95,
+        "score": 96,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Robert Parker",
-        "score": 95,
+        "source": "James Suckling",
+        "score": 96,
         "maxScore": 100,
         "vintage": 2019
       },
@@ -2905,19 +2881,13 @@ export const wines: Wine[] = [
         "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 94,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
+        "source": "Tim Atkin",
         "score": 95,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 95,
+    "aggregateScore": 96,
     "badges": [
       "Parker 95+",
       "James Suckling 95+",
@@ -2966,39 +2936,39 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Hill%20of%20Grace%20Henschke",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 97,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
         "source": "Wine Spectator",
-        "score": 93,
+        "score": 95,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Decanter",
+        "source": "Tim Atkin",
         "score": 96,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Vivino",
-        "score": 4.7,
-        "maxScore": 5,
+        "source": "Robert Parker",
+        "score": 96,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 96,
+        "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "Wine Enthusiast",
-        "score": 93,
+        "score": 94,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Robert Parker",
-        "score": 94,
-        "maxScore": 100,
+        "source": "Jancis Robinson",
+        "score": 19,
+        "maxScore": 20,
         "vintage": 2018
       }
     ],
@@ -3050,20 +3020,32 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Cloudy%20Bay%20Sauvignon%20Blanc%20Cloudy%20Bay",
     "scores": [
       {
-        "source": "Wine Spectator",
+        "source": "Tim Atkin",
         "score": 83,
         "maxScore": 100,
         "vintage": 2023
       },
       {
-        "source": "Decanter",
-        "score": 86,
+        "source": "Wine Spectator",
+        "score": 84,
         "maxScore": 100,
         "vintage": 2023
       },
       {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2023
+      },
+      {
         "source": "Robert Parker",
-        "score": 87,
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2023
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2023
       },
@@ -3072,15 +3054,9 @@ export const wines: Wine[] = [
         "score": 83,
         "maxScore": 100,
         "vintage": 2023
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2023
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 84,
     "badges": [
       "Best Value",
       "Editors Pick"
@@ -3129,37 +3105,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Catena%20Zapata%20Malbec%20Argentino%20Bodega%20Catena%20Zapata",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Decanter",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
         "score": 92,
         "maxScore": 100,
         "vintage": 2020
       },
       {
+        "source": "Wine Spectator",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
         "source": "Robert Parker",
-        "score": 90,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 92,
     "badges": [
       "Parker 95+",
       "James Suckling 95+"
@@ -3209,19 +3173,13 @@ export const wines: Wine[] = [
     "scores": [
       {
         "source": "Wine Enthusiast",
-        "score": 83,
+        "score": 85,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Decanter",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 87,
+        "source": "Wine Spectator",
+        "score": 84,
         "maxScore": 100,
         "vintage": 2021
       },
@@ -3232,13 +3190,13 @@ export const wines: Wine[] = [
         "vintage": 2021
       },
       {
-        "source": "Robert Parker",
-        "score": 84,
+        "source": "Tim Atkin",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2021
       }
     ],
-    "aggregateScore": 84,
+    "aggregateScore": 85,
     "badges": [
       "Best Value",
       "Parker 90+"
@@ -3289,31 +3247,43 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Don%20Melchor%20Cabernet%20Sauvignon%20Concha%20y%20Toro",
     "scores": [
       {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
         "source": "Decanter",
-        "score": 87,
+        "score": 88,
         "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "James Suckling",
-        "score": 90,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Tim Atkin",
-        "score": 90,
+        "source": "Robert Parker",
+        "score": 91,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 90,
     "badges": [
       "Parker 90+",
       "James Suckling 95+",
@@ -3362,27 +3332,39 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Scharzhofberger%20Riesling%20Sp%C3%A4tlese%20Egon%20M%C3%BCller",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": 2021
       },
       {
-        "source": "Tim Atkin",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
+        "source": "Wine Spectator",
         "score": 90,
         "maxScore": 100,
         "vintage": 2021
       },
       {
         "source": "Vivino",
-        "score": 4.7,
+        "score": 4.5,
         "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
         "vintage": 2021
       }
     ],
@@ -3435,13 +3417,7 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Trocken%20GG%20Kirchenst%C3%BCck%20Weingut%20Dr.%20B%C3%BCrklin-Wolf",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
+        "source": "Tim Atkin",
         "score": 87,
         "maxScore": 100,
         "vintage": 2021
@@ -3453,14 +3429,26 @@ export const wines: Wine[] = [
         "vintage": 2021
       },
       {
-        "source": "Wine Enthusiast",
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
         "score": 89,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Decanter",
+        "source": "James Suckling",
         "score": 90,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2021
       }
@@ -3515,8 +3503,8 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Barca%20Velha%20Casa%20Ferreirinha",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 95,
+        "source": "Tim Atkin",
+        "score": 94,
         "maxScore": 100,
         "vintage": 2015
       },
@@ -3527,8 +3515,26 @@ export const wines: Wine[] = [
         "vintage": 2015
       },
       {
-        "source": "Tim Atkin",
+        "source": "Robert Parker",
         "score": 95,
+        "maxScore": 100,
+        "vintage": 2015
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 95,
+        "maxScore": 100,
+        "vintage": 2015
+      },
+      {
+        "source": "Vivino",
+        "score": 4.7,
+        "maxScore": 5,
+        "vintage": 2015
+      },
+      {
+        "source": "James Suckling",
+        "score": 94,
         "maxScore": 100,
         "vintage": 2015
       }
@@ -3584,31 +3590,43 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Vintage%20Port%20Taylor's",
     "scores": [
       {
-        "source": "Tim Atkin",
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2017
+      },
+      {
+        "source": "James Suckling",
         "score": 89,
         "maxScore": 100,
         "vintage": 2017
       },
       {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2017
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
+        "source": "Tim Atkin",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2017
       },
       {
         "source": "Vivino",
-        "score": 4.5,
+        "score": 4.6,
         "maxScore": 5,
+        "vintage": 2017
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2017
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 89,
+        "maxScore": 100,
         "vintage": 2017
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 89,
     "badges": [
       "Parker 95+",
       "Wine Spectator Top 100"
@@ -3657,43 +3675,31 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Craggy%20Range%20Te%20Muna%20Road%20Vineyard%20Pinot%20Noir%20Craggy%20Range",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
+        "source": "Wine Spectator",
         "score": 89,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 86,
+        "source": "Tim Atkin",
+        "score": 87,
         "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
         "vintage": 2021
       },
       {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
         "vintage": 2021
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 88,
     "badges": [
       "Parker 90+",
       "Decanter World Wine Awards Gold"
@@ -3743,25 +3749,25 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Columella%20The%20Sadie%20Family%20Wines",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 87,
+        "source": "Wine Enthusiast",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
+        "source": "Decanter",
+        "score": 91,
+        "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "James Suckling",
+        "score": 91,
+        "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 90,
     "badges": [
       "Parker 95+",
       "Tim Atkin 95+"
@@ -3812,37 +3818,37 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Kanonkop%20Paul%20Sauer%20Kanonkop",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
         "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
+        "source": "Decanter",
         "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 85,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 88,
     "badges": [
       "Tim Atkin 95+",
       "Best Value"
@@ -3890,14 +3896,14 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Gr%C3%BCner%20Veltliner%20Smaragd%20Kellerberg%20F.X.%20Pichler",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 87,
+        "source": "James Suckling",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "James Suckling",
-        "score": 91,
+        "source": "Decanter",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2021
       },
@@ -3908,13 +3914,25 @@ export const wines: Wine[] = [
         "vintage": 2021
       },
       {
-        "source": "Decanter",
+        "source": "Robert Parker",
         "score": 91,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2021
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 89,
     "badges": [
       "Parker 90+",
       "Jancis Robinson 18/20"
@@ -3971,31 +3989,19 @@ export const wines: Wine[] = [
         "vintage": 2017
       },
       {
-        "source": "James Suckling",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2017
-      },
-      {
-        "source": "Robert Parker",
+        "source": "Tim Atkin",
         "score": 87,
         "maxScore": 100,
         "vintage": 2017
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2017
-      },
-      {
-        "source": "Decanter",
-        "score": 88,
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
         "vintage": 2017
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 87,
     "badges": [
       "Decanter World Wine Awards Gold",
       "Best Value"
@@ -4044,37 +4050,37 @@ export const wines: Wine[] = [
     "buyUrl": "https://www.wine.com/search?q=Naoussa%20Xinomavro%20Domaine%20Thymiopoulos",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 87,
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
         "score": 84,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
+        "source": "Decanter",
         "score": 87,
         "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 86,
     "badges": [
       "Best Value"
     ],
@@ -4102,10 +4108,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-l-oville-las-cases-saint-julien-2021",
+    "slug": "ch-teau-l-oville-las-cases-saint-julien-2018",
     "name": "Saint-Julien",
     "producer": "Château Léoville-Las Cases",
-    "vintage": 2021,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -4118,44 +4124,32 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Saint-Julien AOC",
     "alcoholContent": "15%",
-    "price": 192,
-    "priceRange": "Luxury",
+    "price": 31,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20L%C3%A9oville-Las%20Cases",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2021
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2018
       },
       {
         "source": "Robert Parker",
-        "score": 91,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
       },
       {
-        "source": "Tim Atkin",
-        "score": 90,
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 86,
     "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -4177,10 +4171,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-ducru-beaucaillou-saint-julien-2022",
+    "slug": "ch-teau-ducru-beaucaillou-saint-julien-2018",
     "name": "Saint-Julien",
     "producer": "Château Ducru-Beaucaillou",
-    "vintage": 2022,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -4192,44 +4186,38 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Saint-Julien AOC",
-    "alcoholContent": "15%",
-    "price": 134,
-    "priceRange": "Luxury",
+    "alcoholContent": "13%",
+    "price": 20,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Ducru-Beaucaillou",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
         "source": "Robert Parker",
-        "score": 93,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2018
       },
       {
         "source": "Vivino",
-        "score": 4.5,
+        "score": 4.4,
         "maxScore": 5,
-        "vintage": 2022
+        "vintage": 2018
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 89,
+        "source": "Tim Atkin",
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 86,
     "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -4246,9 +4234,167 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-montrose-saint-julien-2020",
+    "slug": "ch-teau-montrose-saint-julien-2022",
     "name": "Saint-Julien",
     "producer": "Château Montrose",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "13%",
+    "price": 42,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Montrose",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 87,
+    "badges": [],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-cos-d-estournel-saint-julien-2020",
+    "name": "Saint-Julien",
+    "producer": "Château Cos d'Estournel",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "14%",
+    "price": 23,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Cos%20d'Estournel",
+    "scores": [
+      {
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-calon-s-gur-saint-julien-2020",
+    "name": "Saint-Julien",
+    "producer": "Château Calon-Ségur",
     "vintage": 2020,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
@@ -4262,187 +4408,55 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Saint-Julien AOC",
     "alcoholContent": "13%",
-    "price": 39,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Montrose",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 88,
-    "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-cos-d-estournel-saint-julien-2021",
-    "name": "Saint-Julien",
-    "producer": "Château Cos d'Estournel",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "13%",
-    "price": 158,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Cos%20d'Estournel",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-calon-s-gur-saint-julien-2021",
-    "name": "Saint-Julien",
-    "producer": "Château Calon-Ségur",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "14%",
-    "price": 13,
-    "priceRange": "Budget",
+    "price": 23,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Calon-S%C3%A9gur",
     "scores": [
       {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
         "source": "Tim Atkin",
-        "score": 83,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
         "source": "James Suckling",
-        "score": 86,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2021
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
       },
       {
         "source": "Robert Parker",
-        "score": 86,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
     "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -4459,250 +4473,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-pichon-longueville-saint-julien-2019",
+    "slug": "ch-teau-pichon-longueville-saint-julien-2022",
     "name": "Saint-Julien",
     "producer": "Château Pichon-Longueville",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "15%",
-    "price": 12,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Pichon-Longueville",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-gruaud-larose-saint-julien-2019",
-    "name": "Saint-Julien",
-    "producer": "Château Gruaud-Larose",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "15%",
-    "price": 39,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Gruaud-Larose",
-    "scores": [
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-talbot-saint-julien-2019",
-    "name": "Saint-Julien",
-    "producer": "Château Talbot",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "14%",
-    "price": 8,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Talbot",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-beychevelle-saint-julien-2022",
-    "name": "Saint-Julien",
-    "producer": "Château Beychevelle",
     "vintage": 2022,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
@@ -4716,49 +4489,282 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Saint-Julien AOC",
     "alcoholContent": "15%",
-    "price": 71,
+    "price": 57,
     "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Beychevelle",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Pichon-Longueville",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
         "source": "James Suckling",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Spectator",
         "score": 88,
         "maxScore": 100,
         "vintage": 2022
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
         "vintage": 2022
       },
       {
-        "source": "Decanter",
-        "score": 89,
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2022
       }
     ],
     "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-gruaud-larose-saint-julien-2021",
+    "name": "Saint-Julien",
+    "producer": "Château Gruaud-Larose",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "14%",
+    "price": 52,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Gruaud-Larose",
+    "scores": [
+      {
+        "source": "James Suckling",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-talbot-saint-julien-2020",
+    "name": "Saint-Julien",
+    "producer": "Château Talbot",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "14%",
+    "price": 10,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Talbot",
+    "scores": [
+      {
+        "source": "Tim Atkin",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-beychevelle-saint-julien-2020",
+    "name": "Saint-Julien",
+    "producer": "Château Beychevelle",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "13%",
+    "price": 61,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Beychevelle",
+    "scores": [
+      {
+        "source": "Tim Atkin",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -4791,199 +4797,37 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Saint-Julien AOC",
     "alcoholContent": "13%",
-    "price": 9,
-    "priceRange": "Budget",
+    "price": 94,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Palmer",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
         "source": "Wine Spectator",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
         "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
+        "source": "Tim Atkin",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-branaire-ducru-saint-julien-2018",
-    "name": "Saint-Julien",
-    "producer": "Château Branaire-Ducru",
-    "vintage": 2018,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "15%",
-    "price": 22,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Branaire-Ducru",
-    "scores": [
-      {
-        "source": "Decanter",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-saint-pierre-saint-julien-2020",
-    "name": "Saint-Julien",
-    "producer": "Château Saint-Pierre",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "15%",
-    "price": 12,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Saint-Pierre",
-    "scores": [
-      {
-        "source": "James Suckling",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 86,
+    "aggregateScore": 89,
     "badges": [],
     "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -5000,10 +4844,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-gloria-saint-julien-2018",
+    "slug": "ch-teau-branaire-ducru-saint-julien-2022",
     "name": "Saint-Julien",
-    "producer": "Château Gloria",
-    "vintage": 2018,
+    "producer": "Château Branaire-Ducru",
+    "vintage": 2022,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -5016,551 +4860,48 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Saint-Julien AOC",
     "alcoholContent": "14%",
-    "price": 9,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Gloria",
+    "price": 43,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Branaire-Ducru",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 85,
+        "source": "James Suckling",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
       },
       {
-        "source": "Tim Atkin",
-        "score": 87,
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
       },
       {
         "source": "Vivino",
         "score": 4.4,
         "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 86,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-langoa-barton-saint-julien-2020",
-    "name": "Saint-Julien",
-    "producer": "Château Langoa Barton",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "13%",
-    "price": 9,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Langoa%20Barton",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-l-oville-barton-saint-julien-2021",
-    "name": "Saint-Julien",
-    "producer": "Château Léoville-Barton",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Saint-Julien AOC",
-    "alcoholContent": "14%",
-    "price": 22,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20L%C3%A9oville-Barton",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-l-oville-las-cases-graves-2020",
-    "name": "Graves",
-    "producer": "Château Léoville-Las Cases",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "15%",
-    "price": 179,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20L%C3%A9oville-Las%20Cases",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       },
       {
         "source": "Decanter",
         "score": 89,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-ducru-beaucaillou-graves-2020",
-    "name": "Graves",
-    "producer": "Château Ducru-Beaucaillou",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "15%",
-    "price": 13,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Ducru-Beaucaillou",
-    "scores": [
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       },
       {
         "source": "Wine Spectator",
-        "score": 86,
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-montrose-graves-2020",
-    "name": "Graves",
-    "producer": "Château Montrose",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "14%",
-    "price": 193,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Montrose",
-    "scores": [
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-cos-d-estournel-graves-2021",
-    "name": "Graves",
-    "producer": "Château Cos d'Estournel",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "13%",
-    "price": 162,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Cos%20d'Estournel",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 90,
-    "badges": [],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-calon-s-gur-graves-2019",
-    "name": "Graves",
-    "producer": "Château Calon-Ségur",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "14%",
-    "price": 110,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Calon-S%C3%A9gur",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 91,
+    "aggregateScore": 88,
     "badges": [],
     "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -5584,10 +4925,286 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-pichon-longueville-graves-2019",
-    "name": "Graves",
-    "producer": "Château Pichon-Longueville",
+    "slug": "ch-teau-saint-pierre-saint-julien-2018",
+    "name": "Saint-Julien",
+    "producer": "Château Saint-Pierre",
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "13%",
+    "price": 34,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Saint-Pierre",
+    "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 87,
+    "badges": [],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-gloria-saint-julien-2019",
+    "name": "Saint-Julien",
+    "producer": "Château Gloria",
     "vintage": 2019,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "15%",
+    "price": 11,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Gloria",
+    "scores": [
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-langoa-barton-saint-julien-2019",
+    "name": "Saint-Julien",
+    "producer": "Château Langoa Barton",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "14%",
+    "price": 33,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20Langoa%20Barton",
+    "scores": [
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-l-oville-barton-saint-julien-2022",
+    "name": "Saint-Julien",
+    "producer": "Château Léoville-Barton",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon",
+      "Merlot"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Saint-Julien",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Saint-Julien AOC",
+    "alcoholContent": "13%",
+    "price": 72,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Saint-Julien%20Ch%C3%A2teau%20L%C3%A9oville-Barton",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-l-oville-las-cases-graves-2021",
+    "name": "Graves",
+    "producer": "Château Léoville-Las Cases",
+    "vintage": 2021,
     "type": "Red",
     "grape": "Merlot",
     "grapes": [
@@ -5600,19 +5217,159 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Graves AOC",
     "alcoholContent": "13%",
-    "price": 17,
+    "price": 20,
     "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Pichon-Longueville",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20L%C3%A9oville-Las%20Cases",
     "scores": [
       {
-        "source": "Robert Parker",
-        "score": 87,
+        "source": "Wine Spectator",
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2021
       },
       {
         "source": "Wine Enthusiast",
-        "score": 87,
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-ducru-beaucaillou-graves-2018",
+    "name": "Graves",
+    "producer": "Château Ducru-Beaucaillou",
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "14%",
+    "price": 165,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Ducru-Beaucaillou",
+    "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 19,
+        "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 91,
+    "badges": [],
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-montrose-graves-2019",
+    "name": "Graves",
+    "producer": "Château Montrose",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "15%",
+    "price": 8,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Montrose",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
         "maxScore": 100,
         "vintage": 2019
       },
@@ -5624,26 +5381,263 @@ export const wines: Wine[] = [
       },
       {
         "source": "James Suckling",
-        "score": 87,
+        "score": 85,
         "maxScore": 100,
         "vintage": 2019
       },
       {
+        "source": "Wine Enthusiast",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-cos-d-estournel-graves-2019",
+    "name": "Graves",
+    "producer": "Château Cos d'Estournel",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "15%",
+    "price": 122,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Cos%20d'Estournel",
+    "scores": [
+      {
         "source": "Vivino",
-        "score": 4.2,
+        "score": 4.5,
         "maxScore": 5,
         "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 92,
+    "badges": [],
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-calon-s-gur-graves-2018",
+    "name": "Graves",
+    "producer": "Château Calon-Ségur",
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "13%",
+    "price": 94,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Calon-S%C3%A9gur",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Robert Parker",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2018
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-pichon-longueville-graves-2022",
+    "name": "Graves",
+    "producer": "Château Pichon-Longueville",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "13%",
+    "price": 12,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Pichon-Longueville",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
         "source": "Wine Spectator",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
       }
     ],
     "aggregateScore": 86,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Grilled steak",
@@ -5681,57 +5675,43 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Graves AOC",
     "alcoholContent": "13%",
-    "price": 13,
-    "priceRange": "Budget",
+    "price": 62,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Gruaud-Larose",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 84,
+        "source": "Robert Parker",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
         "vintage": 2019
       },
       {
         "source": "James Suckling",
-        "score": 87,
+        "score": 88,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Robert Parker",
-        "score": 86,
+        "source": "Wine Enthusiast",
+        "score": 91,
         "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 86,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "aggregateScore": 88,
+    "badges": [],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -5748,9 +5728,74 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-talbot-graves-2018",
+    "slug": "ch-teau-talbot-graves-2022",
     "name": "Graves",
     "producer": "Château Talbot",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "15%",
+    "price": 27,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Talbot",
+    "scores": [
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 88,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-beychevelle-graves-2018",
+    "name": "Graves",
+    "producer": "Château Beychevelle",
     "vintage": 2018,
     "type": "Red",
     "grape": "Merlot",
@@ -5763,38 +5808,26 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Graves AOC",
-    "alcoholContent": "13%",
-    "price": 22,
+    "alcoholContent": "15%",
+    "price": 25,
     "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Talbot",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Beychevelle",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 85,
+        "source": "Wine Spectator",
+        "score": 83,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "Wine Enthusiast",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
         "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
         "maxScore": 100,
         "vintage": 2018
       },
@@ -5802,6 +5835,12 @@ export const wines: Wine[] = [
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
         "vintage": 2018
       }
     ],
@@ -5809,87 +5848,12 @@ export const wines: Wine[] = [
     "badges": [
       "Best Value"
     ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
       "Pasta with meat sauce",
       "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-beychevelle-graves-2020",
-    "name": "Graves",
-    "producer": "Château Beychevelle",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "14%",
-    "price": 41,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Beychevelle",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -5921,17 +5885,11 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Graves AOC",
-    "alcoholContent": "15%",
-    "price": 13,
-    "priceRange": "Budget",
+    "alcoholContent": "13%",
+    "price": 28,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Palmer",
     "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2019
-      },
       {
         "source": "Wine Spectator",
         "score": 85,
@@ -5939,96 +5897,25 @@ export const wines: Wine[] = [
         "vintage": 2019
       },
       {
-        "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-branaire-ducru-graves-2019",
-    "name": "Graves",
-    "producer": "Château Branaire-Ducru",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "14%",
-    "price": 188,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Branaire-Ducru",
-    "scores": [
-      {
-        "source": "Wine Enthusiast",
-        "score": 91,
+        "source": "Robert Parker",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "James Suckling",
-        "score": 92,
+        "score": 86,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 86,
     "badges": [],
     "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -6052,10 +5939,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-saint-pierre-graves-2022",
+    "slug": "ch-teau-branaire-ducru-graves-2018",
     "name": "Graves",
-    "producer": "Château Saint-Pierre",
-    "vintage": 2022,
+    "producer": "Château Branaire-Ducru",
+    "vintage": 2018,
     "type": "Red",
     "grape": "Merlot",
     "grapes": [
@@ -6068,93 +5955,42 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Graves AOC",
     "alcoholContent": "15%",
-    "price": 73,
+    "price": 36,
     "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Saint-Pierre",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Branaire-Ducru",
     "scores": [
       {
         "source": "Robert Parker",
-        "score": 91,
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2018
       },
       {
         "source": "Jancis Robinson",
-        "score": 18,
+        "score": 17,
         "maxScore": 20,
-        "vintage": 2022
+        "vintage": 2018
       },
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      }
-    ],
-    "aggregateScore": 90,
-    "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-gloria-graves-2019",
-    "name": "Graves",
-    "producer": "Château Gloria",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "15%",
-    "price": 54,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Gloria",
-    "scores": [
       {
         "source": "Vivino",
         "score": 4.4,
         "maxScore": 5,
-        "vintage": 2019
+        "vintage": 2018
       },
       {
-        "source": "Tim Atkin",
-        "score": 91,
+        "source": "Decanter",
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 87,
     "badges": [],
     "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -6178,10 +6014,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-langoa-barton-graves-2018",
+    "slug": "ch-teau-saint-pierre-graves-2019",
     "name": "Graves",
-    "producer": "Château Langoa Barton",
-    "vintage": 2018,
+    "producer": "Château Saint-Pierre",
+    "vintage": 2019,
     "type": "Red",
     "grape": "Merlot",
     "grapes": [
@@ -6194,125 +6030,38 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Graves AOC",
     "alcoholContent": "14%",
-    "price": 168,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Langoa%20Barton",
+    "price": 50,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Saint-Pierre",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
         "source": "Robert Parker",
-        "score": 89,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
-        "source": "Wine Spectator",
-        "score": 89,
+        "source": "James Suckling",
+        "score": 86,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
         "source": "Tim Atkin",
-        "score": 93,
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-l-oville-barton-graves-2020",
-    "name": "Graves",
-    "producer": "Château Léoville-Barton",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Merlot",
-    "grapes": [
-      "Merlot",
-      "Cabernet Sauvignon"
-    ],
-    "region": "Bordeaux",
-    "subRegion": "Graves",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Graves AOC",
-    "alcoholContent": "13%",
-    "price": 68,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20L%C3%A9oville-Barton",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2020
+        "vintage": 2019
       },
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -6334,10 +6083,239 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "domaine-leflaive-chardonnay-2018",
+    "slug": "ch-teau-gloria-graves-2021",
+    "name": "Graves",
+    "producer": "Château Gloria",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "14%",
+    "price": 70,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Gloria",
+    "scores": [
+      {
+        "source": "Tim Atkin",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-langoa-barton-graves-2020",
+    "name": "Graves",
+    "producer": "Château Langoa Barton",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "15%",
+    "price": 20,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20Langoa%20Barton",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 87,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ch-teau-l-oville-barton-graves-2021",
+    "name": "Graves",
+    "producer": "Château Léoville-Barton",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Merlot",
+    "grapes": [
+      "Merlot",
+      "Cabernet Sauvignon"
+    ],
+    "region": "Bordeaux",
+    "subRegion": "Graves",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Graves AOC",
+    "alcoholContent": "13%",
+    "price": 13,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Graves%20Ch%C3%A2teau%20L%C3%A9oville-Barton",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Vivino",
+        "score": 4.2,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "domaine-leflaive-chardonnay-2020",
     "name": "Chardonnay",
     "producer": "Domaine Leflaive",
-    "vintage": 2018,
+    "vintage": 2020,
     "type": "White",
     "grape": "Chardonnay",
     "grapes": [
@@ -6348,44 +6326,56 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Puligny-Montrachet AOC",
-    "alcoholContent": "13%",
-    "price": 20,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "14%",
+    "price": 167,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Domaine%20Leflaive",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 85,
+        "source": "Tim Atkin",
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 85,
+        "source": "Wine Spectator",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "Vivino",
-        "score": 4.3,
+        "score": 4.5,
         "maxScore": 5,
-        "vintage": 2018
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 90,
     "badges": [],
     "tastingNotes": "Elegant peach, white flower, and flinty minerality. Balanced and precise with great length.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Salads",
-      "Light appetizers",
-      "Soft cheeses"
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -6402,10 +6392,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "domaine-roulot-chardonnay-2019",
+    "slug": "domaine-roulot-chardonnay-2020",
     "name": "Chardonnay",
     "producer": "Domaine Roulot",
-    "vintage": 2019,
+    "vintage": 2020,
     "type": "White",
     "grape": "Chardonnay",
     "grapes": [
@@ -6416,52 +6406,44 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Puligny-Montrachet AOC",
-    "alcoholContent": "15%",
-    "price": 23,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "14%",
+    "price": 49,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Domaine%20Roulot",
     "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
       {
         "source": "James Suckling",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 86,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
+    "aggregateScore": 88,
+    "badges": [],
+    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -6493,45 +6475,37 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Puligny-Montrachet AOC",
     "alcoholContent": "15%",
-    "price": 10,
-    "priceRange": "Budget",
+    "price": 20,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Domaine%20Ramonet",
     "scores": [
       {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Vivino",
-        "score": 4.2,
+        "score": 4.4,
         "maxScore": 5,
         "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 84,
+        "source": "Wine Spectator",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
+    "aggregateScore": 87,
+    "badges": [],
     "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Salads",
-      "Light appetizers",
-      "Soft cheeses"
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -6548,10 +6522,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "olivier-leflaive-chardonnay-2019",
+    "slug": "olivier-leflaive-chardonnay-2020",
     "name": "Chardonnay",
     "producer": "Olivier Leflaive",
-    "vintage": 2019,
+    "vintage": 2020,
     "type": "White",
     "grape": "Chardonnay",
     "grapes": [
@@ -6562,114 +6536,108 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Puligny-Montrachet AOC",
-    "alcoholContent": "15%",
-    "price": 109,
-    "priceRange": "Luxury",
+    "alcoholContent": "13%",
+    "price": 18,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Olivier%20Leflaive",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 91,
+        "source": "Decanter",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
       },
+      {
+        "source": "James Suckling",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "pairings": [
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
+    ],
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "louis-jadot-chardonnay-2020",
+    "name": "Chardonnay",
+    "producer": "Louis Jadot",
+    "vintage": 2020,
+    "type": "White",
+    "grape": "Chardonnay",
+    "grapes": [
+      "Chardonnay"
+    ],
+    "region": "Burgundy",
+    "subRegion": "Côte de Beaune",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Puligny-Montrachet AOC",
+    "alcoholContent": "13%",
+    "price": 159,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Louis%20Jadot",
+    "scores": [
       {
         "source": "Decanter",
-        "score": 90,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2019
+        "vintage": 2020
       },
       {
         "source": "Wine Spectator",
         "score": 92,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
       },
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2019
+        "vintage": 2020
       },
       {
-        "source": "Robert Parker",
-        "score": 90,
+        "source": "Tim Atkin",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
       }
     ],
     "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Grilled fish",
-      "Shellfish",
-      "Goat cheese"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "louis-jadot-chardonnay-2021",
-    "name": "Chardonnay",
-    "producer": "Louis Jadot",
-    "vintage": 2021,
-    "type": "White",
-    "grape": "Chardonnay",
-    "grapes": [
-      "Chardonnay"
-    ],
-    "region": "Burgundy",
-    "subRegion": "Côte de Beaune",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Puligny-Montrachet AOC",
-    "alcoholContent": "15%",
-    "price": 21,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Louis%20Jadot",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
     "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
@@ -6692,10 +6660,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "joseph-drouhin-chardonnay-2018",
+    "slug": "joseph-drouhin-chardonnay-2021",
     "name": "Chardonnay",
     "producer": "Joseph Drouhin",
-    "vintage": 2018,
+    "vintage": 2021,
     "type": "White",
     "grape": "Chardonnay",
     "grapes": [
@@ -6706,37 +6674,117 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Puligny-Montrachet AOC",
-    "alcoholContent": "13%",
-    "price": 23,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "15%",
+    "price": 175,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Joseph%20Drouhin",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
       },
       {
         "source": "Wine Spectator",
-        "score": 87,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "pairings": [
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
+    ],
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "domaine-tienne-sauzet-chardonnay-2020",
+    "name": "Chardonnay",
+    "producer": "Domaine Étienne Sauzet",
+    "vintage": 2020,
+    "type": "White",
+    "grape": "Chardonnay",
+    "grapes": [
+      "Chardonnay"
+    ],
+    "region": "Burgundy",
+    "subRegion": "Côte de Beaune",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Puligny-Montrachet AOC",
+    "alcoholContent": "15%",
+    "price": 63,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Domaine%20%C3%89tienne%20Sauzet",
+    "scores": [
+      {
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 89,
     "badges": [],
     "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
@@ -6760,25 +6808,33 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "domaine-tienne-sauzet-chardonnay-2018",
-    "name": "Chardonnay",
-    "producer": "Domaine Étienne Sauzet",
+    "slug": "g-rard-bertrand-languedoc-2018",
+    "name": "Languedoc",
+    "producer": "Gérard Bertrand",
     "vintage": 2018,
-    "type": "White",
-    "grape": "Chardonnay",
+    "type": "Red",
+    "grape": "Grenache",
     "grapes": [
-      "Chardonnay"
+      "Grenache",
+      "Syrah",
+      "Mourvèdre"
     ],
-    "region": "Burgundy",
-    "subRegion": "Côte de Beaune",
+    "region": "Languedoc-Roussillon",
+    "subRegion": "Languedoc",
     "country": "France",
     "countryCode": "FR",
-    "appellation": "Puligny-Montrachet AOC",
+    "appellation": "Languedoc AOC",
     "alcoholContent": "15%",
-    "price": 65,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Domaine%20%C3%89tienne%20Sauzet",
+    "price": 27,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Languedoc%20G%C3%A9rard%20Bertrand",
     "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2018
+      },
       {
         "source": "Robert Parker",
         "score": 87,
@@ -6787,18 +6843,12 @@ export const wines: Wine[] = [
       },
       {
         "source": "Tim Atkin",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
         "score": 87,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Decanter",
+        "source": "Wine Spectator",
         "score": 87,
         "maxScore": 100,
         "vintage": 2018
@@ -6811,22 +6861,22 @@ export const wines: Wine[] = [
       },
       {
         "source": "Wine Enthusiast",
-        "score": 91,
+        "score": 88,
         "maxScore": 100,
         "vintage": 2018
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 88,
     "badges": [],
-    "tastingNotes": "Elegant peach, white flower, and flinty minerality. Balanced and precise with great length.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
     "prosAndCons": {
       "pros": [
         "Good quality for the price",
@@ -6840,10 +6890,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "g-rard-bertrand-languedoc-2021",
+    "slug": "domaine-de-la-grange-des-p-res-languedoc-2019",
     "name": "Languedoc",
-    "producer": "Gérard Bertrand",
-    "vintage": 2021,
+    "producer": "Domaine de la Grange des Pères",
+    "vintage": 2019,
     "type": "Red",
     "grape": "Grenache",
     "grapes": [
@@ -6856,43 +6906,49 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Languedoc AOC",
-    "alcoholContent": "13%",
-    "price": 26,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Languedoc%20G%C3%A9rard%20Bertrand",
+    "alcoholContent": "14%",
+    "price": 109,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Languedoc%20Domaine%20de%20la%20Grange%20des%20P%C3%A8res",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2021
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2019
       },
       {
         "source": "Robert Parker",
-        "score": 88,
+        "score": 91,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
+        "source": "Tim Atkin",
         "score": 89,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
       },
       {
         "source": "James Suckling",
-        "score": 86,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 90,
     "badges": [],
     "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -6916,10 +6972,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "domaine-de-la-grange-des-p-res-languedoc-2020",
+    "slug": "mas-de-daumas-gassac-languedoc-2021",
     "name": "Languedoc",
-    "producer": "Domaine de la Grange des Pères",
-    "vintage": 2020,
+    "producer": "Mas de Daumas Gassac",
+    "vintage": 2021,
     "type": "Red",
     "grape": "Grenache",
     "grapes": [
@@ -6933,119 +6989,37 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Languedoc AOC",
     "alcoholContent": "13%",
-    "price": 51,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Languedoc%20Domaine%20de%20la%20Grange%20des%20P%C3%A8res",
+    "price": 10,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Languedoc%20Mas%20de%20Daumas%20Gassac",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 87,
+        "source": "Decanter",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "mas-de-daumas-gassac-languedoc-2019",
-    "name": "Languedoc",
-    "producer": "Mas de Daumas Gassac",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Grenache",
-    "grapes": [
-      "Grenache",
-      "Syrah",
-      "Mourvèdre"
-    ],
-    "region": "Languedoc-Roussillon",
-    "subRegion": "Languedoc",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Languedoc AOC",
-    "alcoholContent": "13%",
-    "price": 152,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Languedoc%20Mas%20de%20Daumas%20Gassac",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 91,
+    "aggregateScore": 85,
     "badges": [],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -7062,10 +7036,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-de-la-n-gly-languedoc-2020",
+    "slug": "ch-teau-de-la-n-gly-languedoc-2018",
     "name": "Languedoc",
     "producer": "Château de la Négly",
-    "vintage": 2020,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Grenache",
     "grapes": [
@@ -7079,48 +7053,30 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Languedoc AOC",
     "alcoholContent": "15%",
-    "price": 12,
-    "priceRange": "Budget",
+    "price": 136,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Languedoc%20Ch%C3%A2teau%20de%20la%20N%C3%A9gly",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Wine Spectator",
-        "score": 86,
+        "score": 91,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2018
       },
       {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 18,
         "maxScore": 20,
-        "vintage": 2020
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 91,
     "badges": [],
     "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -7144,10 +7100,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "domaines-ott-c-tes-de-provence-2020",
+    "slug": "domaines-ott-c-tes-de-provence-2019",
     "name": "Côtes de Provence",
     "producer": "Domaines Ott",
-    "vintage": 2020,
+    "vintage": 2019,
     "type": "Rosé",
     "grape": "Grenache",
     "grapes": [
@@ -7161,111 +7117,33 @@ export const wines: Wine[] = [
     "countryCode": "FR",
     "appellation": "Côtes de Provence AOC",
     "alcoholContent": "13%",
-    "price": 9,
-    "priceRange": "Budget",
+    "price": 136,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Domaines%20Ott",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
+        "source": "Decanter",
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 86,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Salmon pink with notes of red berries, grapefruit, and garrigue. Bone-dry with great freshness.",
-    "editorial": "This rosé demonstrates that the category has evolved far beyond simple summer sippers. With careful fruit selection and precise winemaking, this producer delivers a wine of genuine complexity and elegance. Perfect for warm-weather dining but sophisticated enough for year-round enjoyment.",
-    "pairings": [
-      "Grilled seafood",
-      "Mediterranean dishes",
-      "Light salads"
-    ],
-    "servingTemp": "8-10°C",
-    "aging": "1-3 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ch-teau-d-esclans-whispering-angel-c-tes-de-provence-2018",
-    "name": "Côtes de Provence",
-    "producer": "Château d'Esclans Whispering Angel",
-    "vintage": 2018,
-    "type": "Rosé",
-    "grape": "Grenache",
-    "grapes": [
-      "Grenache",
-      "Cinsault",
-      "Syrah"
-    ],
-    "region": "Provence",
-    "subRegion": "Provence",
-    "country": "France",
-    "countryCode": "FR",
-    "appellation": "Côtes de Provence AOC",
-    "alcoholContent": "15%",
-    "price": 151,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Ch%C3%A2teau%20d'Esclans%20Whispering%20Angel",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
         "source": "Robert Parker",
         "score": 90,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
       }
     ],
     "aggregateScore": 90,
@@ -7292,10 +7170,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "miraval-c-tes-de-provence-2022",
+    "slug": "ch-teau-d-esclans-whispering-angel-c-tes-de-provence-2021",
     "name": "Côtes de Provence",
-    "producer": "Miraval",
-    "vintage": 2022,
+    "producer": "Château d'Esclans Whispering Angel",
+    "vintage": 2021,
     "type": "Rosé",
     "grape": "Grenache",
     "grapes": [
@@ -7308,52 +7186,44 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Côtes de Provence AOC",
-    "alcoholContent": "14%",
-    "price": 17,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Miraval",
+    "alcoholContent": "15%",
+    "price": 12,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Ch%C3%A2teau%20d'Esclans%20Whispering%20Angel",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 83,
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
       },
       {
         "source": "Decanter",
-        "score": 84,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
-        "vintage": 2022
-      },
-      {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
+    "aggregateScore": 86,
+    "badges": [],
     "tastingNotes": "Pale salmon color with aromas of wild strawberry, citrus, and Provençal herbs. Dry and refreshing.",
     "editorial": "This rosé demonstrates that the category has evolved far beyond simple summer sippers. With careful fruit selection and precise winemaking, this producer delivers a wine of genuine complexity and elegance. Perfect for warm-weather dining but sophisticated enough for year-round enjoyment.",
     "pairings": [
-      "Grilled seafood",
-      "Mediterranean dishes",
-      "Light salads"
+      "Charcuterie",
+      "Sushi",
+      "Summer vegetables"
     ],
     "servingTemp": "8-10°C",
     "aging": "1-3 years",
@@ -7370,10 +7240,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ch-teau-minuty-c-tes-de-provence-2022",
+    "slug": "miraval-c-tes-de-provence-2019",
     "name": "Côtes de Provence",
-    "producer": "Château Minuty",
-    "vintage": 2022,
+    "producer": "Miraval",
+    "vintage": 2019,
     "type": "Rosé",
     "grape": "Grenache",
     "grapes": [
@@ -7386,56 +7256,44 @@ export const wines: Wine[] = [
     "country": "France",
     "countryCode": "FR",
     "appellation": "Côtes de Provence AOC",
-    "alcoholContent": "14%",
-    "price": 22,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Ch%C3%A2teau%20Minuty",
+    "alcoholContent": "13%",
+    "price": 175,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Miraval",
     "scores": [
       {
         "source": "Wine Spectator",
-        "score": 84,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
         "source": "Tim Atkin",
-        "score": 86,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
-        "source": "James Suckling",
-        "score": 85,
+        "source": "Decanter",
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2022
+        "source": "Vivino",
+        "score": 4.6,
+        "maxScore": 5,
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Pale salmon color with aromas of wild strawberry, citrus, and Provençal herbs. Dry and refreshing.",
+    "tastingNotes": "Salmon pink with notes of red berries, grapefruit, and garrigue. Bone-dry with great freshness.",
     "editorial": "This rosé demonstrates that the category has evolved far beyond simple summer sippers. With careful fruit selection and precise winemaking, this producer delivers a wine of genuine complexity and elegance. Perfect for warm-weather dining but sophisticated enough for year-round enjoyment.",
     "pairings": [
-      "Grilled seafood",
-      "Mediterranean dishes",
-      "Light salads"
+      "Charcuterie",
+      "Sushi",
+      "Summer vegetables"
     ],
     "servingTemp": "8-10°C",
     "aging": "1-3 years",
@@ -7452,10 +7310,74 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "vietti-barolo-2021",
+    "slug": "ch-teau-minuty-c-tes-de-provence-2019",
+    "name": "Côtes de Provence",
+    "producer": "Château Minuty",
+    "vintage": 2019,
+    "type": "Rosé",
+    "grape": "Grenache",
+    "grapes": [
+      "Grenache",
+      "Cinsault",
+      "Syrah"
+    ],
+    "region": "Provence",
+    "subRegion": "Provence",
+    "country": "France",
+    "countryCode": "FR",
+    "appellation": "Côtes de Provence AOC",
+    "alcoholContent": "13%",
+    "price": 70,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=C%C3%B4tes%20de%20Provence%20Ch%C3%A2teau%20Minuty",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Pale salmon color with aromas of wild strawberry, citrus, and Provençal herbs. Dry and refreshing.",
+    "editorial": "This rosé demonstrates that the category has evolved far beyond simple summer sippers. With careful fruit selection and precise winemaking, this producer delivers a wine of genuine complexity and elegance. Perfect for warm-weather dining but sophisticated enough for year-round enjoyment.",
+    "pairings": [
+      "Charcuterie",
+      "Sushi",
+      "Summer vegetables"
+    ],
+    "servingTemp": "8-10°C",
+    "aging": "1-3 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "vietti-barolo-2022",
     "name": "Barolo",
     "producer": "Vietti",
-    "vintage": 2021,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Nebbiolo",
     "grapes": [
@@ -7467,32 +7389,34 @@ export const wines: Wine[] = [
     "countryCode": "IT",
     "appellation": "Barolo DOCG",
     "alcoholContent": "15%",
-    "price": 10,
+    "price": 11,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Barolo%20Vietti",
     "scores": [
       {
         "source": "James Suckling",
-        "score": 87,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2021
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
-        "source": "Decanter",
-        "score": 83,
+        "source": "Robert Parker",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       }
     ],
     "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Grilled steak",
@@ -7514,10 +7438,146 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "bartolo-mascarello-barolo-2021",
+    "slug": "bartolo-mascarello-barolo-2018",
     "name": "Barolo",
     "producer": "Bartolo Mascarello",
-    "vintage": 2021,
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Nebbiolo",
+    "grapes": [
+      "Nebbiolo"
+    ],
+    "region": "Piedmont",
+    "subRegion": "Barolo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "appellation": "Barolo DOCG",
+    "alcoholContent": "15%",
+    "price": 12,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Barolo%20Bartolo%20Mascarello",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.2,
+        "maxScore": 5,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 84,
+    "badges": [],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "bruno-giacosa-barolo-2019",
+    "name": "Barolo",
+    "producer": "Bruno Giacosa",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Nebbiolo",
+    "grapes": [
+      "Nebbiolo"
+    ],
+    "region": "Piedmont",
+    "subRegion": "Barolo",
+    "country": "Italy",
+    "countryCode": "IT",
+    "appellation": "Barolo DOCG",
+    "alcoholContent": "13%",
+    "price": 39,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Barolo%20Bruno%20Giacosa",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "marchesi-di-barolo-barolo-2022",
+    "name": "Barolo",
+    "producer": "Marchesi di Barolo",
+    "vintage": 2022,
     "type": "Red",
     "grape": "Nebbiolo",
     "grapes": [
@@ -7531,35 +7591,37 @@ export const wines: Wine[] = [
     "alcoholContent": "13%",
     "price": 9,
     "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Barolo%20Bartolo%20Mascarello",
+    "buyUrl": "https://www.wine.com/search?q=Barolo%20Marchesi%20di%20Barolo",
     "scores": [
       {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
         "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Spectator",
         "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 84,
-    "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "aggregateScore": 86,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -7576,9 +7638,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "bruno-giacosa-barolo-2018",
+    "slug": "ceretto-barolo-2018",
     "name": "Barolo",
-    "producer": "Bruno Giacosa",
+    "producer": "Ceretto",
     "vintage": 2018,
     "type": "Red",
     "grape": "Nebbiolo",
@@ -7591,44 +7653,38 @@ export const wines: Wine[] = [
     "countryCode": "IT",
     "appellation": "Barolo DOCG",
     "alcoholContent": "13%",
-    "price": 44,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Barolo%20Bruno%20Giacosa",
+    "price": 21,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Barolo%20Ceretto",
     "scores": [
       {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
         "source": "James Suckling",
-        "score": 89,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
         "vintage": 2018
       },
       {
         "source": "Tim Atkin",
-        "score": 85,
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 83,
         "maxScore": 100,
         "vintage": 2018
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -7650,10 +7706,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "marchesi-di-barolo-barolo-2021",
+    "slug": "elio-grasso-barolo-2020",
     "name": "Barolo",
-    "producer": "Marchesi di Barolo",
-    "vintage": 2021,
+    "producer": "Elio Grasso",
+    "vintage": 2020,
     "type": "Red",
     "grape": "Nebbiolo",
     "grapes": [
@@ -7664,43 +7720,125 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Barolo DOCG",
-    "alcoholContent": "14%",
-    "price": 93,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Barolo%20Marchesi%20di%20Barolo",
+    "alcoholContent": "15%",
+    "price": 8,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Barolo%20Elio%20Grasso",
     "scores": [
       {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.2,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
         "source": "Wine Enthusiast",
-        "score": 88,
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
         "source": "Tim Atkin",
-        "score": 87,
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
         "source": "Decanter",
-        "score": 91,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
+      {
+        "source": "James Suckling",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 84,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "castello-di-ama-chianti-classico-2022",
+    "name": "Chianti Classico",
+    "producer": "Castello di Ama",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Sangiovese",
+    "grapes": [
+      "Sangiovese"
+    ],
+    "region": "Tuscany",
+    "subRegion": "Chianti Classico",
+    "country": "Italy",
+    "countryCode": "IT",
+    "appellation": "Chianti Classico DOCG",
+    "alcoholContent": "13%",
+    "price": 130,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Castello%20di%20Ama",
+    "scores": [
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
-        "source": "James Suckling",
-        "score": 90,
+        "source": "Decanter",
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 91,
     "badges": [],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -7724,35 +7862,41 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ceretto-barolo-2020",
-    "name": "Barolo",
-    "producer": "Ceretto",
+    "slug": "fontodi-chianti-classico-2020",
+    "name": "Chianti Classico",
+    "producer": "Fontodi",
     "vintage": 2020,
     "type": "Red",
-    "grape": "Nebbiolo",
+    "grape": "Sangiovese",
     "grapes": [
-      "Nebbiolo"
+      "Sangiovese"
     ],
-    "region": "Piedmont",
-    "subRegion": "Barolo",
+    "region": "Tuscany",
+    "subRegion": "Chianti Classico",
     "country": "Italy",
     "countryCode": "IT",
-    "appellation": "Barolo DOCG",
+    "appellation": "Chianti Classico DOCG",
     "alcoholContent": "14%",
-    "price": 126,
+    "price": 122,
     "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Barolo%20Ceretto",
+    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Fontodi",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 92,
+        "source": "James Suckling",
+        "score": 90,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "James Suckling",
-        "score": 93,
+        "source": "Tim Atkin",
+        "score": 90,
         "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
         "vintage": 2020
       },
       {
@@ -7760,245 +7904,9 @@ export const wines: Wine[] = [
         "score": 18,
         "maxScore": 20,
         "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
       }
     ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "elio-grasso-barolo-2019",
-    "name": "Barolo",
-    "producer": "Elio Grasso",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Nebbiolo",
-    "grapes": [
-      "Nebbiolo"
-    ],
-    "region": "Piedmont",
-    "subRegion": "Barolo",
-    "country": "Italy",
-    "countryCode": "IT",
-    "appellation": "Barolo DOCG",
-    "alcoholContent": "15%",
-    "price": 82,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Barolo%20Elio%20Grasso",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 89,
-    "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "castello-di-ama-chianti-classico-2019",
-    "name": "Chianti Classico",
-    "producer": "Castello di Ama",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Sangiovese",
-    "grapes": [
-      "Sangiovese"
-    ],
-    "region": "Tuscany",
-    "subRegion": "Chianti Classico",
-    "country": "Italy",
-    "countryCode": "IT",
-    "appellation": "Chianti Classico DOCG",
-    "alcoholContent": "14%",
-    "price": 24,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Castello%20di%20Ama",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "fontodi-chianti-classico-2019",
-    "name": "Chianti Classico",
-    "producer": "Fontodi",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Sangiovese",
-    "grapes": [
-      "Sangiovese"
-    ],
-    "region": "Tuscany",
-    "subRegion": "Chianti Classico",
-    "country": "Italy",
-    "countryCode": "IT",
-    "appellation": "Chianti Classico DOCG",
-    "alcoholContent": "15%",
-    "price": 78,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Fontodi",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 88,
+    "aggregateScore": 90,
     "badges": [],
     "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -8022,10 +7930,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "isole-e-olena-chianti-classico-2018",
+    "slug": "isole-e-olena-chianti-classico-2022",
     "name": "Chianti Classico",
     "producer": "Isole e Olena",
-    "vintage": 2018,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Sangiovese",
     "grapes": [
@@ -8036,127 +7944,39 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Chianti Classico DOCG",
-    "alcoholContent": "14%",
-    "price": 12,
-    "priceRange": "Budget",
+    "alcoholContent": "13%",
+    "price": 39,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Isole%20e%20Olena",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
         "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "castello-dei-rampolla-chianti-classico-2021",
-    "name": "Chianti Classico",
-    "producer": "Castello dei Rampolla",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Sangiovese",
-    "grapes": [
-      "Sangiovese"
-    ],
-    "region": "Tuscany",
-    "subRegion": "Chianti Classico",
-    "country": "Italy",
-    "countryCode": "IT",
-    "appellation": "Chianti Classico DOCG",
-    "alcoholContent": "15%",
-    "price": 36,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Castello%20dei%20Rampolla",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2021
+        "source": "Robert Parker",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2021
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
         "source": "Wine Enthusiast",
-        "score": 89,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 88,
     "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Grilled steak",
@@ -8178,10 +7998,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "san-felice-chianti-classico-2020",
+    "slug": "castello-dei-rampolla-chianti-classico-2018",
     "name": "Chianti Classico",
-    "producer": "San Felice",
-    "vintage": 2020,
+    "producer": "Castello dei Rampolla",
+    "vintage": 2018,
     "type": "Red",
     "grape": "Sangiovese",
     "grapes": [
@@ -8192,39 +8012,121 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Chianti Classico DOCG",
-    "alcoholContent": "13%",
-    "price": 13,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20San%20Felice",
+    "alcoholContent": "15%",
+    "price": 26,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Castello%20dei%20Rampolla",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
       },
       {
-        "source": "Tim Atkin",
-        "score": 83,
+        "source": "James Suckling",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2018
       },
       {
         "source": "Vivino",
-        "score": 4.4,
+        "score": 4.3,
         "maxScore": 5,
-        "vintage": 2020
+        "vintage": 2018
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 87,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "san-felice-chianti-classico-2018",
+    "name": "Chianti Classico",
+    "producer": "San Felice",
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Sangiovese",
+    "grapes": [
+      "Sangiovese"
+    ],
+    "region": "Tuscany",
+    "subRegion": "Chianti Classico",
+    "country": "Italy",
+    "countryCode": "IT",
+    "appellation": "Chianti Classico DOCG",
+    "alcoholContent": "14%",
+    "price": 43,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20San%20Felice",
+    "scores": [
+      {
+        "source": "James Suckling",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2018
       },
       {
         "source": "Wine Enthusiast",
-        "score": 85,
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -8246,10 +8148,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "felsina-chianti-classico-2019",
+    "slug": "felsina-chianti-classico-2020",
     "name": "Chianti Classico",
     "producer": "Felsina",
-    "vintage": 2019,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Sangiovese",
     "grapes": [
@@ -8261,32 +8163,38 @@ export const wines: Wine[] = [
     "countryCode": "IT",
     "appellation": "Chianti Classico DOCG",
     "alcoholContent": "14%",
-    "price": 9,
+    "price": 11,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Chianti%20Classico%20Felsina",
     "scores": [
       {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
         "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
         "score": 83,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
       },
       {
         "source": "Vivino",
-        "score": 4.3,
+        "score": 4.4,
         "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
       }
     ],
     "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -8323,25 +8231,13 @@ export const wines: Wine[] = [
     "countryCode": "IT",
     "appellation": "Etna DOC",
     "alcoholContent": "13%",
-    "price": 72,
+    "price": 50,
     "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Etna%20Planeta",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Vivino",
-        "score": 4.6,
+        "score": 4.3,
         "maxScore": 5,
         "vintage": 2020
       },
@@ -8356,11 +8252,29 @@ export const wines: Wine[] = [
         "score": 18,
         "maxScore": 20,
         "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 88,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -8382,10 +8296,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "donnafugata-etna-2021",
+    "slug": "donnafugata-etna-2018",
     "name": "Etna",
     "producer": "Donnafugata",
-    "vintage": 2021,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Nerello Mascalese",
     "grapes": [
@@ -8397,32 +8311,38 @@ export const wines: Wine[] = [
     "countryCode": "IT",
     "appellation": "Etna DOC",
     "alcoholContent": "14%",
-    "price": 35,
+    "price": 46,
     "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Etna%20Donnafugata",
     "scores": [
       {
-        "source": "James Suckling",
+        "source": "Wine Spectator",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2018
       },
       {
         "source": "Robert Parker",
-        "score": 86,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
       },
       {
-        "source": "Wine Spectator",
-        "score": 86,
+        "source": "Wine Enthusiast",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -8444,10 +8364,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "benanti-etna-2018",
+    "slug": "benanti-etna-2020",
     "name": "Etna",
     "producer": "Benanti",
-    "vintage": 2018,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Nerello Mascalese",
     "grapes": [
@@ -8458,50 +8378,50 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Etna DOC",
-    "alcoholContent": "14%",
-    "price": 39,
-    "priceRange": "Premium",
+    "alcoholContent": "15%",
+    "price": 24,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Etna%20Benanti",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
+        "source": "Wine Spectator",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "Robert Parker",
-        "score": 89,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 86,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -8518,10 +8438,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "frank-cornelissen-etna-2021",
+    "slug": "frank-cornelissen-etna-2018",
     "name": "Etna",
     "producer": "Frank Cornelissen",
-    "vintage": 2021,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Nerello Mascalese",
     "grapes": [
@@ -8532,31 +8452,37 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Etna DOC",
-    "alcoholContent": "15%",
-    "price": 25,
+    "alcoholContent": "13%",
+    "price": 15,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Etna%20Frank%20Cornelissen",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 83,
+        "source": "Wine Spectator",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2021
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2018
       },
       {
         "source": "James Suckling",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
         "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 84,
+    "aggregateScore": 85,
     "badges": [
       "Best Value"
     ],
@@ -8582,10 +8508,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "bisol-glera-2018",
+    "slug": "bisol-glera-2020",
     "name": "Glera",
     "producer": "Bisol",
-    "vintage": 2018,
+    "vintage": 2020,
     "type": "Sparkling",
     "grape": "Glera",
     "grapes": [
@@ -8596,40 +8522,58 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Prosecco DOC",
-    "alcoholContent": "15%",
+    "alcoholContent": "13%",
     "price": 13,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Glera%20Bisol",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
+        "source": "Vivino",
+        "score": 4.2,
+        "maxScore": 5,
+        "vintage": 2020
       },
       {
-        "source": "Wine Spectator",
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
         "score": 85,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "Robert Parker",
-        "score": 84,
+        "score": 86,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 86,
     "badges": [
       "Best Value"
     ],
     "tastingNotes": "Toasty and complex with dried fruit, honey, and biscuit. Elegant and persistent.",
     "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
     "pairings": [
-      "Oysters",
-      "Caviar",
-      "Sushi"
+      "Fried foods",
+      "Soft cheeses",
+      "Celebrations"
     ],
     "servingTemp": "6-8°C",
     "aging": "2-8 years",
@@ -8646,10 +8590,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "nino-franco-glera-2018",
+    "slug": "nino-franco-glera-2020",
     "name": "Glera",
     "producer": "Nino Franco",
-    "vintage": 2018,
+    "vintage": 2020,
     "type": "Sparkling",
     "grape": "Glera",
     "grapes": [
@@ -8660,45 +8604,39 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Prosecco DOC",
-    "alcoholContent": "13%",
-    "price": 147,
+    "alcoholContent": "15%",
+    "price": 161,
     "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Glera%20Nino%20Franco",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
         "source": "Tim Atkin",
-        "score": 91,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "Wine Spectator",
-        "score": 89,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "Decanter",
         "score": 90,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2018
+        "source": "Vivino",
+        "score": 4.6,
+        "maxScore": 5,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 92,
     "badges": [],
-    "tastingNotes": "Fine bubbles with notes of brioche, apple, and citrus. Creamy mousse with a crisp, clean finish.",
+    "tastingNotes": "Fresh and fruity with green apple, pear, and white flowers. Light and easy-drinking.",
     "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
     "pairings": [
       "Fried foods",
@@ -8734,11 +8672,23 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Prosecco DOC",
-    "alcoholContent": "15%",
-    "price": 71,
+    "alcoholContent": "13%",
+    "price": 34,
     "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Glera%20Ruggeri",
     "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
+      },
       {
         "source": "Decanter",
         "score": 87,
@@ -8746,14 +8696,20 @@ export const wines: Wine[] = [
         "vintage": 2021
       },
       {
-        "source": "James Suckling",
-        "score": 88,
+        "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
         "maxScore": 100,
         "vintage": 2021
       },
       {
         "source": "Wine Enthusiast",
-        "score": 87,
+        "score": 86,
         "maxScore": 100,
         "vintage": 2021
       }
@@ -8763,9 +8719,9 @@ export const wines: Wine[] = [
     "tastingNotes": "Toasty and complex with dried fruit, honey, and biscuit. Elegant and persistent.",
     "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
     "pairings": [
-      "Fried foods",
-      "Soft cheeses",
-      "Celebrations"
+      "Oysters",
+      "Caviar",
+      "Sushi"
     ],
     "servingTemp": "6-8°C",
     "aging": "2-8 years",
@@ -8782,10 +8738,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "la-marca-glera-2018",
+    "slug": "la-marca-glera-2021",
     "name": "Glera",
     "producer": "La Marca",
-    "vintage": 2018,
+    "vintage": 2021,
     "type": "Sparkling",
     "grape": "Glera",
     "grapes": [
@@ -8796,40 +8752,46 @@ export const wines: Wine[] = [
     "country": "Italy",
     "countryCode": "IT",
     "appellation": "Prosecco DOC",
-    "alcoholContent": "14%",
-    "price": 168,
+    "alcoholContent": "13%",
+    "price": 131,
     "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Glera%20La%20Marca",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
+        "source": "Decanter",
         "score": 89,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2018
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "James Suckling",
-        "score": 92,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
     "aggregateScore": 91,
@@ -8871,22 +8833,10 @@ export const wines: Wine[] = [
     "countryCode": "IT",
     "appellation": "Primitivo di Manduria DOC",
     "alcoholContent": "14%",
-    "price": 21,
-    "priceRange": "Mid-Range",
+    "price": 41,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Primitivo%20di%20Manduria%20Tormaresca",
     "scores": [
-      {
-        "source": "Wine Enthusiast",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
       {
         "source": "Decanter",
         "score": 85,
@@ -8894,19 +8844,149 @@ export const wines: Wine[] = [
         "vintage": 2020
       },
       {
-        "source": "Robert Parker",
+        "source": "Wine Enthusiast",
         "score": 85,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
+        "source": "Tim Atkin",
+        "score": 87,
+        "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "san-marzano-primitivo-di-manduria-2020",
+    "name": "Primitivo di Manduria",
+    "producer": "San Marzano",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Primitivo",
+    "grapes": [
+      "Primitivo"
+    ],
+    "region": "Puglia",
+    "subRegion": "Primitivo di Manduria",
+    "country": "Italy",
+    "countryCode": "IT",
+    "appellation": "Primitivo di Manduria DOC",
+    "alcoholContent": "13%",
+    "price": 40,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Primitivo%20di%20Manduria%20San%20Marzano",
+    "scores": [
+      {
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "gianfranco-fino-primitivo-di-manduria-2021",
+    "name": "Primitivo di Manduria",
+    "producer": "Gianfranco Fino",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Primitivo",
+    "grapes": [
+      "Primitivo"
+    ],
+    "region": "Puglia",
+    "subRegion": "Primitivo di Manduria",
+    "country": "Italy",
+    "countryCode": "IT",
+    "appellation": "Primitivo di Manduria DOC",
+    "alcoholContent": "15%",
+    "price": 26,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Primitivo%20di%20Manduria%20Gianfranco%20Fino",
+    "scores": [
+      {
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 86,
     "badges": [],
     "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -8930,142 +9010,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "san-marzano-primitivo-di-manduria-2022",
-    "name": "Primitivo di Manduria",
-    "producer": "San Marzano",
-    "vintage": 2022,
-    "type": "Red",
-    "grape": "Primitivo",
-    "grapes": [
-      "Primitivo"
-    ],
-    "region": "Puglia",
-    "subRegion": "Primitivo di Manduria",
-    "country": "Italy",
-    "countryCode": "IT",
-    "appellation": "Primitivo di Manduria DOC",
-    "alcoholContent": "14%",
-    "price": 58,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Primitivo%20di%20Manduria%20San%20Marzano",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      }
-    ],
-    "aggregateScore": 89,
-    "badges": [],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "gianfranco-fino-primitivo-di-manduria-2022",
-    "name": "Primitivo di Manduria",
-    "producer": "Gianfranco Fino",
-    "vintage": 2022,
-    "type": "Red",
-    "grape": "Primitivo",
-    "grapes": [
-      "Primitivo"
-    ],
-    "region": "Puglia",
-    "subRegion": "Primitivo di Manduria",
-    "country": "Italy",
-    "countryCode": "IT",
-    "appellation": "Primitivo di Manduria DOC",
-    "alcoholContent": "15%",
-    "price": 26,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Primitivo%20di%20Manduria%20Gianfranco%20Fino",
-    "scores": [
-      {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      }
-    ],
-    "aggregateScore": 87,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "marqu-s-de-murrieta-rioja-doca-2019",
+    "slug": "marqu-s-de-murrieta-rioja-doca-2022",
     "name": "Rioja DOCa",
     "producer": "Marqués de Murrieta",
-    "vintage": 2019,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Tempranillo",
     "grapes": [
@@ -9076,257 +9024,45 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Rioja DOCa",
-    "alcoholContent": "13%",
-    "price": 8,
-    "priceRange": "Budget",
+    "alcoholContent": "14%",
+    "price": 42,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Marqu%C3%A9s%20de%20Murrieta",
     "scores": [
       {
         "source": "Wine Spectator",
-        "score": 87,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "l-pez-de-heredia-rioja-doca-2021",
-    "name": "Rioja DOCa",
-    "producer": "López de Heredia",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Tempranillo",
-    "grapes": [
-      "Tempranillo"
-    ],
-    "region": "Rioja",
-    "subRegion": "Rioja Alavesa",
-    "country": "Spain",
-    "countryCode": "ES",
-    "appellation": "Rioja DOCa",
-    "alcoholContent": "15%",
-    "price": 20,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20L%C3%B3pez%20de%20Heredia",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
         "source": "Decanter",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "cvne-rioja-doca-2020",
-    "name": "Rioja DOCa",
-    "producer": "CVNE",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Tempranillo",
-    "grapes": [
-      "Tempranillo"
-    ],
-    "region": "Rioja",
-    "subRegion": "Rioja Alavesa",
-    "country": "Spain",
-    "countryCode": "ES",
-    "appellation": "Rioja DOCa",
-    "alcoholContent": "14%",
-    "price": 10,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20CVNE",
-    "scores": [
-      {
-        "source": "Wine Enthusiast",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "muga-rioja-doca-2022",
-    "name": "Rioja DOCa",
-    "producer": "Muga",
-    "vintage": 2022,
-    "type": "Red",
-    "grape": "Tempranillo",
-    "grapes": [
-      "Tempranillo"
-    ],
-    "region": "Rioja",
-    "subRegion": "Rioja Alavesa",
-    "country": "Spain",
-    "countryCode": "ES",
-    "appellation": "Rioja DOCa",
-    "alcoholContent": "14%",
-    "price": 12,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Muga",
-    "scores": [
-      {
-        "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
         "vintage": 2022
       },
       {
         "source": "Vivino",
-        "score": 4.3,
+        "score": 4.4,
         "maxScore": 5,
         "vintage": 2022
       },
       {
         "source": "Wine Enthusiast",
-        "score": 87,
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2022
       }
     ],
     "aggregateScore": 86,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "badges": [],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -9348,9 +9084,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "bodegas-roda-rioja-doca-2020",
+    "slug": "l-pez-de-heredia-rioja-doca-2020",
     "name": "Rioja DOCa",
-    "producer": "Bodegas Roda",
+    "producer": "López de Heredia",
     "vintage": 2020,
     "type": "Red",
     "grape": "Tempranillo",
@@ -9362,53 +9098,131 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Rioja DOCa",
-    "alcoholContent": "14%",
-    "price": 23,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Bodegas%20Roda",
+    "alcoholContent": "13%",
+    "price": 40,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20L%C3%B3pez%20de%20Heredia",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Wine Spectator",
-        "score": 87,
+        "score": 88,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Robert Parker",
-        "score": 87,
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Wine Enthusiast",
+        "source": "James Suckling",
         "score": 85,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
+        "source": "Robert Parker",
         "score": 86,
         "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 86,
-    "badges": [
-      "Best Value"
+    "aggregateScore": 87,
+    "badges": [],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "cvne-rioja-doca-2022",
+    "name": "Rioja DOCa",
+    "producer": "CVNE",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Tempranillo",
+    "grapes": [
+      "Tempranillo"
+    ],
+    "region": "Rioja",
+    "subRegion": "Rioja Alavesa",
+    "country": "Spain",
+    "countryCode": "ES",
+    "appellation": "Rioja DOCa",
+    "alcoholContent": "13%",
+    "price": 158,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20CVNE",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 91,
+    "badges": [],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Grilled steak",
@@ -9430,10 +9244,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "artadi-rioja-doca-2018",
+    "slug": "muga-rioja-doca-2019",
     "name": "Rioja DOCa",
-    "producer": "Artadi",
-    "vintage": 2018,
+    "producer": "Muga",
+    "vintage": 2019,
     "type": "Red",
     "grape": "Tempranillo",
     "grapes": [
@@ -9444,50 +9258,182 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Rioja DOCa",
-    "alcoholContent": "14%",
-    "price": 9,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Artadi",
+    "alcoholContent": "13%",
+    "price": 28,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Muga",
     "scores": [
       {
         "source": "Decanter",
-        "score": 85,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
-        "source": "James Suckling",
-        "score": 83,
+        "source": "Robert Parker",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
         "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Grilled steak",
       "Braised lamb",
       "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "bodegas-roda-rioja-doca-2019",
+    "name": "Rioja DOCa",
+    "producer": "Bodegas Roda",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Tempranillo",
+    "grapes": [
+      "Tempranillo"
+    ],
+    "region": "Rioja",
+    "subRegion": "Rioja Alavesa",
+    "country": "Spain",
+    "countryCode": "ES",
+    "appellation": "Rioja DOCa",
+    "alcoholContent": "15%",
+    "price": 28,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Bodegas%20Roda",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 87,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "artadi-rioja-doca-2020",
+    "name": "Rioja DOCa",
+    "producer": "Artadi",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Tempranillo",
+    "grapes": [
+      "Tempranillo"
+    ],
+    "region": "Rioja",
+    "subRegion": "Rioja Alavesa",
+    "country": "Spain",
+    "countryCode": "ES",
+    "appellation": "Rioja DOCa",
+    "alcoholContent": "13%",
+    "price": 50,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Artadi",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 88,
+    "badges": [],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -9519,16 +9465,10 @@ export const wines: Wine[] = [
     "countryCode": "ES",
     "appellation": "Rioja DOCa",
     "alcoholContent": "15%",
-    "price": 61,
-    "priceRange": "Premium",
+    "price": 114,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Rioja%20DOCa%20Rem%C3%ADrez%20de%20Ganuza",
     "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2022
-      },
       {
         "source": "Jancis Robinson",
         "score": 18,
@@ -9536,20 +9476,102 @@ export const wines: Wine[] = [
         "vintage": 2022
       },
       {
-        "source": "Wine Spectator",
+        "source": "Robert Parker",
         "score": 90,
         "maxScore": 100,
         "vintage": 2022
       },
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
+        "source": "Decanter",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 90,
+        "maxScore": 100,
         "vintage": 2022
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 91,
     "badges": [],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "pesquera-ribera-del-duero-2021",
+    "name": "Ribera del Duero",
+    "producer": "Pesquera",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Tempranillo",
+    "grapes": [
+      "Tempranillo"
+    ],
+    "region": "Ribera del Duero",
+    "subRegion": "Ribera del Duero",
+    "country": "Spain",
+    "countryCode": "ES",
+    "appellation": "Ribera del Duero DO",
+    "alcoholContent": "13%",
+    "price": 8,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Ribera%20del%20Duero%20Pesquera",
+    "scores": [
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 84,
+    "badges": [
+      "Best Value"
+    ],
     "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
@@ -9572,72 +9594,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "pesquera-ribera-del-duero-2022",
-    "name": "Ribera del Duero",
-    "producer": "Pesquera",
-    "vintage": 2022,
-    "type": "Red",
-    "grape": "Tempranillo",
-    "grapes": [
-      "Tempranillo"
-    ],
-    "region": "Ribera del Duero",
-    "subRegion": "Ribera del Duero",
-    "country": "Spain",
-    "countryCode": "ES",
-    "appellation": "Ribera del Duero DO",
-    "alcoholContent": "15%",
-    "price": 41,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Ribera%20del%20Duero%20Pesquera",
-    "scores": [
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      }
-    ],
-    "aggregateScore": 89,
-    "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "protos-ribera-del-duero-2021",
+    "slug": "protos-ribera-del-duero-2019",
     "name": "Ribera del Duero",
     "producer": "Protos",
-    "vintage": 2021,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Tempranillo",
     "grapes": [
@@ -9649,43 +9609,49 @@ export const wines: Wine[] = [
     "countryCode": "ES",
     "appellation": "Ribera del Duero DO",
     "alcoholContent": "14%",
-    "price": 191,
-    "priceRange": "Luxury",
+    "price": 53,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Ribera%20del%20Duero%20Protos",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
         "source": "Wine Enthusiast",
-        "score": 91,
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
       },
       {
-        "source": "James Suckling",
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
         "score": 90,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2019
       },
       {
         "source": "Robert Parker",
-        "score": 92,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -9702,10 +9668,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "hacienda-monasterio-ribera-del-duero-2020",
+    "slug": "hacienda-monasterio-ribera-del-duero-2018",
     "name": "Ribera del Duero",
     "producer": "Hacienda Monasterio",
-    "vintage": 2020,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Tempranillo",
     "grapes": [
@@ -9716,50 +9682,38 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Ribera del Duero DO",
-    "alcoholContent": "15%",
-    "price": 8,
-    "priceRange": "Budget",
+    "alcoholContent": "13%",
+    "price": 62,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Ribera%20del%20Duero%20Hacienda%20Monasterio",
     "scores": [
       {
+        "source": "James Suckling",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
         "source": "Tim Atkin",
-        "score": 86,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 88,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -9790,51 +9744,45 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Ribera del Duero DO",
-    "alcoholContent": "13%",
-    "price": 158,
-    "priceRange": "Luxury",
+    "alcoholContent": "15%",
+    "price": 26,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Ribera%20del%20Duero%20Ali%C3%B3n",
     "scores": [
       {
-        "source": "Robert Parker",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 89,
+        "source": "Wine Spectator",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2020
       },
       {
         "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Enthusiast",
         "score": 89,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
         "source": "Tim Atkin",
-        "score": 93,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Grilled steak",
@@ -9856,75 +9804,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "gramona-macabeo-2021",
+    "slug": "gramona-macabeo-2019",
     "name": "Macabeo",
     "producer": "Gramona",
-    "vintage": 2021,
-    "type": "Sparkling",
-    "grape": "Macabeo",
-    "grapes": [
-      "Macabeo",
-      "Xarel·lo",
-      "Parellada"
-    ],
-    "region": "Cava",
-    "subRegion": "Penedès",
-    "country": "Spain",
-    "countryCode": "ES",
-    "appellation": "Cava DO",
-    "alcoholContent": "14%",
-    "price": 28,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Macabeo%20Gramona",
-    "scores": [
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 88,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Toasty and complex with dried fruit, honey, and biscuit. Elegant and persistent.",
-    "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
-    "pairings": [
-      "Fried foods",
-      "Soft cheeses",
-      "Celebrations"
-    ],
-    "servingTemp": "6-8°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "recaredo-macabeo-2019",
-    "name": "Macabeo",
-    "producer": "Recaredo",
     "vintage": 2019,
     "type": "Sparkling",
     "grape": "Macabeo",
@@ -9939,38 +9821,32 @@ export const wines: Wine[] = [
     "countryCode": "ES",
     "appellation": "Cava DO",
     "alcoholContent": "15%",
-    "price": 117,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Macabeo%20Recaredo",
+    "price": 51,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Macabeo%20Gramona",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Wine Spectator",
-        "score": 93,
+        "score": 90,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 93,
+        "source": "Robert Parker",
+        "score": 88,
         "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Fresh and fruity with green apple, pear, and white flowers. Light and easy-drinking.",
+    "tastingNotes": "Toasty and complex with dried fruit, honey, and biscuit. Elegant and persistent.",
     "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
     "pairings": [
       "Fried foods",
@@ -9992,9 +9868,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "juv-y-camps-macabeo-2022",
+    "slug": "recaredo-macabeo-2022",
     "name": "Macabeo",
-    "producer": "Juvé y Camps",
+    "producer": "Recaredo",
     "vintage": 2022,
     "type": "Sparkling",
     "grape": "Macabeo",
@@ -10008,44 +9884,116 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Cava DO",
-    "alcoholContent": "13%",
-    "price": 41,
+    "alcoholContent": "15%",
+    "price": 31,
     "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Macabeo%20Juv%C3%A9%20y%20Camps",
+    "buyUrl": "https://www.wine.com/search?q=Macabeo%20Recaredo",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 86,
+        "source": "Decanter",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2022
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 88,
+        "source": "James Suckling",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Fresh and fruity with green apple, pear, and white flowers. Light and easy-drinking.",
+    "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
+    "pairings": [
+      "Oysters",
+      "Caviar",
+      "Sushi"
+    ],
+    "servingTemp": "6-8°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "juv-y-camps-macabeo-2020",
+    "name": "Macabeo",
+    "producer": "Juvé y Camps",
+    "vintage": 2020,
+    "type": "Sparkling",
+    "grape": "Macabeo",
+    "grapes": [
+      "Macabeo",
+      "Xarel·lo",
+      "Parellada"
+    ],
+    "region": "Cava",
+    "subRegion": "Penedès",
+    "country": "Spain",
+    "countryCode": "ES",
+    "appellation": "Cava DO",
+    "alcoholContent": "14%",
+    "price": 12,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Macabeo%20Juv%C3%A9%20y%20Camps",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
       },
       {
         "source": "Vivino",
         "score": 4.4,
         "maxScore": 5,
-        "vintage": 2022
+        "vintage": 2020
       },
       {
-        "source": "James Suckling",
-        "score": 89,
+        "source": "Tim Atkin",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 88,
-    "badges": [],
-    "tastingNotes": "Toasty and complex with dried fruit, honey, and biscuit. Elegant and persistent.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Fresh and fruity with green apple, pear, and white flowers. Light and easy-drinking.",
     "editorial": "A sparkling wine that speaks to the quality of its base wines and the skill of its production. The mousse is fine and persistent, the aromatics complex, and the palate delivers both pleasure and complexity. Whether for celebration or simply elevating an everyday moment.",
     "pairings": [
-      "Fried foods",
-      "Soft cheeses",
-      "Celebrations"
+      "Oysters",
+      "Caviar",
+      "Sushi"
     ],
     "servingTemp": "6-8°C",
     "aging": "2-8 years",
@@ -10077,37 +10025,19 @@ export const wines: Wine[] = [
     "countryCode": "ES",
     "appellation": "Jerez-Xérès-Sherry DO",
     "alcoholContent": "13%",
-    "price": 24,
-    "priceRange": "Mid-Range",
+    "price": 10,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Jerez-X%C3%A9r%C3%A8s-Sherry%20Gonzalez%20Byass%20Tio%20Pepe",
     "scores": [
       {
-        "source": "Tim Atkin",
+        "source": "Decanter",
         "score": 85,
         "maxScore": 100,
         "vintage": null
       },
       {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 83,
+        "source": "James Suckling",
+        "score": 86,
         "maxScore": 100,
         "vintage": null
       },
@@ -10116,11 +10046,19 @@ export const wines: Wine[] = [
         "score": 4.2,
         "maxScore": 5,
         "vintage": null
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": null
       }
     ],
-    "aggregateScore": 84,
-    "badges": [],
-    "tastingNotes": "Dry and nutty with almond, dried fruit, and sea salt. Complex and elegant with incredible depth.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Intense and complex with dark fruit, spice, and nuts. Sweet with firm structure and great length.",
     "editorial": "A fortified wine that honors centuries of tradition while delivering genuine complexity and pleasure. The balance of sweetness, acidity, and alcohol is impeccable, creating a wine that rewards contemplation and pairs beautifully with cheese, chocolate, or quiet reflection.",
     "pairings": [
       "Aged cheeses",
@@ -10157,25 +10095,31 @@ export const wines: Wine[] = [
     "countryCode": "ES",
     "appellation": "Jerez-Xérès-Sherry DO",
     "alcoholContent": "15%",
-    "price": 18,
+    "price": 21,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Jerez-X%C3%A9r%C3%A8s-Sherry%20Lustau",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 83,
         "maxScore": 100,
         "vintage": null
       },
       {
-        "source": "James Suckling",
-        "score": 83,
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": null
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": null
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
         "maxScore": 100,
         "vintage": null
       },
@@ -10186,19 +10130,13 @@ export const wines: Wine[] = [
         "vintage": null
       },
       {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 85,
+        "source": "James Suckling",
+        "score": 86,
         "maxScore": 100,
         "vintage": null
       }
     ],
-    "aggregateScore": 84,
+    "aggregateScore": 85,
     "badges": [
       "Best Value"
     ],
@@ -10238,51 +10176,33 @@ export const wines: Wine[] = [
     "country": "Spain",
     "countryCode": "ES",
     "appellation": "Jerez-Xérès-Sherry DO",
-    "alcoholContent": "14%",
-    "price": 17,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "13%",
+    "price": 107,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Jerez-X%C3%A9r%C3%A8s-Sherry%20Valdespino",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
+        "source": "James Suckling",
+        "score": 93,
+        "maxScore": 100,
         "vintage": null
       },
       {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 19,
         "maxScore": 20,
         "vintage": null
       },
       {
-        "source": "James Suckling",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
         "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": null
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 83,
+        "score": 89,
         "maxScore": 100,
         "vintage": null
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 92,
     "badges": [],
-    "tastingNotes": "Dry and nutty with almond, dried fruit, and sea salt. Complex and elegant with incredible depth.",
+    "tastingNotes": "Intense and complex with dark fruit, spice, and nuts. Sweet with firm structure and great length.",
     "editorial": "A fortified wine that honors centuries of tradition while delivering genuine complexity and pleasure. The balance of sweetness, acidity, and alcohol is impeccable, creating a wine that rewards contemplation and pairs beautifully with cheese, chocolate, or quiet reflection.",
     "pairings": [
       "Aged cheeses",
@@ -10319,39 +10239,43 @@ export const wines: Wine[] = [
     "countryCode": "ES",
     "appellation": "Jerez-Xérès-Sherry DO",
     "alcoholContent": "14%",
-    "price": 25,
-    "priceRange": "Mid-Range",
+    "price": 53,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Jerez-X%C3%A9r%C3%A8s-Sherry%20El%20Maestro%20Sierra",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 84,
+        "source": "Wine Spectator",
+        "score": 90,
         "maxScore": 100,
         "vintage": null
       },
       {
-        "source": "Robert Parker",
-        "score": 86,
+        "source": "Decanter",
+        "score": 88,
         "maxScore": 100,
+        "vintage": null
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
         "vintage": null
       },
       {
         "source": "Wine Enthusiast",
-        "score": 86,
+        "score": 89,
         "maxScore": 100,
         "vintage": null
       },
       {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
         "vintage": null
       }
     ],
-    "aggregateScore": 86,
-    "badges": [
-      "Best Value"
-    ],
+    "aggregateScore": 89,
+    "badges": [],
     "tastingNotes": "Intense and complex with dark fruit, spice, and nuts. Sweet with firm structure and great length.",
     "editorial": "A fortified wine that honors centuries of tradition while delivering genuine complexity and pleasure. The balance of sweetness, acidity, and alcohol is impeccable, creating a wine that rewards contemplation and pairs beautifully with cheese, chocolate, or quiet reflection.",
     "pairings": [
@@ -10374,10 +10298,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "stag-s-leap-wine-cellars-stags-leap-district-2021",
+    "slug": "stag-s-leap-wine-cellars-stags-leap-district-2020",
     "name": "Stags Leap District",
     "producer": "Stag's Leap Wine Cellars",
-    "vintage": 2021,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -10388,52 +10312,50 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Stags Leap District AVA",
-    "alcoholContent": "13%",
-    "price": 24,
+    "alcoholContent": "14%",
+    "price": 18,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Stag's%20Leap%20Wine%20Cellars",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 84,
+        "source": "Decanter",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
         "source": "Tim Atkin",
-        "score": 86,
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
       },
       {
         "source": "Vivino",
         "score": 4.2,
         "maxScore": 5,
-        "vintage": 2021
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
       }
     ],
     "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
+    "badges": [],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -10464,32 +10386,20 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Stags Leap District AVA",
-    "alcoholContent": "14%",
-    "price": 26,
+    "alcoholContent": "13%",
+    "price": 21,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Silver%20Oak",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 85,
+        "source": "Decanter",
+        "score": 84,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 88,
+        "source": "Wine Spectator",
+        "score": 84,
         "maxScore": 100,
         "vintage": 2021
       },
@@ -10498,16 +10408,36 @@ export const wines: Wine[] = [
         "score": 85,
         "maxScore": 100,
         "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "aggregateScore": 86,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -10539,49 +10469,55 @@ export const wines: Wine[] = [
     "countryCode": "US",
     "appellation": "Stags Leap District AVA",
     "alcoholContent": "13%",
-    "price": 79,
+    "price": 113,
     "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Duckhorn",
     "scores": [
       {
         "source": "Jancis Robinson",
-        "score": 18,
+        "score": 19,
         "maxScore": 20,
         "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 89,
+        "source": "James Suckling",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 89,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "James Suckling",
-        "score": 88,
+        "source": "Robert Parker",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Vivino",
-        "score": 4.4,
+        "score": 4.7,
         "maxScore": 5,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 93,
     "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -10613,10 +10549,78 @@ export const wines: Wine[] = [
     "countryCode": "US",
     "appellation": "Stags Leap District AVA",
     "alcoholContent": "13%",
-    "price": 20,
-    "priceRange": "Mid-Range",
+    "price": 12,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Shafer",
     "scores": [
+      {
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "cakebread-stags-leap-district-2019",
+    "name": "Stags Leap District",
+    "producer": "Cakebread",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon"
+    ],
+    "region": "Napa Valley",
+    "subRegion": "Stags Leap District",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Stags Leap District AVA",
+    "alcoholContent": "15%",
+    "price": 22,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Cakebread",
+    "scores": [
+      {
+        "source": "James Suckling",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2019
+      },
       {
         "source": "Wine Enthusiast",
         "score": 87,
@@ -10624,25 +10628,255 @@ export const wines: Wine[] = [
         "vintage": 2019
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
+        "source": "Tim Atkin",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 83,
+        "score": 85,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
         "vintage": 2019
       }
     ],
     "aggregateScore": 85,
+    "badges": [],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "far-niente-stags-leap-district-2020",
+    "name": "Stags Leap District",
+    "producer": "Far Niente",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon"
+    ],
+    "region": "Napa Valley",
+    "subRegion": "Stags Leap District",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Stags Leap District AVA",
+    "alcoholContent": "13%",
+    "price": 9,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Far%20Niente",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "spottswoode-stags-leap-district-2021",
+    "name": "Stags Leap District",
+    "producer": "Spottswoode",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon"
+    ],
+    "region": "Napa Valley",
+    "subRegion": "Stags Leap District",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Stags Leap District AVA",
+    "alcoholContent": "13%",
+    "price": 166,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Spottswoode",
+    "scores": [
+      {
+        "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "heitz-cellar-stags-leap-district-2019",
+    "name": "Stags Leap District",
+    "producer": "Heitz Cellar",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon"
+    ],
+    "region": "Napa Valley",
+    "subRegion": "Stags Leap District",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Stags Leap District AVA",
+    "alcoholContent": "15%",
+    "price": 40,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Heitz%20Cellar",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 87,
     "badges": [],
     "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -10666,9 +10900,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "cakebread-stags-leap-district-2018",
+    "slug": "dominus-stags-leap-district-2018",
     "name": "Stags Leap District",
-    "producer": "Cakebread",
+    "producer": "Dominus",
     "vintage": 2018,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
@@ -10680,11 +10914,23 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Stags Leap District AVA",
-    "alcoholContent": "14%",
+    "alcoholContent": "15%",
     "price": 18,
     "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Cakebread",
+    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Dominus",
     "scores": [
+      {
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2018
+      },
       {
         "source": "Wine Spectator",
         "score": 84,
@@ -10692,101 +10938,13 @@ export const wines: Wine[] = [
         "vintage": 2018
       },
       {
-        "source": "Robert Parker",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "far-niente-stags-leap-district-2019",
-    "name": "Stags Leap District",
-    "producer": "Far Niente",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon"
-    ],
-    "region": "Napa Valley",
-    "subRegion": "Stags Leap District",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Stags Leap District AVA",
-    "alcoholContent": "14%",
-    "price": 146,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Far%20Niente",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.7,
-        "maxScore": 5,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Tim Atkin",
-        "score": 92,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2019
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 86,
     "badges": [],
     "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -10810,10 +10968,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "spottswoode-stags-leap-district-2022",
+    "slug": "harlan-estate-stags-leap-district-2019",
     "name": "Stags Leap District",
-    "producer": "Spottswoode",
-    "vintage": 2022,
+    "producer": "Harlan Estate",
+    "vintage": 2019,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -10825,242 +10983,44 @@ export const wines: Wine[] = [
     "countryCode": "US",
     "appellation": "Stags Leap District AVA",
     "alcoholContent": "14%",
-    "price": 38,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Spottswoode",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2022
-      }
-    ],
-    "aggregateScore": 88,
-    "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "heitz-cellar-stags-leap-district-2020",
-    "name": "Stags Leap District",
-    "producer": "Heitz Cellar",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon"
-    ],
-    "region": "Napa Valley",
-    "subRegion": "Stags Leap District",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Stags Leap District AVA",
-    "alcoholContent": "14%",
-    "price": 10,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Heitz%20Cellar",
-    "scores": [
-      {
-        "source": "Decanter",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "dominus-stags-leap-district-2020",
-    "name": "Stags Leap District",
-    "producer": "Dominus",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon"
-    ],
-    "region": "Napa Valley",
-    "subRegion": "Stags Leap District",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Stags Leap District AVA",
-    "alcoholContent": "15%",
-    "price": 186,
+    "price": 156,
     "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Dominus",
+    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Harlan%20Estate",
     "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      },
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 92,
-    "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "harlan-estate-stags-leap-district-2020",
-    "name": "Stags Leap District",
-    "producer": "Harlan Estate",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon"
-    ],
-    "region": "Napa Valley",
-    "subRegion": "Stags Leap District",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Stags Leap District AVA",
-    "alcoholContent": "15%",
-    "price": 21,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Stags%20Leap%20District%20Harlan%20Estate",
-    "scores": [
+        "vintage": 2019
+      },
       {
-        "source": "Wine Spectator",
-        "score": 83,
+        "source": "Wine Enthusiast",
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.7,
+        "maxScore": 5,
+        "vintage": 2019
       },
       {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 93,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
       },
       {
-        "source": "James Suckling",
-        "score": 84,
+        "source": "Tim Atkin",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 84,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -11082,10 +11042,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "williams-selyem-russian-river-valley-2021",
+    "slug": "williams-selyem-russian-river-valley-2022",
     "name": "Russian River Valley",
     "producer": "Williams Selyem",
-    "vintage": 2021,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -11096,34 +11056,28 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Russian River Valley AVA",
-    "alcoholContent": "14%",
-    "price": 122,
-    "priceRange": "Luxury",
+    "alcoholContent": "15%",
+    "price": 70,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Russian%20River%20Valley%20Williams%20Selyem",
     "scores": [
       {
-        "source": "Robert Parker",
-        "score": 92,
+        "source": "Wine Enthusiast",
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
         "source": "Wine Spectator",
-        "score": 89,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
         "source": "Decanter",
-        "score": 89,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       }
     ],
     "aggregateScore": 90,
@@ -11131,9 +11085,9 @@ export const wines: Wine[] = [
     "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -11150,10 +11104,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "littorai-russian-river-valley-2022",
+    "slug": "littorai-russian-river-valley-2018",
     "name": "Russian River Valley",
     "producer": "Littorai",
-    "vintage": 2022,
+    "vintage": 2018,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -11164,38 +11118,44 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Russian River Valley AVA",
-    "alcoholContent": "15%",
-    "price": 13,
-    "priceRange": "Budget",
+    "alcoholContent": "14%",
+    "price": 15,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Russian%20River%20Valley%20Littorai",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 85,
+        "source": "Decanter",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2018
       },
       {
-        "source": "James Suckling",
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2022
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 86,
     "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -11212,10 +11172,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "kistler-russian-river-valley-2022",
+    "slug": "kistler-russian-river-valley-2019",
     "name": "Russian River Valley",
     "producer": "Kistler",
-    "vintage": 2022,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -11227,39 +11187,31 @@ export const wines: Wine[] = [
     "countryCode": "US",
     "appellation": "Russian River Valley AVA",
     "alcoholContent": "15%",
-    "price": 25,
-    "priceRange": "Mid-Range",
+    "price": 43,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Russian%20River%20Valley%20Kistler",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
         "source": "Wine Spectator",
-        "score": 83,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 83,
+        "source": "Decanter",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 83,
-    "badges": [
-      "Best Value"
-    ],
+    "aggregateScore": 87,
+    "badges": [],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
@@ -11282,10 +11234,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "flowers-russian-river-valley-2022",
+    "slug": "flowers-russian-river-valley-2020",
     "name": "Russian River Valley",
     "producer": "Flowers",
-    "vintage": 2022,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -11296,38 +11248,56 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Russian River Valley AVA",
-    "alcoholContent": "15%",
-    "price": 9,
-    "priceRange": "Budget",
+    "alcoholContent": "14%",
+    "price": 18,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Russian%20River%20Valley%20Flowers",
     "scores": [
       {
-        "source": "Wine Spectator",
+        "source": "Decanter",
         "score": 84,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
       },
       {
-        "source": "Decanter",
-        "score": 87,
+        "source": "Wine Enthusiast",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2022
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.2,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
     "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -11344,145 +11314,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "peter-michael-chardonnay-2019",
+    "slug": "peter-michael-chardonnay-2018",
     "name": "Chardonnay",
     "producer": "Peter Michael",
-    "vintage": 2019,
-    "type": "White",
-    "grape": "Chardonnay",
-    "grapes": [
-      "Chardonnay"
-    ],
-    "region": "Sonoma",
-    "subRegion": "Sonoma Coast",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Sonoma Coast AVA",
-    "alcoholContent": "14%",
-    "price": 70,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Peter%20Michael",
-    "scores": [
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 88,
-    "badges": [],
-    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "kistler-chardonnay-2020",
-    "name": "Chardonnay",
-    "producer": "Kistler",
-    "vintage": 2020,
-    "type": "White",
-    "grape": "Chardonnay",
-    "grapes": [
-      "Chardonnay"
-    ],
-    "region": "Sonoma",
-    "subRegion": "Sonoma Coast",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Sonoma Coast AVA",
-    "alcoholContent": "14%",
-    "price": 11,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Kistler",
-    "scores": [
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "ramey-chardonnay-2018",
-    "name": "Chardonnay",
-    "producer": "Ramey",
     "vintage": 2018,
     "type": "White",
     "grape": "Chardonnay",
@@ -11494,52 +11328,112 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Sonoma Coast AVA",
-    "alcoholContent": "13%",
-    "price": 18,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Ramey",
+    "alcoholContent": "14%",
+    "price": 57,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Peter%20Michael",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 83,
+        "source": "James Suckling",
+        "score": 90,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Robert Parker",
-        "score": 84,
+        "source": "Wine Enthusiast",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 90,
         "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "Vivino",
-        "score": 4.4,
+        "score": 4.5,
         "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
         "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "pairings": [
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "kistler-chardonnay-2022",
+    "name": "Chardonnay",
+    "producer": "Kistler",
+    "vintage": 2022,
+    "type": "White",
+    "grape": "Chardonnay",
+    "grapes": [
+      "Chardonnay"
+    ],
+    "region": "Sonoma",
+    "subRegion": "Sonoma Coast",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Sonoma Coast AVA",
+    "alcoholContent": "14%",
+    "price": 86,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Kistler",
+    "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 89,
+    "badges": [],
     "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
@@ -11562,10 +11456,90 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "domaine-drouhin-oregon-dundee-hills-2022",
+    "slug": "ramey-chardonnay-2022",
+    "name": "Chardonnay",
+    "producer": "Ramey",
+    "vintage": 2022,
+    "type": "White",
+    "grape": "Chardonnay",
+    "grapes": [
+      "Chardonnay"
+    ],
+    "region": "Sonoma",
+    "subRegion": "Sonoma Coast",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Sonoma Coast AVA",
+    "alcoholContent": "14%",
+    "price": 8,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Chardonnay%20Ramey",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 84,
+    "badges": [],
+    "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "pairings": [
+      "Grilled fish",
+      "Shellfish",
+      "Goat cheese"
+    ],
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "domaine-drouhin-oregon-dundee-hills-2021",
     "name": "Dundee Hills",
     "producer": "Domaine Drouhin Oregon",
-    "vintage": 2022,
+    "vintage": 2021,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -11576,56 +11550,58 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Dundee Hills AVA",
-    "alcoholContent": "15%",
-    "price": 174,
-    "priceRange": "Luxury",
+    "alcoholContent": "13%",
+    "price": 24,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Dundee%20Hills%20Domaine%20Drouhin%20Oregon",
     "scores": [
       {
         "source": "Robert Parker",
-        "score": 92,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
       },
       {
         "source": "Vivino",
-        "score": 4.6,
+        "score": 4.2,
         "maxScore": 5,
-        "vintage": 2022
+        "vintage": 2021
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2021
       },
       {
         "source": "Wine Spectator",
-        "score": 93,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "Tim Atkin",
-        "score": 92,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 92,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "aggregateScore": 84,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -11656,32 +11632,102 @@ export const wines: Wine[] = [
     "country": "United States",
     "countryCode": "US",
     "appellation": "Dundee Hills AVA",
-    "alcoholContent": "15%",
-    "price": 181,
+    "alcoholContent": "14%",
+    "price": 165,
     "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Dundee%20Hills%20Bergstr%C3%B6m",
     "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2018
+      },
       {
         "source": "James Suckling",
         "score": 91,
         "maxScore": 100,
         "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2018
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 91,
     "badges": [],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "ken-wright-dundee-hills-2021",
+    "name": "Dundee Hills",
+    "producer": "Ken Wright",
+    "vintage": 2021,
+    "type": "Red",
+    "grape": "Pinot Noir",
+    "grapes": [
+      "Pinot Noir"
+    ],
+    "region": "Willamette Valley",
+    "subRegion": "Dundee Hills",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Dundee Hills AVA",
+    "alcoholContent": "13%",
+    "price": 22,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Dundee%20Hills%20Ken%20Wright",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
     "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
@@ -11704,57 +11750,181 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "ken-wright-dundee-hills-2022",
-    "name": "Dundee Hills",
-    "producer": "Ken Wright",
-    "vintage": 2022,
+    "slug": "cayuse-walla-walla-valley-2020",
+    "name": "Walla Walla Valley",
+    "producer": "Cayuse",
+    "vintage": 2020,
     "type": "Red",
-    "grape": "Pinot Noir",
+    "grape": "Syrah",
     "grapes": [
-      "Pinot Noir"
+      "Syrah"
     ],
-    "region": "Willamette Valley",
-    "subRegion": "Dundee Hills",
+    "region": "Washington State",
+    "subRegion": "Walla Walla Valley",
     "country": "United States",
     "countryCode": "US",
-    "appellation": "Dundee Hills AVA",
-    "alcoholContent": "14%",
-    "price": 61,
+    "appellation": "Walla Walla Valley AVA",
+    "alcoholContent": "13%",
+    "price": 15,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Walla%20Walla%20Valley%20Cayuse",
+    "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "k-vintners-walla-walla-valley-2020",
+    "name": "Walla Walla Valley",
+    "producer": "K Vintners",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Syrah",
+    "grapes": [
+      "Syrah"
+    ],
+    "region": "Washington State",
+    "subRegion": "Walla Walla Valley",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Walla Walla Valley AVA",
+    "alcoholContent": "13%",
+    "price": 46,
     "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Dundee%20Hills%20Ken%20Wright",
+    "buyUrl": "https://www.wine.com/search?q=Walla%20Walla%20Valley%20K%20Vintners",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "gramercy-cellars-walla-walla-valley-2020",
+    "name": "Walla Walla Valley",
+    "producer": "Gramercy Cellars",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Syrah",
+    "grapes": [
+      "Syrah"
+    ],
+    "region": "Washington State",
+    "subRegion": "Walla Walla Valley",
+    "country": "United States",
+    "countryCode": "US",
+    "appellation": "Walla Walla Valley AVA",
+    "alcoholContent": "15%",
+    "price": 171,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Walla%20Walla%20Valley%20Gramercy%20Cellars",
     "scores": [
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2022
+        "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2022
+        "source": "Tim Atkin",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2020
       },
       {
         "source": "Wine Enthusiast",
-        "score": 88,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "James Suckling",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 91,
     "badges": [],
     "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -11778,228 +11948,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "cayuse-walla-walla-valley-2021",
-    "name": "Walla Walla Valley",
-    "producer": "Cayuse",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Syrah",
-    "grapes": [
-      "Syrah"
-    ],
-    "region": "Washington State",
-    "subRegion": "Walla Walla Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Walla Walla Valley AVA",
-    "alcoholContent": "15%",
-    "price": 19,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Walla%20Walla%20Valley%20Cayuse",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "k-vintners-walla-walla-valley-2018",
-    "name": "Walla Walla Valley",
-    "producer": "K Vintners",
-    "vintage": 2018,
-    "type": "Red",
-    "grape": "Syrah",
-    "grapes": [
-      "Syrah"
-    ],
-    "region": "Washington State",
-    "subRegion": "Walla Walla Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Walla Walla Valley AVA",
-    "alcoholContent": "13%",
-    "price": 127,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Walla%20Walla%20Valley%20K%20Vintners",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 90,
-    "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "gramercy-cellars-walla-walla-valley-2018",
-    "name": "Walla Walla Valley",
-    "producer": "Gramercy Cellars",
-    "vintage": 2018,
-    "type": "Red",
-    "grape": "Syrah",
-    "grapes": [
-      "Syrah"
-    ],
-    "region": "Washington State",
-    "subRegion": "Walla Walla Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "appellation": "Walla Walla Valley AVA",
-    "alcoholContent": "15%",
-    "price": 21,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Walla%20Walla%20Valley%20Gramercy%20Cellars",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "torbreck-barossa-valley-2019",
+    "slug": "torbreck-barossa-valley-2021",
     "name": "Barossa Valley",
     "producer": "Torbreck",
-    "vintage": 2019,
+    "vintage": 2021,
     "type": "Red",
     "grape": "Shiraz",
     "grapes": [
@@ -12011,42 +11963,110 @@ export const wines: Wine[] = [
     "countryCode": "AU",
     "appellation": "Barossa Valley GI",
     "alcoholContent": "14%",
-    "price": 18,
-    "priceRange": "Mid-Range",
+    "price": 55,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Barossa%20Valley%20Torbreck",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2019
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2019
+        "vintage": 2021
       },
       {
         "source": "Tim Atkin",
-        "score": 83,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "two-hands-barossa-valley-2022",
+    "name": "Barossa Valley",
+    "producer": "Two Hands",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Shiraz",
+    "grapes": [
+      "Shiraz"
+    ],
+    "region": "Barossa Valley",
+    "subRegion": "Barossa Valley",
+    "country": "Australia",
+    "countryCode": "AU",
+    "appellation": "Barossa Valley GI",
+    "alcoholContent": "15%",
+    "price": 99,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Barossa%20Valley%20Two%20Hands",
+    "scores": [
+      {
+        "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 89,
     "badges": [],
     "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -12070,72 +12090,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "two-hands-barossa-valley-2018",
-    "name": "Barossa Valley",
-    "producer": "Two Hands",
-    "vintage": 2018,
-    "type": "Red",
-    "grape": "Shiraz",
-    "grapes": [
-      "Shiraz"
-    ],
-    "region": "Barossa Valley",
-    "subRegion": "Barossa Valley",
-    "country": "Australia",
-    "countryCode": "AU",
-    "appellation": "Barossa Valley GI",
-    "alcoholContent": "14%",
-    "price": 44,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Barossa%20Valley%20Two%20Hands",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "yalumba-barossa-valley-2018",
+    "slug": "yalumba-barossa-valley-2020",
     "name": "Barossa Valley",
     "producer": "Yalumba",
-    "vintage": 2018,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Shiraz",
     "grapes": [
@@ -12147,55 +12105,39 @@ export const wines: Wine[] = [
     "countryCode": "AU",
     "appellation": "Barossa Valley GI",
     "alcoholContent": "15%",
-    "price": 8,
+    "price": 11,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Barossa%20Valley%20Yalumba",
     "scores": [
       {
         "source": "Decanter",
-        "score": 86,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "Tim Atkin",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
         "source": "James Suckling",
-        "score": 85,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       }
     ],
     "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -12226,51 +12168,33 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "Barossa Valley GI",
-    "alcoholContent": "13%",
-    "price": 26,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "15%",
+    "price": 95,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Barossa%20Valley%20Peter%20Lehmann",
     "scores": [
       {
         "source": "Robert Parker",
-        "score": 86,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
+        "source": "Tim Atkin",
+        "score": 88,
+        "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 88,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -12307,49 +12231,43 @@ export const wines: Wine[] = [
     "countryCode": "AU",
     "appellation": "Barossa Valley GI",
     "alcoholContent": "15%",
-    "price": 143,
-    "priceRange": "Luxury",
+    "price": 10,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Barossa%20Valley%20Grant%20Burge",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 93,
+        "source": "James Suckling",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Robert Parker",
-        "score": 89,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 89,
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 83,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 86,
     "badges": [],
     "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -12366,10 +12284,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "d-arenberg-mclaren-vale-2022",
+    "slug": "d-arenberg-mclaren-vale-2021",
     "name": "McLaren Vale",
     "producer": "d'Arenberg",
-    "vintage": 2022,
+    "vintage": 2021,
     "type": "Red",
     "grape": "Shiraz",
     "grapes": [
@@ -12381,51 +12299,33 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "McLaren Vale GI",
-    "alcoholContent": "13%",
-    "price": 12,
+    "alcoholContent": "14%",
+    "price": 11,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=McLaren%20Vale%20d'Arenberg",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
-        "vintage": 2022
+        "vintage": 2021
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
     "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -12447,10 +12347,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "wirra-wirra-mclaren-vale-2018",
+    "slug": "wirra-wirra-mclaren-vale-2019",
     "name": "McLaren Vale",
     "producer": "Wirra Wirra",
-    "vintage": 2018,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Shiraz",
     "grapes": [
@@ -12462,34 +12362,28 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "McLaren Vale GI",
-    "alcoholContent": "13%",
-    "price": 73,
-    "priceRange": "Premium",
+    "alcoholContent": "15%",
+    "price": 196,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=McLaren%20Vale%20Wirra%20Wirra",
     "scores": [
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
-        "source": "Wine Spectator",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2018
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 91,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       }
     ],
     "aggregateScore": 90,
@@ -12497,9 +12391,9 @@ export const wines: Wine[] = [
     "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -12532,124 +12426,50 @@ export const wines: Wine[] = [
     "countryCode": "AU",
     "appellation": "McLaren Vale GI",
     "alcoholContent": "13%",
-    "price": 153,
-    "priceRange": "Luxury",
+    "price": 71,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=McLaren%20Vale%20Yangarra",
     "scores": [
       {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
+        "source": "Decanter",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "Wine Enthusiast",
-        "score": 90,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "James Suckling",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
         "score": 90,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "Decanter",
-        "score": 93,
+        "source": "Robert Parker",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2018
-      }
-    ],
-    "aggregateScore": 92,
-    "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "vasse-felix-margaret-river-2020",
-    "name": "Margaret River",
-    "producer": "Vasse Felix",
-    "vintage": 2020,
-    "type": "Red",
-    "grape": "Cabernet Sauvignon",
-    "grapes": [
-      "Cabernet Sauvignon"
-    ],
-    "region": "Margaret River",
-    "subRegion": "Margaret River",
-    "country": "Australia",
-    "countryCode": "AU",
-    "appellation": "Margaret River GI",
-    "alcoholContent": "14%",
-    "price": 68,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Margaret%20River%20Vasse%20Felix",
-    "scores": [
+      },
       {
         "source": "Wine Spectator",
         "score": 91,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2020
+        "vintage": 2018
       }
     ],
     "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -12671,10 +12491,84 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "leeuwin-estate-margaret-river-2021",
+    "slug": "vasse-felix-margaret-river-2019",
+    "name": "Margaret River",
+    "producer": "Vasse Felix",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Cabernet Sauvignon",
+    "grapes": [
+      "Cabernet Sauvignon"
+    ],
+    "region": "Margaret River",
+    "subRegion": "Margaret River",
+    "country": "Australia",
+    "countryCode": "AU",
+    "appellation": "Margaret River GI",
+    "alcoholContent": "14%",
+    "price": 123,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Margaret%20River%20Vasse%20Felix",
+    "scores": [
+      {
+        "source": "James Suckling",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.7,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 91,
+    "badges": [],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "leeuwin-estate-margaret-river-2019",
     "name": "Margaret River",
     "producer": "Leeuwin Estate",
-    "vintage": 2021,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -12686,46 +12580,38 @@ export const wines: Wine[] = [
     "countryCode": "AU",
     "appellation": "Margaret River GI",
     "alcoholContent": "13%",
-    "price": 9,
-    "priceRange": "Budget",
+    "price": 70,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Margaret%20River%20Leeuwin%20Estate",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 85,
+        "source": "Tim Atkin",
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
       },
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2021
+        "source": "Wine Spectator",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
       },
       {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 18,
         "maxScore": 20,
-        "vintage": 2021
+        "vintage": 2019
       },
       {
-        "source": "Robert Parker",
+        "source": "Wine Enthusiast",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -12761,25 +12647,37 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "Margaret River GI",
-    "alcoholContent": "13%",
-    "price": 8,
-    "priceRange": "Budget",
+    "alcoholContent": "14%",
+    "price": 24,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Margaret%20River%20Cullen",
     "scores": [
       {
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
         "source": "Vivino",
-        "score": 4.4,
+        "score": 4.3,
         "maxScore": 5,
         "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
+        "source": "Decanter",
         "score": 85,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
+        "source": "James Suckling",
         "score": 83,
         "maxScore": 100,
         "vintage": 2019
@@ -12787,7 +12685,7 @@ export const wines: Wine[] = [
     ],
     "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -12809,10 +12707,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "moss-wood-margaret-river-2021",
+    "slug": "moss-wood-margaret-river-2020",
     "name": "Margaret River",
     "producer": "Moss Wood",
-    "vintage": 2021,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Cabernet Sauvignon",
     "grapes": [
@@ -12823,39 +12721,41 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "Margaret River GI",
-    "alcoholContent": "14%",
-    "price": 35,
-    "priceRange": "Premium",
+    "alcoholContent": "13%",
+    "price": 21,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Margaret%20River%20Moss%20Wood",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 86,
+        "source": "Tim Atkin",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
-        "source": "Wine Spectator",
-        "score": 88,
+        "source": "James Suckling",
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
         "source": "Robert Parker",
-        "score": 86,
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       },
       {
-        "source": "Tim Atkin",
-        "score": 89,
+        "source": "Wine Enthusiast",
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "aggregateScore": 84,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -12891,33 +12791,35 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "Yarra Valley GI",
-    "alcoholContent": "15%",
-    "price": 133,
-    "priceRange": "Luxury",
+    "alcoholContent": "14%",
+    "price": 22,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Yarra%20Valley%20De%20Bortoli",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 91,
+        "source": "James Suckling",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
+        "source": "Decanter",
+        "score": 84,
+        "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -12953,26 +12855,26 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "Yarra Valley GI",
-    "alcoholContent": "14%",
-    "price": 28,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "13%",
+    "price": 41,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Yarra%20Valley%20Giant%20Steps",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 87,
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2021
       },
       {
         "source": "Wine Spectator",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 88,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2021
       },
@@ -12981,22 +12883,16 @@ export const wines: Wine[] = [
         "score": 88,
         "maxScore": 100,
         "vintage": 2021
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2021
       }
     ],
     "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -13027,52 +12923,50 @@ export const wines: Wine[] = [
     "country": "Australia",
     "countryCode": "AU",
     "appellation": "Yarra Valley GI",
-    "alcoholContent": "15%",
-    "price": 18,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "14%",
+    "price": 98,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Yarra%20Valley%20Yering%20Station",
     "scores": [
       {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 18,
         "maxScore": 20,
         "vintage": 2021
       },
       {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
         "source": "Vivino",
-        "score": 4.2,
+        "score": 4.4,
         "maxScore": 5,
         "vintage": 2021
       },
       {
+        "source": "Wine Spectator",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
         "source": "Tim Atkin",
-        "score": 87,
+        "score": 90,
         "maxScore": 100,
         "vintage": 2021
       },
       {
         "source": "Robert Parker",
-        "score": 86,
+        "score": 90,
         "maxScore": 100,
         "vintage": 2021
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "aggregateScore": 89,
+    "badges": [],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -13089,154 +12983,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "tyrrell-s-s-millon-2020",
+    "slug": "tyrrell-s-s-millon-2022",
     "name": "Sémillon",
     "producer": "Tyrrell's",
-    "vintage": 2020,
-    "type": "White",
-    "grape": "Sémillon",
-    "grapes": [
-      "Sémillon"
-    ],
-    "region": "Hunter Valley",
-    "subRegion": "Hunter Valley",
-    "country": "Australia",
-    "countryCode": "AU",
-    "appellation": "Hunter Valley GI",
-    "alcoholContent": "13%",
-    "price": 146,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=S%C3%A9millon%20Tyrrell's",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2020
-      }
-    ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "brokenwood-s-millon-2018",
-    "name": "Sémillon",
-    "producer": "Brokenwood",
-    "vintage": 2018,
-    "type": "White",
-    "grape": "Sémillon",
-    "grapes": [
-      "Sémillon"
-    ],
-    "region": "Hunter Valley",
-    "subRegion": "Hunter Valley",
-    "country": "Australia",
-    "countryCode": "AU",
-    "appellation": "Hunter Valley GI",
-    "alcoholContent": "13%",
-    "price": 18,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=S%C3%A9millon%20Brokenwood",
-    "scores": [
-      {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "mount-pleasant-s-millon-2018",
-    "name": "Sémillon",
-    "producer": "Mount Pleasant",
-    "vintage": 2018,
+    "vintage": 2022,
     "type": "White",
     "grape": "Sémillon",
     "grapes": [
@@ -13248,182 +12998,46 @@ export const wines: Wine[] = [
     "countryCode": "AU",
     "appellation": "Hunter Valley GI",
     "alcoholContent": "15%",
-    "price": 62,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=S%C3%A9millon%20Mount%20Pleasant",
-    "scores": [
-      {
-        "source": "Wine Enthusiast",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 90,
-    "badges": [],
-    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "zuccardi-uco-valley-2021",
-    "name": "Uco Valley",
-    "producer": "Zuccardi",
-    "vintage": 2021,
-    "type": "Red",
-    "grape": "Malbec",
-    "grapes": [
-      "Malbec"
-    ],
-    "region": "Mendoza",
-    "subRegion": "Uco Valley",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "appellation": "Uco Valley",
-    "alcoholContent": "14%",
-    "price": 181,
+    "price": 173,
     "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Zuccardi",
+    "buyUrl": "https://www.wine.com/search?q=S%C3%A9millon%20Tyrrell's",
     "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Robert Parker",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 92,
-        "maxScore": 100,
-        "vintage": 2021
-      }
-    ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "trapiche-uco-valley-2022",
-    "name": "Uco Valley",
-    "producer": "Trapiche",
-    "vintage": 2022,
-    "type": "Red",
-    "grape": "Malbec",
-    "grapes": [
-      "Malbec"
-    ],
-    "region": "Mendoza",
-    "subRegion": "Uco Valley",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "appellation": "Uco Valley",
-    "alcoholContent": "13%",
-    "price": 71,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Trapiche",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "James Suckling",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2022
-      },
       {
         "source": "Vivino",
         "score": 4.5,
         "maxScore": 5,
         "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 92,
     "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "tastingNotes": "Zippy lime, grapefruit, and herbal notes. Light and fresh with mouthwatering acidity.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
     "prosAndCons": {
       "pros": [
         "Good quality for the price",
@@ -13437,35 +13051,103 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "norton-uco-valley-2019",
-    "name": "Uco Valley",
-    "producer": "Norton",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Malbec",
+    "slug": "brokenwood-s-millon-2020",
+    "name": "Sémillon",
+    "producer": "Brokenwood",
+    "vintage": 2020,
+    "type": "White",
+    "grape": "Sémillon",
     "grapes": [
-      "Malbec"
+      "Sémillon"
     ],
-    "region": "Mendoza",
-    "subRegion": "Uco Valley",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "appellation": "Uco Valley",
-    "alcoholContent": "14%",
-    "price": 12,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Norton",
+    "region": "Hunter Valley",
+    "subRegion": "Hunter Valley",
+    "country": "Australia",
+    "countryCode": "AU",
+    "appellation": "Hunter Valley GI",
+    "alcoholContent": "13%",
+    "price": 20,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=S%C3%A9millon%20Brokenwood",
     "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Vivino",
+        "score": 4.2,
+        "maxScore": 5,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2020
+      },
       {
         "source": "Wine Enthusiast",
         "score": 85,
         "maxScore": 100,
-        "vintage": 2019
-      },
+        "vintage": 2020
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [],
+    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "pairings": [
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
+    ],
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "mount-pleasant-s-millon-2019",
+    "name": "Sémillon",
+    "producer": "Mount Pleasant",
+    "vintage": 2019,
+    "type": "White",
+    "grape": "Sémillon",
+    "grapes": [
+      "Sémillon"
+    ],
+    "region": "Hunter Valley",
+    "subRegion": "Hunter Valley",
+    "country": "Australia",
+    "countryCode": "AU",
+    "appellation": "Hunter Valley GI",
+    "alcoholContent": "13%",
+    "price": 45,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=S%C3%A9millon%20Mount%20Pleasant",
+    "scores": [
       {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
         "vintage": 2019
       },
       {
@@ -13475,99 +13157,29 @@ export const wines: Wine[] = [
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Wine Spectator",
-        "score": 85,
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 18,
         "maxScore": 20,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "luigi-bosca-uco-valley-2019",
-    "name": "Uco Valley",
-    "producer": "Luigi Bosca",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Malbec",
-    "grapes": [
-      "Malbec"
-    ],
-    "region": "Mendoza",
-    "subRegion": "Uco Valley",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "appellation": "Uco Valley",
-    "alcoholContent": "15%",
-    "price": 103,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Luigi%20Bosca",
-    "scores": [
-      {
-        "source": "Tim Atkin",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      }
-    ],
-    "aggregateScore": 90,
+    "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
     ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
     "prosAndCons": {
       "pros": [
         "Good quality for the price",
@@ -13581,9 +13193,9 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "clos-de-los-siete-uco-valley-2020",
+    "slug": "zuccardi-uco-valley-2020",
     "name": "Uco Valley",
-    "producer": "Clos de los Siete",
+    "producer": "Zuccardi",
     "vintage": 2020,
     "type": "Red",
     "grape": "Malbec",
@@ -13596,38 +13208,46 @@ export const wines: Wine[] = [
     "countryCode": "AR",
     "appellation": "Uco Valley",
     "alcoholContent": "15%",
-    "price": 152,
-    "priceRange": "Luxury",
-    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Clos%20de%20los%20Siete",
+    "price": 10,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Zuccardi",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Tim Atkin",
-        "score": 92,
+        "score": 84,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "James Suckling",
-        "score": 89,
+        "source": "Wine Spectator",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2020
       },
       {
-        "source": "Vivino",
-        "score": 4.7,
-        "maxScore": 5,
+        "source": "Wine Enthusiast",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
         "vintage": 2020
       }
     ],
-    "aggregateScore": 91,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -13649,88 +13269,8 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "zuccardi-luj-n-de-cuyo-2018",
-    "name": "Luján de Cuyo",
-    "producer": "Zuccardi",
-    "vintage": 2018,
-    "type": "Red",
-    "grape": "Malbec",
-    "grapes": [
-      "Malbec"
-    ],
-    "region": "Mendoza",
-    "subRegion": "Luján de Cuyo",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "appellation": "Luján de Cuyo",
-    "alcoholContent": "15%",
-    "price": 71,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Zuccardi",
-    "scores": [
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 90,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 89,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "trapiche-luj-n-de-cuyo-2019",
-    "name": "Luján de Cuyo",
+    "slug": "trapiche-uco-valley-2019",
+    "name": "Uco Valley",
     "producer": "Trapiche",
     "vintage": 2019,
     "type": "Red",
@@ -13739,30 +13279,30 @@ export const wines: Wine[] = [
       "Malbec"
     ],
     "region": "Mendoza",
-    "subRegion": "Luján de Cuyo",
+    "subRegion": "Uco Valley",
     "country": "Argentina",
     "countryCode": "AR",
-    "appellation": "Luján de Cuyo",
-    "alcoholContent": "15%",
-    "price": 49,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Trapiche",
+    "appellation": "Uco Valley",
+    "alcoholContent": "14%",
+    "price": 28,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Trapiche",
     "scores": [
       {
-        "source": "Wine Enthusiast",
+        "source": "Wine Spectator",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
         "score": 89,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 18,
         "maxScore": 20,
         "vintage": 2019
       },
@@ -13773,19 +13313,89 @@ export const wines: Wine[] = [
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 87,
+        "source": "Decanter",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2019
+      }
+    ],
+    "aggregateScore": 89,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "norton-uco-valley-2020",
+    "name": "Uco Valley",
+    "producer": "Norton",
+    "vintage": 2020,
+    "type": "Red",
+    "grape": "Malbec",
+    "grapes": [
+      "Malbec"
+    ],
+    "region": "Mendoza",
+    "subRegion": "Uco Valley",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "appellation": "Uco Valley",
+    "alcoholContent": "14%",
+    "price": 123,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Norton",
+    "scores": [
+      {
+        "source": "Jancis Robinson",
+        "score": 19,
+        "maxScore": 20,
+        "vintage": 2020
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2020
       },
       {
         "source": "Robert Parker",
         "score": 89,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 91,
     "badges": [],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -13809,65 +13419,61 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "norton-luj-n-de-cuyo-2022",
-    "name": "Luján de Cuyo",
-    "producer": "Norton",
-    "vintage": 2022,
+    "slug": "luigi-bosca-uco-valley-2020",
+    "name": "Uco Valley",
+    "producer": "Luigi Bosca",
+    "vintage": 2020,
     "type": "Red",
     "grape": "Malbec",
     "grapes": [
       "Malbec"
     ],
     "region": "Mendoza",
-    "subRegion": "Luján de Cuyo",
+    "subRegion": "Uco Valley",
     "country": "Argentina",
     "countryCode": "AR",
-    "appellation": "Luján de Cuyo",
-    "alcoholContent": "15%",
-    "price": 16,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Norton",
+    "appellation": "Uco Valley",
+    "alcoholContent": "14%",
+    "price": 9,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Luigi%20Bosca",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
         "source": "Wine Spectator",
-        "score": 87,
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2022
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
       },
       {
         "source": "Robert Parker",
-        "score": 86,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2020
+      },
+      {
+        "source": "James Suckling",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
       },
       {
         "source": "Decanter",
-        "score": 87,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 86,
-    "badges": [],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "aggregateScore": 84,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -13889,10 +13495,234 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "luigi-bosca-luj-n-de-cuyo-2021",
-    "name": "Luján de Cuyo",
-    "producer": "Luigi Bosca",
+    "slug": "clos-de-los-siete-uco-valley-2021",
+    "name": "Uco Valley",
+    "producer": "Clos de los Siete",
     "vintage": 2021,
+    "type": "Red",
+    "grape": "Malbec",
+    "grapes": [
+      "Malbec"
+    ],
+    "region": "Mendoza",
+    "subRegion": "Uco Valley",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "appellation": "Uco Valley",
+    "alcoholContent": "13%",
+    "price": 36,
+    "priceRange": "Premium",
+    "buyUrl": "https://www.wine.com/search?q=Uco%20Valley%20Clos%20de%20los%20Siete",
+    "scores": [
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
+      }
+    ],
+    "aggregateScore": 87,
+    "badges": [],
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "zuccardi-luj-n-de-cuyo-2022",
+    "name": "Luján de Cuyo",
+    "producer": "Zuccardi",
+    "vintage": 2022,
+    "type": "Red",
+    "grape": "Malbec",
+    "grapes": [
+      "Malbec"
+    ],
+    "region": "Mendoza",
+    "subRegion": "Luján de Cuyo",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "appellation": "Luján de Cuyo",
+    "alcoholContent": "14%",
+    "price": 28,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Zuccardi",
+    "scores": [
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      }
+    ],
+    "aggregateScore": 88,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "trapiche-luj-n-de-cuyo-2018",
+    "name": "Luján de Cuyo",
+    "producer": "Trapiche",
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Malbec",
+    "grapes": [
+      "Malbec"
+    ],
+    "region": "Mendoza",
+    "subRegion": "Luján de Cuyo",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "appellation": "Luján de Cuyo",
+    "alcoholContent": "15%",
+    "price": 165,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Trapiche",
+    "scores": [
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 91,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2018
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 91,
+    "badges": [],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "norton-luj-n-de-cuyo-2019",
+    "name": "Luján de Cuyo",
+    "producer": "Norton",
+    "vintage": 2019,
     "type": "Red",
     "grape": "Malbec",
     "grapes": [
@@ -13904,38 +13734,126 @@ export const wines: Wine[] = [
     "countryCode": "AR",
     "appellation": "Luján de Cuyo",
     "alcoholContent": "13%",
-    "price": 119,
+    "price": 22,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Norton",
+    "scores": [
+      {
+        "source": "Tim Atkin",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "James Suckling",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "luigi-bosca-luj-n-de-cuyo-2019",
+    "name": "Luján de Cuyo",
+    "producer": "Luigi Bosca",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Malbec",
+    "grapes": [
+      "Malbec"
+    ],
+    "region": "Mendoza",
+    "subRegion": "Luján de Cuyo",
+    "country": "Argentina",
+    "countryCode": "AR",
+    "appellation": "Luján de Cuyo",
+    "alcoholContent": "15%",
+    "price": 106,
     "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Luigi%20Bosca",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 19,
-        "maxScore": 20,
-        "vintage": 2021
+        "source": "Decanter",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2019
       },
       {
         "source": "Vivino",
-        "score": 4.5,
+        "score": 4.6,
         "maxScore": 5,
-        "vintage": 2021
+        "vintage": 2019
       },
       {
         "source": "Wine Spectator",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Tim Atkin",
         "score": 90,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 92,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Roast beef",
@@ -13971,44 +13889,50 @@ export const wines: Wine[] = [
     "country": "Argentina",
     "countryCode": "AR",
     "appellation": "Luján de Cuyo",
-    "alcoholContent": "14%",
-    "price": 20,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "15%",
+    "price": 186,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Luj%C3%A1n%20de%20Cuyo%20Clos%20de%20los%20Siete",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
         "source": "Vivino",
-        "score": 4.3,
+        "score": 4.6,
         "maxScore": 5,
         "vintage": 2022
       },
       {
+        "source": "Wine Spectator",
+        "score": 92,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
         "source": "Robert Parker",
-        "score": 84,
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2022
+      },
+      {
+        "source": "James Suckling",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2022
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -14025,10 +13949,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "colom-torront-s-2021",
+    "slug": "colom-torront-s-2022",
     "name": "Torrontés",
     "producer": "Colomé",
-    "vintage": 2021,
+    "vintage": 2022,
     "type": "White",
     "grape": "Torrontés",
     "grapes": [
@@ -14040,55 +13964,55 @@ export const wines: Wine[] = [
     "countryCode": "AR",
     "appellation": "Cafayate",
     "alcoholContent": "13%",
-    "price": 59,
+    "price": 46,
     "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Torront%C3%A9s%20Colom%C3%A9",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2021
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2022
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 87,
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
         "source": "Robert Parker",
-        "score": 90,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
         "source": "James Suckling",
-        "score": 91,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       },
       {
         "source": "Tim Atkin",
-        "score": 87,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 91,
-        "maxScore": 100,
-        "vintage": 2021
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 89,
+    "aggregateScore": 88,
     "badges": [],
     "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -14105,10 +14029,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "el-esteco-torront-s-2018",
+    "slug": "el-esteco-torront-s-2019",
     "name": "Torrontés",
     "producer": "El Esteco",
-    "vintage": 2018,
+    "vintage": 2019,
     "type": "White",
     "grape": "Torrontés",
     "grapes": [
@@ -14120,32 +14044,40 @@ export const wines: Wine[] = [
     "countryCode": "AR",
     "appellation": "Cafayate",
     "alcoholContent": "15%",
-    "price": 25,
+    "price": 21,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Torront%C3%A9s%20El%20Esteco",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 83,
+        "source": "Robert Parker",
+        "score": 86,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 86,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2019
       },
       {
         "source": "Tim Atkin",
-        "score": 85,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       }
     ],
     "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
       "Grilled fish",
@@ -14167,10 +14099,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "montes-alpha-colchagua-valley-2020",
+    "slug": "montes-alpha-colchagua-valley-2022",
     "name": "Colchagua Valley",
     "producer": "Montes Alpha",
-    "vintage": 2020,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Carmenère",
     "grapes": [
@@ -14181,39 +14113,51 @@ export const wines: Wine[] = [
     "country": "Chile",
     "countryCode": "CL",
     "appellation": "Colchagua Valley DO",
-    "alcoholContent": "14%",
-    "price": 12,
-    "priceRange": "Budget",
+    "alcoholContent": "13%",
+    "price": 101,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Colchagua%20Valley%20Montes%20Alpha",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "James Suckling",
-        "score": 84,
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       },
       {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2022
       },
       {
         "source": "Decanter",
-        "score": 86,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
+      },
+      {
+        "source": "Wine Spectator",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 90,
     "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -14250,12 +14194,30 @@ export const wines: Wine[] = [
     "countryCode": "CL",
     "appellation": "Colchagua Valley DO",
     "alcoholContent": "14%",
-    "price": 68,
+    "price": 49,
     "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Colchagua%20Valley%20Casa%20Lapostolle",
     "scores": [
       {
-        "source": "Wine Spectator",
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "James Suckling",
         "score": 89,
         "maxScore": 100,
         "vintage": 2021
@@ -14265,22 +14227,16 @@ export const wines: Wine[] = [
         "score": 89,
         "maxScore": 100,
         "vintage": 2021
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2021
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -14311,38 +14267,44 @@ export const wines: Wine[] = [
     "country": "Chile",
     "countryCode": "CL",
     "appellation": "Colchagua Valley DO",
-    "alcoholContent": "15%",
-    "price": 100,
-    "priceRange": "Luxury",
+    "alcoholContent": "13%",
+    "price": 68,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Colchagua%20Valley%20Clos%20Apalta",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 91,
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
+        "source": "Robert Parker",
         "score": 89,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 90,
+        "source": "Decanter",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 89,
     "badges": [],
-    "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
+    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -14359,10 +14321,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "casas-del-bosque-sauvignon-blanc-2018",
+    "slug": "casas-del-bosque-sauvignon-blanc-2021",
     "name": "Sauvignon Blanc",
     "producer": "Casas del Bosque",
-    "vintage": 2018,
+    "vintage": 2021,
     "type": "White",
     "grape": "Sauvignon Blanc",
     "grapes": [
@@ -14373,56 +14335,38 @@ export const wines: Wine[] = [
     "country": "Chile",
     "countryCode": "CL",
     "appellation": "Casablanca Valley DO",
-    "alcoholContent": "15%",
-    "price": 38,
-    "priceRange": "Premium",
+    "alcoholContent": "13%",
+    "price": 103,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Sauvignon%20Blanc%20Casas%20del%20Bosque",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2021
       },
       {
         "source": "Tim Atkin",
-        "score": 86,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
       },
       {
         "source": "Wine Enthusiast",
-        "score": 87,
+        "score": 92,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 87,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
+    "tastingNotes": "Zippy lime, grapefruit, and herbal notes. Light and fresh with mouthwatering acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Grilled fish",
-      "Shellfish",
-      "Goat cheese"
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -14453,43 +14397,31 @@ export const wines: Wine[] = [
     "country": "Chile",
     "countryCode": "CL",
     "appellation": "Casablanca Valley DO",
-    "alcoholContent": "15%",
-    "price": 28,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "13%",
+    "price": 13,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Sauvignon%20Blanc%20Vi%C3%B1a%20Casablanca",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
         "source": "Tim Atkin",
-        "score": 86,
+        "score": 83,
         "maxScore": 100,
         "vintage": 2018
       },
       {
-        "source": "James Suckling",
-        "score": 87,
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
         "vintage": 2018
       },
       {
         "source": "Robert Parker",
-        "score": 88,
+        "score": 85,
         "maxScore": 100,
         "vintage": 2018
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 84,
     "badges": [],
     "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
@@ -14513,10 +14445,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "villa-maria-sauvignon-blanc-2022",
+    "slug": "villa-maria-sauvignon-blanc-2021",
     "name": "Sauvignon Blanc",
     "producer": "Villa Maria",
-    "vintage": 2022,
+    "vintage": 2021,
     "type": "White",
     "grape": "Sauvignon Blanc",
     "grapes": [
@@ -14527,44 +14459,46 @@ export const wines: Wine[] = [
     "country": "New Zealand",
     "countryCode": "NZ",
     "appellation": "Marlborough",
-    "alcoholContent": "13%",
-    "price": 56,
-    "priceRange": "Premium",
+    "alcoholContent": "14%",
+    "price": 16,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Sauvignon%20Blanc%20Villa%20Maria",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 91,
+        "source": "Wine Enthusiast",
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "Decanter",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
       },
       {
         "source": "James Suckling",
-        "score": 88,
+        "score": 86,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
-        "vintage": 2022
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 90,
-    "badges": [],
-    "tastingNotes": "Elegant peach, white flower, and flinty minerality. Balanced and precise with great length.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Grilled fish",
-      "Shellfish",
-      "Goat cheese"
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -14581,10 +14515,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "dog-point-sauvignon-blanc-2018",
+    "slug": "dog-point-sauvignon-blanc-2020",
     "name": "Sauvignon Blanc",
     "producer": "Dog Point",
-    "vintage": 2018,
+    "vintage": 2020,
     "type": "White",
     "grape": "Sauvignon Blanc",
     "grapes": [
@@ -14595,58 +14529,44 @@ export const wines: Wine[] = [
     "country": "New Zealand",
     "countryCode": "NZ",
     "appellation": "Marlborough",
-    "alcoholContent": "15%",
-    "price": 12,
-    "priceRange": "Budget",
+    "alcoholContent": "13%",
+    "price": 44,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Sauvignon%20Blanc%20Dog%20Point",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
         "source": "Tim Atkin",
-        "score": 87,
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
       },
       {
-        "source": "James Suckling",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2020
       },
       {
         "source": "Wine Spectator",
-        "score": 84,
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2020
+      },
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
+    "aggregateScore": 87,
+    "badges": [],
     "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -14677,56 +14597,38 @@ export const wines: Wine[] = [
     "country": "New Zealand",
     "countryCode": "NZ",
     "appellation": "Marlborough",
-    "alcoholContent": "15%",
-    "price": 171,
-    "priceRange": "Luxury",
+    "alcoholContent": "14%",
+    "price": 9,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Sauvignon%20Blanc%20Greywacke",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 89,
+        "source": "Wine Spectator",
+        "score": 83,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "James Suckling",
-        "score": 90,
+        "score": 84,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
-        "score": 89,
+        "source": "Tim Atkin",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.6,
-        "maxScore": 5,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 90,
+    "aggregateScore": 85,
     "badges": [],
-    "tastingNotes": "Elegant peach, white flower, and flinty minerality. Balanced and precise with great length.",
+    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Salads",
-      "Light appetizers",
-      "Soft cheeses"
+      "Grilled fish",
+      "Shellfish",
+      "Goat cheese"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -14757,39 +14659,47 @@ export const wines: Wine[] = [
     "country": "New Zealand",
     "countryCode": "NZ",
     "appellation": "Marlborough",
-    "alcoholContent": "14%",
-    "price": 58,
-    "priceRange": "Premium",
+    "alcoholContent": "13%",
+    "price": 12,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Sauvignon%20Blanc%20Craggy%20Range",
     "scores": [
       {
-        "source": "Jancis Robinson",
-        "score": 18,
-        "maxScore": 20,
-        "vintage": 2019
-      },
-      {
         "source": "Tim Atkin",
-        "score": 87,
+        "score": 84,
         "maxScore": 100,
         "vintage": 2019
       },
       {
         "source": "Decanter",
-        "score": 89,
+        "score": 85,
         "maxScore": 100,
         "vintage": 2019
       },
       {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
         "source": "James Suckling",
-        "score": 90,
+        "score": 84,
         "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 89,
-    "badges": [],
-    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
       "Salads",
@@ -14811,10 +14721,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "felton-road-central-otago-2020",
+    "slug": "felton-road-central-otago-2022",
     "name": "Central Otago",
     "producer": "Felton Road",
-    "vintage": 2020,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -14825,50 +14735,46 @@ export const wines: Wine[] = [
     "country": "New Zealand",
     "countryCode": "NZ",
     "appellation": "Central Otago",
-    "alcoholContent": "14%",
-    "price": 41,
-    "priceRange": "Premium",
+    "alcoholContent": "13%",
+    "price": 10,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Central%20Otago%20Felton%20Road",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 86,
+        "source": "Wine Enthusiast",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
         "source": "Vivino",
         "score": 4.3,
         "maxScore": 5,
-        "vintage": 2020
+        "vintage": 2022
       },
       {
-        "source": "Robert Parker",
-        "score": 89,
+        "source": "James Suckling",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Decanter",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
+    "aggregateScore": 86,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Roast beef",
-      "Pasta with meat sauce",
-      "Dark chocolate"
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -14900,33 +14806,31 @@ export const wines: Wine[] = [
     "countryCode": "NZ",
     "appellation": "Central Otago",
     "alcoholContent": "15%",
-    "price": 18,
-    "priceRange": "Mid-Range",
+    "price": 64,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Central%20Otago%20Rippon",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 84,
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 91,
         "maxScore": 100,
         "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 85,
+        "source": "Decanter",
+        "score": 88,
         "maxScore": 100,
         "vintage": 2019
       }
     ],
-    "aggregateScore": 84,
-    "badges": [
-      "Best Value"
-    ],
+    "aggregateScore": 88,
+    "badges": [],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
@@ -14949,10 +14853,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "burn-cottage-central-otago-2021",
+    "slug": "burn-cottage-central-otago-2022",
     "name": "Central Otago",
     "producer": "Burn Cottage",
-    "vintage": 2021,
+    "vintage": 2022,
     "type": "Red",
     "grape": "Pinot Noir",
     "grapes": [
@@ -14964,43 +14868,55 @@ export const wines: Wine[] = [
     "countryCode": "NZ",
     "appellation": "Central Otago",
     "alcoholContent": "14%",
-    "price": 138,
-    "priceRange": "Luxury",
+    "price": 56,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Central%20Otago%20Burn%20Cottage",
     "scores": [
+      {
+        "source": "James Suckling",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Vivino",
+        "score": 4.6,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Robert Parker",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2022
+      },
       {
         "source": "Jancis Robinson",
         "score": 18,
         "maxScore": 20,
-        "vintage": 2021
-      },
-      {
-        "source": "James Suckling",
-        "score": 93,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Decanter",
-        "score": 89,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2021
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 91,
+    "aggregateScore": 90,
     "badges": [],
-    "tastingNotes": "Ripe cherry, tobacco, and leather. Elegant and structured with excellent aging potential.",
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -15017,10 +14933,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "rust-en-vrede-stellenbosch-2022",
+    "slug": "rust-en-vrede-stellenbosch-2019",
     "name": "Stellenbosch",
     "producer": "Rust en Vrede",
-    "vintage": 2022,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Pinotage",
     "grapes": [
@@ -15032,48 +14948,36 @@ export const wines: Wine[] = [
     "countryCode": "ZA",
     "appellation": "Stellenbosch WO",
     "alcoholContent": "15%",
-    "price": 23,
-    "priceRange": "Mid-Range",
+    "price": 155,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Stellenbosch%20Rust%20en%20Vrede",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 85,
+        "source": "Tim Atkin",
+        "score": 90,
         "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
         "source": "Jancis Robinson",
-        "score": 17,
+        "score": 18,
         "maxScore": 20,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
-        "source": "James Suckling",
-        "score": 83,
+        "source": "Wine Spectator",
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       },
       {
-        "source": "Tim Atkin",
-        "score": 85,
+        "source": "Decanter",
+        "score": 93,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 91,
     "badges": [],
     "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -15097,10 +15001,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "meerlust-stellenbosch-2019",
+    "slug": "meerlust-stellenbosch-2020",
     "name": "Stellenbosch",
     "producer": "Meerlust",
-    "vintage": 2019,
+    "vintage": 2020,
     "type": "Red",
     "grape": "Pinotage",
     "grapes": [
@@ -15111,56 +15015,40 @@ export const wines: Wine[] = [
     "country": "South Africa",
     "countryCode": "ZA",
     "appellation": "Stellenbosch WO",
-    "alcoholContent": "13%",
-    "price": 41,
-    "priceRange": "Premium",
+    "alcoholContent": "15%",
+    "price": 8,
+    "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Stellenbosch%20Meerlust",
     "scores": [
       {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Robert Parker",
+        "source": "James Suckling",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2020
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2020
       },
       {
         "source": "Jancis Robinson",
-        "score": 18,
+        "score": 17,
         "maxScore": 20,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "James Suckling",
-        "score": 88,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Vivino",
-        "score": 4.4,
-        "maxScore": 5,
-        "vintage": 2019
+        "vintage": 2020
       }
     ],
-    "aggregateScore": 87,
-    "badges": [],
-    "tastingNotes": "Rich dark fruit, spice, and oak. Full-bodied with firm tannins and a long finish.",
+    "aggregateScore": 85,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Delicate raspberry, rose petal, and forest floor. Silky and refined with beautiful finesse.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Wild game",
-      "Mushroom dishes",
-      "Aged Gouda"
+      "Grilled steak",
+      "Braised lamb",
+      "Hard cheeses"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -15177,10 +15065,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "warwick-stellenbosch-2018",
+    "slug": "warwick-stellenbosch-2019",
     "name": "Stellenbosch",
     "producer": "Warwick",
-    "vintage": 2018,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Pinotage",
     "grapes": [
@@ -15192,37 +15080,33 @@ export const wines: Wine[] = [
     "countryCode": "ZA",
     "appellation": "Stellenbosch WO",
     "alcoholContent": "15%",
-    "price": 8,
+    "price": 9,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Stellenbosch%20Warwick",
     "scores": [
       {
         "source": "Wine Enthusiast",
-        "score": 85,
+        "score": 86,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
         "source": "Vivino",
-        "score": 4.2,
+        "score": 4.3,
         "maxScore": 5,
-        "vintage": 2018
+        "vintage": 2019
       },
       {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
+        "source": "Wine Spectator",
         "score": 83,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       }
     ],
     "aggregateScore": 85,
-    "badges": [],
+    "badges": [
+      "Best Value"
+    ],
     "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
@@ -15260,114 +15144,32 @@ export const wines: Wine[] = [
     "countryCode": "ZA",
     "appellation": "Walker Bay WO",
     "alcoholContent": "14%",
-    "price": 21,
-    "priceRange": "Mid-Range",
+    "price": 114,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Walker%20Bay%20Hamilton%20Russell",
     "scores": [
       {
-        "source": "Wine Spectator",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 87,
+        "source": "Decanter",
+        "score": 89,
         "maxScore": 100,
         "vintage": 2018
       },
       {
         "source": "Vivino",
-        "score": 4.3,
+        "score": 4.7,
         "maxScore": 5,
         "vintage": 2018
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "bouchard-finlayson-walker-bay-2019",
-    "name": "Walker Bay",
-    "producer": "Bouchard Finlayson",
-    "vintage": 2019,
-    "type": "Red",
-    "grape": "Pinot Noir",
-    "grapes": [
-      "Pinot Noir"
-    ],
-    "region": "Walker Bay",
-    "subRegion": "Hemel-en-Aarde",
-    "country": "South Africa",
-    "countryCode": "ZA",
-    "appellation": "Walker Bay WO",
-    "alcoholContent": "15%",
-    "price": 17,
-    "priceRange": "Mid-Range",
-    "buyUrl": "https://www.wine.com/search?q=Walker%20Bay%20Bouchard%20Finlayson",
-    "scores": [
-      {
-        "source": "Wine Spectator",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2019
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2019
       },
       {
         "source": "James Suckling",
-        "score": 83,
+        "score": 91,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
       "Wild game",
@@ -15389,10 +15191,86 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "robert-weil-riesling-2020",
+    "slug": "bouchard-finlayson-walker-bay-2018",
+    "name": "Walker Bay",
+    "producer": "Bouchard Finlayson",
+    "vintage": 2018,
+    "type": "Red",
+    "grape": "Pinot Noir",
+    "grapes": [
+      "Pinot Noir"
+    ],
+    "region": "Walker Bay",
+    "subRegion": "Hemel-en-Aarde",
+    "country": "South Africa",
+    "countryCode": "ZA",
+    "appellation": "Walker Bay WO",
+    "alcoholContent": "13%",
+    "price": 23,
+    "priceRange": "Mid-Range",
+    "buyUrl": "https://www.wine.com/search?q=Walker%20Bay%20Bouchard%20Finlayson",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Decanter",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 86,
+    "badges": [
+      "Best Value"
+    ],
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "robert-weil-riesling-2018",
     "name": "Riesling",
     "producer": "Robert Weil",
-    "vintage": 2020,
+    "vintage": 2018,
     "type": "White",
     "grape": "Riesling",
     "grapes": [
@@ -15403,45 +15281,33 @@ export const wines: Wine[] = [
     "country": "Germany",
     "countryCode": "DE",
     "appellation": "Rheingau",
-    "alcoholContent": "14%",
-    "price": 22,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "13%",
+    "price": 41,
+    "priceRange": "Premium",
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Robert%20Weil",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 84,
-        "maxScore": 100,
-        "vintage": 2020
-      },
-      {
         "source": "Decanter",
-        "score": 86,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2018
       },
       {
-        "source": "James Suckling",
-        "score": 86,
+        "source": "Wine Spectator",
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2018
       },
       {
-        "source": "Tim Atkin",
-        "score": 83,
+        "source": "Wine Enthusiast",
+        "score": 88,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
+        "vintage": 2018
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 88,
     "badges": [],
-    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
+    "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
       "Grilled fish",
@@ -15463,10 +15329,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "schloss-johannisberg-riesling-2020",
+    "slug": "schloss-johannisberg-riesling-2022",
     "name": "Riesling",
     "producer": "Schloss Johannisberg",
-    "vintage": 2020,
+    "vintage": 2022,
     "type": "White",
     "grape": "Riesling",
     "grapes": [
@@ -15477,50 +15343,44 @@ export const wines: Wine[] = [
     "country": "Germany",
     "countryCode": "DE",
     "appellation": "Rheingau",
-    "alcoholContent": "13%",
-    "price": 24,
+    "alcoholContent": "15%",
+    "price": 15,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Schloss%20Johannisberg",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 87,
+        "source": "Wine Enthusiast",
+        "score": 84,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2020
-      },
-      {
-        "source": "James Suckling",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       },
       {
         "source": "Robert Parker",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2022
       },
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2020
+        "source": "James Suckling",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
+        "source": "Decanter",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2022
       }
     ],
     "aggregateScore": 86,
     "badges": [],
-    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
+    "tastingNotes": "Zippy lime, grapefruit, and herbal notes. Light and fresh with mouthwatering acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Roast chicken",
-      "Pasta with cream sauce",
-      "Sushi"
+      "Grilled fish",
+      "Shellfish",
+      "Goat cheese"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -15551,14 +15411,20 @@ export const wines: Wine[] = [
     "country": "Germany",
     "countryCode": "DE",
     "appellation": "Rheingau",
-    "alcoholContent": "14%",
-    "price": 72,
-    "priceRange": "Premium",
+    "alcoholContent": "13%",
+    "price": 19,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Georg%20Breuer",
     "scores": [
       {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2022
+      },
+      {
         "source": "Wine Enthusiast",
-        "score": 88,
+        "score": 85,
         "maxScore": 100,
         "vintage": 2022
       },
@@ -15567,22 +15433,16 @@ export const wines: Wine[] = [
         "score": 87,
         "maxScore": 100,
         "vintage": 2022
-      },
-      {
-        "source": "Vivino",
-        "score": 4.5,
-        "maxScore": 5,
-        "vintage": 2022
       }
     ],
-    "aggregateScore": 88,
+    "aggregateScore": 86,
     "badges": [],
     "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Salads",
-      "Light appetizers",
-      "Soft cheeses"
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -15599,10 +15459,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "dr-loosen-riesling-2018",
+    "slug": "dr-loosen-riesling-2022",
     "name": "Riesling",
     "producer": "Dr. Loosen",
-    "vintage": 2018,
+    "vintage": 2022,
     "type": "White",
     "grape": "Riesling",
     "grapes": [
@@ -15614,55 +15474,37 @@ export const wines: Wine[] = [
     "countryCode": "DE",
     "appellation": "Mosel",
     "alcoholContent": "14%",
-    "price": 27,
-    "priceRange": "Mid-Range",
+    "price": 79,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Dr.%20Loosen",
     "scores": [
       {
         "source": "Decanter",
-        "score": 85,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
       },
       {
-        "source": "Vivino",
-        "score": 4.3,
-        "maxScore": 5,
-        "vintage": 2018
+        "source": "Wine Spectator",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2022
       },
       {
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Enthusiast",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
+    "tastingNotes": "Zippy lime, grapefruit, and herbal notes. Light and fresh with mouthwatering acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Salads",
-      "Light appetizers",
-      "Soft cheeses"
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -15679,10 +15521,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "joh-jos-pr-m-riesling-2018",
+    "slug": "joh-jos-pr-m-riesling-2022",
     "name": "Riesling",
     "producer": "Joh. Jos. Prüm",
-    "vintage": 2018,
+    "vintage": 2022,
     "type": "White",
     "grape": "Riesling",
     "grapes": [
@@ -15693,40 +15535,34 @@ export const wines: Wine[] = [
     "country": "Germany",
     "countryCode": "DE",
     "appellation": "Mosel",
-    "alcoholContent": "13%",
-    "price": 13,
+    "alcoholContent": "15%",
+    "price": 9,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Joh.%20Jos.%20Pr%C3%BCm",
     "scores": [
       {
-        "source": "James Suckling",
-        "score": 84,
+        "source": "Wine Spectator",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
       },
       {
         "source": "Robert Parker",
-        "score": 85,
+        "score": 86,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2022
       },
       {
         "source": "Wine Enthusiast",
         "score": 83,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Decanter",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2022
       }
     ],
     "aggregateScore": 85,
@@ -15755,10 +15591,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "markus-molitor-riesling-2018",
+    "slug": "markus-molitor-riesling-2021",
     "name": "Riesling",
     "producer": "Markus Molitor",
-    "vintage": 2018,
+    "vintage": 2021,
     "type": "White",
     "grape": "Riesling",
     "grapes": [
@@ -15770,34 +15606,32 @@ export const wines: Wine[] = [
     "countryCode": "DE",
     "appellation": "Mosel",
     "alcoholContent": "14%",
-    "price": 13,
+    "price": 8,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Riesling%20Markus%20Molitor",
     "scores": [
       {
         "source": "Tim Atkin",
-        "score": 85,
+        "score": 83,
         "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2018
+        "vintage": 2021
       },
       {
         "source": "James Suckling",
         "score": 85,
         "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2021
+      },
+      {
+        "source": "Robert Parker",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 85,
-    "badges": [
-      "Best Value"
-    ],
-    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
+    "aggregateScore": 84,
+    "badges": [],
+    "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
       "Roast chicken",
@@ -15819,10 +15653,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "herdade-do-espor-o-alentejo-2022",
+    "slug": "herdade-do-espor-o-alentejo-2021",
     "name": "Alentejo",
     "producer": "Herdade do Esporão",
-    "vintage": 2022,
+    "vintage": 2021,
     "type": "Red",
     "grape": "Touriga Nacional",
     "grapes": [
@@ -15834,46 +15668,52 @@ export const wines: Wine[] = [
     "country": "Portugal",
     "countryCode": "PT",
     "appellation": "Alentejo DOC",
-    "alcoholContent": "15%",
-    "price": 17,
+    "alcoholContent": "14%",
+    "price": 27,
     "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Alentejo%20Herdade%20do%20Espor%C3%A3o",
     "scores": [
       {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Enthusiast",
+        "source": "Robert Parker",
         "score": 86,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
-        "vintage": 2022
+        "source": "Wine Spectator",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 85,
+        "maxScore": 100,
+        "vintage": 2021
       },
       {
         "source": "James Suckling",
         "score": 87,
         "maxScore": 100,
-        "vintage": 2022
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2021
       }
     ],
     "aggregateScore": 86,
     "badges": [
       "Best Value"
     ],
-    "tastingNotes": "Lush plum, mocha, and toasted oak. Generous and warming with a long, sweet finish.",
+    "tastingNotes": "Dense blackberry, smoked meat, and pepper. Concentrated and intense with great depth.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
     "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
+      "Roast beef",
+      "Pasta with meat sauce",
+      "Dark chocolate"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -15890,10 +15730,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "quinta-do-carmo-alentejo-2020",
+    "slug": "quinta-do-carmo-alentejo-2019",
     "name": "Alentejo",
     "producer": "Quinta do Carmo",
-    "vintage": 2020,
+    "vintage": 2019,
     "type": "Red",
     "grape": "Touriga Nacional",
     "grapes": [
@@ -15905,106 +15745,49 @@ export const wines: Wine[] = [
     "country": "Portugal",
     "countryCode": "PT",
     "appellation": "Alentejo DOC",
-    "alcoholContent": "15%",
-    "price": 76,
-    "priceRange": "Luxury",
+    "alcoholContent": "13%",
+    "price": 28,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Alentejo%20Quinta%20do%20Carmo",
     "scores": [
       {
-        "source": "Wine Enthusiast",
+        "source": "Wine Spectator",
         "score": 89,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
       },
       {
         "source": "Jancis Robinson",
-        "score": 18,
+        "score": 17,
         "maxScore": 20,
-        "vintage": 2020
+        "vintage": 2019
       },
       {
-        "source": "Decanter",
-        "score": 87,
+        "source": "Wine Enthusiast",
+        "score": 85,
         "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.3,
+        "maxScore": 5,
+        "vintage": 2019
       },
       {
         "source": "James Suckling",
-        "score": 90,
+        "score": 89,
         "maxScore": 100,
-        "vintage": 2020
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2020
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 89,
-    "badges": [],
-    "tastingNotes": "Complex aromas of blackberry, plum, and earth. Medium-to-full body with velvety texture.",
-    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
-    "pairings": [
-      "Grilled steak",
-      "Braised lamb",
-      "Hard cheeses"
-    ],
-    "servingTemp": "16-18°C",
-    "aging": "5-15 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "monte-da-ravasqueira-alentejo-2018",
-    "name": "Alentejo",
-    "producer": "Monte da Ravasqueira",
-    "vintage": 2018,
-    "type": "Red",
-    "grape": "Touriga Nacional",
-    "grapes": [
-      "Touriga Nacional",
-      "Alicante Bouschet"
-    ],
-    "region": "Alentejo",
-    "subRegion": "Alentejo",
-    "country": "Portugal",
-    "countryCode": "PT",
-    "appellation": "Alentejo DOC",
-    "alcoholContent": "15%",
-    "price": 30,
-    "priceRange": "Premium",
-    "buyUrl": "https://www.wine.com/search?q=Alentejo%20Monte%20da%20Ravasqueira",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      }
-    ],
-    "aggregateScore": 86,
+    "aggregateScore": 87,
     "badges": [],
     "tastingNotes": "Bold cassis, dark chocolate, and espresso. Powerful yet balanced with polished tannins.",
     "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
@@ -16012,6 +15795,87 @@ export const wines: Wine[] = [
       "Roast beef",
       "Pasta with meat sauce",
       "Dark chocolate"
+    ],
+    "servingTemp": "16-18°C",
+    "aging": "5-15 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "monte-da-ravasqueira-alentejo-2019",
+    "name": "Alentejo",
+    "producer": "Monte da Ravasqueira",
+    "vintage": 2019,
+    "type": "Red",
+    "grape": "Touriga Nacional",
+    "grapes": [
+      "Touriga Nacional",
+      "Alicante Bouschet"
+    ],
+    "region": "Alentejo",
+    "subRegion": "Alentejo",
+    "country": "Portugal",
+    "countryCode": "PT",
+    "appellation": "Alentejo DOC",
+    "alcoholContent": "15%",
+    "price": 132,
+    "priceRange": "Luxury",
+    "buyUrl": "https://www.wine.com/search?q=Alentejo%20Monte%20da%20Ravasqueira",
+    "scores": [
+      {
+        "source": "Wine Enthusiast",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.5,
+        "maxScore": 5,
+        "vintage": 2019
+      },
+      {
+        "source": "Decanter",
+        "score": 89,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 18,
+        "maxScore": 20,
+        "vintage": 2019
+      },
+      {
+        "source": "Robert Parker",
+        "score": 90,
+        "maxScore": 100,
+        "vintage": 2019
+      }
+    ],
+    "aggregateScore": 90,
+    "badges": [],
+    "tastingNotes": "Vibrant red fruit, cedar, and vanilla. Smooth and approachable with a spicy finish.",
+    "editorial": "This wine represents excellent winemaking from its region. With careful attention to vineyard management and cellar techniques, the producer has crafted a wine that balances fruit expression with structural integrity. The tannin profile suggests careful extraction and aging, while the aromatics speak to the quality of the fruit and the character of the terroir. A wine worth seeking out for both current enjoyment and medium-term aging.",
+    "pairings": [
+      "Wild game",
+      "Mushroom dishes",
+      "Aged Gouda"
     ],
     "servingTemp": "16-18°C",
     "aging": "5-15 years",
@@ -16042,51 +15906,51 @@ export const wines: Wine[] = [
     "country": "Portugal",
     "countryCode": "PT",
     "appellation": "Vinho Verde DOC",
-    "alcoholContent": "15%",
-    "price": 24,
-    "priceRange": "Mid-Range",
+    "alcoholContent": "14%",
+    "price": 161,
+    "priceRange": "Luxury",
     "buyUrl": "https://www.wine.com/search?q=Alvarinho%20Anselmo%20Mendes",
     "scores": [
       {
-        "source": "Wine Enthusiast",
-        "score": 87,
+        "source": "Wine Spectator",
+        "score": 90,
         "maxScore": 100,
         "vintage": 2021
       },
       {
         "source": "Decanter",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2021
-      },
-      {
-        "source": "Vivino",
-        "score": 4.2,
-        "maxScore": 5,
-        "vintage": 2021
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 83,
+        "score": 92,
         "maxScore": 100,
         "vintage": 2021
       },
       {
         "source": "Robert Parker",
-        "score": 84,
+        "score": 91,
         "maxScore": 100,
         "vintage": 2021
       },
       {
-        "source": "Jancis Robinson",
-        "score": 17,
-        "maxScore": 20,
+        "source": "James Suckling",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Tim Atkin",
+        "score": 93,
+        "maxScore": 100,
+        "vintage": 2021
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 89,
+        "maxScore": 100,
         "vintage": 2021
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 91,
     "badges": [],
-    "tastingNotes": "Crisp citrus, green apple, and mineral notes. Clean and refreshing with bright acidity.",
+    "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
       "Roast chicken",
@@ -16123,36 +15987,116 @@ export const wines: Wine[] = [
     "countryCode": "PT",
     "appellation": "Vinho Verde DOC",
     "alcoholContent": "14%",
-    "price": 8,
+    "price": 13,
     "priceRange": "Budget",
     "buyUrl": "https://www.wine.com/search?q=Alvarinho%20Soalheiro",
     "scores": [
       {
-        "source": "Tim Atkin",
+        "source": "James Suckling",
         "score": 86,
         "maxScore": 100,
         "vintage": 2022
       },
       {
+        "source": "Robert Parker",
+        "score": 84,
+        "maxScore": 100,
+        "vintage": 2022
+      },
+      {
         "source": "Vivino",
-        "score": 4.2,
+        "score": 4.4,
         "maxScore": 5,
         "vintage": 2022
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 84,
+        "source": "Wine Spectator",
+        "score": 87,
         "maxScore": 100,
         "vintage": 2022
       },
       {
-        "source": "Decanter",
-        "score": 84,
+        "source": "Wine Enthusiast",
+        "score": 86,
         "maxScore": 100,
         "vintage": 2022
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 86,
+    "badges": [],
+    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
+    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
+    "pairings": [
+      "Salads",
+      "Light appetizers",
+      "Soft cheeses"
+    ],
+    "servingTemp": "8-12°C",
+    "aging": "2-8 years",
+    "prosAndCons": {
+      "pros": [
+        "Good quality for the price",
+        "Well-crafted and balanced",
+        "Food-friendly"
+      ],
+      "cons": [
+        "Could benefit from more aging",
+        "Limited distribution"
+      ]
+    }
+  },
+  {
+    "slug": "br-ndlmayer-gr-ner-veltliner-2018",
+    "name": "Grüner Veltliner",
+    "producer": "Bründlmayer",
+    "vintage": 2018,
+    "type": "White",
+    "grape": "Grüner Veltliner",
+    "grapes": [
+      "Grüner Veltliner"
+    ],
+    "region": "Kamptal",
+    "subRegion": "Kamptal",
+    "country": "Austria",
+    "countryCode": "AT",
+    "appellation": "Kamptal DAC",
+    "alcoholContent": "14%",
+    "price": 12,
+    "priceRange": "Budget",
+    "buyUrl": "https://www.wine.com/search?q=Gr%C3%BCner%20Veltliner%20Br%C3%BCndlmayer",
+    "scores": [
+      {
+        "source": "Wine Spectator",
+        "score": 87,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Robert Parker",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2018
+      },
+      {
+        "source": "James Suckling",
+        "score": 83,
+        "maxScore": 100,
+        "vintage": 2018
+      },
+      {
+        "source": "Jancis Robinson",
+        "score": 17,
+        "maxScore": 20,
+        "vintage": 2018
+      }
+    ],
+    "aggregateScore": 86,
     "badges": [
       "Best Value"
     ],
@@ -16178,10 +16122,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "br-ndlmayer-gr-ner-veltliner-2019",
+    "slug": "schloss-gobelsburg-gr-ner-veltliner-2021",
     "name": "Grüner Veltliner",
-    "producer": "Bründlmayer",
-    "vintage": 2019,
+    "producer": "Schloss Gobelsburg",
+    "vintage": 2021,
     "type": "White",
     "grape": "Grüner Veltliner",
     "grapes": [
@@ -16193,30 +16137,30 @@ export const wines: Wine[] = [
     "countryCode": "AT",
     "appellation": "Kamptal DAC",
     "alcoholContent": "13%",
-    "price": 8,
+    "price": 10,
     "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Gr%C3%BCner%20Veltliner%20Br%C3%BCndlmayer",
+    "buyUrl": "https://www.wine.com/search?q=Gr%C3%BCner%20Veltliner%20Schloss%20Gobelsburg",
     "scores": [
       {
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
-        "vintage": 2019
+        "vintage": 2021
       },
       {
         "source": "Decanter",
-        "score": 86,
+        "score": 87,
         "maxScore": 100,
-        "vintage": 2019
+        "vintage": 2021
       },
       {
-        "source": "Wine Enthusiast",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2019
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2021
       }
     ],
-    "aggregateScore": 85,
+    "aggregateScore": 87,
     "badges": [],
     "tastingNotes": "Tropical mango, pineapple, and vanilla. Round and generous with a creamy palate.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
@@ -16240,84 +16184,10 @@ export const wines: Wine[] = [
     }
   },
   {
-    "slug": "schloss-gobelsburg-gr-ner-veltliner-2022",
-    "name": "Grüner Veltliner",
-    "producer": "Schloss Gobelsburg",
-    "vintage": 2022,
-    "type": "White",
-    "grape": "Grüner Veltliner",
-    "grapes": [
-      "Grüner Veltliner"
-    ],
-    "region": "Kamptal",
-    "subRegion": "Kamptal",
-    "country": "Austria",
-    "countryCode": "AT",
-    "appellation": "Kamptal DAC",
-    "alcoholContent": "15%",
-    "price": 10,
-    "priceRange": "Budget",
-    "buyUrl": "https://www.wine.com/search?q=Gr%C3%BCner%20Veltliner%20Schloss%20Gobelsburg",
-    "scores": [
-      {
-        "source": "Robert Parker",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Tim Atkin",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "Decanter",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2022
-      },
-      {
-        "source": "James Suckling",
-        "score": 83,
-        "maxScore": 100,
-        "vintage": 2022
-      }
-    ],
-    "aggregateScore": 85,
-    "badges": [],
-    "tastingNotes": "Rich stone fruit, honey, and toasted almond. Full-bodied with buttery texture and long finish.",
-    "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
-    "pairings": [
-      "Grilled fish",
-      "Shellfish",
-      "Goat cheese"
-    ],
-    "servingTemp": "8-12°C",
-    "aging": "2-8 years",
-    "prosAndCons": {
-      "pros": [
-        "Good quality for the price",
-        "Well-crafted and balanced",
-        "Food-friendly"
-      ],
-      "cons": [
-        "Could benefit from more aging",
-        "Limited distribution"
-      ]
-    }
-  },
-  {
-    "slug": "jurtschitsch-gr-ner-veltliner-2018",
+    "slug": "jurtschitsch-gr-ner-veltliner-2019",
     "name": "Grüner Veltliner",
     "producer": "Jurtschitsch",
-    "vintage": 2018,
+    "vintage": 2019,
     "type": "White",
     "grape": "Grüner Veltliner",
     "grapes": [
@@ -16328,44 +16198,44 @@ export const wines: Wine[] = [
     "country": "Austria",
     "countryCode": "AT",
     "appellation": "Kamptal DAC",
-    "alcoholContent": "13%",
-    "price": 11,
-    "priceRange": "Budget",
+    "alcoholContent": "14%",
+    "price": 28,
+    "priceRange": "Mid-Range",
     "buyUrl": "https://www.wine.com/search?q=Gr%C3%BCner%20Veltliner%20Jurtschitsch",
     "scores": [
+      {
+        "source": "Decanter",
+        "score": 88,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Wine Enthusiast",
+        "score": 86,
+        "maxScore": 100,
+        "vintage": 2019
+      },
+      {
+        "source": "Vivino",
+        "score": 4.4,
+        "maxScore": 5,
+        "vintage": 2019
+      },
       {
         "source": "Jancis Robinson",
         "score": 17,
         "maxScore": 20,
-        "vintage": 2018
-      },
-      {
-        "source": "Wine Spectator",
-        "score": 86,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "Robert Parker",
-        "score": 87,
-        "maxScore": 100,
-        "vintage": 2018
-      },
-      {
-        "source": "James Suckling",
-        "score": 85,
-        "maxScore": 100,
-        "vintage": 2018
+        "vintage": 2019
       }
     ],
-    "aggregateScore": 86,
+    "aggregateScore": 87,
     "badges": [],
-    "tastingNotes": "Zippy lime, grapefruit, and herbal notes. Light and fresh with mouthwatering acidity.",
+    "tastingNotes": "Steely and precise with notes of green apple, chalk, and lemon zest. Electric acidity.",
     "editorial": "A beautifully crafted white wine that showcases the producer's commitment to quality. The balance between fruit expression and mineral complexity speaks to thoughtful winemaking, while the acidity backbone ensures freshness and food-friendliness. This is the kind of wine that converts casual drinkers into enthusiasts.",
     "pairings": [
-      "Grilled fish",
-      "Shellfish",
-      "Goat cheese"
+      "Roast chicken",
+      "Pasta with cream sauce",
+      "Sushi"
     ],
     "servingTemp": "8-12°C",
     "aging": "2-8 years",
@@ -16401,15 +16271,15 @@ export const countries: Country[] = [
     "description": "France is the spiritual home of wine. From the grand châteaux of Bordeaux to the hallowed vineyards of Burgundy, French wine sets the standard against which all others are measured.",
     "wineHistory": "France has been producing wine since the 6th century BC. The country's appellation system (AOC), established in 1935, became the model for wine classification worldwide.",
     "topWines": [
-      "ch-teau-haut-brion-ch-teau-haut-brion-2019",
-      "ch-teau-cheval-blanc-ch-teau-cheval-blanc-2019",
-      "domaine-coche-dury-meursault-les-perri-res-premier-cru-2020",
       "ch-teau-margaux-ch-teau-margaux-2019",
-      "ch-teau-mouton-rothschild-ch-teau-mouton-rothschild-2020",
       "ch-teau-p-trus-ch-teau-p-trus-2018",
-      "domaine-de-la-roman-e-conti-la-t-che-grand-cru-2019",
+      "domaine-de-la-roman-e-conti-roman-e-conti-grand-cru-2020",
       "domaine-comte-georges-de-vog-musigny-grand-cru-2019",
-      "mo-t-chandon-dom-p-rignon-2015",
+      "ch-teau-mouton-rothschild-ch-teau-mouton-rothschild-2020",
+      "ch-teau-cheval-blanc-ch-teau-cheval-blanc-2019",
+      "domaine-de-la-roman-e-conti-la-t-che-grand-cru-2019",
+      "domaine-coche-dury-meursault-les-perri-res-premier-cru-2020",
+      "louis-roederer-cristal-2015",
       "ch-teau-lafite-rothschild-ch-teau-lafite-rothschild-2020"
     ]
   },
@@ -16429,14 +16299,14 @@ export const countries: Country[] = [
     "topWines": [
       "giacomo-conterno-barolo-monfortino-riserva-2015",
       "tenuta-san-guido-sassicaia-2020",
-      "tenuta-dell-ornellaia-ornellaia-2020",
       "giuseppe-quintarelli-amarone-della-valpolicella-classico-2013",
-      "marchesi-antinori-tignanello-2020",
       "gaja-barbaresco-2019",
-      "ceretto-barolo-2020",
-      "nino-franco-glera-2018",
-      "la-marca-glera-2018",
-      "biondi-santi-brunello-di-montalcino-2017"
+      "nino-franco-glera-2020",
+      "marchesi-antinori-tignanello-2020",
+      "biondi-santi-brunello-di-montalcino-2017",
+      "tenuta-dell-ornellaia-ornellaia-2020",
+      "castello-di-ama-chianti-classico-2022",
+      "la-marca-glera-2021"
     ]
   },
   {
@@ -16456,13 +16326,13 @@ export const countries: Country[] = [
       "dominio-de-pingus-pingus-2019",
       "lvaro-palacios-l-ermita-velles-vinyes-2019",
       "bodegas-vega-sicilia-vega-sicilia-nico-2014",
-      "recaredo-macabeo-2019",
-      "protos-ribera-del-duero-2021",
-      "ali-n-ribera-del-duero-2020",
+      "valdespino-jerez-x-r-s-sherry-nv",
+      "cvne-rioja-doca-2022",
       "rem-rez-de-ganuza-rioja-doca-2022",
-      "pesquera-ribera-del-duero-2022",
       "la-rioja-alta-rioja-gran-reserva-904-2015",
-      "gramona-macabeo-2021"
+      "protos-ribera-del-duero-2019",
+      "gramona-macabeo-2019",
+      "el-maestro-sierra-jerez-x-r-s-sherry-nv"
     ]
   },
   {
@@ -16479,15 +16349,15 @@ export const countries: Country[] = [
     "wineHistory": "The modern American wine industry began in earnest after Prohibition ended in 1933. The 1976 Judgment of Paris, where California wines beat French rivals in a blind tasting, transformed the global wine landscape.",
     "topWines": [
       "screaming-eagle-screaming-eagle-cabernet-sauvignon-2019",
-      "opus-one-winery-opus-one-2020",
       "joseph-phelps-vineyards-insignia-2020",
-      "far-niente-stags-leap-district-2019",
-      "dominus-stags-leap-district-2020",
-      "domaine-drouhin-oregon-dundee-hills-2022",
+      "opus-one-winery-opus-one-2020",
+      "duckhorn-stags-leap-district-2019",
+      "harlan-estate-stags-leap-district-2019",
       "bergstr-m-dundee-hills-2018",
+      "gramercy-cellars-walla-walla-valley-2020",
       "caymus-vineyards-caymus-special-selection-cabernet-sauvignon-2019",
-      "williams-selyem-russian-river-valley-2021",
-      "ken-wright-dundee-hills-2022"
+      "spottswoode-stags-leap-district-2021",
+      "williams-selyem-russian-river-valley-2022"
     ]
   },
   {
@@ -16507,14 +16377,14 @@ export const countries: Country[] = [
     "topWines": [
       "penfolds-grange-2019",
       "henschke-hill-of-grace-2018",
+      "tyrrell-s-s-millon-2022",
+      "vasse-felix-margaret-river-2019",
+      "wirra-wirra-mclaren-vale-2019",
+      "torbreck-barossa-valley-2021",
+      "two-hands-barossa-valley-2022",
+      "peter-lehmann-barossa-valley-2019",
       "yangarra-mclaren-vale-2018",
-      "de-bortoli-yarra-valley-2019",
-      "tyrrell-s-s-millon-2020",
-      "grant-burge-barossa-valley-2019",
-      "wirra-wirra-mclaren-vale-2018",
-      "mount-pleasant-s-millon-2018",
-      "vasse-felix-margaret-river-2020",
-      "two-hands-barossa-valley-2018"
+      "leeuwin-estate-margaret-river-2019"
     ]
   },
   {
@@ -16528,16 +16398,16 @@ export const countries: Country[] = [
     "description": "Argentina is the world's fifth-largest wine producer, renowned for its Malbec from the high-altitude vineyards of Mendoza.",
     "wineHistory": "Spanish missionaries brought vines to Argentina in the 16th century. The modern premium wine industry took off in the 1990s, when producers began harnessing the country's unique terroir.",
     "topWines": [
-      "luigi-bosca-luj-n-de-cuyo-2021",
       "bodega-catena-zapata-catena-zapata-malbec-argentino-2020",
-      "zuccardi-uco-valley-2021",
-      "clos-de-los-siete-uco-valley-2020",
-      "trapiche-uco-valley-2022",
-      "luigi-bosca-uco-valley-2019",
-      "zuccardi-luj-n-de-cuyo-2018",
-      "colom-torront-s-2021",
-      "trapiche-luj-n-de-cuyo-2019",
-      "norton-luj-n-de-cuyo-2022"
+      "norton-uco-valley-2020",
+      "trapiche-luj-n-de-cuyo-2018",
+      "luigi-bosca-luj-n-de-cuyo-2019",
+      "clos-de-los-siete-luj-n-de-cuyo-2022",
+      "trapiche-uco-valley-2019",
+      "zuccardi-luj-n-de-cuyo-2022",
+      "colom-torront-s-2022",
+      "clos-de-los-siete-uco-valley-2021",
+      "achaval-ferrer-malbec-reserva-2021"
     ]
   },
   {
@@ -16552,12 +16422,12 @@ export const countries: Country[] = [
     "description": "Chile's geographic isolation has kept its vineyards free from phylloxera, preserving pre-phylloxera vines and producing wines of exceptional purity.",
     "wineHistory": "Chilean wine production dates to the 16th century, but the quality revolution began in the 1980s with major foreign investment and modern winemaking techniques.",
     "topWines": [
-      "clos-apalta-colchagua-valley-2019",
+      "casas-del-bosque-sauvignon-blanc-2021",
       "concha-y-toro-don-melchor-cabernet-sauvignon-2020",
+      "montes-alpha-colchagua-valley-2022",
       "casa-lapostolle-colchagua-valley-2021",
-      "vi-a-casablanca-sauvignon-blanc-2018",
-      "casas-del-bosque-sauvignon-blanc-2018",
-      "montes-alpha-colchagua-valley-2020"
+      "clos-apalta-colchagua-valley-2019",
+      "vi-a-casablanca-sauvignon-blanc-2018"
     ]
   },
   {
@@ -16574,12 +16444,12 @@ export const countries: Country[] = [
     "topWines": [
       "egon-m-ller-scharzhofberger-riesling-sp-tlese-2021",
       "weingut-dr-b-rklin-wolf-riesling-trocken-gg-kirchenst-ck-2021",
+      "robert-weil-riesling-2018",
+      "dr-loosen-riesling-2022",
+      "schloss-johannisberg-riesling-2022",
       "georg-breuer-riesling-2022",
-      "schloss-johannisberg-riesling-2020",
-      "dr-loosen-riesling-2018",
-      "robert-weil-riesling-2020",
-      "joh-jos-pr-m-riesling-2018",
-      "markus-molitor-riesling-2018"
+      "joh-jos-pr-m-riesling-2022",
+      "markus-molitor-riesling-2021"
     ]
   },
   {
@@ -16595,11 +16465,11 @@ export const countries: Country[] = [
     "wineHistory": "Portugal's Douro Valley, established in 1756, was the world's first officially demarcated wine region. The country has over 250 indigenous grape varieties.",
     "topWines": [
       "casa-ferreirinha-barca-velha-2015",
-      "quinta-do-carmo-alentejo-2020",
-      "taylor-s-vintage-port-2017",
-      "herdade-do-espor-o-alentejo-2022",
-      "monte-da-ravasqueira-alentejo-2018",
       "anselmo-mendes-alvarinho-2021",
+      "monte-da-ravasqueira-alentejo-2019",
+      "taylor-s-vintage-port-2017",
+      "quinta-do-carmo-alentejo-2019",
+      "herdade-do-espor-o-alentejo-2021",
       "soalheiro-alvarinho-2022"
     ]
   },
@@ -16615,15 +16485,15 @@ export const countries: Country[] = [
     "description": "New Zealand burst onto the world wine scene with its vibrant Marlborough Sauvignon Blancs and now produces exceptional Pinot Noir from Central Otago.",
     "wineHistory": "Commercial winemaking began in New Zealand in the 1970s. The country's cool maritime climate produces wines of extraordinary freshness and aromatic intensity.",
     "topWines": [
-      "burn-cottage-central-otago-2021",
-      "villa-maria-sauvignon-blanc-2022",
+      "burn-cottage-central-otago-2022",
+      "craggy-range-craggy-range-te-muna-road-vineyard-pinot-noir-2021",
+      "rippon-central-otago-2019",
+      "dog-point-sauvignon-blanc-2020",
+      "felton-road-central-otago-2022",
+      "villa-maria-sauvignon-blanc-2021",
       "greywacke-sauvignon-blanc-2019",
       "craggy-range-sauvignon-blanc-2019",
-      "craggy-range-craggy-range-te-muna-road-vineyard-pinot-noir-2021",
-      "felton-road-central-otago-2020",
-      "cloudy-bay-cloudy-bay-sauvignon-blanc-2023",
-      "dog-point-sauvignon-blanc-2018",
-      "rippon-central-otago-2019"
+      "cloudy-bay-cloudy-bay-sauvignon-blanc-2023"
     ]
   },
   {
@@ -16638,13 +16508,13 @@ export const countries: Country[] = [
     "description": "South African wine is experiencing a renaissance, with the old vines of the Swartland and the cool-climate vineyards of Walker Bay producing world-class wines.",
     "wineHistory": "The first South African wine was produced in 1659 by the Dutch East India Company. The country's unique Pinotage grape (a Pinot Noir × Cinsault cross) was created in 1925.",
     "topWines": [
+      "rust-en-vrede-stellenbosch-2019",
+      "hamilton-russell-walker-bay-2018",
       "the-sadie-family-wines-columella-2020",
       "kanonkop-kanonkop-paul-sauer-2019",
-      "meerlust-stellenbosch-2019",
-      "rust-en-vrede-stellenbosch-2022",
-      "warwick-stellenbosch-2018",
-      "hamilton-russell-walker-bay-2018",
-      "bouchard-finlayson-walker-bay-2019"
+      "bouchard-finlayson-walker-bay-2018",
+      "meerlust-stellenbosch-2020",
+      "warwick-stellenbosch-2019"
     ]
   },
   {
@@ -16659,9 +16529,9 @@ export const countries: Country[] = [
     "wineHistory": "Austrian winemaking dates back to Celtic and Roman times. The country's DAC system, established in 2003, emphasizes terroir-driven wines from specific regions.",
     "topWines": [
       "f-x-pichler-gr-ner-veltliner-smaragd-kellerberg-2021",
-      "jurtschitsch-gr-ner-veltliner-2018",
-      "br-ndlmayer-gr-ner-veltliner-2019",
-      "schloss-gobelsburg-gr-ner-veltliner-2022"
+      "schloss-gobelsburg-gr-ner-veltliner-2021",
+      "jurtschitsch-gr-ner-veltliner-2019",
+      "br-ndlmayer-gr-ner-veltliner-2018"
     ]
   },
   {
@@ -16707,21 +16577,21 @@ export const regions: Region[] = [
       "Sémillon"
     ],
     "topWines": [
-      "ch-teau-haut-brion-ch-teau-haut-brion-2019",
-      "ch-teau-cheval-blanc-ch-teau-cheval-blanc-2019",
       "ch-teau-margaux-ch-teau-margaux-2019",
-      "ch-teau-mouton-rothschild-ch-teau-mouton-rothschild-2020",
       "ch-teau-p-trus-ch-teau-p-trus-2018",
+      "ch-teau-mouton-rothschild-ch-teau-mouton-rothschild-2020",
+      "ch-teau-cheval-blanc-ch-teau-cheval-blanc-2019",
       "ch-teau-lafite-rothschild-ch-teau-lafite-rothschild-2020",
+      "ch-teau-haut-brion-ch-teau-haut-brion-2019",
       "ch-teau-d-yquem-ch-teau-d-yquem-2019",
-      "ch-teau-l-oville-las-cases-saint-julien-2021"
+      "ch-teau-cos-d-estournel-graves-2019"
     ],
     "notableAppellations": [
-      "Pessac-Léognan AOC",
-      "Saint-Émilion Grand Cru AOC",
       "Margaux AOC",
+      "Pomerol AOC",
       "Pauillac AOC",
-      "Pomerol AOC"
+      "Saint-Émilion Grand Cru AOC",
+      "Pessac-Léognan AOC"
     ]
   },
   {
@@ -16736,20 +16606,20 @@ export const regions: Region[] = [
       "Chardonnay"
     ],
     "topWines": [
-      "domaine-coche-dury-meursault-les-perri-res-premier-cru-2020",
-      "domaine-de-la-roman-e-conti-la-t-che-grand-cru-2019",
-      "domaine-comte-georges-de-vog-musigny-grand-cru-2019",
       "domaine-de-la-roman-e-conti-roman-e-conti-grand-cru-2020",
-      "olivier-leflaive-chardonnay-2019",
+      "domaine-comte-georges-de-vog-musigny-grand-cru-2019",
+      "domaine-de-la-roman-e-conti-la-t-che-grand-cru-2019",
+      "domaine-coche-dury-meursault-les-perri-res-premier-cru-2020",
+      "louis-jadot-chardonnay-2020",
       "domaine-william-f-vre-chablis-grand-cru-les-clos-2021",
-      "domaine-tienne-sauzet-chardonnay-2018",
-      "domaine-roulot-chardonnay-2019"
+      "domaine-leflaive-chardonnay-2020",
+      "joseph-drouhin-chardonnay-2021"
     ],
     "notableAppellations": [
-      "Meursault Premier Cru AOC",
-      "La Tâche AOC",
-      "Musigny AOC",
       "Romanée-Conti AOC",
+      "Musigny AOC",
+      "La Tâche AOC",
+      "Meursault Premier Cru AOC",
       "Puligny-Montrachet AOC"
     ]
   },
@@ -16765,8 +16635,8 @@ export const regions: Region[] = [
       "Pinot Noir"
     ],
     "topWines": [
-      "mo-t-chandon-dom-p-rignon-2015",
       "louis-roederer-cristal-2015",
+      "mo-t-chandon-dom-p-rignon-2015",
       "krug-krug-grande-cuv-e-nv"
     ],
     "notableAppellations": [
@@ -16842,19 +16712,19 @@ export const regions: Region[] = [
     ],
     "topWines": [
       "tenuta-san-guido-sassicaia-2020",
-      "tenuta-dell-ornellaia-ornellaia-2020",
       "marchesi-antinori-tignanello-2020",
       "biondi-santi-brunello-di-montalcino-2017",
-      "fontodi-chianti-classico-2019",
-      "castello-dei-rampolla-chianti-classico-2021",
-      "castello-di-ama-chianti-classico-2019",
-      "san-felice-chianti-classico-2020"
+      "tenuta-dell-ornellaia-ornellaia-2020",
+      "castello-di-ama-chianti-classico-2022",
+      "fontodi-chianti-classico-2020",
+      "isole-e-olena-chianti-classico-2022",
+      "castello-dei-rampolla-chianti-classico-2018"
     ],
     "notableAppellations": [
       "Bolgheri Sassicaia DOC",
-      "Bolgheri Superiore DOC",
       "Toscana IGT",
       "Brunello di Montalcino DOCG",
+      "Bolgheri Superiore DOC",
       "Chianti Classico DOCG"
     ]
   },
@@ -16871,12 +16741,12 @@ export const regions: Region[] = [
     "topWines": [
       "giacomo-conterno-barolo-monfortino-riserva-2015",
       "gaja-barbaresco-2019",
-      "ceretto-barolo-2020",
-      "marchesi-di-barolo-barolo-2021",
-      "elio-grasso-barolo-2019",
-      "bruno-giacosa-barolo-2018",
-      "vietti-barolo-2021",
-      "bartolo-mascarello-barolo-2021"
+      "bruno-giacosa-barolo-2019",
+      "marchesi-di-barolo-barolo-2022",
+      "vietti-barolo-2022",
+      "ceretto-barolo-2018",
+      "bartolo-mascarello-barolo-2018",
+      "elio-grasso-barolo-2020"
     ],
     "notableAppellations": [
       "Barolo DOCG",
@@ -16896,10 +16766,10 @@ export const regions: Region[] = [
     ],
     "topWines": [
       "giuseppe-quintarelli-amarone-della-valpolicella-classico-2013",
-      "nino-franco-glera-2018",
-      "la-marca-glera-2018",
+      "nino-franco-glera-2020",
+      "la-marca-glera-2021",
       "ruggeri-glera-2021",
-      "bisol-glera-2018"
+      "bisol-glera-2020"
     ],
     "notableAppellations": [
       "Amarone della Valpolicella DOCG",
@@ -16919,10 +16789,10 @@ export const regions: Region[] = [
     "topWines": [
       "dominio-de-pingus-pingus-2019",
       "bodegas-vega-sicilia-vega-sicilia-nico-2014",
-      "protos-ribera-del-duero-2021",
+      "protos-ribera-del-duero-2019",
+      "hacienda-monasterio-ribera-del-duero-2018",
       "ali-n-ribera-del-duero-2020",
-      "pesquera-ribera-del-duero-2022",
-      "hacienda-monasterio-ribera-del-duero-2020"
+      "pesquera-ribera-del-duero-2021"
     ],
     "notableAppellations": [
       "Ribera del Duero DO"
@@ -16956,14 +16826,14 @@ export const regions: Region[] = [
       "Tempranillo"
     ],
     "topWines": [
+      "cvne-rioja-doca-2022",
       "rem-rez-de-ganuza-rioja-doca-2022",
       "la-rioja-alta-rioja-gran-reserva-904-2015",
-      "muga-rioja-doca-2022",
-      "bodegas-roda-rioja-doca-2020",
-      "marqu-s-de-murrieta-rioja-doca-2019",
-      "l-pez-de-heredia-rioja-doca-2021",
-      "artadi-rioja-doca-2018",
-      "cvne-rioja-doca-2020"
+      "artadi-rioja-doca-2020",
+      "l-pez-de-heredia-rioja-doca-2020",
+      "muga-rioja-doca-2019",
+      "bodegas-roda-rioja-doca-2019",
+      "marqu-s-de-murrieta-rioja-doca-2022"
     ],
     "notableAppellations": [
       "Rioja DOCa"
@@ -16981,13 +16851,13 @@ export const regions: Region[] = [
     ],
     "topWines": [
       "screaming-eagle-screaming-eagle-cabernet-sauvignon-2019",
-      "opus-one-winery-opus-one-2020",
       "joseph-phelps-vineyards-insignia-2020",
-      "far-niente-stags-leap-district-2019",
-      "dominus-stags-leap-district-2020",
-      "caymus-vineyards-caymus-special-selection-cabernet-sauvignon-2019",
+      "opus-one-winery-opus-one-2020",
       "duckhorn-stags-leap-district-2019",
-      "spottswoode-stags-leap-district-2022"
+      "harlan-estate-stags-leap-district-2019",
+      "caymus-vineyards-caymus-special-selection-cabernet-sauvignon-2019",
+      "spottswoode-stags-leap-district-2021",
+      "heitz-cellar-stags-leap-district-2019"
     ],
     "notableAppellations": [
       "Napa Valley AVA",
@@ -17005,10 +16875,10 @@ export const regions: Region[] = [
       "Pinot Noir"
     ],
     "topWines": [
-      "domaine-drouhin-oregon-dundee-hills-2022",
       "bergstr-m-dundee-hills-2018",
-      "ken-wright-dundee-hills-2022",
-      "beaux-fr-res-beaux-fr-res-pinot-noir-2021"
+      "beaux-fr-res-beaux-fr-res-pinot-noir-2021",
+      "ken-wright-dundee-hills-2021",
+      "domaine-drouhin-oregon-dundee-hills-2021"
     ],
     "notableAppellations": [
       "Dundee Hills AVA",
@@ -17060,11 +16930,11 @@ export const regions: Region[] = [
       "Sauvignon Blanc"
     ],
     "topWines": [
-      "villa-maria-sauvignon-blanc-2022",
+      "dog-point-sauvignon-blanc-2020",
+      "villa-maria-sauvignon-blanc-2021",
       "greywacke-sauvignon-blanc-2019",
       "craggy-range-sauvignon-blanc-2019",
-      "cloudy-bay-cloudy-bay-sauvignon-blanc-2023",
-      "dog-point-sauvignon-blanc-2018"
+      "cloudy-bay-cloudy-bay-sauvignon-blanc-2023"
     ],
     "notableAppellations": [
       "Marlborough"
@@ -17081,19 +16951,19 @@ export const regions: Region[] = [
       "Malbec"
     ],
     "topWines": [
-      "luigi-bosca-luj-n-de-cuyo-2021",
       "bodega-catena-zapata-catena-zapata-malbec-argentino-2020",
-      "zuccardi-uco-valley-2021",
-      "clos-de-los-siete-uco-valley-2020",
-      "trapiche-uco-valley-2022",
-      "luigi-bosca-uco-valley-2019",
-      "zuccardi-luj-n-de-cuyo-2018",
-      "trapiche-luj-n-de-cuyo-2019"
+      "norton-uco-valley-2020",
+      "trapiche-luj-n-de-cuyo-2018",
+      "luigi-bosca-luj-n-de-cuyo-2019",
+      "clos-de-los-siete-luj-n-de-cuyo-2022",
+      "trapiche-uco-valley-2019",
+      "zuccardi-luj-n-de-cuyo-2022",
+      "clos-de-los-siete-uco-valley-2021"
     ],
     "notableAppellations": [
-      "Luján de Cuyo",
       "Mendoza",
-      "Uco Valley"
+      "Uco Valley",
+      "Luján de Cuyo"
     ]
   },
   {
@@ -17125,9 +16995,9 @@ export const regions: Region[] = [
     ],
     "topWines": [
       "egon-m-ller-scharzhofberger-riesling-sp-tlese-2021",
-      "dr-loosen-riesling-2018",
-      "joh-jos-pr-m-riesling-2018",
-      "markus-molitor-riesling-2018"
+      "dr-loosen-riesling-2022",
+      "joh-jos-pr-m-riesling-2022",
+      "markus-molitor-riesling-2021"
     ],
     "notableAppellations": [
       "Mosel"
@@ -17215,10 +17085,10 @@ export const regions: Region[] = [
       "Pinotage"
     ],
     "topWines": [
+      "rust-en-vrede-stellenbosch-2019",
       "kanonkop-kanonkop-paul-sauer-2019",
-      "meerlust-stellenbosch-2019",
-      "rust-en-vrede-stellenbosch-2022",
-      "warwick-stellenbosch-2018"
+      "meerlust-stellenbosch-2020",
+      "warwick-stellenbosch-2019"
     ],
     "notableAppellations": [
       "Stellenbosch WO"
@@ -17286,10 +17156,10 @@ export const regions: Region[] = [
       "Grenache"
     ],
     "topWines": [
-      "mas-de-daumas-gassac-languedoc-2019",
-      "g-rard-bertrand-languedoc-2021",
-      "domaine-de-la-grange-des-p-res-languedoc-2020",
-      "ch-teau-de-la-n-gly-languedoc-2020"
+      "ch-teau-de-la-n-gly-languedoc-2018",
+      "domaine-de-la-grange-des-p-res-languedoc-2019",
+      "g-rard-bertrand-languedoc-2018",
+      "mas-de-daumas-gassac-languedoc-2021"
     ],
     "notableAppellations": [
       "Languedoc AOC"
@@ -17306,10 +17176,10 @@ export const regions: Region[] = [
       "Grenache"
     ],
     "topWines": [
-      "ch-teau-d-esclans-whispering-angel-c-tes-de-provence-2018",
-      "domaines-ott-c-tes-de-provence-2020",
-      "ch-teau-minuty-c-tes-de-provence-2022",
-      "miraval-c-tes-de-provence-2022"
+      "miraval-c-tes-de-provence-2019",
+      "domaines-ott-c-tes-de-provence-2019",
+      "ch-teau-minuty-c-tes-de-provence-2019",
+      "ch-teau-d-esclans-whispering-angel-c-tes-de-provence-2021"
     ],
     "notableAppellations": [
       "Côtes de Provence AOC"
@@ -17327,9 +17197,9 @@ export const regions: Region[] = [
     ],
     "topWines": [
       "planeta-etna-2020",
-      "benanti-etna-2018",
-      "donnafugata-etna-2021",
-      "frank-cornelissen-etna-2021"
+      "donnafugata-etna-2018",
+      "benanti-etna-2020",
+      "frank-cornelissen-etna-2018"
     ],
     "notableAppellations": [
       "Etna DOC"
@@ -17346,9 +17216,9 @@ export const regions: Region[] = [
       "Primitivo"
     ],
     "topWines": [
-      "san-marzano-primitivo-di-manduria-2022",
-      "gianfranco-fino-primitivo-di-manduria-2022",
-      "tormaresca-primitivo-di-manduria-2020"
+      "tormaresca-primitivo-di-manduria-2020",
+      "san-marzano-primitivo-di-manduria-2020",
+      "gianfranco-fino-primitivo-di-manduria-2021"
     ],
     "notableAppellations": [
       "Primitivo di Manduria DOC"
@@ -17365,9 +17235,9 @@ export const regions: Region[] = [
       "Macabeo"
     ],
     "topWines": [
-      "recaredo-macabeo-2019",
-      "gramona-macabeo-2021",
-      "juv-y-camps-macabeo-2022"
+      "gramona-macabeo-2019",
+      "recaredo-macabeo-2022",
+      "juv-y-camps-macabeo-2020"
     ],
     "notableAppellations": [
       "Cava DO"
@@ -17405,13 +17275,13 @@ export const regions: Region[] = [
       "Chardonnay"
     ],
     "topWines": [
-      "williams-selyem-russian-river-valley-2021",
-      "peter-michael-chardonnay-2019",
-      "littorai-russian-river-valley-2022",
-      "flowers-russian-river-valley-2022",
-      "kistler-chardonnay-2020",
-      "ramey-chardonnay-2018",
-      "kistler-russian-river-valley-2022"
+      "williams-selyem-russian-river-valley-2022",
+      "peter-michael-chardonnay-2018",
+      "kistler-chardonnay-2022",
+      "kistler-russian-river-valley-2019",
+      "littorai-russian-river-valley-2018",
+      "flowers-russian-river-valley-2020",
+      "ramey-chardonnay-2022"
     ],
     "notableAppellations": [
       "Russian River Valley AVA",
@@ -17429,9 +17299,9 @@ export const regions: Region[] = [
       "Syrah"
     ],
     "topWines": [
-      "k-vintners-walla-walla-valley-2018",
-      "cayuse-walla-walla-valley-2021",
-      "gramercy-cellars-walla-walla-valley-2018"
+      "gramercy-cellars-walla-walla-valley-2020",
+      "k-vintners-walla-walla-valley-2020",
+      "cayuse-walla-walla-valley-2020"
     ],
     "notableAppellations": [
       "Walla Walla Valley AVA"
@@ -17448,11 +17318,11 @@ export const regions: Region[] = [
       "Shiraz"
     ],
     "topWines": [
-      "grant-burge-barossa-valley-2019",
-      "two-hands-barossa-valley-2018",
-      "torbreck-barossa-valley-2019",
+      "torbreck-barossa-valley-2021",
+      "two-hands-barossa-valley-2022",
       "peter-lehmann-barossa-valley-2019",
-      "yalumba-barossa-valley-2018"
+      "grant-burge-barossa-valley-2019",
+      "yalumba-barossa-valley-2020"
     ],
     "notableAppellations": [
       "Barossa Valley GI"
@@ -17469,9 +17339,9 @@ export const regions: Region[] = [
       "Shiraz"
     ],
     "topWines": [
+      "wirra-wirra-mclaren-vale-2019",
       "yangarra-mclaren-vale-2018",
-      "wirra-wirra-mclaren-vale-2018",
-      "d-arenberg-mclaren-vale-2022"
+      "d-arenberg-mclaren-vale-2021"
     ],
     "notableAppellations": [
       "McLaren Vale GI"
@@ -17488,10 +17358,10 @@ export const regions: Region[] = [
       "Cabernet Sauvignon"
     ],
     "topWines": [
-      "vasse-felix-margaret-river-2020",
-      "moss-wood-margaret-river-2021",
-      "leeuwin-estate-margaret-river-2021",
-      "cullen-margaret-river-2019"
+      "vasse-felix-margaret-river-2019",
+      "leeuwin-estate-margaret-river-2019",
+      "cullen-margaret-river-2019",
+      "moss-wood-margaret-river-2020"
     ],
     "notableAppellations": [
       "Margaret River GI"
@@ -17508,9 +17378,9 @@ export const regions: Region[] = [
       "Pinot Noir"
     ],
     "topWines": [
-      "de-bortoli-yarra-valley-2019",
+      "yering-station-yarra-valley-2021",
       "giant-steps-yarra-valley-2021",
-      "yering-station-yarra-valley-2021"
+      "de-bortoli-yarra-valley-2019"
     ],
     "notableAppellations": [
       "Yarra Valley GI"
@@ -17527,9 +17397,9 @@ export const regions: Region[] = [
       "Sémillon"
     ],
     "topWines": [
-      "tyrrell-s-s-millon-2020",
-      "mount-pleasant-s-millon-2018",
-      "brokenwood-s-millon-2018"
+      "tyrrell-s-s-millon-2022",
+      "mount-pleasant-s-millon-2019",
+      "brokenwood-s-millon-2020"
     ],
     "notableAppellations": [
       "Hunter Valley GI"
@@ -17546,8 +17416,8 @@ export const regions: Region[] = [
       "Torrontés"
     ],
     "topWines": [
-      "colom-torront-s-2021",
-      "el-esteco-torront-s-2018"
+      "colom-torront-s-2022",
+      "el-esteco-torront-s-2019"
     ],
     "notableAppellations": [
       "Cafayate"
@@ -17564,9 +17434,9 @@ export const regions: Region[] = [
       "Carmenère"
     ],
     "topWines": [
-      "clos-apalta-colchagua-valley-2019",
+      "montes-alpha-colchagua-valley-2022",
       "casa-lapostolle-colchagua-valley-2021",
-      "montes-alpha-colchagua-valley-2020"
+      "clos-apalta-colchagua-valley-2019"
     ],
     "notableAppellations": [
       "Colchagua Valley DO"
@@ -17583,8 +17453,8 @@ export const regions: Region[] = [
       "Sauvignon Blanc"
     ],
     "topWines": [
-      "vi-a-casablanca-sauvignon-blanc-2018",
-      "casas-del-bosque-sauvignon-blanc-2018"
+      "casas-del-bosque-sauvignon-blanc-2021",
+      "vi-a-casablanca-sauvignon-blanc-2018"
     ],
     "notableAppellations": [
       "Casablanca Valley DO"
@@ -17601,9 +17471,9 @@ export const regions: Region[] = [
       "Pinot Noir"
     ],
     "topWines": [
-      "burn-cottage-central-otago-2021",
-      "felton-road-central-otago-2020",
-      "rippon-central-otago-2019"
+      "burn-cottage-central-otago-2022",
+      "rippon-central-otago-2019",
+      "felton-road-central-otago-2022"
     ],
     "notableAppellations": [
       "Central Otago"
@@ -17621,7 +17491,7 @@ export const regions: Region[] = [
     ],
     "topWines": [
       "hamilton-russell-walker-bay-2018",
-      "bouchard-finlayson-walker-bay-2019"
+      "bouchard-finlayson-walker-bay-2018"
     ],
     "notableAppellations": [
       "Walker Bay WO"
@@ -17638,9 +17508,9 @@ export const regions: Region[] = [
       "Riesling"
     ],
     "topWines": [
-      "georg-breuer-riesling-2022",
-      "schloss-johannisberg-riesling-2020",
-      "robert-weil-riesling-2020"
+      "robert-weil-riesling-2018",
+      "schloss-johannisberg-riesling-2022",
+      "georg-breuer-riesling-2022"
     ],
     "notableAppellations": [
       "Rheingau"
@@ -17657,9 +17527,9 @@ export const regions: Region[] = [
       "Touriga Nacional"
     ],
     "topWines": [
-      "quinta-do-carmo-alentejo-2020",
-      "herdade-do-espor-o-alentejo-2022",
-      "monte-da-ravasqueira-alentejo-2018"
+      "monte-da-ravasqueira-alentejo-2019",
+      "quinta-do-carmo-alentejo-2019",
+      "herdade-do-espor-o-alentejo-2021"
     ],
     "notableAppellations": [
       "Alentejo DOC"
@@ -17694,9 +17564,9 @@ export const regions: Region[] = [
       "Grüner Veltliner"
     ],
     "topWines": [
-      "jurtschitsch-gr-ner-veltliner-2018",
-      "br-ndlmayer-gr-ner-veltliner-2019",
-      "schloss-gobelsburg-gr-ner-veltliner-2022"
+      "schloss-gobelsburg-gr-ner-veltliner-2021",
+      "jurtschitsch-gr-ner-veltliner-2019",
+      "br-ndlmayer-gr-ner-veltliner-2018"
     ],
     "notableAppellations": [
       "Kamptal DAC"
@@ -18202,6 +18072,6 @@ export const grapeVarieties: Grape[] = [
   }
 ];
 
-// Blog posts are imported from blog-posts.ts
+// Blog posts imported from blog-posts.ts
 import { blogPosts as importedBlogPosts } from './blog-posts';
 export const blogPosts: BlogPost[] = importedBlogPosts;
