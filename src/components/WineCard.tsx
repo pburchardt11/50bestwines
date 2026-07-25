@@ -15,6 +15,7 @@ interface WineCardWine {
   priceRange: string;
   badges: string[];
   tastingNotes: string;
+  labelUrl?: string;
 }
 
 interface WineCardProps {
@@ -45,8 +46,16 @@ export default function WineCard({ wine, rank }: WineCardProps) {
         </div>
 
         <div className="flex items-start gap-4">
-          <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-wine/5 text-3xl">
-            {typeEmoji[wine.type] || '🍷'}
+          <div className="h-[70px] w-[53px] shrink-0 overflow-hidden rounded-lg bg-wine/5">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={wine.labelUrl || `/api/label/${wine.slug}`}
+              alt=""
+              width={53}
+              height={70}
+              className="h-full w-full object-cover"
+              loading="lazy"
+            />
           </div>
 
           <div className="min-w-0 flex-1">

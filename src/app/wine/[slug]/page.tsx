@@ -394,6 +394,18 @@ export default async function WineDetailPage({ params }: Props) {
 
           {/* Sidebar */}
           <div className="space-y-6">
+            {/* Wine Label */}
+            <div className="flex justify-center rounded-2xl border border-card-border bg-card-bg p-6">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={wine.labelUrl}
+                alt={`${wine.name} wine label`}
+                width={200}
+                height={267}
+                className="rounded-lg"
+              />
+            </div>
+
             {/* Key Facts */}
             <div className="rounded-2xl border border-card-border bg-card-bg p-6">
               <h2 className="mb-4 font-serif text-lg font-bold text-text">Key Facts</h2>

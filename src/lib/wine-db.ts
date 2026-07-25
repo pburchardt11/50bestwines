@@ -29,8 +29,17 @@ function mapWineRow(row: Record<string, unknown>): Wine {
     }
   }
 
+  const slug = row.slug as string;
+
+  // Determine label URL: keep real image URLs, replace empty/Vivino search with placeholder
+  const rawLabelUrl = (row.label_url as string) || '';
+  const hasRealImage =
+    rawLabelUrl.startsWith('https://images.') ||
+    (rawLabelUrl !== '' && !rawLabelUrl.includes('vivino.com/search'));
+  const labelUrl = hasRealImage ? rawLabelUrl : `/api/label/${slug}`;
+
   return {
-    slug: row.slug as string,
+    slug,
     name: row.name as string,
     producer: row.producer as string,
     vintage: row.vintage as number | null,
@@ -46,7 +55,7 @@ function mapWineRow(row: Record<string, unknown>): Wine {
     price: Number(row.price) || 0,
     priceRange: (row.price_range as Wine['priceRange']) || 'Mid-Range',
     buyUrl: (row.buy_url as string) || '',
-    labelUrl: (row.label_url as string) || '',
+    labelUrl,
     scores,
     aggregateScore: Number(row.aggregate_score) || 0,
     badges: (row.badges as string[]) || [],
