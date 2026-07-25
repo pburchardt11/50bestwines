@@ -23,7 +23,7 @@ const outfit = Outfit({
 export const metadata: Metadata = {
   title: '50 Best Wines | Expert Rankings & Reviews 2026',
   description:
-    'Discover the world\'s finest wines with expert rankings aggregated from Wine Spectator, Robert Parker, James Suckling, Decanter, and more. Independent reviews, scores, and where to buy.',
+    'Discover the world\'s finest wines with community-driven rankings covering 241,457+ wines rated by enthusiasts worldwide. Independent scores and where to buy.',
   keywords: [
     'best wines',
     'wine rankings',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: '50 Best Wines | Expert Rankings & Reviews 2026',
     description:
-      'The world\'s finest wines ranked by aggregated scores from top critics. Wine Spectator, Robert Parker, Decanter, and more.',
+      'The world\'s finest wines ranked by aggregated community ratings. 241,457+ wines scored by enthusiasts worldwide.',
     type: 'website',
     locale: 'en_US',
     siteName: '50 Best Wines',

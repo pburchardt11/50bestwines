@@ -56,7 +56,7 @@ export default async function AboutPage() {
           </div>
           <div className="rounded-xl border border-card-border bg-card-bg p-6 text-center">
             <p className="font-serif text-3xl font-bold text-wine">8</p>
-            <p className="mt-1 text-sm text-text/50">Critic Sources</p>
+            <p className="mt-1 text-sm text-text/50">Rating Sources</p>
           </div>
           <div className="rounded-xl border border-card-border bg-card-bg p-6 text-center">
             <p className="font-serif text-3xl font-bold text-wine">{totalCountries}+</p>
@@ -71,30 +71,33 @@ export default async function AboutPage() {
           <h2 className="mb-4 font-serif text-2xl font-bold text-text">Our Methodology</h2>
           <div className="space-y-4 text-sm leading-relaxed text-text/60">
             <p>
-              Our ranking methodology is built on four key principles: <strong className="text-text/80">comprehensiveness</strong>, <strong className="text-text/80">normalization</strong>, <strong className="text-text/80">weighting</strong>, and <strong className="text-text/80">transparency</strong>.
+              Our rankings are built on community ratings drawn from platforms such as Vivino and X-Wines, aggregated using Bayesian averaging to produce reliable scores across {(241457).toLocaleString()}+ wines. Our methodology is built on four key principles: <strong className="text-text/80">comprehensiveness</strong>, <strong className="text-text/80">normalization</strong>, <strong className="text-text/80">weighting</strong>, and <strong className="text-text/80">transparency</strong>.
+            </p>
+            <p className="rounded-lg border border-wine/20 bg-wine/5 px-4 py-3 text-wine/80">
+              <strong>Coming soon:</strong> Professional critic scores from Wine Spectator, Robert Parker&apos;s Wine Advocate, and Decanter are not currently included in our rankings. We are actively working to incorporate these sources in a future update.
             </p>
           </div>
 
           <div className="mt-6 grid gap-6 sm:grid-cols-2">
             <div className="rounded-xl border border-card-border bg-card-bg p-6">
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-wine/10 text-xl">1</div>
-              <h3 className="mb-2 font-serif text-lg font-bold text-text">Score Collection</h3>
-              <p className="text-sm text-text/50">We gather scores from 8 major wine publications. Each source brings a different perspective &mdash; from professional critics to community-driven ratings.</p>
+              <h3 className="mb-2 font-serif text-lg font-bold text-text">Community Rating Collection</h3>
+              <p className="text-sm text-text/50">We gather community ratings from platforms like Vivino and X-Wines. Each platform contributes a different pool of wine enthusiasts, giving us broad global coverage.</p>
             </div>
             <div className="rounded-xl border border-card-border bg-card-bg p-6">
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-wine/10 text-xl">2</div>
               <h3 className="mb-2 font-serif text-lg font-bold text-text">Normalization</h3>
-              <p className="text-sm text-text/50">Different critics use different scales. We normalize every score to a standard 100-point scale, ensuring fair comparison across sources.</p>
+              <p className="text-sm text-text/50">Different platforms use different scales. We normalize every rating to a standard 100-point scale, ensuring fair comparison across sources.</p>
             </div>
             <div className="rounded-xl border border-card-border bg-card-bg p-6">
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-wine/10 text-xl">3</div>
-              <h3 className="mb-2 font-serif text-lg font-bold text-text">Weighted Aggregation</h3>
-              <p className="text-sm text-text/50">Sources are weighted by their reputation, consistency, and depth of coverage. A wine praised by multiple critics ranks higher than one championed by a single voice.</p>
+              <h3 className="mb-2 font-serif text-lg font-bold text-text">Bayesian Aggregation</h3>
+              <p className="text-sm text-text/50">We apply Bayesian averaging to combine ratings, giving more weight to wines with a higher volume of reviews while accounting for rating variance. Wines with only a handful of ratings are pulled toward the global mean until sufficient data exists.</p>
             </div>
             <div className="rounded-xl border border-card-border bg-card-bg p-6">
               <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-lg bg-wine/10 text-xl">4</div>
-              <h3 className="mb-2 font-serif text-lg font-bold text-text">Monthly Updates</h3>
-              <p className="text-sm text-text/50">Rankings are refreshed monthly with new reviews, vintage releases, and competition results to ensure accuracy and timeliness.</p>
+              <h3 className="mb-2 font-serif text-lg font-bold text-text">Regular Updates</h3>
+              <p className="text-sm text-text/50">Rankings are refreshed regularly as new community ratings are collected, ensuring scores reflect the latest sentiment from wine enthusiasts worldwide.</p>
             </div>
           </div>
         </section>
@@ -104,7 +107,7 @@ export default async function AboutPage() {
         {/* Score Sources */}
         <section>
           <h2 className="mb-6 font-serif text-2xl font-bold text-text">Our Sources</h2>
-          <p className="mb-6 text-sm text-text/60">We track scores from the following major wine publications and critics:</p>
+          <p className="mb-6 text-sm text-text/60">We currently draw community ratings from the following platforms. Professional critic integrations are in development.</p>
           <div className="grid gap-4 sm:grid-cols-2">
             {sources.map((sourceName) => {
               const info = getScoreSourceInfo(sourceName);
@@ -124,10 +127,10 @@ export default async function AboutPage() {
           <h2 className="mb-4 font-serif text-2xl font-bold text-text">Editorial Independence</h2>
           <div className="space-y-4 text-sm leading-relaxed text-text/60">
             <p>
-              50 Best Wines is editorially independent. Our rankings are determined solely by aggregated critic scores and our published methodology. No winery, distributor, or retailer can pay to influence their position in our rankings.
+              Our rankings are algorithmically generated from community ratings. We do not accept payment for rankings or placement. No winery, distributor, or retailer can pay to influence their position in our rankings.
             </p>
             <p>
-              We do include affiliate links to trusted retailers where you can purchase reviewed wines. We may earn a small commission from these referrals, which helps fund our editorial work. These affiliate relationships never influence our scores or rankings.
+              We do include affiliate links to trusted retailers where you can purchase wines. We may earn a small commission from these referrals, which helps fund our work. These affiliate relationships never influence our scores or rankings.
             </p>
           </div>
         </section>

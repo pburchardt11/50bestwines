@@ -37,6 +37,7 @@ export default function Nav() {
     { href: '/', label: 'Home' },
     { href: '/rankings', label: 'Rankings' },
     { href: '/blog', label: 'Blog' },
+    { href: '/wishlist', label: 'My Wishlist' },
   ];
 
   const secondaryLinks = [

@@ -79,7 +79,7 @@ export default function RankingsTable({ wines }: { wines: RankingWine[] }) {
                   </span>
                 </td>
                 <td className="px-4 py-3 text-right text-text/60">
-                  ${wine.price}
+                  {wine.price > 0 ? `$${wine.price}` : <span className="text-text/30 text-xs">N/A</span>}
                 </td>
                 <td className="px-4 py-3 text-center">
                   <Link

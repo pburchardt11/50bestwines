@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import WishlistButton from '@/components/WishlistButton';
 
 interface WineCardWine {
   slug: string;
@@ -39,6 +40,9 @@ export default function WineCard({ wine, rank }: WineCardProps) {
             {rank}
           </div>
         )}
+        <div className="absolute top-3 right-3">
+          <WishlistButton slug={wine.slug} size="sm" />
+        </div>
 
         <div className="flex items-start gap-4">
           <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-xl bg-wine/5 text-3xl">
@@ -77,9 +81,11 @@ export default function WineCard({ wine, rank }: WineCardProps) {
               <span className="rounded bg-wine/10 px-2 py-0.5 text-[11px] font-medium text-wine/80">
                 {wine.type}
               </span>
-              <span className="text-xs text-gold font-medium">
-                ${wine.price}
-              </span>
+              {wine.price > 0 && (
+                <span className="text-xs text-gold font-medium">
+                  ${wine.price}
+                </span>
+              )}
             </div>
           </div>
         </div>

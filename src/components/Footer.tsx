@@ -87,14 +87,11 @@ export default function Footer() {
           </h3>
           <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-1">
             {[
-              { name: '50 Best Bakeries', url: 'https://www.50bestbakeries.com' },
-              { name: '50 Best Bar', url: 'https://www.50bestbar.com' },
-              { name: '50 Best Dating Sites', url: 'https://www.50bestdatingsites.com' },
               { name: '50 Best Hotels', url: 'https://www.50besthotels.com' },
-              { name: '50 Best Matchmakers', url: 'https://www.50bestmatchmaker.com' },
-              { name: '50 Best Museums', url: 'https://www.50bestmuseums.com' },
-              { name: '50 Best Peptides', url: 'https://www.50bestpeptides.com' },
+              { name: '50 Best Bar', url: 'https://www.50bestbar.com' },
+              { name: '50 Best Bakeries', url: 'https://www.50bestbakeries.com' },
               { name: '50 Best Spa', url: 'https://www.50bestspa.com' },
+              { name: '50 Best Museums', url: 'https://www.50bestmuseums.com' },
             ].map((site) => (
               <a
                 key={site.url}

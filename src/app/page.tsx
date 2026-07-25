@@ -2,6 +2,7 @@ import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
 import FAQSection from '@/components/FAQSection';
 import RankingsTable from '@/components/RankingsTable';
+import NewsletterSignup from '@/components/NewsletterSignup';
 import {
   getTopWinesGlobal,
   getTotalWineCount,
@@ -64,19 +65,19 @@ export default async function HomePage() {
   const faqItems = [
     {
       question: 'How do you aggregate wine scores?',
-      answer: 'We collect scores from the world\'s most respected wine critics and publications — including Wine Spectator, Robert Parker\'s Wine Advocate, James Suckling, Decanter, Wine Enthusiast, Jancis Robinson, and Tim Atkin. Each score is normalized to a 100-point scale and weighted by the credibility and consistency of the source. Our aggregate score gives you a single, reliable number that reflects the consensus of the global wine community.',
+      answer: 'We collect community ratings from platforms such as Vivino and X-Wines, covering hundreds of thousands of wines rated by enthusiasts worldwide. Each score is normalized to a 100-point scale and combined using Bayesian averaging to produce a reliable aggregate score that reflects broad community consensus.',
     },
     {
       question: 'What wine review sources do you track?',
-      answer: 'We track scores from eight major wine publications: Wine Spectator (100-point scale), Robert Parker Wine Advocate (100-point scale), James Suckling (100-point scale), Decanter (100-point scale), Wine Enthusiast (100-point scale), Vivino (5-point community scale), Jancis Robinson (20-point scale), and Tim Atkin MW (100-point scale). Each source brings a different perspective, from professional critics to community ratings.',
+      answer: 'Our current dataset is built on community ratings from Vivino and X-Wines, giving us broad coverage across hundreds of thousands of wines. We are actively working to incorporate professional critic scores from publications such as Wine Spectator, Robert Parker\'s Wine Advocate, and Decanter — these will be added in a future update.',
     },
     {
       question: 'How often are rankings updated?',
-      answer: 'Our rankings are updated monthly as new reviews are published by our tracked sources. Major updates coincide with key industry events like Bordeaux En Primeur releases, Wine Spectator\'s annual Top 100, and Robert Parker\'s regional reports.',
+      answer: 'Our rankings are updated regularly as new community ratings are collected. We aim to refresh the dataset monthly to ensure scores reflect current community sentiment.',
     },
     {
       question: 'What do the badges mean?',
-      answer: 'Badges indicate special recognition from specific publications. For example, "Wine Spectator Top 100" means the wine was included in Wine Spectator\'s annual Top 100 list. "Parker 95+" indicates a score of 95 or above from Robert Parker\'s Wine Advocate. These badges help you quickly identify wines with exceptional critical acclaim.',
+      answer: 'Badges highlight wines that stand out in our dataset — for example, wines with an exceptionally high number of community ratings, or wines scoring in the top percentile for their region or grape variety. They help you quickly identify wines with strong community acclaim.',
     },
     {
       question: 'How do wine scores work?',
@@ -130,11 +131,10 @@ export default async function HomePage() {
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(139,34,82,0.15)_0%,transparent_70%)]" />
         <div className="relative mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8 lg:py-36">
           <h1 className="font-serif text-5xl font-bold leading-tight tracking-tighter text-text sm:text-6xl lg:text-7xl">
-            The World&apos;s Finest Wines,<br className="hidden sm:block" /> Ranked by the Critics
+            The World&apos;s Finest Wines,<br className="hidden sm:block" /> Ranked by the Community
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-text/60">
-            Aggregated scores from {totalWines.toLocaleString()}+ wines across Wine Spectator, Robert Parker,
-            James Suckling, Decanter, and more. One score to trust.
+            {totalWines.toLocaleString()}+ wines rated by community critics and wine enthusiasts worldwide. One score to trust.
           </p>
           <p className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-wine/20 bg-wine/5 px-4 py-1.5 text-xs font-medium text-wine/80">
             <span className="h-1.5 w-1.5 rounded-full bg-wine" />
@@ -149,7 +149,7 @@ export default async function HomePage() {
             <span className="hidden text-card-border sm:inline">|</span>
             <div className="flex items-center gap-2">
               <span className="font-serif text-2xl font-bold text-wine">8</span>
-              <span>Critics Tracked</span>
+              <span>Rating Sources</span>
             </div>
             <span className="hidden text-card-border sm:inline">|</span>
             <div className="flex items-center gap-2">
@@ -164,14 +164,10 @@ export default async function HomePage() {
           </div>
 
           <div className="mx-auto mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-text/30">
-            <span>Wine Spectator</span><span>&middot;</span>
-            <span>Robert Parker</span><span>&middot;</span>
-            <span>James Suckling</span><span>&middot;</span>
-            <span>Decanter</span><span>&middot;</span>
-            <span>Wine Enthusiast</span><span>&middot;</span>
             <span>Vivino</span><span>&middot;</span>
-            <span>Jancis Robinson</span><span>&middot;</span>
-            <span>Tim Atkin</span>
+            <span>X-Wines</span><span>&middot;</span>
+            <span>Community Ratings</span><span>&middot;</span>
+            <span>Bayesian Aggregation</span>
           </div>
         </div>
       </section>
@@ -181,7 +177,7 @@ export default async function HomePage() {
         <div className="mb-12 text-center">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.25em] text-wine/70">Editor&apos;s Choice</p>
           <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Top 5 Wines of 2026</h2>
-          <p className="mt-3 text-text/50">The highest-scoring wines across all major critics.</p>
+          <p className="mt-3 text-text/50">The highest-scoring wines across our community ratings.</p>
         </div>
 
         <div className="space-y-4">
@@ -199,7 +195,9 @@ export default async function HomePage() {
                     <span className="rounded-full bg-wine/10 px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wider text-wine/80">{wine.type}</span>
                   </div>
                   <p className="mt-1 text-sm text-text/40">{wine.producer} &middot; {wine.region}, {wine.country}</p>
-                  <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-text/50">{wine.tastingNotes}</p>
+                  {wine.tastingNotes && wine.tastingNotes.length >= 50 && (
+                    <p className="mt-2 line-clamp-2 text-sm leading-relaxed text-text/50">{wine.tastingNotes}</p>
+                  )}
                   {wine.badges.length > 0 && (
                     <div className="mt-2 flex flex-wrap gap-1">
                       {wine.badges.slice(0, 3).map((b) => (
@@ -209,7 +207,7 @@ export default async function HomePage() {
                   )}
                 </div>
                 <div className="flex shrink-0 flex-col items-end gap-3">
-                  <span className="rounded-full bg-wine/10 px-3 py-1 text-xs font-medium text-wine/80">${wine.price}</span>
+                  {wine.price > 0 && <span className="rounded-full bg-wine/10 px-3 py-1 text-xs font-medium text-wine/80">${wine.price}</span>}
                   <a href={wine.buyUrl} target="_blank" rel="nofollow sponsored noopener" className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-wine to-wine-light px-5 py-2.5 text-sm font-bold text-white transition-opacity hover:opacity-90">
                     Buy Now <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
                   </a>
@@ -239,6 +237,11 @@ export default async function HomePage() {
       </section>
 
       <AdUnit format="horizontal" className="mx-auto max-w-4xl px-4" />
+
+      {/* Newsletter Signup */}
+      <div className="py-12">
+        <NewsletterSignup />
+      </div>
 
       {/* Browse by Type */}
       <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
@@ -294,10 +297,10 @@ export default async function HomePage() {
           </div>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {[
-              { icon: '📊', title: 'Collect Scores', description: 'We gather scores from 8 of the world\'s most respected wine critics and publications, covering tens of thousands of wines.' },
-              { icon: '⚖️', title: 'Normalize & Weight', description: 'Each score is normalized to a 100-point scale. Sources are weighted by consistency, expertise, and global reputation.' },
-              { icon: '🏅', title: 'Award Badges', description: 'Wines receiving special recognition — Top 100 lists, 95+ scores, competition medals — earn badges highlighting their status.' },
-              { icon: '🔄', title: 'Update Monthly', description: 'Rankings are refreshed monthly with new reviews, vintage releases, and competition results.' },
+              { icon: '📊', title: 'Collect Ratings', description: 'We gather community ratings from platforms like Vivino and X-Wines, covering hundreds of thousands of wines rated by enthusiasts worldwide.' },
+              { icon: '⚖️', title: 'Normalize & Weight', description: 'Each rating is normalized to a 100-point scale. Bayesian averaging ensures wines with more ratings are ranked more reliably.' },
+              { icon: '🏅', title: 'Award Badges', description: 'Wines that stand out in our dataset — top-rated in their region, grape, or category — earn badges highlighting their status.' },
+              { icon: '🔄', title: 'Update Regularly', description: 'Rankings are refreshed as new community ratings are collected, ensuring scores stay current.' },
             ].map((card) => (
               <div key={card.title} className="rounded-xl border border-card-border bg-card-bg p-6 transition-all duration-300 hover:border-wine/20">
                 <span className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-wine/5 text-2xl">{card.icon}</span>
@@ -369,16 +372,18 @@ export default async function HomePage() {
           <p className="text-xs font-semibold uppercase tracking-[0.2em] text-wine/60 mb-4">Part of the 50 Best family</p>
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-wine/20 bg-wine/5 px-5 py-2">
             <span className="font-serif text-2xl font-bold text-wine">{totalWines.toLocaleString()}+</span>
-            <span className="text-sm text-text/50">wines ranked from</span>
-            <span className="font-serif text-2xl font-bold text-wine">8</span>
-            <span className="text-sm text-text/50">critic sources</span>
+            <span className="text-sm text-text/50">wines ranked from community ratings</span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2">
             <a href="https://www.50besthotels.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Hotels</a>
             <span className="text-card-border">|</span>
-            <a href="https://www.50bestdatingsites.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Dating Sites</a>
+            <a href="https://www.50bestbar.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Bar</a>
             <span className="text-card-border">|</span>
-            <a href="https://www.50bestmatchmaker.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Matchmakers</a>
+            <a href="https://www.50bestbakeries.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Bakeries</a>
+            <span className="text-card-border">|</span>
+            <a href="https://www.50bestspa.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Spa</a>
+            <span className="text-card-border">|</span>
+            <a href="https://www.50bestmuseums.com" target="_blank" rel="noopener noreferrer" className="text-sm text-text/50 transition-colors hover:text-wine">50 Best Museums</a>
           </div>
         </div>
       </section>
@@ -398,9 +403,9 @@ export default async function HomePage() {
       <section className="mx-auto max-w-4xl px-4 py-16 sm:px-6 lg:px-8">
         <h2 className="mb-6 font-serif text-2xl font-bold text-text">The Definitive Wine Ranking: A Meta-Search Approach</h2>
         <div className="space-y-4 text-sm leading-relaxed text-text/50">
-          <p>In a world where dozens of wine critics each publish their own scores, it can be overwhelming to know which wines are truly exceptional. That&apos;s why 50 Best Wines aggregates scores from the most respected publications in the wine world — Wine Spectator, Robert Parker&apos;s Wine Advocate, James Suckling, Decanter, Wine Enthusiast, Vivino, Jancis Robinson, and Tim Atkin MW — into a single, reliable ranking.</p>
-          <p>Our methodology normalizes scores across different scales (100-point, 20-point, and 5-point systems) and weights each source by its reputation, consistency, and depth of coverage. This ensures that a wine praised universally by multiple critics ranks higher than one championed by a single reviewer.</p>
-          <p>Whether you are a seasoned collector searching for the next great Bordeaux vintage, a curious beginner exploring affordable wines from South America, or a sommelier building a restaurant wine list, our rankings provide actionable insight backed by the world&apos;s most authoritative voices in wine criticism.</p>
+          <p>With hundreds of thousands of wines on the market, knowing which bottles are truly worth opening can feel overwhelming. 50 Best Wines cuts through the noise by aggregating community ratings from platforms like Vivino and X-Wines — covering {(241457).toLocaleString()}+ wines rated by enthusiasts worldwide — into a single, reliable ranking powered by Bayesian averaging.</p>
+          <p>Our methodology normalizes scores to a standard 100-point scale and weights each wine&apos;s aggregate score by the volume and consistency of its community ratings. Wines praised by thousands of drinkers rank higher than those with only a handful of reviews, giving you a more robust signal of true quality.</p>
+          <p>Whether you are a seasoned collector searching for the next great Bordeaux vintage, a curious beginner exploring affordable wines from South America, or a sommelier building a restaurant wine list, our community-driven rankings provide a reliable starting point backed by the collective wisdom of wine lovers worldwide.</p>
         </div>
       </section>
 

@@ -3,8 +3,10 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import AdUnit from '@/components/AdUnit';
 import ScoreBar from '@/components/ScoreBar';
+import ScoreComparison from '@/components/ScoreComparison';
 import BadgeDisplay from '@/components/BadgeDisplay';
 import WineCard from '@/components/WineCard';
+import WishlistButton from '@/components/WishlistButton';
 import FAQSection from '@/components/FAQSection';
 import {
   getWineBySlug,
@@ -78,7 +80,7 @@ export default async function WineDetailPage({ params }: Props) {
   const faqItems = [
     {
       question: `What score does ${wine.name} ${wine.vintage || ''} receive?`,
-      answer: `${wine.name} ${wine.vintage || ''} by ${wine.producer} receives an aggregate score of ${wine.aggregateScore}/100, compiled from ${wine.scores?.length || 0} major critic sources including Wine Spectator, Robert Parker, James Suckling, and more.`,
+      answer: `${wine.name} ${wine.vintage || ''} by ${wine.producer} receives an aggregate community score of ${wine.aggregateScore}/100, compiled from ${wine.scores?.length || 0} rating source${wine.scores?.length !== 1 ? 's' : ''} using Bayesian averaging.`,
     },
     {
       question: `What does ${wine.name} taste like?`,
@@ -86,7 +88,9 @@ export default async function WineDetailPage({ params }: Props) {
     },
     {
       question: `How much does ${wine.name} cost?`,
-      answer: `${wine.name} ${wine.vintage || ''} is priced at approximately $${wine.price}, placing it in the ${wine.priceRange} category.`,
+      answer: wine.price > 0
+        ? `${wine.name} ${wine.vintage || ''} is priced at approximately $${wine.price}, placing it in the ${wine.priceRange} category.`
+        : `Pricing for ${wine.name} ${wine.vintage || ''} varies by retailer. Check the buy link above for current availability and pricing.`.trim(),
     },
     {
       question: `What food pairs well with ${wine.name}?`,
@@ -134,9 +138,14 @@ export default async function WineDetailPage({ params }: Props) {
                 <span className="rounded-full bg-wine/10 px-3 py-1 text-xs font-medium uppercase tracking-wider text-wine/80">{wine.type}</span>
                 {wine.vintage && <span className="rounded-full bg-card-border px-3 py-1 text-xs font-medium text-text/50">{wine.vintage}</span>}
               </div>
-              <h1 className="font-serif text-3xl font-bold text-text sm:text-4xl lg:text-5xl">
-                {wine.name}
-              </h1>
+              <div className="flex items-start gap-4">
+                <h1 className="font-serif text-3xl font-bold text-text sm:text-4xl lg:text-5xl">
+                  {wine.name}
+                </h1>
+                <div className="mt-2 shrink-0">
+                  <WishlistButton slug={wine.slug} />
+                </div>
+              </div>
               <p className="mt-2 text-lg text-text/50">
                 {wine.producer} &middot; {wine.region}, {wine.country}
               </p>
@@ -154,6 +163,9 @@ export default async function WineDetailPage({ params }: Props) {
                 </p>
               </div>
             </div>
+
+            {/* Score Comparison */}
+            <ScoreComparison score={wine.aggregateScore} />
 
             {/* Badges */}
             {wine.badges && wine.badges.length > 0 && (
@@ -230,8 +242,8 @@ export default async function WineDetailPage({ params }: Props) {
 
             <AdUnit format="horizontal" />
 
-            {/* Tasting Notes */}
-            {wine.tastingNotes && (
+            {/* Tasting Notes — only show if note is specific enough (50+ chars) */}
+            {wine.tastingNotes && wine.tastingNotes.length >= 50 && (
               <div>
                 <h2 className="mb-3 font-serif text-xl font-bold text-text">Tasting Notes</h2>
                 <p className="text-sm leading-relaxed text-text/60">{wine.tastingNotes}</p>
@@ -310,6 +322,67 @@ export default async function WineDetailPage({ params }: Props) {
               </div>
             )}
 
+            {/* Why This Score? */}
+            <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+              <h2 className="mb-3 font-serif text-xl font-bold text-text">Why This Score?</h2>
+              <p className="text-sm leading-relaxed text-text/50">
+                This wine&apos;s score of <span className="font-bold text-wine">{wine.aggregateScore}</span> is
+                based on {wine.scores?.length || 0} community rating{wine.scores?.length !== 1 ? 's' : ''} using
+                Bayesian averaging, which prevents wines with very few ratings from ranking artificially high.
+                Each score source is normalized to a common 100-point scale and weighted by the credibility and
+                consistency of the publication. This gives you a single, reliable number that reflects the
+                consensus of the global wine community.
+              </p>
+            </div>
+
+            {/* Find & Buy This Wine */}
+            <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+              <h2 className="mb-4 font-serif text-xl font-bold text-text">Find & Buy This Wine</h2>
+              <p className="mb-4 text-sm text-text/40">
+                Search for {wine.name} {wine.vintage || ''} across trusted online retailers.
+              </p>
+              <div className="grid gap-3 sm:grid-cols-2">
+                {[
+                  {
+                    name: 'Vivino',
+                    url: `https://www.vivino.com/search/wines?q=${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
+                    color: 'from-[#9b1d3a] to-[#7a1730]',
+                  },
+                  {
+                    name: 'Wine.com',
+                    url: `https://www.wine.com/search?q=${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
+                    color: 'from-[#8b2252] to-[#6b1a3f]',
+                  },
+                  {
+                    name: 'Wine-Searcher',
+                    url: `https://www.wine-searcher.com/find/${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
+                    color: 'from-[#5a3d6b] to-[#3d2a4d]',
+                  },
+                  {
+                    name: 'Total Wine',
+                    url: `https://www.totalwine.com/search/all?text=${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
+                    color: 'from-[#4a2838] to-[#3a1f2d]',
+                  },
+                ].map((retailer) => (
+                  <a
+                    key={retailer.name}
+                    href={retailer.url}
+                    target="_blank"
+                    rel="nofollow sponsored noopener"
+                    className={`inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r ${retailer.color} px-5 py-3.5 text-sm font-bold text-white transition-opacity hover:opacity-90`}
+                  >
+                    {retailer.name}
+                    <svg xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                    </svg>
+                  </a>
+                ))}
+              </div>
+              <p className="mt-3 text-[10px] text-text/25">
+                Affiliate links. We may earn a commission from purchases.
+              </p>
+            </div>
+
             <AdUnit format="horizontal" />
 
             {/* FAQ */}
@@ -334,8 +407,8 @@ export default async function WineDetailPage({ params }: Props) {
                   { label: 'Appellation', value: wine.appellation },
                   { label: 'Type', value: wine.type },
                   { label: 'Alcohol', value: wine.alcoholContent },
-                  { label: 'Price', value: wine.price ? `$${wine.price}` : undefined },
-                  { label: 'Price Range', value: wine.priceRange },
+                  { label: 'Price', value: wine.price > 0 ? `$${wine.price}` : undefined },
+                  { label: 'Price Range', value: wine.price > 0 ? wine.priceRange : undefined },
                 ].filter((f) => f.value).map((fact) => (
                   <div key={fact.label} className="flex items-center justify-between border-b border-card-border pb-2 last:border-0 last:pb-0">
                     <dt className="text-xs font-medium uppercase tracking-wider text-text/40">{fact.label}</dt>
@@ -349,7 +422,7 @@ export default async function WineDetailPage({ params }: Props) {
             {wine.buyUrl && (
               <div className="rounded-2xl border border-wine/20 bg-gradient-to-br from-wine/10 to-transparent p-6 text-center">
                 <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-wine/60">Buy This Wine</p>
-                <p className="mb-4 font-serif text-2xl font-bold text-text">${wine.price}</p>
+                {wine.price > 0 && <p className="mb-4 font-serif text-2xl font-bold text-text">${wine.price}</p>}
                 <a
                   href={wine.buyUrl}
                   target="_blank"
