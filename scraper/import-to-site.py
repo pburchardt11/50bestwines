@@ -29,11 +29,11 @@ COUNTRIES_OUT = PROJECT_DIR / "src" / "lib" / "countries.json"
 REGIONS_OUT = PROJECT_DIR / "src" / "lib" / "regions.json"
 GRAPES_OUT = PROJECT_DIR / "src" / "lib" / "grapes.json"
 
-# How many wines to keep (50K ~= 46MB, fits Node.js memory)
-TOP_N = 50_000
+# How many wines to keep (10K ~= 9MB, fast Vercel builds)
+TOP_N = 10_000
 
 # Minimum rating count to be included (filters out noise)
-MIN_RATING_COUNT = 10
+MIN_RATING_COUNT = 50
 
 # --- Score source mapping ---
 # The merged dataset uses these keys in the scores dict:

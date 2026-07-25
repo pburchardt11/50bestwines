@@ -1,35 +1,5 @@
 [
   {
-    "slug": "abruzzo",
-    "name": "Abruzzo",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Abruzzo is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Malvasia Nera",
-      "Montepulciano",
-      "Negroamaro",
-      "Primitivo",
-      "Sangiovese"
-    ],
-    "topWines": [
-      "tenuta-ulisse-limited-edition-10-vendemmie-2020",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2019",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2018",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2017",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2016",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2015",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2014",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2013",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2012",
-      "tenuta-ulisse-limited-edition-10-vendemmie-2011"
-    ],
-    "notableAppellations": [
-      "Abruzzo"
-    ]
-  },
-  {
     "slug": "aconcagua",
     "name": "Aconcagua",
     "country": "Chile",
@@ -65,23 +35,13 @@
     "keyGrapes": [
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Carmenère",
       "Carménère",
       "Malbec",
       "Merlot",
       "Petit Verdot"
     ],
     "topWines": [
-      "sena-sena-aconcagua-valley-2007",
-      "errazuriz-don-maximiano-founder-s-reserve-2020",
-      "errazuriz-don-maximiano-founder-s-reserve-2019",
-      "errazuriz-don-maximiano-founder-s-reserve-2018",
-      "errazuriz-don-maximiano-founder-s-reserve-2017",
-      "errazuriz-don-maximiano-founder-s-reserve-2016",
-      "errazuriz-don-maximiano-founder-s-reserve-2015",
-      "errazuriz-don-maximiano-founder-s-reserve-2014",
-      "errazuriz-don-maximiano-founder-s-reserve-2013",
-      "errazuriz-don-maximiano-founder-s-reserve-2012"
+      "sena-sena-aconcagua-valley-2007"
     ],
     "notableAppellations": [
       "Aconcagua Valley"
@@ -98,7 +58,6 @@
       "Cabernet Franc",
       "Cabernet Sauvignon",
       "Malbec",
-      "Merlot",
       "Petit Verdot"
     ],
     "topWines": [
@@ -125,11 +84,7 @@
     "description": "Alentejano is a wine region in Portugal known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Alicante Bouschet",
-      "Aragonez",
-      "Cabernet Sauvignon",
-      "Syrah/Shiraz",
-      "Touriga Nacional"
+      "Syrah/Shiraz"
     ],
     "topWines": [
       "herdade-da-maroteira-cem-reis-reserva-syrah-2020",
@@ -155,9 +110,7 @@
     "description": "Alentejo is a wine region in Portugal known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Alicante Bouschet",
-      "Petit Verdot",
-      "Syrah/Shiraz"
+      "Alicante Bouschet"
     ],
     "topWines": [
       "mouchao-alentejano-tonel-n-3-4-2021",
@@ -176,167 +129,6 @@
     ]
   },
   {
-    "slug": "alexander-valley",
-    "name": "Alexander Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Alexander Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "silver-oak-alexander-valley-cabernet-sauvignon-2021",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2020",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2019",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2018",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2017",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2016",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2015",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2014",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2013",
-      "silver-oak-alexander-valley-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Alexander Valley"
-    ]
-  },
-  {
-    "slug": "alicante",
-    "name": "Alicante",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Alicante is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Mourvedre"
-    ],
-    "topWines": [
-      "volver-triga-2022",
-      "volver-triga-2021",
-      "volver-triga-2020",
-      "volver-triga-2019",
-      "volver-triga-2018",
-      "volver-triga-2017",
-      "volver-triga-2016",
-      "volver-triga-2015",
-      "volver-triga-2014",
-      "volver-triga-2013"
-    ],
-    "notableAppellations": [
-      "Alicante"
-    ]
-  },
-  {
-    "slug": "almansa",
-    "name": "Almansa",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Almansa is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Garnacha Tintorera"
-    ],
-    "topWines": [
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2022",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2021",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2020",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2019",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2018",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2017",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2016",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2015",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2014",
-      "atalaya-alaya-tierra-old-vines-vieilles-vignes-2013"
-    ],
-    "notableAppellations": [
-      "Almansa"
-    ]
-  },
-  {
-    "slug": "alpilles",
-    "name": "Alpilles",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Alpilles is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "domaine-de-trevallon-alpilles-rouge-2022",
-      "domaine-de-trevallon-alpilles-rouge-2021",
-      "domaine-de-trevallon-alpilles-rouge-2020",
-      "domaine-de-trevallon-alpilles-rouge-2019",
-      "domaine-de-trevallon-alpilles-rouge-2018",
-      "domaine-de-trevallon-alpilles-rouge-2017",
-      "domaine-de-trevallon-alpilles-rouge-2016",
-      "domaine-de-trevallon-alpilles-rouge-2015",
-      "domaine-de-trevallon-alpilles-rouge-2014",
-      "domaine-de-trevallon-alpilles-rouge-2013"
-    ],
-    "notableAppellations": [
-      "Alpilles"
-    ]
-  },
-  {
-    "slug": "alsace",
-    "name": "Alsace",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Alsace is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Riesling"
-    ],
-    "topWines": [
-      "trimbach-clos-sainte-hune-riesling-alsace-2021",
-      "trimbach-clos-sainte-hune-riesling-alsace-2020",
-      "trimbach-clos-sainte-hune-riesling-alsace-2019",
-      "trimbach-clos-sainte-hune-riesling-alsace-2018",
-      "trimbach-clos-sainte-hune-riesling-alsace-2017",
-      "trimbach-clos-sainte-hune-riesling-alsace-2016",
-      "trimbach-clos-sainte-hune-riesling-alsace-2015",
-      "trimbach-clos-sainte-hune-riesling-alsace-2014",
-      "trimbach-clos-sainte-hune-riesling-alsace-2013",
-      "trimbach-clos-sainte-hune-riesling-alsace-2012"
-    ],
-    "notableAppellations": [
-      "Alsace"
-    ]
-  },
-  {
-    "slug": "amarone-della-valpolicella",
-    "name": "Amarone della Valpolicella",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Amarone della Valpolicella is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Corvina",
-      "Corvinone",
-      "Croatina",
-      "Molinara",
-      "Oseleta",
-      "Rondinella"
-    ],
-    "topWines": [
-      "bertani-amarone-della-valpolicella-classico-2020",
-      "bertani-amarone-della-valpolicella-classico-2019",
-      "bertani-amarone-della-valpolicella-classico-2018",
-      "bertani-amarone-della-valpolicella-classico-2017",
-      "bertani-amarone-della-valpolicella-classico-2016",
-      "bertani-amarone-della-valpolicella-classico-2015",
-      "bertani-amarone-della-valpolicella-classico-2014",
-      "bertani-amarone-della-valpolicella-classico-2013",
-      "bertani-amarone-della-valpolicella-classico-2012",
-      "bertani-amarone-della-valpolicella-classico-2011"
-    ],
-    "notableAppellations": [
-      "Amarone della Valpolicella"
-    ]
-  },
-  {
     "slug": "amarone-della-valpolicella-classico",
     "name": "Amarone della Valpolicella Classico",
     "country": "Italy",
@@ -344,12 +136,9 @@
     "description": "Amarone della Valpolicella Classico is a wine region in Italy known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Barbera",
       "Corvina",
       "Corvinone",
       "Croatina",
-      "Dindarella",
-      "Molinara",
       "Oseleta",
       "Rondinella"
     ],
@@ -367,32 +156,6 @@
     ],
     "notableAppellations": [
       "Amarone della Valpolicella Classico"
-    ]
-  },
-  {
-    "slug": "anderson-valley",
-    "name": "Anderson Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Anderson Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "williams-selyem-ferrington-vineyard-pinot-noir-2020",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2019",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2018",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2017",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2016",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2015",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2014",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2013",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2012",
-      "williams-selyem-ferrington-vineyard-pinot-noir-2011"
-    ],
-    "notableAppellations": [
-      "Anderson Valley"
     ]
   },
   {
@@ -419,62 +182,6 @@
     ],
     "notableAppellations": [
       "Apalta Valley"
-    ]
-  },
-  {
-    "slug": "atlas-peak",
-    "name": "Atlas Peak",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Atlas Peak is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "au-sommet-cabernet-sauvignon-2021",
-      "au-sommet-cabernet-sauvignon-2020",
-      "au-sommet-cabernet-sauvignon-2019",
-      "au-sommet-cabernet-sauvignon-2018",
-      "au-sommet-cabernet-sauvignon-2017",
-      "au-sommet-cabernet-sauvignon-2016",
-      "au-sommet-cabernet-sauvignon-2015",
-      "au-sommet-cabernet-sauvignon-2014",
-      "au-sommet-cabernet-sauvignon-2013",
-      "au-sommet-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Atlas Peak"
-    ]
-  },
-  {
-    "slug": "baja-california",
-    "name": "Baja California",
-    "country": "Mexico",
-    "countryCode": "MX",
-    "description": "Baja California is a wine region in Mexico known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Nebbiolo",
-      "Petit Verdot",
-      "Petite Sirah"
-    ],
-    "topWines": [
-      "durand-icaro-2021",
-      "durand-icaro-2020",
-      "durand-icaro-2019",
-      "durand-icaro-2018",
-      "durand-icaro-2017",
-      "durand-icaro-2016",
-      "durand-icaro-2015",
-      "durand-icaro-2014",
-      "durand-icaro-2013",
-      "durand-icaro-2012"
-    ],
-    "notableAppellations": [
-      "Baja California"
     ]
   },
   {
@@ -530,32 +237,6 @@
     ]
   },
   {
-    "slug": "barossa",
-    "name": "Barossa",
-    "country": "Australia",
-    "countryCode": "AU",
-    "description": "Barossa is a wine region in Australia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "langmeil-the-freedom-1843-shiraz-2021",
-      "langmeil-the-freedom-1843-shiraz-2020",
-      "langmeil-the-freedom-1843-shiraz-2019",
-      "langmeil-the-freedom-1843-shiraz-2018",
-      "langmeil-the-freedom-1843-shiraz-2017",
-      "langmeil-the-freedom-1843-shiraz-2016",
-      "langmeil-the-freedom-1843-shiraz-2015",
-      "langmeil-the-freedom-1843-shiraz-2014",
-      "langmeil-the-freedom-1843-shiraz-2013",
-      "langmeil-the-freedom-1843-shiraz-2012"
-    ],
-    "notableAppellations": [
-      "Barossa"
-    ]
-  },
-  {
     "slug": "barossa-valley",
     "name": "Barossa Valley",
     "country": "Australia",
@@ -563,10 +244,7 @@
     "description": "Barossa Valley is a wine region in Australia known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Grenache",
-      "Shiraz/Syrah",
-      "Syrah/Shiraz",
-      "Viognier"
+      "Syrah/Shiraz"
     ],
     "topWines": [
       "torbreck-runrig-2021",
@@ -585,136 +263,6 @@
     ]
   },
   {
-    "slug": "barsac",
-    "name": "Barsac",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Barsac is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Sémillon"
-    ],
-    "topWines": [
-      "chateau-climens-barsac-premier-grand-cru-classe-2021",
-      "chateau-climens-barsac-premier-grand-cru-classe-2020",
-      "chateau-climens-barsac-premier-grand-cru-classe-2019",
-      "chateau-climens-barsac-premier-grand-cru-classe-2018",
-      "chateau-climens-barsac-premier-grand-cru-classe-2017",
-      "chateau-climens-barsac-premier-grand-cru-classe-2016",
-      "chateau-climens-barsac-premier-grand-cru-classe-2015",
-      "chateau-climens-barsac-premier-grand-cru-classe-2014",
-      "chateau-climens-barsac-premier-grand-cru-classe-2013",
-      "chateau-climens-barsac-premier-grand-cru-classe-2012"
-    ],
-    "notableAppellations": [
-      "Barsac"
-    ]
-  },
-  {
-    "slug": "beechworth",
-    "name": "Beechworth",
-    "country": "Australia",
-    "countryCode": "AU",
-    "description": "Beechworth is a wine region in Australia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "giaconda-estate-vineyard-chardonnay-2021",
-      "giaconda-estate-vineyard-chardonnay-2020",
-      "giaconda-estate-vineyard-chardonnay-2019",
-      "giaconda-estate-vineyard-chardonnay-2018",
-      "giaconda-estate-vineyard-chardonnay-2017",
-      "giaconda-estate-vineyard-chardonnay-2016",
-      "giaconda-estate-vineyard-chardonnay-2015",
-      "giaconda-estate-vineyard-chardonnay-2014",
-      "giaconda-estate-vineyard-chardonnay-2013",
-      "giaconda-estate-vineyard-chardonnay-2012"
-    ],
-    "notableAppellations": [
-      "Beechworth"
-    ]
-  },
-  {
-    "slug": "beiras",
-    "name": "Beiras",
-    "country": "Portugal",
-    "countryCode": "PT",
-    "description": "Beiras is a wine region in Portugal known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Bical",
-      "Cabernet Sauvignon",
-      "Encruzado",
-      "Maria Gomes",
-      "Merlot",
-      "Touriga Nacional"
-    ],
-    "topWines": [
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2021",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2020",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2019",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2018",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2017",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2016",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2015",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2014",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2013",
-      "colinas-de-sao-lourenco-principal-grande-reserva-bairrada-2012"
-    ],
-    "notableAppellations": [
-      "Beiras"
-    ]
-  },
-  {
-    "slug": "bienvenues-batard-montrachet-grand-cru",
-    "name": "Bienvenues-Bâtard-Montrachet Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Bienvenues-Bâtard-Montrachet Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aligoté",
-      "Chardonnay",
-      "Pinot Blanc",
-      "Pinot Gris"
-    ],
-    "topWines": [
-      "jean-claude-ramonet-jean-claude-ramonet-bienvenues-batard-montrachet-grand-cru-1989",
-      "jean-claude-ramonet-jean-claude-ramonet-bienvenues-batard-montrachet-grand-cru-2000"
-    ],
-    "notableAppellations": [
-      "Bienvenues-Bâtard-Montrachet Grand Cru"
-    ]
-  },
-  {
-    "slug": "bolgheri",
-    "name": "Bolgheri",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Bolgheri is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc"
-    ],
-    "topWines": [
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2021",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2020",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2019",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2018",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2017",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2016",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2015",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2014",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2013",
-      "poggio-al-tesoro-dedicato-a-walter-bolgheri-superiore-2012"
-    ],
-    "notableAppellations": [
-      "Bolgheri"
-    ]
-  },
-  {
     "slug": "bolgheri-sassicaia",
     "name": "Bolgheri Sassicaia",
     "country": "Italy",
@@ -723,8 +271,7 @@
     "climate": "Varies",
     "keyGrapes": [
       "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Sangiovese"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "tenuta-san-guido-sassicaia-2021",
@@ -753,8 +300,7 @@
       "Cabernet Franc",
       "Cabernet Sauvignon",
       "Merlot",
-      "Petit Verdot",
-      "Sangiovese"
+      "Petit Verdot"
     ],
     "topWines": [
       "ornellaia-bolgheri-superiore-2021",
@@ -770,78 +316,6 @@
     ],
     "notableAppellations": [
       "Bolgheri Superiore"
-    ]
-  },
-  {
-    "slug": "bonnes-mares-grand-cru",
-    "name": "Bonnes-Mares Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Bonnes-Mares Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "jacques-frederic-mugnier-jacques-frederic-mugnier-bonnes-mares-grand-cru-2020"
-    ],
-    "notableAppellations": [
-      "Bonnes-Mares Grand Cru"
-    ]
-  },
-  {
-    "slug": "borba",
-    "name": "Borba",
-    "country": "Portugal",
-    "countryCode": "PT",
-    "description": "Borba is a wine region in Portugal known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Alicante Bouschet",
-      "Aragonez",
-      "Touriga Nacional"
-    ],
-    "topWines": [
-      "quinta-do-zambujeiro-zambujeiro-2019",
-      "quinta-do-zambujeiro-zambujeiro-2018",
-      "quinta-do-zambujeiro-zambujeiro-2017",
-      "quinta-do-zambujeiro-zambujeiro-2016",
-      "quinta-do-zambujeiro-zambujeiro-2015",
-      "quinta-do-zambujeiro-zambujeiro-2014",
-      "quinta-do-zambujeiro-zambujeiro-2013",
-      "quinta-do-zambujeiro-zambujeiro-2012",
-      "quinta-do-zambujeiro-zambujeiro-2011",
-      "quinta-do-zambujeiro-zambujeiro-2010"
-    ],
-    "notableAppellations": [
-      "Borba"
-    ]
-  },
-  {
-    "slug": "bourgogne",
-    "name": "Bourgogne",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Bourgogne is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay",
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2021",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2020",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2019",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2018",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2017",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2016",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2015",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2014",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2013",
-      "joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-2012"
-    ],
-    "notableAppellations": [
-      "Bourgogne"
     ]
   },
   {
@@ -871,87 +345,6 @@
     ]
   },
   {
-    "slug": "batard-montrachet-grand-cru",
-    "name": "Bâtard-Montrachet Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Bâtard-Montrachet Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aligoté",
-      "Chardonnay",
-      "Pinot Blanc",
-      "Pinot Gris"
-    ],
-    "topWines": [
-      "etienne-sauzet-etienne-sauzet-batard-montrachet-grand-cru-1985",
-      "joseph-drouhin-joseph-drouhin-batard-montrachet-grand-cru-1986"
-    ],
-    "notableAppellations": [
-      "Bâtard-Montrachet Grand Cru"
-    ]
-  },
-  {
-    "slug": "cachapoal-valley",
-    "name": "Cachapoal Valley",
-    "country": "Chile",
-    "countryCode": "CL",
-    "description": "Cachapoal Valley is a wine region in Chile known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carmenère",
-      "Merlot",
-      "Petit Verdot",
-      "Pinot Noir",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "lapostolle-borobo-2021",
-      "lapostolle-borobo-2020",
-      "lapostolle-borobo-2019",
-      "lapostolle-borobo-2018",
-      "lapostolle-borobo-2017",
-      "lapostolle-borobo-2016",
-      "lapostolle-borobo-2015",
-      "lapostolle-borobo-2014",
-      "lapostolle-borobo-2013",
-      "lapostolle-borobo-2012"
-    ],
-    "notableAppellations": [
-      "Cachapoal Valley"
-    ]
-  },
-  {
-    "slug": "cafayate-valley",
-    "name": "Cafayate Valley",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "Cafayate Valley is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Malbec"
-    ],
-    "topWines": [
-      "colome-altura-maxima-malbec-2021",
-      "colome-altura-maxima-malbec-2020",
-      "colome-altura-maxima-malbec-2019",
-      "colome-altura-maxima-malbec-2018",
-      "colome-altura-maxima-malbec-2017",
-      "colome-altura-maxima-malbec-2016",
-      "colome-altura-maxima-malbec-2015",
-      "colome-altura-maxima-malbec-2014",
-      "colome-altura-maxima-malbec-2013",
-      "colome-altura-maxima-malbec-2012"
-    ],
-    "notableAppellations": [
-      "Cafayate Valley"
-    ]
-  },
-  {
     "slug": "california",
     "name": "California",
     "country": "United States",
@@ -959,14 +352,7 @@
     "description": "California is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Grenache",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot",
-      "Pinot Noir",
-      "Shiraz/Syrah"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "ridge-vineyards-monte-bello-2021",
@@ -985,176 +371,6 @@
     ]
   },
   {
-    "slug": "calistoga",
-    "name": "Calistoga",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Calistoga is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot",
-      "Sangiovese"
-    ],
-    "topWines": [
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2021",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2020",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2019",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2018",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2017",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2016",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2015",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2014",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2013",
-      "venge-vineyards-cabernet-sauvignon-bone-ash-vineyard-2012"
-    ],
-    "notableAppellations": [
-      "Calistoga"
-    ]
-  },
-  {
-    "slug": "campanha-gaucha",
-    "name": "Campanha Gaúcha",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "description": "Campanha Gaúcha is a wine region in Brazil known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot",
-      "Tannat",
-      "Tempranillo",
-      "Touriga Nacional"
-    ],
-    "topWines": [
-      "miolo-seival-estate-sesmarias-2020",
-      "miolo-seival-estate-sesmarias-2019",
-      "miolo-seival-estate-sesmarias-2018",
-      "miolo-seival-estate-sesmarias-2017",
-      "miolo-seival-estate-sesmarias-2016",
-      "miolo-seival-estate-sesmarias-2015",
-      "miolo-seival-estate-sesmarias-2014",
-      "miolo-seival-estate-sesmarias-2013",
-      "miolo-seival-estate-sesmarias-2012",
-      "miolo-seival-estate-sesmarias-2011"
-    ],
-    "notableAppellations": [
-      "Campanha Gaúcha"
-    ]
-  },
-  {
-    "slug": "campania",
-    "name": "Campania",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Campania is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aglianico"
-    ],
-    "topWines": [
-      "masseria-frattasi-kapnios-aglianico-2018",
-      "masseria-frattasi-kapnios-aglianico-2017",
-      "masseria-frattasi-kapnios-aglianico-2016",
-      "masseria-frattasi-kapnios-aglianico-2015",
-      "masseria-frattasi-kapnios-aglianico-2014",
-      "masseria-frattasi-kapnios-aglianico-2013",
-      "masseria-frattasi-kapnios-aglianico-2012",
-      "masseria-frattasi-kapnios-aglianico-2011",
-      "masseria-frattasi-kapnios-aglianico-2010",
-      "masseria-frattasi-kapnios-aglianico-2008"
-    ],
-    "notableAppellations": [
-      "Campania"
-    ]
-  },
-  {
-    "slug": "campo-de-borja",
-    "name": "Campo de Borja",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Campo de Borja is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Garnacha"
-    ],
-    "topWines": [
-      "alto-moncayo-aquilon-garnacha-2021",
-      "alto-moncayo-aquilon-garnacha-2020",
-      "alto-moncayo-aquilon-garnacha-2019",
-      "alto-moncayo-aquilon-garnacha-2018",
-      "alto-moncayo-aquilon-garnacha-2017",
-      "alto-moncayo-aquilon-garnacha-2016",
-      "alto-moncayo-aquilon-garnacha-2015",
-      "alto-moncayo-aquilon-garnacha-2014",
-      "alto-moncayo-aquilon-garnacha-2013",
-      "alto-moncayo-aquilon-garnacha-2012"
-    ],
-    "notableAppellations": [
-      "Campo de Borja"
-    ]
-  },
-  {
-    "slug": "canelones",
-    "name": "Canelones",
-    "country": "Uruguay",
-    "countryCode": "UY",
-    "description": "Canelones is a wine region in Uruguay known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Tannat"
-    ],
-    "topWines": [
-      "bertolini-broglio-ultra-premium-tannat-exotic-2021",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2020",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2019",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2018",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2017",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2016",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2015",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2014",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2013",
-      "bertolini-broglio-ultra-premium-tannat-exotic-2012"
-    ],
-    "notableAppellations": [
-      "Canelones"
-    ]
-  },
-  {
-    "slug": "casablanca-valley",
-    "name": "Casablanca Valley",
-    "country": "Chile",
-    "countryCode": "CL",
-    "description": "Casablanca Valley is a wine region in Chile known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carmenère",
-      "Merlot",
-      "Petit Verdot",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "montes-angel-s-secret-carmenere-2021",
-      "montes-angel-s-secret-carmenere-2020",
-      "montes-angel-s-secret-carmenere-2019",
-      "montes-angel-s-secret-carmenere-2018",
-      "montes-angel-s-secret-carmenere-2017",
-      "montes-angel-s-secret-carmenere-2016",
-      "montes-angel-s-secret-carmenere-2015",
-      "montes-angel-s-secret-carmenere-2014",
-      "montes-angel-s-secret-carmenere-2013",
-      "montes-angel-s-secret-carmenere-2012"
-    ],
-    "notableAppellations": [
-      "Casablanca Valley"
-    ]
-  },
-  {
     "slug": "castilla-y-leon",
     "name": "Castilla y León",
     "country": "Spain",
@@ -1162,8 +378,7 @@
     "description": "Castilla y León is a wine region in Spain known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Tempranillo",
-      "Verdejo"
+      "Tempranillo"
     ],
     "topWines": [
       "bodegas-mauro-terreus-paraje-de-cueva-baja-2021",
@@ -1182,220 +397,6 @@
     ]
   },
   {
-    "slug": "cava",
-    "name": "Cava",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Cava is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Macabeo",
-      "Parellada",
-      "Trepat",
-      "Viura",
-      "Xarel-lo"
-    ],
-    "topWines": [
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2022",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2021",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2020",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2019",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2018",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2017",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2016",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2015",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2014",
-      "agusti-torello-mata-cava-kripta-gran-reserva-brut-nature-2013"
-    ],
-    "notableAppellations": [
-      "Cava"
-    ]
-  },
-  {
-    "slug": "central-coast",
-    "name": "Central Coast",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Central Coast is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Grenache"
-    ],
-    "topWines": [
-      "sine-qua-non-sine-qua-non-distenta-grenache-2023",
-      "sine-qua-non-sine-qua-non-distenta-grenache-2022"
-    ],
-    "notableAppellations": [
-      "Central Coast"
-    ]
-  },
-  {
-    "slug": "central-valley",
-    "name": "Central Valley",
-    "country": "Chile",
-    "countryCode": "CL",
-    "description": "Central Valley is a wine region in Chile known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "santa-carolina-santa-carolina-luis-pereira-2012"
-    ],
-    "notableAppellations": [
-      "Central Valley"
-    ]
-  },
-  {
-    "slug": "central-valley-cl",
-    "name": "Central Valley (CL)",
-    "country": "Chile",
-    "countryCode": "CL",
-    "description": "Central Valley (CL) is a wine region in Chile known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Pinot Noir",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2021",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2020",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2019",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2018",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2017",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2016",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2015",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2014",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2013",
-      "san-pedro-cabo-de-hornos-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Central Valley (CL)"
-    ]
-  },
-  {
-    "slug": "chablis-1er-cru-butteaux",
-    "name": "Chablis 1er Cru 'Butteaux'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Chablis 1er Cru 'Butteaux' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "raveneau-chablis-premier-cru-butteaux-2021",
-      "raveneau-chablis-premier-cru-butteaux-2020",
-      "raveneau-chablis-premier-cru-butteaux-2019",
-      "raveneau-chablis-premier-cru-butteaux-2018",
-      "raveneau-chablis-premier-cru-butteaux-2017",
-      "raveneau-chablis-premier-cru-butteaux-2016",
-      "raveneau-chablis-premier-cru-butteaux-2015",
-      "raveneau-chablis-premier-cru-butteaux-2014",
-      "raveneau-chablis-premier-cru-butteaux-2013",
-      "raveneau-chablis-premier-cru-butteaux-2012"
-    ],
-    "notableAppellations": [
-      "Chablis 1er Cru 'Butteaux'"
-    ]
-  },
-  {
-    "slug": "chablis-1er-cru-montee-de-tonnerre",
-    "name": "Chablis 1er Cru 'Montee de Tonnerre'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Chablis 1er Cru 'Montee de Tonnerre' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2021",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2020",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2019",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2018",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2017",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2016",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2015",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2014",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2013",
-      "raveneau-chablis-premier-cru-montee-de-tonnerre-2012"
-    ],
-    "notableAppellations": [
-      "Chablis 1er Cru 'Montee de Tonnerre'"
-    ]
-  },
-  {
-    "slug": "chablis-grand-cru-les-clos",
-    "name": "Chablis Grand Cru 'Les Clos'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Chablis Grand Cru 'Les Clos' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "raveneau-chablis-grand-cru-clos-2020",
-      "raveneau-chablis-grand-cru-clos-2019",
-      "raveneau-chablis-grand-cru-clos-2018",
-      "raveneau-chablis-grand-cru-clos-2017",
-      "raveneau-chablis-grand-cru-clos-2016",
-      "raveneau-chablis-grand-cru-clos-2015",
-      "raveneau-chablis-grand-cru-clos-2014",
-      "raveneau-chablis-grand-cru-clos-2013",
-      "raveneau-chablis-grand-cru-clos-2012",
-      "raveneau-chablis-grand-cru-clos-2011"
-    ],
-    "notableAppellations": [
-      "Chablis Grand Cru 'Les Clos'"
-    ]
-  },
-  {
-    "slug": "chablis-grand-cru-valmur",
-    "name": "Chablis Grand Cru 'Valmur'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Chablis Grand Cru 'Valmur' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "raveneau-chablis-grand-cru-valmur-2021",
-      "raveneau-chablis-grand-cru-valmur-2020",
-      "raveneau-chablis-grand-cru-valmur-2019",
-      "raveneau-chablis-grand-cru-valmur-2018",
-      "raveneau-chablis-grand-cru-valmur-2017",
-      "raveneau-chablis-grand-cru-valmur-2016",
-      "raveneau-chablis-grand-cru-valmur-2015",
-      "raveneau-chablis-grand-cru-valmur-2014",
-      "raveneau-chablis-grand-cru-valmur-2013",
-      "raveneau-chablis-grand-cru-valmur-2012"
-    ],
-    "notableAppellations": [
-      "Chablis Grand Cru 'Valmur'"
-    ]
-  },
-  {
-    "slug": "chambertin-clos-de-beze-grand-cru",
-    "name": "Chambertin-Clos de Bèze Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Chambertin-Clos de Bèze Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "robert-groffier-robert-groffier-chambertin-clos-de-beze-grand-cru-1993"
-    ],
-    "notableAppellations": [
-      "Chambertin-Clos de Bèze Grand Cru"
-    ]
-  },
-  {
     "slug": "champagne",
     "name": "Champagne",
     "country": "France",
@@ -1404,9 +405,7 @@
     "climate": "Varies",
     "keyGrapes": [
       "Chardonnay",
-      "Pinot Blanc",
       "Pinot Meunier",
-      "Pinot Nero",
       "Pinot Noir"
     ],
     "topWines": [
@@ -1426,34 +425,6 @@
     ]
   },
   {
-    "slug": "champagne-grand-cru-ambonnay",
-    "name": "Champagne Grand Cru 'Ambonnay'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Champagne Grand Cru 'Ambonnay' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay",
-      "Pinot Meunier",
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2020",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2019",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2018",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2017",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2016",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2015",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2014",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2013",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2012",
-      "egly-ouriet-millesime-brut-champagne-grand-cru-ambonnay-2011"
-    ],
-    "notableAppellations": [
-      "Champagne Grand Cru 'Ambonnay'"
-    ]
-  },
-  {
     "slug": "champagne-grand-cru-avize",
     "name": "Champagne Grand Cru 'Avize'",
     "country": "France",
@@ -1466,127 +437,10 @@
       "Pinot Noir"
     ],
     "topWines": [
-      "jacques-selosse-jacques-selosse-substance-blanc-de-blancs-brut-champagne-grand-cru-avize",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2020",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2019",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2018",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2017",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2016",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2015",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2014",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2013",
-      "agrapart-fils-mineral-blanc-de-blancs-extra-brut-champagne-grand-cru-avize-2012"
+      "jacques-selosse-jacques-selosse-substance-blanc-de-blancs-brut-champagne-grand-cru-avize"
     ],
     "notableAppellations": [
       "Champagne Grand Cru 'Avize'"
-    ]
-  },
-  {
-    "slug": "champagne-grand-cru-ay",
-    "name": "Champagne Grand Cru 'Aÿ'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Champagne Grand Cru 'Aÿ' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay",
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "henri-giraud-argonne-2021",
-      "henri-giraud-argonne-2019",
-      "henri-giraud-argonne-2018",
-      "henri-giraud-argonne-2017",
-      "henri-giraud-argonne-2016",
-      "henri-giraud-argonne-2015",
-      "henri-giraud-argonne-2014",
-      "henri-giraud-argonne-2013",
-      "henri-giraud-argonne-2012",
-      "henri-giraud-argonne-2011"
-    ],
-    "notableAppellations": [
-      "Champagne Grand Cru 'Aÿ'"
-    ]
-  },
-  {
-    "slug": "champagne-grand-cru-le-mesnil-sur-oger",
-    "name": "Champagne Grand Cru 'Le Mesnil-sur-Oger'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Champagne Grand Cru 'Le Mesnil-sur-Oger' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2021",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2020",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2019",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2018",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2017",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2016",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2015",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2014",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2013",
-      "jacques-selosse-les-carelles-blanc-de-blancs-extra-brut-champagne-grand-cru-le-mesnil-sur-oger-lieux-dits-2012"
-    ],
-    "notableAppellations": [
-      "Champagne Grand Cru 'Le Mesnil-sur-Oger'"
-    ]
-  },
-  {
-    "slug": "chassagne-montrachet-1er-cru-morgeot",
-    "name": "Chassagne-Montrachet 1er Cru 'Morgeot'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Chassagne-Montrachet 1er Cru 'Morgeot' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aligoté",
-      "Chardonnay",
-      "Pinot Blanc",
-      "Pinot Gris"
-    ],
-    "topWines": [
-      "jean-claude-ramonet-jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2000",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2020",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2019",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2018",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2017",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2016",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2015",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2014",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2013",
-      "jean-claude-ramonet-chassagne-montrachet-premier-cru-morgeot-blanc-2012"
-    ],
-    "notableAppellations": [
-      "Chassagne-Montrachet 1er Cru 'Morgeot'"
-    ]
-  },
-  {
-    "slug": "chianti",
-    "name": "Chianti",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Chianti is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Sangiovese"
-    ],
-    "topWines": [
-      "montevertine-le-pergole-torte-2021",
-      "montevertine-le-pergole-torte-2020",
-      "montevertine-le-pergole-torte-2019",
-      "montevertine-le-pergole-torte-2018",
-      "montevertine-le-pergole-torte-2017",
-      "montevertine-le-pergole-torte-2016",
-      "montevertine-le-pergole-torte-2015",
-      "montevertine-le-pergole-torte-2014",
-      "montevertine-le-pergole-torte-2013",
-      "montevertine-le-pergole-torte-2012"
-    ],
-    "notableAppellations": [
-      "Chianti"
     ]
   },
   {
@@ -1598,13 +452,7 @@
     "climate": "Varies",
     "keyGrapes": [
       "Aglianico",
-      "Cinsaut",
-      "Counoise",
-      "Garnacha",
-      "Grenache",
-      "Mourvedre",
-      "Muscardin",
-      "Shiraz/Syrah"
+      "Grenache"
     ],
     "topWines": [
       "chateau-rayas-chateauneuf-du-pape-2021",
@@ -1623,58 +471,6 @@
     ]
   },
   {
-    "slug": "clare-valley",
-    "name": "Clare Valley",
-    "country": "Australia",
-    "countryCode": "AU",
-    "description": "Clare Valley is a wine region in Australia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "jim-barry-the-armagh-shiraz-2020",
-      "jim-barry-the-armagh-shiraz-2019",
-      "jim-barry-the-armagh-shiraz-2018",
-      "jim-barry-the-armagh-shiraz-2017",
-      "jim-barry-the-armagh-shiraz-2016",
-      "jim-barry-the-armagh-shiraz-2015",
-      "jim-barry-the-armagh-shiraz-2014",
-      "jim-barry-the-armagh-shiraz-2013",
-      "jim-barry-the-armagh-shiraz-2012",
-      "jim-barry-the-armagh-shiraz-2011"
-    ],
-    "notableAppellations": [
-      "Clare Valley"
-    ]
-  },
-  {
-    "slug": "clos-de-tart-grand-cru",
-    "name": "Clos de Tart Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Clos de Tart Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2021",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2020",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2019",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2018",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2017",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2016",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2015",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2014",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2013",
-      "domaine-du-clos-de-tart-clos-de-tart-grand-cru-monopole-2012"
-    ],
-    "notableAppellations": [
-      "Clos de Tart Grand Cru"
-    ]
-  },
-  {
     "slug": "colchagua-valley",
     "name": "Colchagua Valley",
     "country": "Chile",
@@ -1682,14 +478,9 @@
     "description": "Colchagua Valley is a wine region in Chile known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
       "Cabernet Sauvignon",
       "Carmenère",
-      "Carménère",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot",
-      "Shiraz/Syrah"
+      "Petit Verdot"
     ],
     "topWines": [
       "montes-taita-marchigue-vineyard-cabernet-sauvignon-2021",
@@ -1708,32 +499,6 @@
     ]
   },
   {
-    "slug": "colli-della-toscana-centrale",
-    "name": "Colli della Toscana Centrale",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Colli della Toscana Centrale is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Sangiovese"
-    ],
-    "topWines": [
-      "fontodi-flaccianello-della-pieve-2021",
-      "fontodi-flaccianello-della-pieve-2020",
-      "fontodi-flaccianello-della-pieve-2019",
-      "fontodi-flaccianello-della-pieve-2018",
-      "fontodi-flaccianello-della-pieve-2017",
-      "fontodi-flaccianello-della-pieve-2016",
-      "fontodi-flaccianello-della-pieve-2015",
-      "fontodi-flaccianello-della-pieve-2014",
-      "fontodi-flaccianello-della-pieve-2013",
-      "fontodi-flaccianello-della-pieve-2012"
-    ],
-    "notableAppellations": [
-      "Colli della Toscana Centrale"
-    ]
-  },
-  {
     "slug": "columbia-valley",
     "name": "Columbia Valley",
     "country": "United States",
@@ -1741,8 +506,7 @@
     "description": "Columbia Valley is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Syrah/Shiraz"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "quilceda-creek-cabernet-sauvignon-2021",
@@ -1758,32 +522,6 @@
     ],
     "notableAppellations": [
       "Columbia Valley"
-    ]
-  },
-  {
-    "slug": "condrieu",
-    "name": "Condrieu",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Condrieu is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Viognier"
-    ],
-    "topWines": [
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2020",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2019",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2018",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2017",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2016",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2015",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2014",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2013",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2012",
-      "domaine-georges-vernay-coteau-de-vernon-condrieu-2011"
-    ],
-    "notableAppellations": [
-      "Condrieu"
     ]
   },
   {
@@ -1813,141 +551,6 @@
     ]
   },
   {
-    "slug": "coombsville",
-    "name": "Coombsville",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Coombsville is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "favia-favia-cabernet-sauvignon-2018",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2020",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2019",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2018",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2017",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2016",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2015",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2014",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2013",
-      "mark-herold-herold-brown-label-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Coombsville"
-    ]
-  },
-  {
-    "slug": "cornas",
-    "name": "Cornas",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Cornas is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "thierry-allemand-cornas-les-chaillot-2021",
-      "thierry-allemand-cornas-les-chaillot-2020",
-      "thierry-allemand-cornas-les-chaillot-2019",
-      "thierry-allemand-cornas-les-chaillot-2018",
-      "thierry-allemand-cornas-les-chaillot-2017",
-      "thierry-allemand-cornas-les-chaillot-2016",
-      "thierry-allemand-cornas-les-chaillot-2015",
-      "thierry-allemand-cornas-les-chaillot-2014",
-      "thierry-allemand-cornas-les-chaillot-2013",
-      "thierry-allemand-cornas-les-chaillot-2012"
-    ],
-    "notableAppellations": [
-      "Cornas"
-    ]
-  },
-  {
-    "slug": "corton-charlemagne-grand-cru",
-    "name": "Corton-Charlemagne Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Corton-Charlemagne Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aligoté",
-      "Chardonnay",
-      "Pinot Blanc",
-      "Pinot Gris"
-    ],
-    "topWines": [
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2019",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2018",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2017",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2016",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2015",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2014",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2013",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2012",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2011",
-      "bonneau-du-martray-corton-charlemagne-grand-cru-2010"
-    ],
-    "notableAppellations": [
-      "Corton-Charlemagne Grand Cru"
-    ]
-  },
-  {
-    "slug": "costa-d-amalfi",
-    "name": "Costa d'Amalfi",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Costa d'Amalfi is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Fenile",
-      "Ginestra",
-      "Ripolo"
-    ],
-    "topWines": [
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2021",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2020",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2019",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2018",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2017",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2016",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2015",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2014",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2013",
-      "marisa-cuomo-fiorduva-costa-d-amalfi-2012"
-    ],
-    "notableAppellations": [
-      "Costa d'Amalfi"
-    ]
-  },
-  {
-    "slug": "cote-de-beaune",
-    "name": "Côte de Beaune",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Côte de Beaune is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2021",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2020",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2019",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2018",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2017",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2016",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2015",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2014",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2013",
-      "jean-claude-ramonet-batard-montrachet-grand-cru-2012"
-    ],
-    "notableAppellations": [
-      "Côte de Beaune"
-    ]
-  },
-  {
     "slug": "cote-de-nuits",
     "name": "Côte de Nuits",
     "country": "France",
@@ -1955,7 +558,6 @@
     "description": "Côte de Nuits is a wine region in France known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Chardonnay",
       "Pinot Noir"
     ],
     "topWines": [
@@ -1982,8 +584,7 @@
     "description": "Côte-Rôtie is a wine region in France known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Syrah/Shiraz",
-      "Viognier"
+      "Syrah/Shiraz"
     ],
     "topWines": [
       "e-guigal-cote-rotie-la-mouline-2021",
@@ -2002,62 +603,6 @@
     ]
   },
   {
-    "slug": "cotes-de-bourg",
-    "name": "Côtes de Bourg",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Côtes de Bourg is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Malbec",
-      "Merlot"
-    ],
-    "topWines": [
-      "roc-de-cambes-cotes-de-bourg-2021",
-      "roc-de-cambes-cotes-de-bourg-2020",
-      "roc-de-cambes-cotes-de-bourg-2019",
-      "roc-de-cambes-cotes-de-bourg-2018",
-      "roc-de-cambes-cotes-de-bourg-2017",
-      "roc-de-cambes-cotes-de-bourg-2016",
-      "roc-de-cambes-cotes-de-bourg-2015",
-      "roc-de-cambes-cotes-de-bourg-2014",
-      "roc-de-cambes-cotes-de-bourg-2013",
-      "roc-de-cambes-cotes-de-bourg-2012"
-    ],
-    "notableAppellations": [
-      "Côtes de Bourg"
-    ]
-  },
-  {
-    "slug": "cotes-du-rhone",
-    "name": "Côtes-du-Rhône",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Côtes-du-Rhône is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cinsault",
-      "Grenache",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "chateau-des-tours-cotes-du-rhone-2022",
-      "chateau-des-tours-cotes-du-rhone-2021",
-      "chateau-des-tours-cotes-du-rhone-2020",
-      "chateau-des-tours-cotes-du-rhone-2019",
-      "chateau-des-tours-cotes-du-rhone-2018",
-      "chateau-des-tours-cotes-du-rhone-2017",
-      "chateau-des-tours-cotes-du-rhone-2016",
-      "chateau-des-tours-cotes-du-rhone-2015",
-      "chateau-des-tours-cotes-du-rhone-2014",
-      "chateau-des-tours-cotes-du-rhone-2013"
-    ],
-    "notableAppellations": [
-      "Côtes-du-Rhône"
-    ]
-  },
-  {
     "slug": "diamond-mountain-district",
     "name": "Diamond Mountain District",
     "country": "United States",
@@ -2068,45 +613,10 @@
       "Cabernet Sauvignon"
     ],
     "topWines": [
-      "checkerboard-vineyards-checkerboard-vineyards-aurora-vineyard-2020",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2021",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2020",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2019",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2018",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2017",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2016",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2015",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2014",
-      "hall-diamond-mountain-district-cabernet-sauvignon-2013"
+      "checkerboard-vineyards-checkerboard-vineyards-aurora-vineyard-2020"
     ],
     "notableAppellations": [
       "Diamond Mountain District"
-    ]
-  },
-  {
-    "slug": "dingac",
-    "name": "Dingač",
-    "country": "Croatia",
-    "countryCode": "HR",
-    "description": "Dingač is a wine region in Croatia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Plavac Mali"
-    ],
-    "topWines": [
-      "matusko-dingac-2022",
-      "matusko-dingac-2021",
-      "matusko-dingac-2020",
-      "matusko-dingac-2019",
-      "matusko-dingac-2018",
-      "matusko-dingac-2017",
-      "matusko-dingac-2016",
-      "matusko-dingac-2015",
-      "matusko-dingac-2014",
-      "matusko-dingac-2013"
-    ],
-    "notableAppellations": [
-      "Dingač"
     ]
   },
   {
@@ -2117,14 +627,14 @@
     "description": "Douro is a wine region in Portugal known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Arinto de Bucelas",
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Côdega de Larinho",
       "Donzelinho Tinto",
       "Gouveio",
-      "Rabigato",
-      "Rufete"
+      "Rufete",
+      "Sousão",
+      "Tinta Amarela",
+      "Tinta Barroca"
     ],
     "topWines": [
       "casa-ferreirinha-barca-velha-douro-2021",
@@ -2140,33 +650,6 @@
     ],
     "notableAppellations": [
       "Douro"
-    ]
-  },
-  {
-    "slug": "dry-creek-valley",
-    "name": "Dry Creek Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Dry Creek Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Zinfandel"
-    ],
-    "topWines": [
-      "a-rafanelli-zinfandel-2019",
-      "a-rafanelli-zinfandel-2018",
-      "a-rafanelli-zinfandel-2017",
-      "a-rafanelli-zinfandel-2016",
-      "a-rafanelli-zinfandel-2015",
-      "a-rafanelli-zinfandel-2014",
-      "a-rafanelli-zinfandel-2013",
-      "a-rafanelli-zinfandel-2012",
-      "a-rafanelli-zinfandel-2011",
-      "a-rafanelli-zinfandel-2010"
-    ],
-    "notableAppellations": [
-      "Dry Creek Valley"
     ]
   },
   {
@@ -2196,32 +679,6 @@
     ]
   },
   {
-    "slug": "edna-valley",
-    "name": "Edna Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Edna Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "alban-vineyards-reva-estate-syrah-2020",
-      "alban-vineyards-reva-estate-syrah-2019",
-      "alban-vineyards-reva-estate-syrah-2018",
-      "alban-vineyards-reva-estate-syrah-2017",
-      "alban-vineyards-reva-estate-syrah-2016",
-      "alban-vineyards-reva-estate-syrah-2015",
-      "alban-vineyards-reva-estate-syrah-2014",
-      "alban-vineyards-reva-estate-syrah-2013",
-      "alban-vineyards-reva-estate-syrah-2012",
-      "alban-vineyards-reva-estate-syrah-2011"
-    ],
-    "notableAppellations": [
-      "Edna Valley"
-    ]
-  },
-  {
     "slug": "evora",
     "name": "Evora",
     "country": "Portugal",
@@ -2229,10 +686,7 @@
     "description": "Evora is a wine region in Portugal known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Alicante Bouschet",
       "Antão Vaz",
-      "Aragonez",
-      "Syrah/Shiraz",
       "Tempranillo"
     ],
     "topWines": [
@@ -2249,243 +703,6 @@
     ],
     "notableAppellations": [
       "Evora"
-    ]
-  },
-  {
-    "slug": "fiddletown",
-    "name": "Fiddletown",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Fiddletown is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Zinfandel"
-    ],
-    "topWines": [
-      "rombauer-vineyards-zinfandel-fiddletown-2021",
-      "rombauer-vineyards-zinfandel-fiddletown-2020",
-      "rombauer-vineyards-zinfandel-fiddletown-2019",
-      "rombauer-vineyards-zinfandel-fiddletown-2018",
-      "rombauer-vineyards-zinfandel-fiddletown-2017",
-      "rombauer-vineyards-zinfandel-fiddletown-2016",
-      "rombauer-vineyards-zinfandel-fiddletown-2015",
-      "rombauer-vineyards-zinfandel-fiddletown-2014",
-      "rombauer-vineyards-zinfandel-fiddletown-2013",
-      "rombauer-vineyards-zinfandel-fiddletown-2012"
-    ],
-    "notableAppellations": [
-      "Fiddletown"
-    ]
-  },
-  {
-    "slug": "franciacorta",
-    "name": "Franciacorta",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Franciacorta is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay",
-      "Pinot Nero"
-    ],
-    "topWines": [
-      "bellavista-vittorio-moretti-2015",
-      "bellavista-vittorio-moretti-2014",
-      "bellavista-vittorio-moretti-2013",
-      "bellavista-vittorio-moretti-2012",
-      "bellavista-vittorio-moretti-2011",
-      "bellavista-vittorio-moretti-2010",
-      "bellavista-vittorio-moretti-2009",
-      "bellavista-vittorio-moretti-2008",
-      "bellavista-vittorio-moretti-2007",
-      "bellavista-vittorio-moretti-2006"
-    ],
-    "notableAppellations": [
-      "Franciacorta"
-    ]
-  },
-  {
-    "slug": "friuli-venezia-giulia",
-    "name": "Friuli-Venezia Giulia",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Friuli-Venezia Giulia is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Ribolla Gialla"
-    ],
-    "topWines": [
-      "gravner-ribolla-gialla-2021",
-      "gravner-ribolla-gialla-2020",
-      "gravner-ribolla-gialla-2019",
-      "gravner-ribolla-gialla-2018",
-      "gravner-ribolla-gialla-2017",
-      "gravner-ribolla-gialla-2016",
-      "gravner-ribolla-gialla-2015",
-      "gravner-ribolla-gialla-2014",
-      "gravner-ribolla-gialla-2013",
-      "gravner-ribolla-gialla-2012"
-    ],
-    "notableAppellations": [
-      "Friuli-Venezia Giulia"
-    ]
-  },
-  {
-    "slug": "galicia",
-    "name": "Galicia",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Galicia is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Godello"
-    ],
-    "topWines": [
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2020",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2019",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2018",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2017",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2016",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2015",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2014",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2013",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2012",
-      "rafael-palacios-as-sortes-val-do-bibei-godello-2011"
-    ],
-    "notableAppellations": [
-      "Galicia"
-    ]
-  },
-  {
-    "slug": "galilee",
-    "name": "Galilee",
-    "country": "Israel",
-    "countryCode": "IL",
-    "description": "Galilee is a wine region in Israel known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "topWines": [
-      "golan-heights-winery-yarden-katzrin-2021",
-      "golan-heights-winery-yarden-katzrin-2020",
-      "golan-heights-winery-yarden-katzrin-2019",
-      "golan-heights-winery-yarden-katzrin-2018",
-      "golan-heights-winery-yarden-katzrin-2017",
-      "golan-heights-winery-yarden-katzrin-2016",
-      "golan-heights-winery-yarden-katzrin-2015",
-      "golan-heights-winery-yarden-katzrin-2014",
-      "golan-heights-winery-yarden-katzrin-2013",
-      "golan-heights-winery-yarden-katzrin-2012"
-    ],
-    "notableAppellations": [
-      "Galilee"
-    ]
-  },
-  {
-    "slug": "gevrey-chambertin",
-    "name": "Gevrey-Chambertin",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Gevrey-Chambertin is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-trapet-chambertin-grand-cru-2021",
-      "domaine-trapet-chambertin-grand-cru-2020",
-      "domaine-trapet-chambertin-grand-cru-2019",
-      "domaine-trapet-chambertin-grand-cru-2018",
-      "domaine-trapet-chambertin-grand-cru-2017",
-      "domaine-trapet-chambertin-grand-cru-2016",
-      "domaine-trapet-chambertin-grand-cru-2015",
-      "domaine-trapet-chambertin-grand-cru-2014",
-      "domaine-trapet-chambertin-grand-cru-2013",
-      "domaine-trapet-chambertin-grand-cru-2012"
-    ],
-    "notableAppellations": [
-      "Gevrey-Chambertin"
-    ]
-  },
-  {
-    "slug": "gevrey-chambertin-1er-cru-clos-st-jacques",
-    "name": "Gevrey-Chambertin 1er Cru 'Clos St Jacques'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Gevrey-Chambertin 1er Cru 'Clos St Jacques' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2021",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2020",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2019",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2018",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2017",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2016",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2015",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2014",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2013",
-      "domaine-armand-rousseau-gevrey-chambertin-1er-cru-clos-st-jacques-2012"
-    ],
-    "notableAppellations": [
-      "Gevrey-Chambertin 1er Cru 'Clos St Jacques'"
-    ]
-  },
-  {
-    "slug": "grands-echezeaux-grand-cru",
-    "name": "Grands-Échezeaux Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Grands-Échezeaux Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2021",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2020",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2019",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2018",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2017",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2016",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2015",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2014",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2013",
-      "mongeard-mugneret-grands-echezeaux-grand-cru-2012"
-    ],
-    "notableAppellations": [
-      "Grands-Échezeaux Grand Cru"
-    ]
-  },
-  {
-    "slug": "graubunden",
-    "name": "Graubünden",
-    "country": "Switzerland",
-    "countryCode": "CH",
-    "description": "Graubünden is a wine region in Switzerland known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay",
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "daniel-marta-gantenbein-pinot-noir-2022",
-      "daniel-marta-gantenbein-pinot-noir-2021",
-      "daniel-marta-gantenbein-pinot-noir-2020",
-      "daniel-marta-gantenbein-pinot-noir-2019",
-      "daniel-marta-gantenbein-pinot-noir-2018",
-      "daniel-marta-gantenbein-pinot-noir-2017",
-      "daniel-marta-gantenbein-pinot-noir-2016",
-      "daniel-marta-gantenbein-pinot-noir-2015",
-      "daniel-marta-gantenbein-pinot-noir-2014",
-      "daniel-marta-gantenbein-pinot-noir-2013"
-    ],
-    "notableAppellations": [
-      "Graubünden"
     ]
   },
   {
@@ -2541,175 +758,6 @@
     ]
   },
   {
-    "slug": "howell-mountain",
-    "name": "Howell Mountain",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Howell Mountain is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "del-dotto-del-dotto-the-david-howell-mountain-2018",
-      "del-dotto-del-dotto-the-david-howell-mountain-2017",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2021",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2020",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2019",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2018",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2017",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2016",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2015",
-      "o-shaughnessy-cabernet-sauvignon-howell-mountain-2014"
-    ],
-    "notableAppellations": [
-      "Howell Mountain"
-    ]
-  },
-  {
-    "slug": "irpinia-campi-taurasini",
-    "name": "Irpinia Campi Taurasini",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Irpinia Campi Taurasini is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aglianico"
-    ],
-    "topWines": [
-      "nativ-eremo-san-quirico-gold-2022",
-      "nativ-eremo-san-quirico-gold-2021",
-      "nativ-eremo-san-quirico-gold-2020",
-      "nativ-eremo-san-quirico-gold-2019",
-      "nativ-eremo-san-quirico-gold-2018",
-      "nativ-eremo-san-quirico-gold-2017",
-      "nativ-eremo-san-quirico-gold-2016",
-      "nativ-eremo-san-quirico-gold-2015",
-      "nativ-eremo-san-quirico-gold-2014",
-      "nativ-eremo-san-quirico-gold-2013"
-    ],
-    "notableAppellations": [
-      "Irpinia Campi Taurasini"
-    ]
-  },
-  {
-    "slug": "isola-dei-nuraghi",
-    "name": "Isola dei Nuraghi",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Isola dei Nuraghi is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cannonau",
-      "Carignan/Cariñena"
-    ],
-    "topWines": [
-      "argiolas-turriga-isola-dei-nuraghi-2021",
-      "argiolas-turriga-isola-dei-nuraghi-2020",
-      "argiolas-turriga-isola-dei-nuraghi-2019",
-      "argiolas-turriga-isola-dei-nuraghi-2018",
-      "argiolas-turriga-isola-dei-nuraghi-2017",
-      "argiolas-turriga-isola-dei-nuraghi-2016",
-      "argiolas-turriga-isola-dei-nuraghi-2015",
-      "argiolas-turriga-isola-dei-nuraghi-2014",
-      "argiolas-turriga-isola-dei-nuraghi-2013",
-      "argiolas-turriga-isola-dei-nuraghi-2012"
-    ],
-    "notableAppellations": [
-      "Isola dei Nuraghi"
-    ]
-  },
-  {
-    "slug": "jerez-xeres-sherry",
-    "name": "Jerez-Xérès-Sherry",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Jerez-Xérès-Sherry is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pedro Ximenez"
-    ],
-    "topWines": [
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2020",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2019",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2018",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2017",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2016",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2015",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2014",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2012",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2011",
-      "bodegas-tradicion-pedro-ximenez-tradicion-20-years-old-vos-2010"
-    ],
-    "notableAppellations": [
-      "Jerez-Xérès-Sherry"
-    ]
-  },
-  {
-    "slug": "jerusalem",
-    "name": "Jerusalem",
-    "country": "Israel",
-    "countryCode": "IL",
-    "description": "Jerusalem is a wine region in Israel known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "domaine-du-castel-grand-vin-rouge-2021",
-      "domaine-du-castel-grand-vin-rouge-2020",
-      "domaine-du-castel-grand-vin-rouge-2019",
-      "domaine-du-castel-grand-vin-rouge-2018",
-      "domaine-du-castel-grand-vin-rouge-2017",
-      "domaine-du-castel-grand-vin-rouge-2016",
-      "domaine-du-castel-grand-vin-rouge-2015",
-      "domaine-du-castel-grand-vin-rouge-2014",
-      "domaine-du-castel-grand-vin-rouge-2013",
-      "domaine-du-castel-grand-vin-rouge-2012"
-    ],
-    "notableAppellations": [
-      "Jerusalem"
-    ]
-  },
-  {
-    "slug": "juanico",
-    "name": "Juanico",
-    "country": "Uruguay",
-    "countryCode": "UY",
-    "description": "Juanico is a wine region in Uruguay known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot",
-      "Tannat"
-    ],
-    "topWines": [
-      "familia-deicas-preludio-barrel-select-tinto-2021",
-      "familia-deicas-preludio-barrel-select-tinto-2020",
-      "familia-deicas-preludio-barrel-select-tinto-2019",
-      "familia-deicas-preludio-barrel-select-tinto-2018",
-      "familia-deicas-preludio-barrel-select-tinto-2017",
-      "familia-deicas-preludio-barrel-select-tinto-2016",
-      "familia-deicas-preludio-barrel-select-tinto-2015",
-      "familia-deicas-preludio-barrel-select-tinto-2014",
-      "familia-deicas-preludio-barrel-select-tinto-2013",
-      "familia-deicas-preludio-barrel-select-tinto-2012"
-    ],
-    "notableAppellations": [
-      "Juanico"
-    ]
-  },
-  {
     "slug": "jumilla",
     "name": "Jumilla",
     "country": "Spain",
@@ -2717,9 +765,7 @@
     "description": "Jumilla is a wine region in Spain known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Monastrell",
-      "Mourvedre"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "bodegas-el-nido-el-nido-2021",
@@ -2735,116 +781,6 @@
     ],
     "notableAppellations": [
       "Jumilla"
-    ]
-  },
-  {
-    "slug": "knights-valley",
-    "name": "Knights Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Knights Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carménère",
-      "Chardonnay",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "peter-michael-les-pavots-2021",
-      "peter-michael-les-pavots-2020",
-      "peter-michael-les-pavots-2019",
-      "peter-michael-les-pavots-2018",
-      "peter-michael-les-pavots-2017",
-      "peter-michael-les-pavots-2016",
-      "peter-michael-les-pavots-2015",
-      "peter-michael-les-pavots-2014",
-      "peter-michael-les-pavots-2013",
-      "peter-michael-les-pavots-2012"
-    ],
-    "notableAppellations": [
-      "Knights Valley"
-    ]
-  },
-  {
-    "slug": "la-clape",
-    "name": "La Clape",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "La Clape is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2020",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2019",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2018",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2017",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2016",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2015",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2014",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2013",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2012",
-      "chateau-la-negly-la-porte-du-ciel-languedoc-la-clape-2011"
-    ],
-    "notableAppellations": [
-      "La Clape"
-    ]
-  },
-  {
-    "slug": "la-consulta",
-    "name": "La Consulta",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "La Consulta is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Malbec"
-    ],
-    "topWines": [
-      "zuccardi-aluvional-la-consulta-2020",
-      "zuccardi-aluvional-la-consulta-2019",
-      "zuccardi-aluvional-la-consulta-2018",
-      "zuccardi-aluvional-la-consulta-2017",
-      "zuccardi-aluvional-la-consulta-2016",
-      "zuccardi-aluvional-la-consulta-2015",
-      "zuccardi-aluvional-la-consulta-2014",
-      "zuccardi-aluvional-la-consulta-2013",
-      "zuccardi-aluvional-la-consulta-2012",
-      "zuccardi-aluvional-la-consulta-2011"
-    ],
-    "notableAppellations": [
-      "La Consulta"
-    ]
-  },
-  {
-    "slug": "la-romanee-grand-cru",
-    "name": "La Romanée Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "La Romanée Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "bouchard-pere-fils-la-romanee-grand-cru-2021",
-      "bouchard-pere-fils-la-romanee-grand-cru-2020",
-      "bouchard-pere-fils-la-romanee-grand-cru-2019",
-      "bouchard-pere-fils-la-romanee-grand-cru-2018",
-      "bouchard-pere-fils-la-romanee-grand-cru-2017",
-      "bouchard-pere-fils-la-romanee-grand-cru-2016",
-      "bouchard-pere-fils-la-romanee-grand-cru-2015",
-      "bouchard-pere-fils-la-romanee-grand-cru-2014",
-      "bouchard-pere-fils-la-romanee-grand-cru-2013",
-      "bouchard-pere-fils-la-romanee-grand-cru-2012"
-    ],
-    "notableAppellations": [
-      "La Romanée Grand Cru"
     ]
   },
   {
@@ -2872,7 +808,6 @@
     "description": "Langhe is a wine region in Italy known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Chardonnay",
       "Nebbiolo"
     ],
     "topWines": [
@@ -2892,33 +827,6 @@
     ]
   },
   {
-    "slug": "languedoc",
-    "name": "Languedoc",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Languedoc is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Grenache",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "peyre-rose-clos-syrah-leone-2021",
-      "peyre-rose-clos-syrah-leone-2020",
-      "peyre-rose-clos-syrah-leone-2019",
-      "peyre-rose-clos-syrah-leone-2018",
-      "peyre-rose-clos-syrah-leone-2017",
-      "peyre-rose-clos-syrah-leone-2016",
-      "peyre-rose-clos-syrah-leone-2015",
-      "peyre-rose-clos-syrah-leone-2014",
-      "peyre-rose-clos-syrah-leone-2013",
-      "peyre-rose-clos-syrah-leone-2012"
-    ],
-    "notableAppellations": [
-      "Languedoc"
-    ]
-  },
-  {
     "slug": "languedoc-roussillon",
     "name": "Languedoc-Roussillon",
     "country": "France",
@@ -2927,13 +835,9 @@
     "climate": "Varies",
     "keyGrapes": [
       "Cabernet Sauvignon",
-      "Carignan/Cariñena",
-      "Chardonnay",
       "Counoise",
-      "Grenache",
-      "Marsanne",
       "Mourvedre",
-      "Roussanne"
+      "Syrah/Shiraz"
     ],
     "topWines": [
       "la-grange-des-peres-vin-de-pays-de-l-herault-2021",
@@ -2952,62 +856,6 @@
     ]
   },
   {
-    "slug": "las-compuertas",
-    "name": "Las Compuertas",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "Las Compuertas is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2021",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2020",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2019",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2018",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2017",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2016",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2015",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2014",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2013",
-      "luigi-bosca-finca-los-nobles-field-blend-cabernet-bouchet-2012"
-    ],
-    "notableAppellations": [
-      "Las Compuertas"
-    ]
-  },
-  {
-    "slug": "lazio",
-    "name": "Lazio",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Lazio is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Carignan/Cariñena",
-      "Grenache",
-      "Syrah/Shiraz",
-      "Tempranillo"
-    ],
-    "topWines": [
-      "san-giovenale-habemus-lazio-rosso-white-label-2021",
-      "san-giovenale-habemus-lazio-rosso-white-label-2020",
-      "san-giovenale-habemus-lazio-rosso-white-label-2019",
-      "san-giovenale-habemus-lazio-rosso-white-label-2018",
-      "san-giovenale-habemus-lazio-rosso-white-label-2017",
-      "san-giovenale-habemus-lazio-rosso-white-label-2016",
-      "san-giovenale-habemus-lazio-rosso-white-label-2015",
-      "san-giovenale-habemus-lazio-rosso-white-label-2014",
-      "san-giovenale-habemus-lazio-rosso-white-label-2013",
-      "san-giovenale-habemus-lazio-rosso-white-label-2012"
-    ],
-    "notableAppellations": [
-      "Lazio"
-    ]
-  },
-  {
     "slug": "lombardia",
     "name": "Lombardia",
     "country": "Italy",
@@ -3016,8 +864,6 @@
     "climate": "Varies",
     "keyGrapes": [
       "Chardonnay",
-      "Nebbiolo",
-      "Pinot Noir",
       "Rondinella"
     ],
     "topWines": [
@@ -3037,32 +883,6 @@
     ]
   },
   {
-    "slug": "los-carneros",
-    "name": "Los Carneros",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Los Carneros is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "domaine-carneros-le-reve-blanc-de-blancs-2021",
-      "domaine-carneros-le-reve-blanc-de-blancs-2020",
-      "domaine-carneros-le-reve-blanc-de-blancs-2019",
-      "domaine-carneros-le-reve-blanc-de-blancs-2018",
-      "domaine-carneros-le-reve-blanc-de-blancs-2017",
-      "domaine-carneros-le-reve-blanc-de-blancs-2016",
-      "domaine-carneros-le-reve-blanc-de-blancs-2015",
-      "domaine-carneros-le-reve-blanc-de-blancs-2014",
-      "domaine-carneros-le-reve-blanc-de-blancs-2013",
-      "domaine-carneros-le-reve-blanc-de-blancs-2012"
-    ],
-    "notableAppellations": [
-      "Los Carneros"
-    ]
-  },
-  {
     "slug": "lujan-de-cuyo",
     "name": "Lujan de Cuyo",
     "country": "Argentina",
@@ -3070,10 +890,8 @@
     "description": "Lujan de Cuyo is a wine region in Argentina known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Malbec",
-      "Petit Verdot"
+      "Malbec"
     ],
     "topWines": [
       "luigi-bosca-icono-2020",
@@ -3101,9 +919,7 @@
     "keyGrapes": [
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot",
-      "Syrah/Shiraz"
+      "Petit Verdot"
     ],
     "topWines": [
       "el-principal-andetelmo-2021",
@@ -3119,87 +935,6 @@
     ],
     "notableAppellations": [
       "Maipo Valley"
-    ]
-  },
-  {
-    "slug": "marche",
-    "name": "Marche",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Marche is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Montepulciano",
-      "Sangiovese"
-    ],
-    "topWines": [
-      "oasi-degli-angeli-kurni-marche-2021",
-      "oasi-degli-angeli-kurni-marche-2020",
-      "oasi-degli-angeli-kurni-marche-2019",
-      "oasi-degli-angeli-kurni-marche-2018",
-      "oasi-degli-angeli-kurni-marche-2017",
-      "oasi-degli-angeli-kurni-marche-2016",
-      "oasi-degli-angeli-kurni-marche-2015",
-      "oasi-degli-angeli-kurni-marche-2014",
-      "oasi-degli-angeli-kurni-marche-2013",
-      "oasi-degli-angeli-kurni-marche-2012"
-    ],
-    "notableAppellations": [
-      "Marche"
-    ]
-  },
-  {
-    "slug": "maremma-toscana",
-    "name": "Maremma Toscana",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Maremma Toscana is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "topWines": [
-      "rocca-di-frassinello-baffonero-maremma-toscana-2018",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2017",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2016",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2015",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2014",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2013",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2012",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2011",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2010",
-      "rocca-di-frassinello-baffonero-maremma-toscana-2009"
-    ],
-    "notableAppellations": [
-      "Maremma Toscana"
-    ]
-  },
-  {
-    "slug": "margaret-river",
-    "name": "Margaret River",
-    "country": "Australia",
-    "countryCode": "AU",
-    "description": "Margaret River is a wine region in Australia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Chardonnay"
-    ],
-    "topWines": [
-      "leeuwin-estate-art-series-chardonnay-2021",
-      "leeuwin-estate-art-series-chardonnay-2020",
-      "leeuwin-estate-art-series-chardonnay-2019",
-      "leeuwin-estate-art-series-chardonnay-2018",
-      "leeuwin-estate-art-series-chardonnay-2017",
-      "leeuwin-estate-art-series-chardonnay-2016",
-      "leeuwin-estate-art-series-chardonnay-2015",
-      "leeuwin-estate-art-series-chardonnay-2014",
-      "leeuwin-estate-art-series-chardonnay-2013",
-      "leeuwin-estate-art-series-chardonnay-2012"
-    ],
-    "notableAppellations": [
-      "Margaret River"
     ]
   },
   {
@@ -3234,58 +969,6 @@
     ]
   },
   {
-    "slug": "marlborough",
-    "name": "Marlborough",
-    "country": "New Zealand",
-    "countryCode": "NZ",
-    "description": "Marlborough is a wine region in New Zealand known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Sauvignon Blanc"
-    ],
-    "topWines": [
-      "taka-sauvignon-blanc-2021",
-      "taka-sauvignon-blanc-2020",
-      "taka-sauvignon-blanc-2019",
-      "taka-sauvignon-blanc-2018",
-      "taka-sauvignon-blanc-2017",
-      "taka-sauvignon-blanc-2016",
-      "taka-sauvignon-blanc-2015",
-      "taka-sauvignon-blanc-2014",
-      "taka-sauvignon-blanc-2013",
-      "taka-sauvignon-blanc-2012"
-    ],
-    "notableAppellations": [
-      "Marlborough"
-    ]
-  },
-  {
-    "slug": "mazis-chambertin-grand-cru",
-    "name": "Mazis-Chambertin Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Mazis-Chambertin Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2021",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2020",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2019",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2018",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2017",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2016",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2015",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2014",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2013",
-      "hospices-de-beaune-mazis-chambertin-grand-cru-cuvee-madeleine-collignon-2012"
-    ],
-    "notableAppellations": [
-      "Mazis-Chambertin Grand Cru"
-    ]
-  },
-  {
     "slug": "mclaren-vale",
     "name": "McLaren Vale",
     "country": "Australia",
@@ -3293,7 +976,6 @@
     "description": "McLaren Vale is a wine region in Australia known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Sauvignon",
       "Syrah/Shiraz"
     ],
     "topWines": [
@@ -3323,11 +1005,8 @@
       "Bonarda",
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Carmenère",
-      "Chardonnay",
       "Malbec",
-      "Merlot",
-      "Petit Verdot"
+      "Merlot"
     ],
     "topWines": [
       "vina-cobos-cobos-volturno-2021",
@@ -3372,116 +1051,6 @@
     ]
   },
   {
-    "slug": "moldova-viniculture",
-    "name": "Moldova Viniculture",
-    "country": "Moldova",
-    "countryCode": "MD",
-    "description": "Moldova Viniculture is a wine region in Moldova known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Saperavi"
-    ],
-    "topWines": [
-      "gitana-lupi-rezerva-2021",
-      "gitana-lupi-rezerva-2020",
-      "gitana-lupi-rezerva-2019",
-      "gitana-lupi-rezerva-2018",
-      "gitana-lupi-rezerva-2017",
-      "gitana-lupi-rezerva-2016",
-      "gitana-lupi-rezerva-2015",
-      "gitana-lupi-rezerva-2014",
-      "gitana-lupi-rezerva-2013",
-      "gitana-lupi-rezerva-2012"
-    ],
-    "notableAppellations": [
-      "Moldova Viniculture"
-    ]
-  },
-  {
-    "slug": "montefalco-sagrantino",
-    "name": "Montefalco Sagrantino",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Montefalco Sagrantino is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Sagrantino"
-    ],
-    "topWines": [
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2021",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2020",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2019",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2018",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2017",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2016",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2015",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2014",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2013",
-      "paolo-bea-pagliaro-montefalco-sagrantino-secco-2012"
-    ],
-    "notableAppellations": [
-      "Montefalco Sagrantino"
-    ]
-  },
-  {
-    "slug": "montevideo",
-    "name": "Montevideo",
-    "country": "Uruguay",
-    "countryCode": "UY",
-    "description": "Montevideo is a wine region in Uruguay known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Merlot",
-      "Tannat",
-      "Tempranillo"
-    ],
-    "topWines": [
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2021",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2020",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2019",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2018",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2017",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2016",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2015",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2014",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2013",
-      "bouza-monte-vide-eu-tannat-merlot-tempranillo-2012"
-    ],
-    "notableAppellations": [
-      "Montevideo"
-    ]
-  },
-  {
-    "slug": "montilla-moriles",
-    "name": "Montilla-Moriles",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Montilla-Moriles is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Moscatel",
-      "Palomino",
-      "Pedro Ximenez"
-    ],
-    "topWines": [
-      "toro-albala-don-px-gran-reserva-2019",
-      "toro-albala-don-px-gran-reserva-2018",
-      "toro-albala-don-px-gran-reserva-2017",
-      "toro-albala-don-px-gran-reserva-2016",
-      "toro-albala-don-px-gran-reserva-2015",
-      "toro-albala-don-px-gran-reserva-2014",
-      "toro-albala-don-px-gran-reserva-2013",
-      "toro-albala-don-px-gran-reserva-2012",
-      "toro-albala-don-px-gran-reserva-2011",
-      "toro-albala-don-px-gran-reserva-2010"
-    ],
-    "notableAppellations": [
-      "Montilla-Moriles"
-    ]
-  },
-  {
     "slug": "montrachet-grand-cru",
     "name": "Montrachet Grand Cru",
     "country": "France",
@@ -3496,159 +1065,10 @@
     ],
     "topWines": [
       "joseph-drouhin-joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-1985",
-      "joseph-drouhin-joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-1987",
-      "jean-claude-ramonet-jean-claude-ramonet-montrachet-grand-cru-1985",
-      "jean-claude-ramonet-jean-claude-ramonet-montrachet-grand-cru-1986"
+      "joseph-drouhin-joseph-drouhin-montrachet-grand-cru-marquis-de-laguiche-1987"
     ],
     "notableAppellations": [
       "Montrachet Grand Cru"
-    ]
-  },
-  {
-    "slug": "moon-mountain-district",
-    "name": "Moon Mountain District",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Moon Mountain District is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "kamen-cabernet-sauvignon-2021",
-      "kamen-cabernet-sauvignon-2020",
-      "kamen-cabernet-sauvignon-2019",
-      "kamen-cabernet-sauvignon-2018",
-      "kamen-cabernet-sauvignon-2017",
-      "kamen-cabernet-sauvignon-2016",
-      "kamen-cabernet-sauvignon-2015",
-      "kamen-cabernet-sauvignon-2014",
-      "kamen-cabernet-sauvignon-2013",
-      "kamen-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Moon Mountain District"
-    ]
-  },
-  {
-    "slug": "morgon",
-    "name": "Morgon",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Morgon is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Gamay Noir"
-    ],
-    "topWines": [
-      "jean-foillard-morgon-cote-du-py-2022",
-      "jean-foillard-morgon-cote-du-py-2021",
-      "jean-foillard-morgon-cote-du-py-2020",
-      "jean-foillard-morgon-cote-du-py-2019",
-      "jean-foillard-morgon-cote-du-py-2018",
-      "jean-foillard-morgon-cote-du-py-2017",
-      "jean-foillard-morgon-cote-du-py-2016",
-      "jean-foillard-morgon-cote-du-py-2015",
-      "jean-foillard-morgon-cote-du-py-2014",
-      "jean-foillard-morgon-cote-du-py-2013"
-    ],
-    "notableAppellations": [
-      "Morgon"
-    ]
-  },
-  {
-    "slug": "mosel",
-    "name": "Mosel",
-    "country": "Germany",
-    "countryCode": "DE",
-    "description": "Mosel is a wine region in Germany known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Riesling"
-    ],
-    "topWines": [
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2020",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2019",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2018",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2017",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2016",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2015",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2014",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2013",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2012",
-      "egon-muller-scharzhof-scharzhofberger-riesling-auslese-2011"
-    ],
-    "notableAppellations": [
-      "Mosel"
-    ]
-  },
-  {
-    "slug": "mount-lofty-ranges",
-    "name": "Mount Lofty Ranges",
-    "country": "Australia",
-    "countryCode": "AU",
-    "description": "Mount Lofty Ranges is a wine region in Australia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "henschke-cyril-henschke-2016",
-      "henschke-cyril-henschke-2015",
-      "henschke-cyril-henschke-2014",
-      "henschke-cyril-henschke-2013",
-      "henschke-cyril-henschke-2012",
-      "henschke-cyril-henschke-2011",
-      "henschke-cyril-henschke-2010",
-      "henschke-cyril-henschke-2009",
-      "henschke-cyril-henschke-2008",
-      "henschke-cyril-henschke-2007"
-    ],
-    "notableAppellations": [
-      "Mount Lofty Ranges"
-    ]
-  },
-  {
-    "slug": "mount-veeder",
-    "name": "Mount Veeder",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Mount Veeder is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2020",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2019",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2018",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2017",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2016",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2015",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2014",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2013",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2012",
-      "o-shaughnessy-cabernet-sauvignon-mount-veeder-2011"
-    ],
-    "notableAppellations": [
-      "Mount Veeder"
-    ]
-  },
-  {
-    "slug": "musigny-grand-cru",
-    "name": "Musigny Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Musigny Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-comte-georges-de-vogue-domaine-comte-georges-de-vogue-musigny-grand-cru-cuvee-vieilles-vignes-1999"
-    ],
-    "notableAppellations": [
-      "Musigny Grand Cru"
     ]
   },
   {
@@ -3661,12 +1081,10 @@
     "keyGrapes": [
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Chardonnay",
-      "Grenache",
       "Malbec",
       "Merlot",
       "Petit Verdot",
-      "Petite Sirah"
+      "Pinot Noir"
     ],
     "topWines": [
       "caymus-special-selection-cabernet-sauvignon-2021",
@@ -3711,32 +1129,6 @@
     ]
   },
   {
-    "slug": "oak-knoll-district",
-    "name": "Oak Knoll District",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Oak Knoll District is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "trefethen-dragon-s-tooth-2022",
-      "trefethen-dragon-s-tooth-2021",
-      "trefethen-dragon-s-tooth-2020",
-      "trefethen-dragon-s-tooth-2019",
-      "trefethen-dragon-s-tooth-2018",
-      "trefethen-dragon-s-tooth-2017",
-      "trefethen-dragon-s-tooth-2016",
-      "trefethen-dragon-s-tooth-2015",
-      "trefethen-dragon-s-tooth-2014",
-      "trefethen-dragon-s-tooth-2013"
-    ],
-    "notableAppellations": [
-      "Oak Knoll District"
-    ]
-  },
-  {
     "slug": "oakville",
     "name": "Oakville",
     "country": "United States",
@@ -3744,10 +1136,7 @@
     "description": "Oakville is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "harlan-estate-harlan-estate-red-2021",
@@ -3766,118 +1155,6 @@
     ]
   },
   {
-    "slug": "oregon",
-    "name": "Oregon",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Oregon is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-serene-evenstad-reserve-pinot-noir-2020",
-      "domaine-serene-evenstad-reserve-pinot-noir-2019",
-      "domaine-serene-evenstad-reserve-pinot-noir-2018",
-      "domaine-serene-evenstad-reserve-pinot-noir-2017",
-      "domaine-serene-evenstad-reserve-pinot-noir-2016",
-      "domaine-serene-evenstad-reserve-pinot-noir-2015",
-      "domaine-serene-evenstad-reserve-pinot-noir-2014",
-      "domaine-serene-evenstad-reserve-pinot-noir-2013",
-      "domaine-serene-evenstad-reserve-pinot-noir-2012",
-      "domaine-serene-evenstad-reserve-pinot-noir-2011"
-    ],
-    "notableAppellations": [
-      "Oregon"
-    ]
-  },
-  {
-    "slug": "paarl",
-    "name": "Paarl",
-    "country": "South Africa",
-    "countryCode": "ZA",
-    "description": "Paarl is a wine region in South Africa known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carmenère",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "vilafonte-series-c-2021",
-      "vilafonte-series-c-2020",
-      "vilafonte-series-c-2019",
-      "vilafonte-series-c-2018",
-      "vilafonte-series-c-2017",
-      "vilafonte-series-c-2016",
-      "vilafonte-series-c-2015",
-      "vilafonte-series-c-2014",
-      "vilafonte-series-c-2013",
-      "vilafonte-series-c-2012"
-    ],
-    "notableAppellations": [
-      "Paarl"
-    ]
-  },
-  {
-    "slug": "pannonhalma",
-    "name": "Pannonhalma",
-    "country": "Hungary",
-    "countryCode": "HU",
-    "description": "Pannonhalma is a wine region in Hungary known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot"
-    ],
-    "topWines": [
-      "pannonhalmi-apatsagi-infusio-2021",
-      "pannonhalmi-apatsagi-infusio-2020",
-      "pannonhalmi-apatsagi-infusio-2019",
-      "pannonhalmi-apatsagi-infusio-2018",
-      "pannonhalmi-apatsagi-infusio-2017",
-      "pannonhalmi-apatsagi-infusio-2016",
-      "pannonhalmi-apatsagi-infusio-2015",
-      "pannonhalmi-apatsagi-infusio-2014",
-      "pannonhalmi-apatsagi-infusio-2013",
-      "pannonhalmi-apatsagi-infusio-2012"
-    ],
-    "notableAppellations": [
-      "Pannonhalma"
-    ]
-  },
-  {
-    "slug": "paraje-altamira",
-    "name": "Paraje Altamira",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "Paraje Altamira is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Malbec"
-    ],
-    "topWines": [
-      "achaval-ferrer-finca-altamira-malbec-2021",
-      "achaval-ferrer-finca-altamira-malbec-2020",
-      "achaval-ferrer-finca-altamira-malbec-2019",
-      "achaval-ferrer-finca-altamira-malbec-2018",
-      "achaval-ferrer-finca-altamira-malbec-2017",
-      "achaval-ferrer-finca-altamira-malbec-2016",
-      "achaval-ferrer-finca-altamira-malbec-2015",
-      "achaval-ferrer-finca-altamira-malbec-2014",
-      "achaval-ferrer-finca-altamira-malbec-2013",
-      "achaval-ferrer-finca-altamira-malbec-2012"
-    ],
-    "notableAppellations": [
-      "Paraje Altamira"
-    ]
-  },
-  {
     "slug": "paso-robles",
     "name": "Paso Robles",
     "country": "United States",
@@ -3887,11 +1164,8 @@
     "keyGrapes": [
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Grenache",
       "Merlot",
-      "Mourvedre",
       "Shiraz/Syrah",
-      "Syrah/Shiraz",
       "Zinfandel"
     ],
     "topWines": [
@@ -3908,61 +1182,6 @@
     ],
     "notableAppellations": [
       "Paso Robles"
-    ]
-  },
-  {
-    "slug": "passito-di-pantelleria",
-    "name": "Passito di Pantelleria",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Passito di Pantelleria is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Muscat of Alexandria"
-    ],
-    "topWines": [
-      "donnafugata-ben-rye-passito-di-pantelleria-2021",
-      "donnafugata-ben-rye-passito-di-pantelleria-2020",
-      "donnafugata-ben-rye-passito-di-pantelleria-2019",
-      "donnafugata-ben-rye-passito-di-pantelleria-2018",
-      "donnafugata-ben-rye-passito-di-pantelleria-2017",
-      "donnafugata-ben-rye-passito-di-pantelleria-2016",
-      "donnafugata-ben-rye-passito-di-pantelleria-2015",
-      "donnafugata-ben-rye-passito-di-pantelleria-2014",
-      "donnafugata-ben-rye-passito-di-pantelleria-2013",
-      "donnafugata-ben-rye-passito-di-pantelleria-2012"
-    ],
-    "notableAppellations": [
-      "Passito di Pantelleria"
-    ]
-  },
-  {
-    "slug": "patagonia",
-    "name": "Patagonia",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "Patagonia is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Merlot",
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "bodega-noemia-malbec-2020",
-      "bodega-noemia-malbec-2019",
-      "bodega-noemia-malbec-2018",
-      "bodega-noemia-malbec-2017",
-      "bodega-noemia-malbec-2016",
-      "bodega-noemia-malbec-2015",
-      "bodega-noemia-malbec-2014",
-      "bodega-noemia-malbec-2013",
-      "bodega-noemia-malbec-2012",
-      "bodega-noemia-malbec-2011"
-    ],
-    "notableAppellations": [
-      "Patagonia"
     ]
   },
   {
@@ -3997,32 +1216,6 @@
     ]
   },
   {
-    "slug": "pais-vasco",
-    "name": "País Vasco",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "País Vasco is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Tempranillo"
-    ],
-    "topWines": [
-      "artadi-vina-el-pison-2021",
-      "artadi-vina-el-pison-2020",
-      "artadi-vina-el-pison-2019",
-      "artadi-vina-el-pison-2018",
-      "artadi-vina-el-pison-2017",
-      "artadi-vina-el-pison-2016",
-      "artadi-vina-el-pison-2015",
-      "artadi-vina-el-pison-2014",
-      "artadi-vina-el-pison-2013",
-      "artadi-vina-el-pison-2012"
-    ],
-    "notableAppellations": [
-      "País Vasco"
-    ]
-  },
-  {
     "slug": "pessac-leognan",
     "name": "Pessac-Léognan",
     "country": "France",
@@ -4035,9 +1228,7 @@
       "Carménère",
       "Malbec",
       "Merlot",
-      "Muscadelle",
-      "Petit Verdot",
-      "Sauvignon Blanc"
+      "Petit Verdot"
     ],
     "topWines": [
       "chateau-haut-brion-pessac-leognan-premier-grand-cru-classe-2021",
@@ -4053,60 +1244,6 @@
     ],
     "notableAppellations": [
       "Pessac-Léognan"
-    ]
-  },
-  {
-    "slug": "peumo",
-    "name": "Peumo",
-    "country": "Chile",
-    "countryCode": "CL",
-    "description": "Peumo is a wine region in Chile known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Carmenère"
-    ],
-    "topWines": [
-      "concha-y-toro-carmin-de-peumo-carmenere-2020",
-      "concha-y-toro-carmin-de-peumo-carmenere-2019",
-      "concha-y-toro-carmin-de-peumo-carmenere-2018",
-      "concha-y-toro-carmin-de-peumo-carmenere-2017",
-      "concha-y-toro-carmin-de-peumo-carmenere-2016",
-      "concha-y-toro-carmin-de-peumo-carmenere-2015",
-      "concha-y-toro-carmin-de-peumo-carmenere-2014",
-      "concha-y-toro-carmin-de-peumo-carmenere-2013",
-      "concha-y-toro-carmin-de-peumo-carmenere-2012",
-      "concha-y-toro-carmin-de-peumo-carmenere-2011"
-    ],
-    "notableAppellations": [
-      "Peumo"
-    ]
-  },
-  {
-    "slug": "piemonte",
-    "name": "Piemonte",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Piemonte is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Nebbiolo",
-      "Sangiovese"
-    ],
-    "topWines": [
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2017",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2016",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2015",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2014",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2013",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2012",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2011",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2010",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2009",
-      "gaja-pieve-santa-restituta-sugarille-brunello-di-montalcino-2008"
-    ],
-    "notableAppellations": [
-      "Piemonte"
     ]
   },
   {
@@ -4141,32 +1278,6 @@
     ]
   },
   {
-    "slug": "pommard",
-    "name": "Pommard",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Pommard is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-leroy-domaine-leroy-pommard-les-vignots-2001",
-      "chateau-de-pommard-rouge-2021",
-      "chateau-de-pommard-rouge-2020",
-      "chateau-de-pommard-rouge-2019",
-      "chateau-de-pommard-rouge-2018",
-      "chateau-de-pommard-rouge-2017",
-      "chateau-de-pommard-rouge-2016",
-      "chateau-de-pommard-rouge-2015",
-      "chateau-de-pommard-rouge-2014",
-      "chateau-de-pommard-rouge-2013"
-    ],
-    "notableAppellations": [
-      "Pommard"
-    ]
-  },
-  {
     "slug": "porto",
     "name": "Porto",
     "country": "Portugal",
@@ -4174,14 +1285,9 @@
     "description": "Porto is a wine region in Portugal known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Gouveio",
-      "Malbec",
-      "Malvasia Fina",
-      "Rabigato",
-      "Sousão",
-      "Tinta Barroca",
       "Tinta Roriz",
-      "Tinto Cão"
+      "Touriga Franca",
+      "Touriga Nacional"
     ],
     "topWines": [
       "taylor-s-very-old-single-harvest-port-2021",
@@ -4197,33 +1303,6 @@
     ],
     "notableAppellations": [
       "Porto"
-    ]
-  },
-  {
-    "slug": "pouilly-fume",
-    "name": "Pouilly-Fumé",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Pouilly-Fumé is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Petit Manseng",
-      "Sauvignon Blanc"
-    ],
-    "topWines": [
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2021",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2020",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2019",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2018",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2017",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2016",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2015",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2014",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2013",
-      "didier-dagueneau-louis-benjamin-dagueneau-silex-2012"
-    ],
-    "notableAppellations": [
-      "Pouilly-Fumé"
     ]
   },
   {
@@ -4262,10 +1341,7 @@
     "keyGrapes": [
       "Cabernet Sauvignon",
       "Carignan/Cariñena",
-      "Garnacha",
-      "Grenache",
-      "Merlot",
-      "Syrah/Shiraz"
+      "Grenache"
     ],
     "topWines": [
       "alvaro-palacios-l-ermita-velles-vinyes-priorat-2021",
@@ -4284,32 +1360,6 @@
     ]
   },
   {
-    "slug": "progreso",
-    "name": "Progreso",
-    "country": "Uruguay",
-    "countryCode": "UY",
-    "description": "Progreso is a wine region in Uruguay known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Tannat"
-    ],
-    "topWines": [
-      "familia-deicas-massimo-deicas-cru-tannat-2021",
-      "familia-deicas-massimo-deicas-cru-tannat-2020",
-      "familia-deicas-massimo-deicas-cru-tannat-2019",
-      "familia-deicas-massimo-deicas-cru-tannat-2018",
-      "familia-deicas-massimo-deicas-cru-tannat-2017",
-      "familia-deicas-massimo-deicas-cru-tannat-2016",
-      "familia-deicas-massimo-deicas-cru-tannat-2015",
-      "familia-deicas-massimo-deicas-cru-tannat-2014",
-      "familia-deicas-massimo-deicas-cru-tannat-2013",
-      "familia-deicas-massimo-deicas-cru-tannat-2012"
-    ],
-    "notableAppellations": [
-      "Progreso"
-    ]
-  },
-  {
     "slug": "puente-alto",
     "name": "Puente Alto",
     "country": "Chile",
@@ -4318,12 +1368,7 @@
     "climate": "Varies",
     "keyGrapes": [
       "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carmenère",
-      "Carménère",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "almaviva-almaviva-2021",
@@ -4342,203 +1387,6 @@
     ]
   },
   {
-    "slug": "puglia",
-    "name": "Puglia",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Puglia is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Negroamaro",
-      "Primitivo"
-    ],
-    "topWines": [
-      "gianfranco-fino-es-primitivo-di-manduria-2021",
-      "gianfranco-fino-es-primitivo-di-manduria-2020",
-      "gianfranco-fino-es-primitivo-di-manduria-2019",
-      "gianfranco-fino-es-primitivo-di-manduria-2018",
-      "gianfranco-fino-es-primitivo-di-manduria-2017",
-      "gianfranco-fino-es-primitivo-di-manduria-2016",
-      "gianfranco-fino-es-primitivo-di-manduria-2015",
-      "gianfranco-fino-es-primitivo-di-manduria-2014",
-      "gianfranco-fino-es-primitivo-di-manduria-2013",
-      "gianfranco-fino-es-primitivo-di-manduria-2012"
-    ],
-    "notableAppellations": [
-      "Puglia"
-    ]
-  },
-  {
-    "slug": "puligny-montrachet",
-    "name": "Puligny-Montrachet",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Puligny-Montrachet is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2021",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2020",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2019",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2018",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2017",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2016",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2015",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2014",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2013",
-      "domaine-coche-dury-puligny-montrachet-les-enseigneres-2012"
-    ],
-    "notableAppellations": [
-      "Puligny-Montrachet"
-    ]
-  },
-  {
-    "slug": "puligny-montrachet-premier-cru",
-    "name": "Puligny-Montrachet Premier Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Puligny-Montrachet Premier Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Aligoté",
-      "Chardonnay",
-      "Pinot Blanc",
-      "Pinot Gris"
-    ],
-    "topWines": [
-      "domaine-leflaive-domaine-leflaive-puligny-montrachet-1er-cru-les-pucelles-1986",
-      "domaine-leflaive-domaine-leflaive-puligny-montrachet-1er-cru-les-folatieres-1993"
-    ],
-    "notableAppellations": [
-      "Puligny-Montrachet Premier Cru"
-    ]
-  },
-  {
-    "slug": "rapel-valley",
-    "name": "Rapel Valley",
-    "country": "Chile",
-    "countryCode": "CL",
-    "description": "Rapel Valley is a wine region in Chile known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Carignan/Cariñena",
-      "Carmenère",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "emiliana-ge-2021",
-      "emiliana-ge-2020",
-      "emiliana-ge-2019",
-      "emiliana-ge-2018",
-      "emiliana-ge-2017",
-      "emiliana-ge-2016",
-      "emiliana-ge-2015",
-      "emiliana-ge-2014",
-      "emiliana-ge-2013",
-      "emiliana-ge-2012"
-    ],
-    "notableAppellations": [
-      "Rapel Valley"
-    ]
-  },
-  {
-    "slug": "recioto-della-valpolicella",
-    "name": "Recioto della Valpolicella",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Recioto della Valpolicella is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [],
-    "topWines": [
-      "bertani-bertani-recioto-della-valpolicella-classico-superiore-1977"
-    ],
-    "notableAppellations": [
-      "Recioto della Valpolicella"
-    ]
-  },
-  {
-    "slug": "red-mountain",
-    "name": "Red Mountain",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Red Mountain is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "quilceda-creek-quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2014",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2020",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2019",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2018",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2017",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2016",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2015",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2014",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2013",
-      "quilceda-creek-galitzine-vineyard-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Red Mountain"
-    ]
-  },
-  {
-    "slug": "rheinhessen",
-    "name": "Rheinhessen",
-    "country": "Germany",
-    "countryCode": "DE",
-    "description": "Rheinhessen is a wine region in Germany known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Riesling"
-    ],
-    "topWines": [
-      "keller-abts-erde-riesling-2021",
-      "keller-abts-erde-riesling-2020",
-      "keller-abts-erde-riesling-2019",
-      "keller-abts-erde-riesling-2018",
-      "keller-abts-erde-riesling-2017",
-      "keller-abts-erde-riesling-2016",
-      "keller-abts-erde-riesling-2015",
-      "keller-abts-erde-riesling-2014",
-      "keller-abts-erde-riesling-2013",
-      "keller-abts-erde-riesling-2012"
-    ],
-    "notableAppellations": [
-      "Rheinhessen"
-    ]
-  },
-  {
-    "slug": "rhone-valley",
-    "name": "Rhone Valley",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Rhone Valley is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz",
-      "Viognier"
-    ],
-    "topWines": [
-      "m-chapoutier-ermitage-le-pavillon-2019",
-      "m-chapoutier-ermitage-le-pavillon-2018",
-      "m-chapoutier-ermitage-le-pavillon-2017",
-      "m-chapoutier-ermitage-le-pavillon-2016",
-      "m-chapoutier-ermitage-le-pavillon-2015",
-      "m-chapoutier-ermitage-le-pavillon-2014",
-      "m-chapoutier-ermitage-le-pavillon-2013",
-      "m-chapoutier-ermitage-le-pavillon-2012",
-      "m-chapoutier-ermitage-le-pavillon-2011",
-      "m-chapoutier-ermitage-le-pavillon-2010"
-    ],
-    "notableAppellations": [
-      "Rhone Valley"
-    ]
-  },
-  {
     "slug": "ribera-del-duero",
     "name": "Ribera del Duero",
     "country": "Spain",
@@ -4549,7 +1397,6 @@
       "Cabernet Sauvignon",
       "Merlot",
       "Tempranillo",
-      "Tinta del Pais",
       "Tinto Fino"
     ],
     "topWines": [
@@ -4569,32 +1416,6 @@
     ]
   },
   {
-    "slug": "richebourg-grand-cru",
-    "name": "Richebourg Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Richebourg Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-anne-gros-richebourg-grand-cru-2021",
-      "domaine-anne-gros-richebourg-grand-cru-2020",
-      "domaine-anne-gros-richebourg-grand-cru-2019",
-      "domaine-anne-gros-richebourg-grand-cru-2018",
-      "domaine-anne-gros-richebourg-grand-cru-2017",
-      "domaine-anne-gros-richebourg-grand-cru-2016",
-      "domaine-anne-gros-richebourg-grand-cru-2015",
-      "domaine-anne-gros-richebourg-grand-cru-2014",
-      "domaine-anne-gros-richebourg-grand-cru-2013",
-      "domaine-anne-gros-richebourg-grand-cru-2012"
-    ],
-    "notableAppellations": [
-      "Richebourg Grand Cru"
-    ]
-  },
-  {
     "slug": "rioja",
     "name": "Rioja",
     "country": "Spain",
@@ -4602,10 +1423,7 @@
     "description": "Rioja is a wine region in Spain known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Garnacha",
-      "Graciano",
       "Malvasia",
-      "Mazuelo",
       "Tempranillo",
       "Viura"
     ],
@@ -4626,50 +1444,6 @@
     ]
   },
   {
-    "slug": "rioja-alavesa",
-    "name": "Rioja Alavesa",
-    "country": "Spain",
-    "countryCode": "ES",
-    "description": "Rioja Alavesa is a wine region in Spain known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Tempranillo"
-    ],
-    "topWines": [
-      "remirez-de-ganuza-trasnocho-2021",
-      "remirez-de-ganuza-trasnocho-2020",
-      "remirez-de-ganuza-trasnocho-2019",
-      "remirez-de-ganuza-trasnocho-2018",
-      "remirez-de-ganuza-trasnocho-2017",
-      "remirez-de-ganuza-trasnocho-2016",
-      "remirez-de-ganuza-trasnocho-2015",
-      "remirez-de-ganuza-trasnocho-2014",
-      "remirez-de-ganuza-trasnocho-2013",
-      "remirez-de-ganuza-trasnocho-2012"
-    ],
-    "notableAppellations": [
-      "Rioja Alavesa"
-    ]
-  },
-  {
-    "slug": "romanee-conti-grand-cru",
-    "name": "Romanée-Conti Grand Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Romanée-Conti Grand Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-romanee-conti-grand-cru-1989",
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-romanee-conti-grand-cru-1997"
-    ],
-    "notableAppellations": [
-      "Romanée-Conti Grand Cru"
-    ]
-  },
-  {
     "slug": "romanee-saint-vivant-grand-cru",
     "name": "Romanée-Saint-Vivant Grand Cru",
     "country": "France",
@@ -4680,9 +1454,7 @@
       "Pinot Noir"
     ],
     "topWines": [
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-romanee-saint-vivant-grand-cru-marey-monge-2015",
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-romanee-saint-vivant-grand-cru-marey-monge-2000",
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-romanee-saint-vivant-grand-cru-marey-monge-2020"
+      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-romanee-saint-vivant-grand-cru-marey-monge-2015"
     ],
     "notableAppellations": [
       "Romanée-Saint-Vivant Grand Cru"
@@ -4696,9 +1468,7 @@
     "description": "Russian River Valley is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Chardonnay",
-      "Pinot Noir",
-      "Sauvignon Blanc"
+      "Pinot Noir"
     ],
     "topWines": [
       "kosta-browne-russian-river-valley-pinot-noir-2021",
@@ -4726,12 +1496,9 @@
     "keyGrapes": [
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Charbono",
       "Malbec",
       "Merlot",
-      "Petit Verdot",
-      "Petite Sirah",
-      "Pinot Noir"
+      "Petit Verdot"
     ],
     "topWines": [
       "hundred-acre-ark-vineyard-cabernet-sauvignon-2021",
@@ -4747,66 +1514,6 @@
     ],
     "notableAppellations": [
       "Rutherford"
-    ]
-  },
-  {
-    "slug": "saint-estephe",
-    "name": "Saint-Estèphe",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Saint-Estèphe is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "cos-d-estournel-cos-d-estournel-2021",
-      "cos-d-estournel-cos-d-estournel-2020",
-      "cos-d-estournel-cos-d-estournel-2019",
-      "cos-d-estournel-cos-d-estournel-2018",
-      "cos-d-estournel-cos-d-estournel-2017",
-      "cos-d-estournel-cos-d-estournel-2016",
-      "cos-d-estournel-cos-d-estournel-2015",
-      "cos-d-estournel-cos-d-estournel-2014",
-      "cos-d-estournel-cos-d-estournel-2013",
-      "cos-d-estournel-cos-d-estournel-2012"
-    ],
-    "notableAppellations": [
-      "Saint-Estèphe"
-    ]
-  },
-  {
-    "slug": "saint-julien",
-    "name": "Saint-Julien",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Saint-Julien is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carménère",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2021",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2020",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2019",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2018",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2017",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2016",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2015",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2014",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2013",
-      "chateau-leoville-las-cases-saint-julien-grand-cru-classe-2012"
-    ],
-    "notableAppellations": [
-      "Saint-Julien"
     ]
   },
   {
@@ -4841,133 +1548,6 @@
     ]
   },
   {
-    "slug": "san-rafael",
-    "name": "San Rafael",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "San Rafael is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Malbec"
-    ],
-    "topWines": [
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2022",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2021",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2020",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2019",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2018",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2017",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2016",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2015",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2014",
-      "bodegas-bianchi-enzo-bianchi-gran-cru-2013"
-    ],
-    "notableAppellations": [
-      "San Rafael"
-    ]
-  },
-  {
-    "slug": "santa-barbara-county",
-    "name": "Santa Barbara County",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Santa Barbara County is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "andremily-wines-syrah-2020",
-      "andremily-wines-syrah-2019",
-      "andremily-wines-syrah-2018",
-      "andremily-wines-syrah-2017",
-      "andremily-wines-syrah-2016",
-      "andremily-wines-syrah-2015",
-      "andremily-wines-syrah-2014",
-      "andremily-wines-syrah-2013",
-      "andremily-wines-syrah-2012",
-      "andremily-wines-syrah-2011"
-    ],
-    "notableAppellations": [
-      "Santa Barbara County"
-    ]
-  },
-  {
-    "slug": "santa-cruz-mountains",
-    "name": "Santa Cruz Mountains",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Santa Cruz Mountains is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carménère",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "ridge-vineyards-ridge-vineyards-monte-bello-2019"
-    ],
-    "notableAppellations": [
-      "Santa Cruz Mountains"
-    ]
-  },
-  {
-    "slug": "santa-lucia-highlands",
-    "name": "Santa Lucia Highlands",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Santa Lucia Highlands is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "belle-glos-las-alturas-vineyard-pinot-noir-2021",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2020",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2019",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2018",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2017",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2016",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2015",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2014",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2013",
-      "belle-glos-las-alturas-vineyard-pinot-noir-2012"
-    ],
-    "notableAppellations": [
-      "Santa Lucia Highlands"
-    ]
-  },
-  {
-    "slug": "santa-maria-valley",
-    "name": "Santa Maria Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Santa Maria Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2020",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2019",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2018",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2017",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2016",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2015",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2014",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2013",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2012",
-      "belle-glos-clark-telephone-vineyard-pinot-noir-2011"
-    ],
-    "notableAppellations": [
-      "Santa Maria Valley"
-    ]
-  },
-  {
     "slug": "santiago",
     "name": "Santiago",
     "country": "Chile",
@@ -4998,58 +1578,6 @@
     ]
   },
   {
-    "slug": "saumur",
-    "name": "Saumur",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Saumur is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chenin Blanc"
-    ],
-    "topWines": [
-      "clos-rougeard-breze-saumur-blanc-2020",
-      "clos-rougeard-breze-saumur-blanc-2019",
-      "clos-rougeard-breze-saumur-blanc-2018",
-      "clos-rougeard-breze-saumur-blanc-2017",
-      "clos-rougeard-breze-saumur-blanc-2016",
-      "clos-rougeard-breze-saumur-blanc-2015",
-      "clos-rougeard-breze-saumur-blanc-2014",
-      "clos-rougeard-breze-saumur-blanc-2013",
-      "clos-rougeard-breze-saumur-blanc-2012",
-      "clos-rougeard-breze-saumur-blanc-2011"
-    ],
-    "notableAppellations": [
-      "Saumur"
-    ]
-  },
-  {
-    "slug": "saumur-champigny",
-    "name": "Saumur-Champigny",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Saumur-Champigny is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc"
-    ],
-    "topWines": [
-      "clos-rougeard-le-bourg-saumur-champigny-2021",
-      "clos-rougeard-le-bourg-saumur-champigny-2020",
-      "clos-rougeard-le-bourg-saumur-champigny-2019",
-      "clos-rougeard-le-bourg-saumur-champigny-2018",
-      "clos-rougeard-le-bourg-saumur-champigny-2017",
-      "clos-rougeard-le-bourg-saumur-champigny-2016",
-      "clos-rougeard-le-bourg-saumur-champigny-2015",
-      "clos-rougeard-le-bourg-saumur-champigny-2014",
-      "clos-rougeard-le-bourg-saumur-champigny-2013",
-      "clos-rougeard-le-bourg-saumur-champigny-2012"
-    ],
-    "notableAppellations": [
-      "Saumur-Champigny"
-    ]
-  },
-  {
     "slug": "sauternes",
     "name": "Sauternes",
     "country": "France",
@@ -5057,7 +1585,6 @@
     "description": "Sauternes is a wine region in France known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Muscadelle",
       "Sauvignon Blanc",
       "Sémillon"
     ],
@@ -5075,111 +1602,6 @@
     ],
     "notableAppellations": [
       "Sauternes"
-    ]
-  },
-  {
-    "slug": "serra-gaucha",
-    "name": "Serra Gaúcha",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "description": "Serra Gaúcha is a wine region in Brazil known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay",
-      "Merlot"
-    ],
-    "topWines": [
-      "casa-valduga-storia-merlot-2021",
-      "casa-valduga-storia-merlot-2020",
-      "casa-valduga-storia-merlot-2019",
-      "casa-valduga-storia-merlot-2018",
-      "casa-valduga-storia-merlot-2017",
-      "casa-valduga-storia-merlot-2016",
-      "casa-valduga-storia-merlot-2015",
-      "casa-valduga-storia-merlot-2014",
-      "casa-valduga-storia-merlot-2013",
-      "casa-valduga-storia-merlot-2012"
-    ],
-    "notableAppellations": [
-      "Serra Gaúcha"
-    ]
-  },
-  {
-    "slug": "setubal",
-    "name": "Setúbal",
-    "country": "Portugal",
-    "countryCode": "PT",
-    "description": "Setúbal is a wine region in Portugal known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Muscat/Moscatel Roxo"
-    ],
-    "topWines": [
-      "bacalhoa-setubal-moscatel-roxo-superior-2021",
-      "bacalhoa-setubal-moscatel-roxo-superior-2020",
-      "bacalhoa-setubal-moscatel-roxo-superior-2019",
-      "bacalhoa-setubal-moscatel-roxo-superior-2018",
-      "bacalhoa-setubal-moscatel-roxo-superior-2017",
-      "bacalhoa-setubal-moscatel-roxo-superior-2016",
-      "bacalhoa-setubal-moscatel-roxo-superior-2015",
-      "bacalhoa-setubal-moscatel-roxo-superior-2014",
-      "bacalhoa-setubal-moscatel-roxo-superior-2013",
-      "bacalhoa-setubal-moscatel-roxo-superior-2012"
-    ],
-    "notableAppellations": [
-      "Setúbal"
-    ]
-  },
-  {
-    "slug": "sforzato-della-valtellina",
-    "name": "Sforzato della Valtellina",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Sforzato della Valtellina is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Nebbiolo"
-    ],
-    "topWines": [
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2022",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2021",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2020",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2019",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2018",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2017",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2016",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2015",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2014",
-      "aldo-rainoldi-fruttaio-ca-rizzieri-sfursat-di-valtellina-2013"
-    ],
-    "notableAppellations": [
-      "Sforzato della Valtellina"
-    ]
-  },
-  {
-    "slug": "sicilia",
-    "name": "Sicilia",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Sicilia is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Nero d'Avola"
-    ],
-    "topWines": [
-      "donnafugata-mille-e-una-notte-2021",
-      "donnafugata-mille-e-una-notte-2020",
-      "donnafugata-mille-e-una-notte-2019",
-      "donnafugata-mille-e-una-notte-2018",
-      "donnafugata-mille-e-una-notte-2017",
-      "donnafugata-mille-e-una-notte-2016",
-      "donnafugata-mille-e-una-notte-2015",
-      "donnafugata-mille-e-una-notte-2014",
-      "donnafugata-mille-e-una-notte-2013",
-      "donnafugata-mille-e-una-notte-2012"
-    ],
-    "notableAppellations": [
-      "Sicilia"
     ]
   },
   {
@@ -5216,10 +1638,6 @@
     "description": "Sonoma County is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Chardonnay",
-      "Merlot",
       "Pinot Noir"
     ],
     "topWines": [
@@ -5239,50 +1657,6 @@
     ]
   },
   {
-    "slug": "sonoma-mountain",
-    "name": "Sonoma Mountain",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Sonoma Mountain is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "kistler-kistler-cuvee-cathleen-kistler-vineyard-chardonnay-2006",
-      "kistler-kistler-chardonnay-2006"
-    ],
-    "notableAppellations": [
-      "Sonoma Mountain"
-    ]
-  },
-  {
-    "slug": "sonoma-valley",
-    "name": "Sonoma Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Sonoma Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon"
-    ],
-    "topWines": [
-      "gundlach-bundschu-vintage-reserve-2018",
-      "gundlach-bundschu-vintage-reserve-2017",
-      "gundlach-bundschu-vintage-reserve-2016",
-      "gundlach-bundschu-vintage-reserve-2015",
-      "gundlach-bundschu-vintage-reserve-2014",
-      "gundlach-bundschu-vintage-reserve-2013",
-      "gundlach-bundschu-vintage-reserve-2012",
-      "gundlach-bundschu-vintage-reserve-2011",
-      "gundlach-bundschu-vintage-reserve-2010",
-      "gundlach-bundschu-vintage-reserve-2009"
-    ],
-    "notableAppellations": [
-      "Sonoma Valley"
-    ]
-  },
-  {
     "slug": "south-australia",
     "name": "South Australia",
     "country": "Australia",
@@ -5290,14 +1664,7 @@
     "description": "South Australia is a wine region in Australia known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Mourvedre",
-      "Shiraz/Syrah",
-      "Syrah/Shiraz",
-      "Tinta Barroca",
-      "Tinta Roriz",
-      "Tinto Cão",
-      "Touriga Franca"
+      "Syrah/Shiraz"
     ],
     "topWines": [
       "penfolds-grange-2021",
@@ -5313,65 +1680,6 @@
     ],
     "notableAppellations": [
       "South Australia"
-    ]
-  },
-  {
-    "slug": "spring-mountain-district",
-    "name": "Spring Mountain District",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Spring Mountain District is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "barnett-rattlesnake-cabernet-sauvignon-2021",
-      "barnett-rattlesnake-cabernet-sauvignon-2020",
-      "barnett-rattlesnake-cabernet-sauvignon-2019",
-      "barnett-rattlesnake-cabernet-sauvignon-2018",
-      "barnett-rattlesnake-cabernet-sauvignon-2017",
-      "barnett-rattlesnake-cabernet-sauvignon-2016",
-      "barnett-rattlesnake-cabernet-sauvignon-2015",
-      "barnett-rattlesnake-cabernet-sauvignon-2014",
-      "barnett-rattlesnake-cabernet-sauvignon-2013",
-      "barnett-rattlesnake-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "Spring Mountain District"
-    ]
-  },
-  {
-    "slug": "st-helena",
-    "name": "St. Helena",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "St. Helena is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "spottswoode-cabernet-sauvignon-2021",
-      "spottswoode-cabernet-sauvignon-2020",
-      "spottswoode-cabernet-sauvignon-2019",
-      "spottswoode-cabernet-sauvignon-2018",
-      "spottswoode-cabernet-sauvignon-2017",
-      "spottswoode-cabernet-sauvignon-2016",
-      "spottswoode-cabernet-sauvignon-2015",
-      "spottswoode-cabernet-sauvignon-2014",
-      "spottswoode-cabernet-sauvignon-2013",
-      "spottswoode-cabernet-sauvignon-2012"
-    ],
-    "notableAppellations": [
-      "St. Helena"
     ]
   },
   {
@@ -5408,10 +1716,7 @@
     "description": "Stags Leap District is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot"
+      "Cabernet Sauvignon"
     ],
     "topWines": [
       "shafer-hillside-select-cabernet-sauvignon-2020",
@@ -5440,11 +1745,11 @@
       "Barbera",
       "Cabernet Franc",
       "Cabernet Sauvignon",
-      "Chenin Blanc",
       "Grenache",
       "Malbec",
       "Merlot",
-      "Mourvedre"
+      "Mourvedre",
+      "Pinotage"
     ],
     "topWines": [
       "beyerskloof-diesel-pinotage-2021",
@@ -5463,65 +1768,6 @@
     ]
   },
   {
-    "slug": "suisun-valley",
-    "name": "Suisun Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Suisun Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Durif"
-    ],
-    "topWines": [
-      "caymus-suisun-grand-durif-2022",
-      "caymus-suisun-grand-durif-2021",
-      "caymus-suisun-grand-durif-2020",
-      "caymus-suisun-grand-durif-2019",
-      "caymus-suisun-grand-durif-2018",
-      "caymus-suisun-grand-durif-2017",
-      "caymus-suisun-grand-durif-2016",
-      "caymus-suisun-grand-durif-2015",
-      "caymus-suisun-grand-durif-2014",
-      "caymus-suisun-grand-durif-2013"
-    ],
-    "notableAppellations": [
-      "Suisun Valley"
-    ]
-  },
-  {
-    "slug": "swartland",
-    "name": "Swartland",
-    "country": "South Africa",
-    "countryCode": "ZA",
-    "description": "Swartland is a wine region in South Africa known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chenin Blanc",
-      "Clairette",
-      "Colombard",
-      "Grenache",
-      "Grenache Blanc",
-      "Marsanne",
-      "Mourvedre",
-      "Palomino"
-    ],
-    "topWines": [
-      "sadie-family-palladius-2021",
-      "sadie-family-palladius-2020",
-      "sadie-family-palladius-2019",
-      "sadie-family-palladius-2018",
-      "sadie-family-palladius-2017",
-      "sadie-family-palladius-2016",
-      "sadie-family-palladius-2015",
-      "sadie-family-palladius-2014",
-      "sadie-family-palladius-2013",
-      "sadie-family-palladius-2012"
-    ],
-    "notableAppellations": [
-      "Swartland"
-    ]
-  },
-  {
     "slug": "sudtirol-alto-adige",
     "name": "Südtirol-Alto Adige",
     "country": "Italy",
@@ -5529,9 +1775,7 @@
     "description": "Südtirol-Alto Adige is a wine region in Italy known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Lagrein",
-      "Muscat/Moscato Giallo",
-      "Sauvignon Blanc"
+      "Lagrein"
     ],
     "topWines": [
       "erbhof-unterganzner-lamarein-2021",
@@ -5550,32 +1794,6 @@
     ]
   },
   {
-    "slug": "tarija",
-    "name": "Tarija",
-    "country": "Bolivia",
-    "countryCode": "BO",
-    "description": "Tarija is a wine region in Bolivia known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2020",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2019",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2018",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2017",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2016",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2015",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2014",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2013",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2012",
-      "campos-de-solana-esther-ortiz-gran-reserva-de-familia-petit-verdot-2011"
-    ],
-    "notableAppellations": [
-      "Tarija"
-    ]
-  },
-  {
     "slug": "tokaj",
     "name": "Tokaj",
     "country": "Hungary",
@@ -5583,10 +1801,7 @@
     "description": "Tokaj is a wine region in Hungary known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Furmint",
-      "Hárslevelű",
-      "Muscat Yellow",
-      "Muscat/Moscatel de Grano Menudo"
+      "Furmint"
     ],
     "topWines": [
       "szepsy-aszu-tokaji-6-puttonyos-2019",
@@ -5612,8 +1827,7 @@
     "description": "Toro is a wine region in Spain known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Tempranillo",
-      "Tinta de Toro"
+      "Tempranillo"
     ],
     "topWines": [
       "bodega-numanthia-termanthia-2021",
@@ -5642,11 +1856,9 @@
       "Cabernet Franc",
       "Cabernet Sauvignon",
       "Canaiolo Nero",
-      "Chardonnay",
       "Merlot",
       "Petit Verdot",
-      "Sangiovese",
-      "Syrah/Shiraz"
+      "Sangiovese"
     ],
     "topWines": [
       "masseto-toscana-2021",
@@ -5662,61 +1874,6 @@
     ],
     "notableAppellations": [
       "Toscana"
-    ]
-  },
-  {
-    "slug": "trebbiano-d-abruzzo",
-    "name": "Trebbiano d'Abruzzo",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Trebbiano d'Abruzzo is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Trebbiano"
-    ],
-    "topWines": [
-      "valentini-trebbiano-d-abruzzo-2021",
-      "valentini-trebbiano-d-abruzzo-2020",
-      "valentini-trebbiano-d-abruzzo-2019",
-      "valentini-trebbiano-d-abruzzo-2018",
-      "valentini-trebbiano-d-abruzzo-2017",
-      "valentini-trebbiano-d-abruzzo-2016",
-      "valentini-trebbiano-d-abruzzo-2015",
-      "valentini-trebbiano-d-abruzzo-2014",
-      "valentini-trebbiano-d-abruzzo-2013",
-      "valentini-trebbiano-d-abruzzo-2012"
-    ],
-    "notableAppellations": [
-      "Trebbiano d'Abruzzo"
-    ]
-  },
-  {
-    "slug": "trentino-alto-adige",
-    "name": "Trentino-Alto Adige",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Trentino-Alto Adige is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Carmenère",
-      "Merlot",
-      "Teroldego"
-    ],
-    "topWines": [
-      "endrizzi-gran-masetto-teroldego-2020",
-      "endrizzi-gran-masetto-teroldego-2019",
-      "endrizzi-gran-masetto-teroldego-2018",
-      "endrizzi-gran-masetto-teroldego-2017",
-      "endrizzi-gran-masetto-teroldego-2016",
-      "endrizzi-gran-masetto-teroldego-2015",
-      "endrizzi-gran-masetto-teroldego-2014",
-      "endrizzi-gran-masetto-teroldego-2013",
-      "endrizzi-gran-masetto-teroldego-2012",
-      "endrizzi-gran-masetto-teroldego-2011"
-    ],
-    "notableAppellations": [
-      "Trentino-Alto Adige"
     ]
   },
   {
@@ -5746,32 +1903,6 @@
     ]
   },
   {
-    "slug": "tulbagh",
-    "name": "Tulbagh",
-    "country": "South Africa",
-    "countryCode": "ZA",
-    "description": "Tulbagh is a wine region in South Africa known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "saronsberg-full-circle-2021",
-      "saronsberg-full-circle-2020",
-      "saronsberg-full-circle-2019",
-      "saronsberg-full-circle-2018",
-      "saronsberg-full-circle-2017",
-      "saronsberg-full-circle-2016",
-      "saronsberg-full-circle-2015",
-      "saronsberg-full-circle-2014",
-      "saronsberg-full-circle-2013",
-      "saronsberg-full-circle-2012"
-    ],
-    "notableAppellations": [
-      "Tulbagh"
-    ]
-  },
-  {
     "slug": "tunuyan",
     "name": "Tunuyán",
     "country": "Argentina",
@@ -5798,150 +1929,6 @@
     ]
   },
   {
-    "slug": "tupungato",
-    "name": "Tupungato",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "Tupungato is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "catena-zapata-adrianna-vineyard-malbec-2020",
-      "catena-zapata-adrianna-vineyard-malbec-2019",
-      "catena-zapata-adrianna-vineyard-malbec-2018",
-      "catena-zapata-adrianna-vineyard-malbec-2017",
-      "catena-zapata-adrianna-vineyard-malbec-2016",
-      "catena-zapata-adrianna-vineyard-malbec-2015",
-      "catena-zapata-adrianna-vineyard-malbec-2014",
-      "catena-zapata-adrianna-vineyard-malbec-2013",
-      "catena-zapata-adrianna-vineyard-malbec-2012",
-      "catena-zapata-adrianna-vineyard-malbec-2011"
-    ],
-    "notableAppellations": [
-      "Tupungato"
-    ]
-  },
-  {
-    "slug": "uco-valley",
-    "name": "Uco Valley",
-    "country": "Argentina",
-    "countryCode": "AR",
-    "description": "Uco Valley is a wine region in Argentina known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Malbec",
-      "Merlot",
-      "Tannat",
-      "Tempranillo"
-    ],
-    "topWines": [
-      "nosotros-francis-2021",
-      "nosotros-francis-2020",
-      "nosotros-francis-2019",
-      "nosotros-francis-2018",
-      "nosotros-francis-2017",
-      "nosotros-francis-2016",
-      "nosotros-francis-2015",
-      "nosotros-francis-2014",
-      "nosotros-francis-2013",
-      "nosotros-francis-2012"
-    ],
-    "notableAppellations": [
-      "Uco Valley"
-    ]
-  },
-  {
-    "slug": "vale-dos-vinhedos",
-    "name": "Vale dos Vinhedos",
-    "country": "Brazil",
-    "countryCode": "BR",
-    "description": "Vale dos Vinhedos is a wine region in Brazil known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Merlot"
-    ],
-    "topWines": [
-      "pizzato-dna-99-single-vineyard-merlot-2021",
-      "pizzato-dna-99-single-vineyard-merlot-2020",
-      "pizzato-dna-99-single-vineyard-merlot-2019",
-      "pizzato-dna-99-single-vineyard-merlot-2018",
-      "pizzato-dna-99-single-vineyard-merlot-2017",
-      "pizzato-dna-99-single-vineyard-merlot-2016",
-      "pizzato-dna-99-single-vineyard-merlot-2015",
-      "pizzato-dna-99-single-vineyard-merlot-2014",
-      "pizzato-dna-99-single-vineyard-merlot-2013",
-      "pizzato-dna-99-single-vineyard-merlot-2012"
-    ],
-    "notableAppellations": [
-      "Vale dos Vinhedos"
-    ]
-  },
-  {
-    "slug": "valle-de-guadalupe",
-    "name": "Valle de Guadalupe",
-    "country": "Mexico",
-    "countryCode": "MX",
-    "description": "Valle de Guadalupe is a wine region in Mexico known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "monte-xanic-gran-ricardo-2021",
-      "monte-xanic-gran-ricardo-2020",
-      "monte-xanic-gran-ricardo-2019",
-      "monte-xanic-gran-ricardo-2018",
-      "monte-xanic-gran-ricardo-2017",
-      "monte-xanic-gran-ricardo-2016",
-      "monte-xanic-gran-ricardo-2015",
-      "monte-xanic-gran-ricardo-2014",
-      "monte-xanic-gran-ricardo-2013",
-      "monte-xanic-gran-ricardo-2012"
-    ],
-    "notableAppellations": [
-      "Valle de Guadalupe"
-    ]
-  },
-  {
-    "slug": "valle-de-parras",
-    "name": "Valle de Parras",
-    "country": "Mexico",
-    "countryCode": "MX",
-    "description": "Valle de Parras is a wine region in Mexico known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Petit Verdot",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "casa-madero-gran-reserva-seleccion-de-barricas-2021",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2020",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2019",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2018",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2017",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2016",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2015",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2014",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2013",
-      "casa-madero-gran-reserva-seleccion-de-barricas-2012"
-    ],
-    "notableAppellations": [
-      "Valle de Parras"
-    ]
-  },
-  {
     "slug": "valpolicella",
     "name": "Valpolicella",
     "country": "Italy",
@@ -5951,7 +1938,6 @@
     "keyGrapes": [
       "Corvina",
       "Corvinone",
-      "Molinara",
       "Oseleta",
       "Rondinella"
     ],
@@ -5979,14 +1965,14 @@
     "description": "Veneto is a wine region in Italy known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Barbera",
       "Cabernet Franc",
       "Cabernet Sauvignon",
       "Chardonnay",
       "Corvina",
       "Corvinone",
       "Croatina",
-      "Dolcetto"
+      "Garganega",
+      "Marzemino"
     ],
     "topWines": [
       "quintarelli-giuseppe-amarone-della-valpolicella-classico-2020",
@@ -6005,384 +1991,6 @@
     ]
   },
   {
-    "slug": "verona",
-    "name": "Verona",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Verona is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Corvina",
-      "Corvinone",
-      "Molinara",
-      "Oseleta",
-      "Rondinella"
-    ],
-    "topWines": [
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2018",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2017",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2016",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2015",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2014",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2013",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2012",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2011",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2010",
-      "le-salette-pergole-vece-amarone-della-valpolicella-classico-2009"
-    ],
-    "notableAppellations": [
-      "Verona"
-    ]
-  },
-  {
-    "slug": "villany",
-    "name": "Villány",
-    "country": "Hungary",
-    "countryCode": "HU",
-    "description": "Villány is a wine region in Hungary known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Merlot"
-    ],
-    "topWines": [
-      "gere-solus-merlot-2020",
-      "gere-solus-merlot-2019",
-      "gere-solus-merlot-2018",
-      "gere-solus-merlot-2017",
-      "gere-solus-merlot-2016",
-      "gere-solus-merlot-2015",
-      "gere-solus-merlot-2014",
-      "gere-solus-merlot-2013",
-      "gere-solus-merlot-2012",
-      "gere-solus-merlot-2011"
-    ],
-    "notableAppellations": [
-      "Villány"
-    ]
-  },
-  {
-    "slug": "vin-santo-di-montepulciano",
-    "name": "Vin Santo di Montepulciano",
-    "country": "Italy",
-    "countryCode": "IT",
-    "description": "Vin Santo di Montepulciano is a wine region in Italy known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Trebbiano"
-    ],
-    "topWines": [
-      "avignonesi-vin-santo-di-montepulciano-2021",
-      "avignonesi-vin-santo-di-montepulciano-2020",
-      "avignonesi-vin-santo-di-montepulciano-2018",
-      "avignonesi-vin-santo-di-montepulciano-2017",
-      "avignonesi-vin-santo-di-montepulciano-2016",
-      "avignonesi-vin-santo-di-montepulciano-2015",
-      "avignonesi-vin-santo-di-montepulciano-2014",
-      "avignonesi-vin-santo-di-montepulciano-2013",
-      "avignonesi-vin-santo-di-montepulciano-2012",
-      "avignonesi-vin-santo-di-montepulciano-2011"
-    ],
-    "notableAppellations": [
-      "Vin Santo di Montepulciano"
-    ]
-  },
-  {
-    "slug": "vosne-romanee",
-    "name": "Vosne-Romanée",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Vosne-Romanée is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2020",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2019",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2018",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2017",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2016",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2015",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2014",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2013",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2012",
-      "domaine-du-comte-liger-belair-vosne-romanee-clos-du-chateau-monopole-2011"
-    ],
-    "notableAppellations": [
-      "Vosne-Romanée"
-    ]
-  },
-  {
-    "slug": "vosne-romanee-1er-cru-au-cros-parantoux",
-    "name": "Vosne-Romanée 1er Cru 'Au Cros Parantoux'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Vosne-Romanée 1er Cru 'Au Cros Parantoux' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "henri-jayer-vosne-romanee-cros-parantoux-2021",
-      "henri-jayer-vosne-romanee-cros-parantoux-2020",
-      "henri-jayer-vosne-romanee-cros-parantoux-2019",
-      "henri-jayer-vosne-romanee-cros-parantoux-2018",
-      "henri-jayer-vosne-romanee-cros-parantoux-2017",
-      "henri-jayer-vosne-romanee-cros-parantoux-2016",
-      "henri-jayer-vosne-romanee-cros-parantoux-2015",
-      "henri-jayer-vosne-romanee-cros-parantoux-2014",
-      "henri-jayer-vosne-romanee-cros-parantoux-2013",
-      "henri-jayer-vosne-romanee-cros-parantoux-2012"
-    ],
-    "notableAppellations": [
-      "Vosne-Romanée 1er Cru 'Au Cros Parantoux'"
-    ]
-  },
-  {
-    "slug": "vosne-romanee-1er-cru-malconsorts",
-    "name": "Vosne-Romanée 1er Cru 'Malconsorts'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Vosne-Romanée 1er Cru 'Malconsorts' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2020",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2019",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2018",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2017",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2016",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2015",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2014",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2013",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2012",
-      "domaine-sylvain-cathiard-vosne-romanee-1er-cru-aux-malconsorts-2011"
-    ],
-    "notableAppellations": [
-      "Vosne-Romanée 1er Cru 'Malconsorts'"
-    ]
-  },
-  {
-    "slug": "vosne-romanee-premier-cru",
-    "name": "Vosne-Romanée Premier Cru",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Vosne-Romanée Premier Cru is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-cuvee-duvault-blochet-vosne-romanee-1er-cru-2009"
-    ],
-    "notableAppellations": [
-      "Vosne-Romanée Premier Cru"
-    ]
-  },
-  {
-    "slug": "vougeot-1er-cru-le-clos-blanc",
-    "name": "Vougeot 1er Cru 'Le Clos Blanc'",
-    "country": "France",
-    "countryCode": "FR",
-    "description": "Vougeot 1er Cru 'Le Clos Blanc' is a wine region in France known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Chardonnay"
-    ],
-    "topWines": [
-      "domaine-de-la-vougeraie-domaine-de-la-vougeraie-vougeot-1er-cru-le-clos-blanc-de-vougeot-monopole-2018"
-    ],
-    "notableAppellations": [
-      "Vougeot 1er Cru 'Le Clos Blanc'"
-    ]
-  },
-  {
-    "slug": "wachau",
-    "name": "Wachau",
-    "country": "Austria",
-    "countryCode": "AT",
-    "description": "Wachau is a wine region in Austria known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Grüner Veltliner",
-      "Riesling"
-    ],
-    "topWines": [
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2021",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2020",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2019",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2018",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2017",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2016",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2015",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2014",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2013",
-      "franz-hirtzberger-singerriedel-riesling-smaragd-2012"
-    ],
-    "notableAppellations": [
-      "Wachau"
-    ]
-  },
-  {
-    "slug": "waiheke-island",
-    "name": "Waiheke Island",
-    "country": "New Zealand",
-    "countryCode": "NZ",
-    "description": "Waiheke Island is a wine region in New Zealand known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon",
-      "Carmenère",
-      "Malbec",
-      "Merlot",
-      "Petit Verdot"
-    ],
-    "topWines": [
-      "stonyridge-vineyard-larose-red-blend-2021",
-      "stonyridge-vineyard-larose-red-blend-2020",
-      "stonyridge-vineyard-larose-red-blend-2019",
-      "stonyridge-vineyard-larose-red-blend-2018",
-      "stonyridge-vineyard-larose-red-blend-2017",
-      "stonyridge-vineyard-larose-red-blend-2016",
-      "stonyridge-vineyard-larose-red-blend-2015",
-      "stonyridge-vineyard-larose-red-blend-2014",
-      "stonyridge-vineyard-larose-red-blend-2013",
-      "stonyridge-vineyard-larose-red-blend-2012"
-    ],
-    "notableAppellations": [
-      "Waiheke Island"
-    ]
-  },
-  {
-    "slug": "walla-walla-valley",
-    "name": "Walla Walla Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Walla Walla Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Syrah/Shiraz"
-    ],
-    "topWines": [
-      "leonetti-reserve-2020",
-      "leonetti-reserve-2019",
-      "leonetti-reserve-2018",
-      "leonetti-reserve-2017",
-      "leonetti-reserve-2016",
-      "leonetti-reserve-2015",
-      "leonetti-reserve-2014",
-      "leonetti-reserve-2013",
-      "leonetti-reserve-2012",
-      "leonetti-reserve-2011"
-    ],
-    "notableAppellations": [
-      "Walla Walla Valley"
-    ]
-  },
-  {
-    "slug": "wehlen",
-    "name": "Wehlen",
-    "country": "Germany",
-    "countryCode": "DE",
-    "description": "Wehlen is a wine region in Germany known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Riesling"
-    ],
-    "topWines": [
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2021",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2020",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2019",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2018",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2017",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2016",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2015",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2014",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2013",
-      "joh-jos-prum-wehlener-sonnenuhr-riesling-auslese-2012"
-    ],
-    "notableAppellations": [
-      "Wehlen"
-    ]
-  },
-  {
-    "slug": "willamette-valley",
-    "name": "Willamette Valley",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Willamette Valley is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2021",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2020",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2019",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2018",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2017",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2016",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2015",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2014",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2013",
-      "beaux-freres-the-beaux-freres-vineyard-pinot-noir-2012"
-    ],
-    "notableAppellations": [
-      "Willamette Valley"
-    ]
-  },
-  {
-    "slug": "willow-creek",
-    "name": "Willow Creek",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Willow Creek is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Cabernet Sauvignon",
-      "Merlot",
-      "Shiraz/Syrah",
-      "Zinfandel"
-    ],
-    "topWines": [
-      "saxum-saxum-paderewski-vineyard-2022",
-      "saxum-saxum-g2-vineyard-2023"
-    ],
-    "notableAppellations": [
-      "Willow Creek"
-    ]
-  },
-  {
-    "slug": "yorkville-highlands",
-    "name": "Yorkville Highlands",
-    "country": "United States",
-    "countryCode": "US",
-    "description": "Yorkville Highlands is a wine region in United States known for quality wine production.",
-    "climate": "Varies",
-    "keyGrapes": [
-      "Pinot Noir"
-    ],
-    "topWines": [
-      "williams-selyem-weir-vineyard-pinot-noir-2021",
-      "williams-selyem-weir-vineyard-pinot-noir-2020",
-      "williams-selyem-weir-vineyard-pinot-noir-2019",
-      "williams-selyem-weir-vineyard-pinot-noir-2018",
-      "williams-selyem-weir-vineyard-pinot-noir-2017",
-      "williams-selyem-weir-vineyard-pinot-noir-2016",
-      "williams-selyem-weir-vineyard-pinot-noir-2015",
-      "williams-selyem-weir-vineyard-pinot-noir-2014",
-      "williams-selyem-weir-vineyard-pinot-noir-2013",
-      "williams-selyem-weir-vineyard-pinot-noir-2012"
-    ],
-    "notableAppellations": [
-      "Yorkville Highlands"
-    ]
-  },
-  {
     "slug": "yountville",
     "name": "Yountville",
     "country": "United States",
@@ -6390,8 +1998,7 @@
     "description": "Yountville is a wine region in United States known for quality wine production.",
     "climate": "Varies",
     "keyGrapes": [
-      "Cabernet Franc",
-      "Cabernet Sauvignon"
+      "Cabernet Franc"
     ],
     "topWines": [
       "dominus-dominus-christian-moueix-2021",
@@ -6420,9 +2027,7 @@
       "Pinot Noir"
     ],
     "topWines": [
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-echezeaux-grand-cru-2009",
-      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-echezeaux-grand-cru-2020",
-      "domaine-des-perdrix-domaine-des-perdrix-echezeaux-grand-cru-1999"
+      "domaine-de-la-romanee-conti-domaine-de-la-romanee-conti-echezeaux-grand-cru-2009"
     ],
     "notableAppellations": [
       "Échezeaux Grand Cru"
