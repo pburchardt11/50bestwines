@@ -1,0 +1,2294 @@
+[
+  {
+    "slug": "aglianico",
+    "name": "Aglianico",
+    "color": "Red",
+    "aliases": [],
+    "description": "Aglianico is a red grape variety grown in Campania, Châteauneuf-du-Pape, Irpinia Campi Taurasini.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Campania",
+      "Châteauneuf-du-Pape",
+      "Irpinia Campi Taurasini"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "alicante-bouschet",
+    "name": "Alicante Bouschet",
+    "color": "Red",
+    "aliases": [],
+    "description": "Alicante Bouschet is a red grape variety grown in Alentejano, Alentejo, Borba.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Alentejano",
+      "Alentejo",
+      "Borba",
+      "Evora"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "aligote",
+    "name": "Aligoté",
+    "color": "White",
+    "aliases": [],
+    "description": "Aligoté is a white grape variety grown in Bienvenues-Bâtard-Montrachet Grand Cru, Bâtard-Montrachet Grand Cru, Chassagne-Montrachet 1er Cru 'Morgeot'.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Bienvenues-Bâtard-Montrachet Grand Cru",
+      "Bâtard-Montrachet Grand Cru",
+      "Chassagne-Montrachet 1er Cru 'Morgeot'",
+      "Corton-Charlemagne Grand Cru",
+      "Montrachet Grand Cru",
+      "Puligny-Montrachet Premier Cru"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "antao-vaz",
+    "name": "Antão Vaz",
+    "color": "White",
+    "aliases": [],
+    "description": "Antão Vaz is a white grape variety grown in Evora.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Evora"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "aragonez",
+    "name": "Aragonez",
+    "color": "Red",
+    "aliases": [],
+    "description": "Aragonez is a red grape variety grown in Alentejano, Borba, Evora.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Alentejano",
+      "Borba",
+      "Evora"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "arinto-de-bucelas",
+    "name": "Arinto de Bucelas",
+    "color": "White",
+    "aliases": [],
+    "description": "Arinto de Bucelas is a white grape variety grown in Douro.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "barbera",
+    "name": "Barbera",
+    "color": "Red",
+    "aliases": [],
+    "description": "Barbera is a red grape variety grown in Amarone della Valpolicella Classico, Stellenbosch, Veneto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella Classico",
+      "Stellenbosch",
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "bical",
+    "name": "Bical",
+    "color": "White",
+    "aliases": [],
+    "description": "Bical is a white grape variety grown in Beiras.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Beiras"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "bonarda",
+    "name": "Bonarda",
+    "color": "Red",
+    "aliases": [],
+    "description": "Bonarda is a red grape variety grown in Mendoza.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Mendoza"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "cabernet-franc",
+    "name": "Cabernet Franc",
+    "color": "Red",
+    "aliases": [],
+    "description": "Cabernet Franc is a red grape variety grown in Aconcagua Valley, Agrelo, Bolgheri.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua Valley",
+      "Agrelo",
+      "Bolgheri",
+      "Bolgheri Sassicaia",
+      "Bolgheri Superiore",
+      "Cachapoal Valley",
+      "Cafayate Valley",
+      "California",
+      "Casablanca Valley",
+      "Colchagua Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "cabernet-sauvignon",
+    "name": "Cabernet Sauvignon",
+    "color": "Red",
+    "aliases": [],
+    "description": "Cabernet Sauvignon is a red grape variety grown in Aconcagua, Aconcagua Valley, Agrelo.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua",
+      "Aconcagua Valley",
+      "Agrelo",
+      "Alentejano",
+      "Alexander Valley",
+      "Alpilles",
+      "Atlas Peak",
+      "Baja California",
+      "Beiras",
+      "Bolgheri Sassicaia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "canaiolo-nero",
+    "name": "Canaiolo Nero",
+    "color": "Red",
+    "aliases": [],
+    "description": "Canaiolo Nero is a red grape variety grown in Toscana.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Toscana"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "cannonau",
+    "name": "Cannonau",
+    "color": "Red",
+    "aliases": [],
+    "description": "Cannonau is a red grape variety grown in Isola dei Nuraghi.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Isola dei Nuraghi"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "carignan-carinena",
+    "name": "Carignan/Cariñena",
+    "color": "Red",
+    "aliases": [],
+    "description": "Carignan/Cariñena is a red grape variety grown in Isola dei Nuraghi, Languedoc-Roussillon, Lazio.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Isola dei Nuraghi",
+      "Languedoc-Roussillon",
+      "Lazio",
+      "Priorat",
+      "Rapel Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "carmenere",
+    "name": "Carmenère",
+    "color": "Red",
+    "aliases": [],
+    "description": "Carmenère is a red grape variety grown in Aconcagua Valley, Apalta Valley, Cachapoal Valley.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua Valley",
+      "Apalta Valley",
+      "Cachapoal Valley",
+      "Casablanca Valley",
+      "Colchagua Valley",
+      "Mendoza",
+      "Paarl",
+      "Peumo",
+      "Puente Alto",
+      "Rapel Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "carmenere",
+    "name": "Carménère",
+    "color": "Red",
+    "aliases": [],
+    "description": "Carménère is a red grape variety grown in Aconcagua Valley, Colchagua Valley, Knights Valley.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua Valley",
+      "Colchagua Valley",
+      "Knights Valley",
+      "Margaux",
+      "Pauillac",
+      "Pessac-Léognan",
+      "Pomerol",
+      "Puente Alto",
+      "Saint-Julien",
+      "Saint-Émilion Grand Cru"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "charbono",
+    "name": "Charbono",
+    "color": "Red",
+    "aliases": [],
+    "description": "Charbono is a red grape variety grown in Rutherford.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Rutherford"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "chardonnay",
+    "name": "Chardonnay",
+    "color": "White",
+    "aliases": [],
+    "description": "Chardonnay is a white grape variety grown in Beechworth, Bienvenues-Bâtard-Montrachet Grand Cru, Bourgogne.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Beechworth",
+      "Bienvenues-Bâtard-Montrachet Grand Cru",
+      "Bourgogne",
+      "Bâtard-Montrachet Grand Cru",
+      "Chablis 1er Cru 'Butteaux'",
+      "Chablis 1er Cru 'Montee de Tonnerre'",
+      "Chablis Grand Cru 'Les Clos'",
+      "Chablis Grand Cru 'Valmur'",
+      "Champagne",
+      "Champagne Grand Cru 'Ambonnay'"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "chenin-blanc",
+    "name": "Chenin Blanc",
+    "color": "White",
+    "aliases": [],
+    "description": "Chenin Blanc is a white grape variety grown in Saumur, Stellenbosch, Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Saumur",
+      "Stellenbosch",
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "cinsault",
+    "name": "Cinsault",
+    "color": "Red",
+    "aliases": [],
+    "description": "Cinsault is a red grape variety grown in Côtes-du-Rhône.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Côtes-du-Rhône"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "cinsaut",
+    "name": "Cinsaut",
+    "color": "Red",
+    "aliases": [],
+    "description": "Cinsaut is a red grape variety grown in Châteauneuf-du-Pape.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Châteauneuf-du-Pape"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "clairette",
+    "name": "Clairette",
+    "color": "White",
+    "aliases": [],
+    "description": "Clairette is a white grape variety grown in Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "colombard",
+    "name": "Colombard",
+    "color": "White",
+    "aliases": [],
+    "description": "Colombard is a white grape variety grown in Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "corvina",
+    "name": "Corvina",
+    "color": "Red",
+    "aliases": [],
+    "description": "Corvina is a red grape variety grown in Amarone della Valpolicella, Amarone della Valpolicella Classico, Valpolicella.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella",
+      "Amarone della Valpolicella Classico",
+      "Valpolicella",
+      "Veneto",
+      "Verona"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "corvinone",
+    "name": "Corvinone",
+    "color": "Red",
+    "aliases": [],
+    "description": "Corvinone is a red grape variety grown in Amarone della Valpolicella, Amarone della Valpolicella Classico, Valpolicella.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella",
+      "Amarone della Valpolicella Classico",
+      "Valpolicella",
+      "Veneto",
+      "Verona"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "counoise",
+    "name": "Counoise",
+    "color": "Red",
+    "aliases": [],
+    "description": "Counoise is a red grape variety grown in Châteauneuf-du-Pape, Languedoc-Roussillon.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Châteauneuf-du-Pape",
+      "Languedoc-Roussillon"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "croatina",
+    "name": "Croatina",
+    "color": "Red",
+    "aliases": [],
+    "description": "Croatina is a red grape variety grown in Amarone della Valpolicella, Amarone della Valpolicella Classico, Veneto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella",
+      "Amarone della Valpolicella Classico",
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "codega-de-larinho",
+    "name": "Côdega de Larinho",
+    "color": "White",
+    "aliases": [],
+    "description": "Côdega de Larinho is a white grape variety grown in Douro.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "dindarella",
+    "name": "Dindarella",
+    "color": "Red",
+    "aliases": [],
+    "description": "Dindarella is a red grape variety grown in Amarone della Valpolicella Classico.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella Classico"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "dolcetto",
+    "name": "Dolcetto",
+    "color": "Red",
+    "aliases": [],
+    "description": "Dolcetto is a red grape variety grown in Veneto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "donzelinho-tinto",
+    "name": "Donzelinho Tinto",
+    "color": "Red",
+    "aliases": [],
+    "description": "Donzelinho Tinto is a red grape variety grown in Douro.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "durif",
+    "name": "Durif",
+    "color": "Red",
+    "aliases": [],
+    "description": "Durif is a red grape variety grown in Suisun Valley.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Suisun Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "encruzado",
+    "name": "Encruzado",
+    "color": "White",
+    "aliases": [],
+    "description": "Encruzado is a white grape variety grown in Beiras.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Beiras"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "fenile",
+    "name": "Fenile",
+    "color": "White",
+    "aliases": [],
+    "description": "Fenile is a white grape variety grown in Costa d'Amalfi.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Costa d'Amalfi"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "furmint",
+    "name": "Furmint",
+    "color": "White",
+    "aliases": [],
+    "description": "Furmint is a white grape variety grown in Tokaj.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Tokaj"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "gamay-noir",
+    "name": "Gamay Noir",
+    "color": "Red",
+    "aliases": [],
+    "description": "Gamay Noir is a red grape variety grown in Morgon.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Morgon"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "garganega",
+    "name": "Garganega",
+    "color": "Red",
+    "aliases": [],
+    "description": "Garganega is a red grape variety grown in Veneto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "garnacha",
+    "name": "Garnacha",
+    "color": "Red",
+    "aliases": [],
+    "description": "Garnacha is a red grape variety grown in Campo de Borja, Châteauneuf-du-Pape, Priorat.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Campo de Borja",
+      "Châteauneuf-du-Pape",
+      "Priorat",
+      "Rioja"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "garnacha-tintorera",
+    "name": "Garnacha Tintorera",
+    "color": "Red",
+    "aliases": [],
+    "description": "Garnacha Tintorera is a red grape variety grown in Almansa.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Almansa"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "ginestra",
+    "name": "Ginestra",
+    "color": "White",
+    "aliases": [],
+    "description": "Ginestra is a white grape variety grown in Costa d'Amalfi.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Costa d'Amalfi"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "godello",
+    "name": "Godello",
+    "color": "White",
+    "aliases": [],
+    "description": "Godello is a white grape variety grown in Galicia.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Galicia"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "gouveio",
+    "name": "Gouveio",
+    "color": "Red",
+    "aliases": [],
+    "description": "Gouveio is a red grape variety grown in Douro, Porto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "graciano",
+    "name": "Graciano",
+    "color": "Red",
+    "aliases": [],
+    "description": "Graciano is a red grape variety grown in Rioja.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Rioja"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "grenache",
+    "name": "Grenache",
+    "color": "Red",
+    "aliases": [],
+    "description": "Grenache is a red grape variety grown in Barossa Valley, California, Central Coast.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Barossa Valley",
+      "California",
+      "Central Coast",
+      "Châteauneuf-du-Pape",
+      "Côtes-du-Rhône",
+      "Languedoc",
+      "Languedoc-Roussillon",
+      "Lazio",
+      "Napa Valley",
+      "Paso Robles"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "grenache-blanc",
+    "name": "Grenache Blanc",
+    "color": "White",
+    "aliases": [],
+    "description": "Grenache Blanc is a white grape variety grown in Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "gruner-veltliner",
+    "name": "Grüner Veltliner",
+    "color": "White",
+    "aliases": [],
+    "description": "Grüner Veltliner is a white grape variety grown in Wachau.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Wachau"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "harslevelu",
+    "name": "Hárslevelű",
+    "color": "White",
+    "aliases": [],
+    "description": "Hárslevelű is a white grape variety grown in Tokaj.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Tokaj"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "lagrein",
+    "name": "Lagrein",
+    "color": "Red",
+    "aliases": [],
+    "description": "Lagrein is a red grape variety grown in Südtirol-Alto Adige.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Südtirol-Alto Adige"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "macabeo",
+    "name": "Macabeo",
+    "color": "White",
+    "aliases": [],
+    "description": "Macabeo is a white grape variety grown in Cava.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Cava"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "malbec",
+    "name": "Malbec",
+    "color": "Red",
+    "aliases": [],
+    "description": "Malbec is a red grape variety grown in Aconcagua Valley, Agrelo, Cafayate Valley.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua Valley",
+      "Agrelo",
+      "Cafayate Valley",
+      "California",
+      "Calistoga",
+      "Colchagua Valley",
+      "Côtes de Bourg",
+      "Howell Mountain",
+      "Jerusalem",
+      "Knights Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "malvasia",
+    "name": "Malvasia",
+    "color": "White",
+    "aliases": [],
+    "description": "Malvasia is a white grape variety grown in Rioja.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Rioja"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "malvasia-fina",
+    "name": "Malvasia Fina",
+    "color": "Red",
+    "aliases": [],
+    "description": "Malvasia Fina is a red grape variety grown in Porto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Porto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "malvasia-nera",
+    "name": "Malvasia Nera",
+    "color": "Red",
+    "aliases": [],
+    "description": "Malvasia Nera is a red grape variety grown in Abruzzo.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Abruzzo"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "maria-gomes",
+    "name": "Maria Gomes",
+    "color": "White",
+    "aliases": [],
+    "description": "Maria Gomes is a white grape variety grown in Beiras.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Beiras"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "marsanne",
+    "name": "Marsanne",
+    "color": "White",
+    "aliases": [],
+    "description": "Marsanne is a white grape variety grown in Languedoc-Roussillon, Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Languedoc-Roussillon",
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "marzemino",
+    "name": "Marzemino",
+    "color": "Red",
+    "aliases": [],
+    "description": "Marzemino is a red grape variety grown in Veneto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "mazuelo",
+    "name": "Mazuelo",
+    "color": "Red",
+    "aliases": [],
+    "description": "Mazuelo is a red grape variety grown in Rioja.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Rioja"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "merlot",
+    "name": "Merlot",
+    "color": "Red",
+    "aliases": [],
+    "description": "Merlot is a red grape variety grown in Aconcagua Valley, Agrelo, Baja California.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua Valley",
+      "Agrelo",
+      "Baja California",
+      "Beiras",
+      "Bolgheri Superiore",
+      "Cachapoal Valley",
+      "California",
+      "Calistoga",
+      "Campanha Gaúcha",
+      "Casablanca Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "molinara",
+    "name": "Molinara",
+    "color": "Red",
+    "aliases": [],
+    "description": "Molinara is a red grape variety grown in Amarone della Valpolicella, Amarone della Valpolicella Classico, Valpolicella.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella",
+      "Amarone della Valpolicella Classico",
+      "Valpolicella",
+      "Veneto",
+      "Verona"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "monastrell",
+    "name": "Monastrell",
+    "color": "Red",
+    "aliases": [],
+    "description": "Monastrell is a red grape variety grown in Jumilla.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Jumilla"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "montepulciano",
+    "name": "Montepulciano",
+    "color": "Red",
+    "aliases": [],
+    "description": "Montepulciano is a red grape variety grown in Abruzzo, Marche.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Abruzzo",
+      "Marche"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "moscatel",
+    "name": "Moscatel",
+    "color": "Red",
+    "aliases": [],
+    "description": "Moscatel is a red grape variety grown in Montilla-Moriles.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Montilla-Moriles"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "mourvedre",
+    "name": "Mourvedre",
+    "color": "Red",
+    "aliases": [],
+    "description": "Mourvedre is a red grape variety grown in Alicante, Châteauneuf-du-Pape, Jumilla.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Alicante",
+      "Châteauneuf-du-Pape",
+      "Jumilla",
+      "Languedoc-Roussillon",
+      "Paso Robles",
+      "South Australia",
+      "Stellenbosch",
+      "Swartland"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "muscadelle",
+    "name": "Muscadelle",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscadelle is a white grape variety grown in Pessac-Léognan, Sauternes.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Pessac-Léognan",
+      "Sauternes"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "muscardin",
+    "name": "Muscardin",
+    "color": "Red",
+    "aliases": [],
+    "description": "Muscardin is a red grape variety grown in Châteauneuf-du-Pape.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Châteauneuf-du-Pape"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "muscat-yellow",
+    "name": "Muscat Yellow",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscat Yellow is a white grape variety grown in Tokaj.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Tokaj"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "muscat-of-alexandria",
+    "name": "Muscat of Alexandria",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscat of Alexandria is a white grape variety grown in Passito di Pantelleria.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Passito di Pantelleria"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "muscat-of-frontignan",
+    "name": "Muscat of Frontignan",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscat of Frontignan is a white grape variety grown in Constantia.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Constantia"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "muscat-moscatel-roxo",
+    "name": "Muscat/Moscatel Roxo",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscat/Moscatel Roxo is a white grape variety grown in Setúbal.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Setúbal"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "muscat-moscatel-de-grano-menudo",
+    "name": "Muscat/Moscatel de Grano Menudo",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscat/Moscatel de Grano Menudo is a white grape variety grown in Tokaj.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Tokaj"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "muscat-moscato-giallo",
+    "name": "Muscat/Moscato Giallo",
+    "color": "White",
+    "aliases": [],
+    "description": "Muscat/Moscato Giallo is a white grape variety grown in Südtirol-Alto Adige.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Südtirol-Alto Adige"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "nebbiolo",
+    "name": "Nebbiolo",
+    "color": "Red",
+    "aliases": [],
+    "description": "Nebbiolo is a red grape variety grown in Baja California, Barbaresco, Barolo.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Baja California",
+      "Barbaresco",
+      "Barolo",
+      "Langhe",
+      "Lombardia",
+      "Piemonte",
+      "Sforzato della Valtellina",
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "negroamaro",
+    "name": "Negroamaro",
+    "color": "Red",
+    "aliases": [],
+    "description": "Negroamaro is a red grape variety grown in Abruzzo, Puglia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Abruzzo",
+      "Puglia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "nero-d-avola",
+    "name": "Nero d'Avola",
+    "color": "Red",
+    "aliases": [],
+    "description": "Nero d'Avola is a red grape variety grown in Sicilia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Sicilia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "oseleta",
+    "name": "Oseleta",
+    "color": "Red",
+    "aliases": [],
+    "description": "Oseleta is a red grape variety grown in Amarone della Valpolicella, Amarone della Valpolicella Classico, Valpolicella.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella",
+      "Amarone della Valpolicella Classico",
+      "Valpolicella",
+      "Veneto",
+      "Verona"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "palomino",
+    "name": "Palomino",
+    "color": "White",
+    "aliases": [],
+    "description": "Palomino is a white grape variety grown in Montilla-Moriles, Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Montilla-Moriles",
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "parellada",
+    "name": "Parellada",
+    "color": "White",
+    "aliases": [],
+    "description": "Parellada is a white grape variety grown in Cava.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Cava"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "pedro-ximenez",
+    "name": "Pedro Ximenez",
+    "color": "White",
+    "aliases": [],
+    "description": "Pedro Ximenez is a white grape variety grown in Jerez-Xérès-Sherry, Montilla-Moriles.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Jerez-Xérès-Sherry",
+      "Montilla-Moriles"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "petit-manseng",
+    "name": "Petit Manseng",
+    "color": "White",
+    "aliases": [],
+    "description": "Petit Manseng is a white grape variety grown in Pouilly-Fumé.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Pouilly-Fumé"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "petit-verdot",
+    "name": "Petit Verdot",
+    "color": "Red",
+    "aliases": [],
+    "description": "Petit Verdot is a red grape variety grown in Aconcagua Valley, Agrelo, Alentejo.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Aconcagua Valley",
+      "Agrelo",
+      "Alentejo",
+      "Baja California",
+      "Bolgheri Superiore",
+      "Cachapoal Valley",
+      "California",
+      "Calistoga",
+      "Campanha Gaúcha",
+      "Casablanca Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "petite-sirah",
+    "name": "Petite Sirah",
+    "color": "Red",
+    "aliases": [],
+    "description": "Petite Sirah is a red grape variety grown in Baja California, Napa Valley, Rutherford.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Baja California",
+      "Napa Valley",
+      "Rutherford"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "pinot-blanc",
+    "name": "Pinot Blanc",
+    "color": "White",
+    "aliases": [],
+    "description": "Pinot Blanc is a white grape variety grown in Bienvenues-Bâtard-Montrachet Grand Cru, Bâtard-Montrachet Grand Cru, Champagne.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Bienvenues-Bâtard-Montrachet Grand Cru",
+      "Bâtard-Montrachet Grand Cru",
+      "Champagne",
+      "Chassagne-Montrachet 1er Cru 'Morgeot'",
+      "Corton-Charlemagne Grand Cru",
+      "Montrachet Grand Cru",
+      "Puligny-Montrachet Premier Cru"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "pinot-gris",
+    "name": "Pinot Gris",
+    "color": "White",
+    "aliases": [],
+    "description": "Pinot Gris is a white grape variety grown in Bienvenues-Bâtard-Montrachet Grand Cru, Bâtard-Montrachet Grand Cru, Chassagne-Montrachet 1er Cru 'Morgeot'.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Bienvenues-Bâtard-Montrachet Grand Cru",
+      "Bâtard-Montrachet Grand Cru",
+      "Chassagne-Montrachet 1er Cru 'Morgeot'",
+      "Corton-Charlemagne Grand Cru",
+      "Montrachet Grand Cru",
+      "Puligny-Montrachet Premier Cru"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "pinot-meunier",
+    "name": "Pinot Meunier",
+    "color": "White",
+    "aliases": [],
+    "description": "Pinot Meunier is a white grape variety grown in Champagne, Champagne Grand Cru 'Ambonnay', Champagne Grand Cru 'Avize'.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Champagne",
+      "Champagne Grand Cru 'Ambonnay'",
+      "Champagne Grand Cru 'Avize'"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "pinot-nero",
+    "name": "Pinot Nero",
+    "color": "White",
+    "aliases": [],
+    "description": "Pinot Nero is a white grape variety grown in Champagne, Franciacorta.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Champagne",
+      "Franciacorta"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "pinot-noir",
+    "name": "Pinot Noir",
+    "color": "Red",
+    "aliases": [],
+    "description": "Pinot Noir is a red grape variety grown in Anderson Valley, Bonnes-Mares Grand Cru, Bourgogne.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Anderson Valley",
+      "Bonnes-Mares Grand Cru",
+      "Bourgogne",
+      "Cachapoal Valley",
+      "California",
+      "Central Valley (CL)",
+      "Chambertin-Clos de Bèze Grand Cru",
+      "Champagne",
+      "Champagne Grand Cru 'Ambonnay'",
+      "Champagne Grand Cru 'Avize'"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "pinotage",
+    "name": "Pinotage",
+    "color": "Red",
+    "aliases": [],
+    "description": "Pinotage is a red grape variety grown in Stellenbosch.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Stellenbosch"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "plavac-mali",
+    "name": "Plavac Mali",
+    "color": "Red",
+    "aliases": [],
+    "description": "Plavac Mali is a red grape variety grown in Dingač.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Dingač"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "primitivo",
+    "name": "Primitivo",
+    "color": "Red",
+    "aliases": [],
+    "description": "Primitivo is a red grape variety grown in Abruzzo, Primitivo di Manduria, Puglia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Abruzzo",
+      "Primitivo di Manduria",
+      "Puglia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "rabigato",
+    "name": "Rabigato",
+    "color": "Red",
+    "aliases": [],
+    "description": "Rabigato is a red grape variety grown in Douro, Porto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "ribolla-gialla",
+    "name": "Ribolla Gialla",
+    "color": "White",
+    "aliases": [],
+    "description": "Ribolla Gialla is a white grape variety grown in Friuli-Venezia Giulia.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Friuli-Venezia Giulia"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "riesling",
+    "name": "Riesling",
+    "color": "White",
+    "aliases": [],
+    "description": "Riesling is a white grape variety grown in Alsace, Mosel, Rheinhessen.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Alsace",
+      "Mosel",
+      "Rheinhessen",
+      "Wachau",
+      "Wehlen"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "ripolo",
+    "name": "Ripolo",
+    "color": "White",
+    "aliases": [],
+    "description": "Ripolo is a white grape variety grown in Costa d'Amalfi.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Costa d'Amalfi"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "rondinella",
+    "name": "Rondinella",
+    "color": "Red",
+    "aliases": [],
+    "description": "Rondinella is a red grape variety grown in Amarone della Valpolicella, Amarone della Valpolicella Classico, Lombardia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Amarone della Valpolicella",
+      "Amarone della Valpolicella Classico",
+      "Lombardia",
+      "Valpolicella",
+      "Veneto",
+      "Verona"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "roussanne",
+    "name": "Roussanne",
+    "color": "White",
+    "aliases": [],
+    "description": "Roussanne is a white grape variety grown in Languedoc-Roussillon, Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Languedoc-Roussillon",
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "rufete",
+    "name": "Rufete",
+    "color": "Red",
+    "aliases": [],
+    "description": "Rufete is a red grape variety grown in Douro.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "sagrantino",
+    "name": "Sagrantino",
+    "color": "Red",
+    "aliases": [],
+    "description": "Sagrantino is a red grape variety grown in Montefalco Sagrantino.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Montefalco Sagrantino"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "sangiovese",
+    "name": "Sangiovese",
+    "color": "Red",
+    "aliases": [],
+    "description": "Sangiovese is a red grape variety grown in Abruzzo, Amarone della Valpolicella Classico, Bolgheri Sassicaia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Abruzzo",
+      "Amarone della Valpolicella Classico",
+      "Bolgheri Sassicaia",
+      "Bolgheri Superiore",
+      "Brunello di Montalcino",
+      "Calistoga",
+      "Chianti",
+      "Colli della Toscana Centrale",
+      "Marche",
+      "Piemonte"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "saperavi",
+    "name": "Saperavi",
+    "color": "Red",
+    "aliases": [],
+    "description": "Saperavi is a red grape variety grown in Moldova Viniculture.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Moldova Viniculture"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "sauvignon-blanc",
+    "name": "Sauvignon Blanc",
+    "color": "White",
+    "aliases": [],
+    "description": "Sauvignon Blanc is a white grape variety grown in Marlborough, Napa Valley, Pessac-Léognan.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Marlborough",
+      "Napa Valley",
+      "Pessac-Léognan",
+      "Pouilly-Fumé",
+      "Russian River Valley",
+      "Sauternes",
+      "Südtirol-Alto Adige",
+      "Veneto"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "shiraz-syrah",
+    "name": "Shiraz/Syrah",
+    "color": "Red",
+    "aliases": [],
+    "description": "Shiraz/Syrah is a red grape variety grown in Barossa Valley, California, Châteauneuf-du-Pape.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Barossa Valley",
+      "California",
+      "Châteauneuf-du-Pape",
+      "Colchagua Valley",
+      "Paso Robles",
+      "South Australia",
+      "Stellenbosch",
+      "Willow Creek"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "sousao",
+    "name": "Sousão",
+    "color": "Red",
+    "aliases": [],
+    "description": "Sousão is a red grape variety grown in Douro, Porto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "syrah-shiraz",
+    "name": "Syrah/Shiraz",
+    "color": "Red",
+    "aliases": [],
+    "description": "Syrah/Shiraz is a red grape variety grown in Alentejano, Alentejo, Barossa.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Alentejano",
+      "Alentejo",
+      "Barossa",
+      "Barossa Valley",
+      "Cachapoal Valley",
+      "California",
+      "Casablanca Valley",
+      "Central Valley (CL)",
+      "Châteauneuf-du-Pape",
+      "Clare Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "semillon",
+    "name": "Sémillon",
+    "color": "White",
+    "aliases": [],
+    "description": "Sémillon is a white grape variety grown in Barsac, Pessac-Léognan, Sauternes.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Barsac",
+      "Pessac-Léognan",
+      "Sauternes",
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "tannat",
+    "name": "Tannat",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tannat is a red grape variety grown in Campanha Gaúcha, Canelones, Juanico.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Campanha Gaúcha",
+      "Canelones",
+      "Juanico",
+      "Mendoza",
+      "Montevideo",
+      "Progreso",
+      "Uco Valley"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tempranillo",
+    "name": "Tempranillo",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tempranillo is a red grape variety grown in Campanha Gaúcha, Castilla y León, Evora.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Campanha Gaúcha",
+      "Castilla y León",
+      "Evora",
+      "Lazio",
+      "Montevideo",
+      "País Vasco",
+      "Ribera del Duero",
+      "Rioja",
+      "Rioja Alavesa",
+      "Toro"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "teroldego",
+    "name": "Teroldego",
+    "color": "Red",
+    "aliases": [],
+    "description": "Teroldego is a red grape variety grown in Trentino-Alto Adige, Veneto.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Trentino-Alto Adige",
+      "Veneto"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinta-amarela",
+    "name": "Tinta Amarela",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinta Amarela is a red grape variety grown in Douro.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinta-barroca",
+    "name": "Tinta Barroca",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinta Barroca is a red grape variety grown in Douro, Porto, South Australia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto",
+      "South Australia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinta-francisca",
+    "name": "Tinta Francisca",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinta Francisca is a red grape variety grown in Douro.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinta-roriz",
+    "name": "Tinta Roriz",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinta Roriz is a red grape variety grown in Douro, Porto, South Australia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto",
+      "South Australia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinta-de-toro",
+    "name": "Tinta de Toro",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinta de Toro is a red grape variety grown in Toro.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Toro"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinta-del-pais",
+    "name": "Tinta del Pais",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinta del Pais is a red grape variety grown in Ribera del Duero.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Ribera del Duero"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinto-cao",
+    "name": "Tinto Cão",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinto Cão is a red grape variety grown in Douro, Porto, South Australia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto",
+      "South Australia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "tinto-fino",
+    "name": "Tinto Fino",
+    "color": "Red",
+    "aliases": [],
+    "description": "Tinto Fino is a red grape variety grown in Ribera del Duero.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Ribera del Duero"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "touriga-franca",
+    "name": "Touriga Franca",
+    "color": "Red",
+    "aliases": [],
+    "description": "Touriga Franca is a red grape variety grown in Douro, Porto, South Australia.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Douro",
+      "Porto",
+      "South Australia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "touriga-nacional",
+    "name": "Touriga Nacional",
+    "color": "Red",
+    "aliases": [],
+    "description": "Touriga Nacional is a red grape variety grown in Alentejano, Beiras, Borba.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Alentejano",
+      "Beiras",
+      "Borba",
+      "Campanha Gaúcha",
+      "Douro",
+      "Porto",
+      "South Australia"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "trebbiano",
+    "name": "Trebbiano",
+    "color": "White",
+    "aliases": [],
+    "description": "Trebbiano is a white grape variety grown in Trebbiano d'Abruzzo, Veneto, Vin Santo di Montepulciano.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Trebbiano d'Abruzzo",
+      "Veneto",
+      "Vin Santo di Montepulciano"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "trepat",
+    "name": "Trepat",
+    "color": "White",
+    "aliases": [],
+    "description": "Trepat is a white grape variety grown in Cava.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Cava"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "vaccareze",
+    "name": "Vaccareze",
+    "color": "Red",
+    "aliases": [],
+    "description": "Vaccareze is a red grape variety grown in Châteauneuf-du-Pape.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Châteauneuf-du-Pape"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  },
+  {
+    "slug": "verdejo",
+    "name": "Verdejo",
+    "color": "White",
+    "aliases": [],
+    "description": "Verdejo is a white grape variety grown in Castilla y León.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Castilla y León"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "verdelho",
+    "name": "Verdelho",
+    "color": "White",
+    "aliases": [],
+    "description": "Verdelho is a white grape variety grown in Swartland.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "viognier",
+    "name": "Viognier",
+    "color": "White",
+    "aliases": [],
+    "description": "Viognier is a white grape variety grown in Barossa Valley, Condrieu, Côte-Rôtie.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Barossa Valley",
+      "Condrieu",
+      "Côte-Rôtie",
+      "Rhone Valley",
+      "Swartland"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "viosinho",
+    "name": "Viosinho",
+    "color": "White",
+    "aliases": [],
+    "description": "Viosinho is a white grape variety grown in Douro.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Douro"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "viura",
+    "name": "Viura",
+    "color": "White",
+    "aliases": [],
+    "description": "Viura is a white grape variety grown in Cava, Rioja.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Cava",
+      "Rioja"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "xarel-lo",
+    "name": "Xarel-lo",
+    "color": "White",
+    "aliases": [],
+    "description": "Xarel-lo is a white grape variety grown in Cava.",
+    "characteristics": "Typically fresh and aromatic with good acidity.",
+    "regions": [
+      "Cava"
+    ],
+    "pairings": [
+      "Seafood",
+      "Salads",
+      "Light poultry"
+    ]
+  },
+  {
+    "slug": "zinfandel",
+    "name": "Zinfandel",
+    "color": "Red",
+    "aliases": [],
+    "description": "Zinfandel is a red grape variety grown in Dry Creek Valley, Fiddletown, Napa Valley.",
+    "characteristics": "Medium to full-bodied with structured tannins.",
+    "regions": [
+      "Dry Creek Valley",
+      "Fiddletown",
+      "Napa Valley",
+      "Paso Robles",
+      "Rutherford",
+      "Willow Creek"
+    ],
+    "pairings": [
+      "Grilled meats",
+      "Hard cheeses",
+      "Pasta"
+    ]
+  }
+]

@@ -52,7 +52,7 @@ export default function RankingsTable({ wines }: { wines: RankingWine[] }) {
           </thead>
           <tbody>
             {visible.map((wine, i) => (
-              <tr key={wine.slug} className={`border-b border-[rgba(139,34,82,0.05)] transition-colors hover:bg-white/5 ${i % 2 === 1 ? 'bg-[#0c0c0c]' : ''}`}>
+              <tr key={wine.slug} className={`border-b border-[rgba(139,34,82,0.05)] transition-colors hover:bg-white/5 cursor-pointer ${i % 2 === 1 ? 'bg-[#0c0c0c]' : ''}`} onClick={() => window.location.href = `/wine/${wine.slug}`}>
                 <td className="px-4 py-3 font-serif font-bold text-wine">{i + 1}</td>
                 <td className="px-4 py-3">
                   <Link href={`/wine/${wine.slug}`} className="flex items-center gap-2 font-medium text-text hover:text-wine transition-colors">

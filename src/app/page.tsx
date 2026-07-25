@@ -2,6 +2,8 @@ import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
 import FAQSection from '@/components/FAQSection';
 import RankingsTable from '@/components/RankingsTable';
+import SearchBar from '@/components/SearchBar';
+import { getSearchIndex } from '@/lib/search-index';
 import {
   getTopWinesGlobal,
   getAllWines,
@@ -125,6 +127,8 @@ export default function HomePage() {
             <span className="h-1.5 w-1.5 rounded-full bg-wine" />
             Last updated: July 2026
           </p>
+
+          <SearchBar className="mx-auto mt-10 max-w-xl" searchData={getSearchIndex()} />
 
           <div className="mx-auto mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-base text-text/60">
             <div className="flex items-center gap-2">
