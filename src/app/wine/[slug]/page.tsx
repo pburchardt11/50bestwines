@@ -150,7 +150,7 @@ export default async function WineDetailPage({ params }: Props) {
               <div>
                 <p className="text-sm font-semibold uppercase tracking-wider text-wine/70">Aggregate Score</p>
                 <p className="mt-1 text-sm text-text/50">
-                  Based on {wine.scores?.length || 0} critic scores, normalized and weighted by source credibility.
+                  Based on community ratings across {vintages.length || 1} vintage{vintages.length !== 1 ? 's' : ''}, normalized using Bayesian averaging.
                 </p>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default async function WineDetailPage({ params }: Props) {
                     <thead>
                       <tr className="border-b border-card-border">
                         <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Year</th>
-                        <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Ratings</th>
+                        <th className="pb-3 pr-4 text-right text-xs font-semibold uppercase tracking-wider text-text/40"># Ratings</th>
                         {sourceList.map(source => (
                           <th key={source} className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40 whitespace-nowrap">
                             {source}
@@ -202,17 +202,20 @@ export default async function WineDetailPage({ params }: Props) {
                         const scoreMap = new Map(v.scores?.map(s => [s.source, s]) || []);
                         return (
                           <tr key={v.year} className="border-b border-card-border/50 last:border-0">
-                            <td className="py-3 pr-4 font-serif font-bold text-text">{v.year}</td>
-                            <td className="py-3 pr-4">
-                              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-wine/30 bg-wine/5 font-serif text-sm font-bold text-wine">
-                                {v.ratingCount}
-                              </span>
+                            <td className="py-3 pr-4 font-serif font-bold text-text">{v.year || 'N.V.'}</td>
+                            <td className="py-3 pr-4 text-right text-text/50 text-xs">
+                              {v.ratingCount > 0 ? v.ratingCount.toLocaleString() : '--'}
                             </td>
                             {sourceList.map(source => {
                               const s = scoreMap.get(source);
                               return (
-                                <td key={source} className="py-3 pr-4 text-text/60">
-                                  {s ? `${s.score}/${s.maxScore}` : <span className="text-text/20">--</span>}
+                                <td key={source} className="py-3 pr-4">
+                                  {s ? (
+                                    <span className="inline-flex items-center gap-1">
+                                      <span className="font-serif font-bold text-wine">{s.score}</span>
+                                      <span className="text-text/30">/{s.maxScore}</span>
+                                    </span>
+                                  ) : <span className="text-text/20">--</span>}
                                 </td>
                               );
                             })}

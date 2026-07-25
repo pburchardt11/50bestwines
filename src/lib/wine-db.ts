@@ -18,6 +18,17 @@ export function toSlug(str: string): string {
 // ---------------------------------------------------------------------------
 
 function mapWineRow(row: Record<string, unknown>): Wine {
+  // Scores come from a joined vintage subquery or are empty
+  const rawScores = row.scores;
+  let scores: Wine['scores'] = [];
+  if (rawScores) {
+    if (typeof rawScores === 'string') {
+      try { scores = JSON.parse(rawScores); } catch { scores = []; }
+    } else if (Array.isArray(rawScores)) {
+      scores = rawScores as Wine['scores'];
+    }
+  }
+
   return {
     slug: row.slug as string,
     name: row.name as string,
@@ -36,11 +47,11 @@ function mapWineRow(row: Record<string, unknown>): Wine {
     priceRange: (row.price_range as Wine['priceRange']) || 'Mid-Range',
     buyUrl: (row.buy_url as string) || '',
     labelUrl: (row.label_url as string) || '',
-    scores: (row.scores as Wine['scores']) || [],
+    scores,
     aggregateScore: Number(row.aggregate_score) || 0,
     badges: (row.badges as string[]) || [],
     tastingNotes: (row.tasting_notes as string) || '',
-    editorial: (row.editorial as string) || '',
+    editorial: '',
     pairings: (row.pairings as string[]) || [],
     servingTemp: (row.serving_temp as string) || '',
     aging: (row.aging as string) || '',
@@ -119,7 +130,17 @@ export async function getWineCountByType(type: string): Promise<number> {
 }
 
 export async function getWineBySlug(slug: string): Promise<Wine | undefined> {
-  const rows = await sql`SELECT * FROM wines WHERE slug = ${slug} LIMIT 1`;
+  // Join with best vintage to get scores
+  const rows = await sql`
+    SELECT w.*, (
+      SELECT wv.scores FROM wine_vintages wv
+      WHERE wv.wine_id = w.id
+      ORDER BY wv.rating_count DESC
+      LIMIT 1
+    ) as scores
+    FROM wines w
+    WHERE w.slug = ${slug} LIMIT 1
+  `;
   return rows.length > 0 ? mapWineRow(rows[0]) : undefined;
 }
 
