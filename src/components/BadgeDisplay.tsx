@@ -3,18 +3,23 @@ interface BadgeDisplayProps {
   size?: 'sm' | 'md';
 }
 
-const badgeColors: Record<string, string> = {
-  'Wine Spectator Top 100': 'bg-amber-900/30 text-amber-400 border-amber-800/30',
-  'Parker 95+': 'bg-purple-900/30 text-purple-400 border-purple-800/30',
-  'Parker 90+': 'bg-purple-900/20 text-purple-400/80 border-purple-800/20',
-  'Decanter World Wine Awards Gold': 'bg-yellow-900/30 text-yellow-400 border-yellow-800/30',
-  'Decanter World Wine Awards Platinum': 'bg-slate-700/30 text-slate-300 border-slate-600/30',
-  'James Suckling 95+': 'bg-blue-900/30 text-blue-400 border-blue-800/30',
-  'James Suckling 100': 'bg-blue-900/40 text-blue-300 border-blue-700/40',
-  'Best Value': 'bg-emerald-900/30 text-emerald-400 border-emerald-800/30',
-  'Critics Choice': 'bg-wine/20 text-wine-light border-wine/30',
-  'Editors Pick': 'bg-gold/10 text-gold border-gold/20',
-};
+const genericBadges = ['Exceptional', 'Outstanding', 'Highly Rated', 'Popular Choice', 'Well Known', 'Best Value'];
+
+function getBadgeStyle(badge: string): string {
+  if (badge.includes('Wine Spectator')) return 'bg-amber-900/30 text-amber-400 border-amber-800/30';
+  if (badge.includes('Robert Parker') || badge.includes('Parker')) return 'bg-purple-900/30 text-purple-400 border-purple-800/30';
+  if (badge.includes('Decanter')) return 'bg-yellow-900/30 text-yellow-400 border-yellow-800/30';
+  if (badge.includes('James Suckling')) return 'bg-blue-900/30 text-blue-400 border-blue-800/30';
+  if (badge.includes('Gambero Rosso')) return 'bg-red-900/30 text-red-400 border-red-800/30';
+  if (badge.includes('Wine Enthusiast')) return 'bg-orange-900/30 text-orange-400 border-orange-800/30';
+  if (badge.includes('Vinous')) return 'bg-indigo-900/30 text-indigo-400 border-indigo-800/30';
+  if (badge.includes('Tim Atkin') || badge.includes("Platter")) return 'bg-teal-900/30 text-teal-400 border-teal-800/30';
+  if (badge.includes('Halliday') || badge.includes('Tyson Stelzer')) return 'bg-lime-900/30 text-lime-400 border-lime-800/30';
+  if (badge.includes('Guia Penin') || badge.includes('Peñín')) return 'bg-pink-900/30 text-pink-400 border-pink-800/30';
+  if (badge.includes('Falstaff') || badge.includes('IWC')) return 'bg-cyan-900/30 text-cyan-400 border-cyan-800/30';
+  if (genericBadges.includes(badge)) return 'bg-gold/10 text-gold/80 border-gold/20';
+  return 'bg-wine/15 text-wine-light border-wine/25';
+}
 
 export default function BadgeDisplay({ badges, size = 'md' }: BadgeDisplayProps) {
   if (!badges || badges.length === 0) return null;
@@ -25,18 +30,24 @@ export default function BadgeDisplay({ badges, size = 'md' }: BadgeDisplayProps)
 
   return (
     <div className="flex flex-wrap gap-1.5">
-      {badges.map((badge) => {
-        const colors = badgeColors[badge] || 'bg-gold/10 text-gold/80 border-gold/20';
+      {/* Show ranking badges first, then generic */}
+      {[...badges].sort((a, b) => {
+        const aGeneric = genericBadges.includes(a) ? 1 : 0;
+        const bGeneric = genericBadges.includes(b) ? 1 : 0;
+        return aGeneric - bGeneric;
+      }).map((badge) => {
+        const colors = getBadgeStyle(badge);
+        const isRanking = !genericBadges.includes(badge);
         return (
           <span
             key={badge}
             className={`inline-flex items-center gap-1 rounded-full border font-medium ${colors} ${sizeClasses}`}
           >
             <span className="text-[10px]">
-              {badge.includes('Gold') || badge.includes('Platinum') ? '🏆' :
-               badge.includes('Top 100') ? '⭐' :
-               badge.includes('Best Value') ? '💎' :
-               badge.includes('100') ? '🌟' : '🏅'}
+              {isRanking ? '⭐' :
+               badge === 'Exceptional' ? '🏆' :
+               badge === 'Outstanding' ? '🥇' :
+               badge === 'Best Value' ? '💎' : '🏅'}
             </span>
             {badge}
           </span>

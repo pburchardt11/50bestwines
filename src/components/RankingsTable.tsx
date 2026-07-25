@@ -61,9 +61,14 @@ export default function RankingsTable({ wines }: { wines: RankingWine[] }) {
                       <span className="block">{wine.name}</span>
                       <span className="block text-xs text-text/40">{wine.producer}{wine.vintage ? ` · ${wine.vintage}` : ''}</span>
                     </div>
-                    {wine.badges.length > 0 && (
-                      <span className="hidden sm:inline rounded-full bg-gold/10 px-1.5 py-0.5 text-[9px] font-semibold text-gold">🏅</span>
-                    )}
+                    {(() => {
+                      const generic = ['Exceptional', 'Outstanding', 'Highly Rated', 'Popular Choice', 'Well Known', 'Best Value'];
+                      const rankBadge = wine.badges.find(b => !generic.includes(b));
+                      if (rankBadge) return (
+                        <span className="hidden sm:inline rounded-full bg-wine/15 border border-wine/20 px-1.5 py-0.5 text-[9px] font-semibold text-wine-light">⭐ {rankBadge}</span>
+                      );
+                      return null;
+                    })()}
                   </Link>
                 </td>
                 <td className="px-4 py-3 text-text/50 text-sm">{wine.region}, {wine.country}</td>
