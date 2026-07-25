@@ -1,0 +1,4 @@
+scraper/raw-data/
+*.csv.gz
+scraper/raw-data
+xwines

@@ -1,12 +1,12 @@
 // 50 Best Wines - Data layer
-// Wine data stored in JSON files for performance
+// Type definitions for wine data (data now lives in Postgres)
 
 export interface Wine {
   slug: string;
   name: string;
   producer: string;
   vintage: number | null;
-  type: 'Red' | 'White' | 'Rosé' | 'Sparkling' | 'Dessert' | 'Fortified';
+  type: 'Red' | 'White' | 'Rose' | 'Sparkling' | 'Dessert' | 'Fortified';
   grape: string;
   grapes: string[];
   region: string;
@@ -28,6 +28,16 @@ export interface Wine {
   servingTemp: string;
   aging: string;
   prosAndCons: { pros: string[]; cons: string[] };
+}
+
+export interface WineVintage {
+  id: number;
+  wineId: number;
+  year: number;
+  scores: { source: string; score: number; maxScore: number }[];
+  aggregateScore: number;
+  tastingNotes: string;
+  price: number | null;
 }
 
 export interface Country {
@@ -75,14 +85,6 @@ export interface BlogPost {
   tags: string[];
 }
 
-import winesJson from './wines.json';
-import countriesJson from './countries.json';
-import regionsJson from './regions.json';
-import grapesJson from './grapes.json';
+// Blog posts remain file-based (not in Postgres)
 import { blogPosts as importedBlogPosts } from './blog-posts';
-
-export const wines: Wine[] = winesJson as Wine[];
-export const countries: Country[] = countriesJson as Country[];
-export const regions: Region[] = regionsJson as Region[];
-export const grapeVarieties: Grape[] = grapesJson as Grape[];
 export const blogPosts: BlogPost[] = importedBlogPosts;

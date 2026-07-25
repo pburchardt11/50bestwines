@@ -4,26 +4,20 @@ import { notFound } from 'next/navigation';
 import AdUnit from '@/components/AdUnit';
 import WineCard from '@/components/WineCard';
 import {
-  getAllRegions,
   getRegionBySlug,
   getWinesByRegion,
   toSlug,
 } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 86400;
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateStaticParams() {
-  const regions = getAllRegions();
-  return regions.map((r) => ({ slug: r.slug }));
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const region = getRegionBySlug(slug);
+  const region = await getRegionBySlug(slug);
   if (!region) return { title: 'Region Not Found | 50 Best Wines' };
 
   return {
@@ -40,11 +34,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function RegionPage({ params }: Props) {
   const { slug } = await params;
-  const region = getRegionBySlug(slug);
+  const region = await getRegionBySlug(slug);
   if (!region) notFound();
 
-  const wines = getWinesByRegion(region.name)
-    .sort((a, b) => b.aggregateScore - a.aggregateScore);
+  const wines = await getWinesByRegion(region.name);
   const topWines = wines.slice(0, 12);
 
   // Collect appellations

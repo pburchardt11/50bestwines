@@ -4,25 +4,19 @@ import { notFound } from 'next/navigation';
 import AdUnit from '@/components/AdUnit';
 import WineCard from '@/components/WineCard';
 import {
-  getAllGrapes,
   getGrapeBySlug,
   getWinesByGrape,
 } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 86400;
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateStaticParams() {
-  const grapes = getAllGrapes();
-  return grapes.map((g) => ({ slug: g.slug }));
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const grape = getGrapeBySlug(slug);
+  const grape = await getGrapeBySlug(slug);
   if (!grape) return { title: 'Grape Not Found | 50 Best Wines' };
 
   return {
@@ -39,11 +33,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function GrapePage({ params }: Props) {
   const { slug } = await params;
-  const grape = getGrapeBySlug(slug);
+  const grape = await getGrapeBySlug(slug);
   if (!grape) notFound();
 
-  const wines = getWinesByGrape(grape.name)
-    .sort((a, b) => b.aggregateScore - a.aggregateScore);
+  const wines = await getWinesByGrape(grape.name);
   const topWines = wines.slice(0, 12);
 
   // Collect regions

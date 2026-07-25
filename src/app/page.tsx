@@ -2,38 +2,51 @@ import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
 import FAQSection from '@/components/FAQSection';
 import RankingsTable from '@/components/RankingsTable';
-import SearchBar from '@/components/SearchBar';
-import { getSearchIndex } from '@/lib/search-index';
 import {
   getTopWinesGlobal,
-  getAllWines,
+  getTotalWineCount,
   getAllCountries,
   getAllGrapes,
   getAllBlogPosts,
   getAllTypes,
-  getWinesByType,
+  getWineCountByType,
 } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 86400;
 
-export default function HomePage() {
-  const top5 = getTopWinesGlobal(5);
-  const top50 = getTopWinesGlobal(50);
-  const allWines = getAllWines().sort((a, b) => b.aggregateScore - a.aggregateScore);
-  const countries = getAllCountries();
-  const grapes = getAllGrapes();
-  const blogPosts = getAllBlogPosts().slice(0, 6);
-  const totalWines = getAllWines().length;
-  const types = getAllTypes();
+export default async function HomePage() {
+  const [top5, top50, totalWines, countries, grapes, blogPostsAll, types] = await Promise.all([
+    getTopWinesGlobal(5),
+    getTopWinesGlobal(50),
+    getTotalWineCount(),
+    getAllCountries(),
+    getAllGrapes(),
+    Promise.resolve(getAllBlogPosts()),
+    getAllTypes(),
+  ]);
+
+  const blogPosts = blogPostsAll.slice(0, 6);
 
   const typeIcons: Record<string, { icon: string; description: string }> = {
     Red: { icon: '🍷', description: 'Full-bodied reds from Cabernet to Pinot Noir' },
     White: { icon: '🥂', description: 'Crisp whites from Chardonnay to Riesling' },
-    Rosé: { icon: '🌸', description: 'Elegant rosés from Provence to California' },
+    Rose: { icon: '🌸', description: 'Elegant roses from Provence to California' },
     Sparkling: { icon: '🍾', description: 'Champagne, Cava, Prosecco, and more' },
     Dessert: { icon: '🍯', description: 'Sweet wines from Sauternes to Ice Wine' },
     Fortified: { icon: '🏺', description: 'Port, Sherry, Madeira, and Marsala' },
   };
+
+  // Get type counts in parallel
+  const typeCounts: Record<string, number> = {};
+  const typeCountResults = await Promise.all(
+    types.map(async (t) => {
+      const count = await getWineCountByType(t);
+      return { type: t, count };
+    })
+  );
+  typeCountResults.forEach(({ type, count }) => {
+    typeCounts[type] = count;
+  });
 
   const websiteJsonLd = {
     '@context': 'https://schema.org',
@@ -127,8 +140,6 @@ export default function HomePage() {
             <span className="h-1.5 w-1.5 rounded-full bg-wine" />
             Last updated: July 2026
           </p>
-
-          <SearchBar className="mx-auto mt-10 max-w-xl" searchData={getSearchIndex()} />
 
           <div className="mx-auto mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-base text-text/60">
             <div className="flex items-center gap-2">
@@ -224,7 +235,7 @@ export default function HomePage() {
           <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Top 50 Wines</h2>
           <p className="mt-3 text-text/50">Ranked by aggregated critic scores. Show more to explore all {totalWines.toLocaleString()} wines.</p>
         </div>
-        <RankingsTable wines={allWines.slice(0, 50)} />
+        <RankingsTable wines={top50} />
       </section>
 
       <AdUnit format="horizontal" className="mx-auto max-w-4xl px-4" />
@@ -238,7 +249,7 @@ export default function HomePage() {
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {types.map((type) => {
             const meta = typeIcons[type] || { icon: '🍷', description: 'Explore top-rated wines' };
-            const count = getWinesByType(type).length;
+            const count = typeCounts[type] || 0;
             return (
               <Link key={type} href={`/rankings?type=${type.toLowerCase()}`} className="group flex items-start gap-4 rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-300 hover:border-wine/30 hover:shadow-[0_0_30px_rgba(139,34,82,0.06)]">
                 <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-wine/5 text-2xl">{meta.icon}</span>

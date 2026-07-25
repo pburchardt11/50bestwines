@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
 import {
-  getAllWines,
+  getAllWineSlugs,
   getAllCountries,
   getAllRegions,
   getAllGrapes,
@@ -9,7 +9,7 @@ import {
 
 const BASE_URL = 'https://50bestwines.com';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
   // Static pages
@@ -70,17 +70,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
-  // Wine pages
-  const wines = getAllWines();
-  const winePages: MetadataRoute.Sitemap = wines.map((wine) => ({
-    url: `${BASE_URL}/wine/${wine.slug}`,
+  // Fetch all slugs from Postgres in parallel
+  const [wineSlugs, countries, regions, grapes] = await Promise.all([
+    getAllWineSlugs(),
+    getAllCountries(),
+    getAllRegions(),
+    getAllGrapes(),
+  ]);
+
+  // Blog posts remain file-based
+  const posts = getAllBlogPosts();
+
+  const winePages: MetadataRoute.Sitemap = wineSlugs.map((slug) => ({
+    url: `${BASE_URL}/wine/${slug}`,
     lastModified: now,
     changeFrequency: 'monthly' as const,
     priority: 0.8,
   }));
 
-  // Country pages
-  const countries = getAllCountries();
   const countryPages: MetadataRoute.Sitemap = countries.map((country) => ({
     url: `${BASE_URL}/country/${country.slug}`,
     lastModified: now,
@@ -88,8 +95,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Region pages
-  const regions = getAllRegions();
   const regionPages: MetadataRoute.Sitemap = regions.map((region) => ({
     url: `${BASE_URL}/region/${region.slug}`,
     lastModified: now,
@@ -97,8 +102,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  // Grape pages
-  const grapes = getAllGrapes();
   const grapePages: MetadataRoute.Sitemap = grapes.map((grape) => ({
     url: `${BASE_URL}/grape/${grape.slug}`,
     lastModified: now,
@@ -106,8 +109,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // Blog pages
-  const posts = getAllBlogPosts();
   const blogPages: MetadataRoute.Sitemap = posts.map((post) => ({
     url: `${BASE_URL}/blog/${post.slug}`,
     lastModified: new Date(post.date),

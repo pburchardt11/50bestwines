@@ -8,24 +8,19 @@ import WineCard from '@/components/WineCard';
 import FAQSection from '@/components/FAQSection';
 import {
   getWineBySlug,
-  getAllWines,
   getSimilarWines,
+  getWineVintagesBySlug,
 } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 86400;
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateStaticParams() {
-  const wines = getAllWines();
-  return wines.map((w) => ({ slug: w.slug }));
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const wine = getWineBySlug(slug);
+  const wine = await getWineBySlug(slug);
   if (!wine) return { title: 'Wine Not Found | 50 Best Wines' };
 
   const title = `${wine.name} ${wine.vintage || ''} Review & Score | 50 Best Wines`.trim();
@@ -45,10 +40,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function WineDetailPage({ params }: Props) {
   const { slug } = await params;
-  const wine = getWineBySlug(slug);
+  const wine = await getWineBySlug(slug);
   if (!wine) notFound();
 
-  const similar = getSimilarWines(wine, 4);
+  const [similar, vintages] = await Promise.all([
+    getSimilarWines(wine, 4),
+    getWineVintagesBySlug(slug),
+  ]);
+
+  // Collect all unique score sources across vintages for the table header
+  const allSources = new Set<string>();
+  vintages.forEach(v => {
+    v.scores?.forEach(s => allSources.add(s.source));
+  });
+  const sourceList = Array.from(allSources);
 
   const reviewJsonLd = {
     '@context': 'https://schema.org',
@@ -171,6 +176,51 @@ export default async function WineDetailPage({ params }: Props) {
                       max={s.maxScore}
                     />
                   ))}
+                </div>
+              </div>
+            )}
+
+            {/* Vintages & Ratings */}
+            {vintages.length > 0 && (
+              <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+                <h2 className="mb-4 font-serif text-xl font-bold text-text">Vintages & Ratings</h2>
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm">
+                    <thead>
+                      <tr className="border-b border-card-border">
+                        <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Year</th>
+                        <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Aggregate</th>
+                        {sourceList.map(source => (
+                          <th key={source} className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40 whitespace-nowrap">
+                            {source}
+                          </th>
+                        ))}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {vintages.map(v => {
+                        const scoreMap = new Map(v.scores?.map(s => [s.source, s]) || []);
+                        return (
+                          <tr key={v.year} className="border-b border-card-border/50 last:border-0">
+                            <td className="py-3 pr-4 font-serif font-bold text-text">{v.year}</td>
+                            <td className="py-3 pr-4">
+                              <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-wine/30 bg-wine/5 font-serif text-sm font-bold text-wine">
+                                {v.aggregateScore}
+                              </span>
+                            </td>
+                            {sourceList.map(source => {
+                              const s = scoreMap.get(source);
+                              return (
+                                <td key={source} className="py-3 pr-4 text-text/60">
+                                  {s ? `${s.score}/${s.maxScore}` : <span className="text-text/20">--</span>}
+                                </td>
+                              );
+                            })}
+                          </tr>
+                        );
+                      })}
+                    </tbody>
+                  </table>
                 </div>
               </div>
             )}

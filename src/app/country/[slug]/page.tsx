@@ -4,26 +4,20 @@ import { notFound } from 'next/navigation';
 import AdUnit from '@/components/AdUnit';
 import WineCard from '@/components/WineCard';
 import {
-  getAllCountries,
   getCountryBySlug,
   getWinesByCountry,
   getRegionsForCountry,
 } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 86400;
 
 type Props = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateStaticParams() {
-  const countries = getAllCountries();
-  return countries.map((c) => ({ slug: c.slug }));
-}
-
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const country = getCountryBySlug(slug);
+  const country = await getCountryBySlug(slug);
   if (!country) return { title: 'Country Not Found | 50 Best Wines' };
 
   return {
@@ -40,12 +34,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function CountryPage({ params }: Props) {
   const { slug } = await params;
-  const country = getCountryBySlug(slug);
+  const country = await getCountryBySlug(slug);
   if (!country) notFound();
 
-  const wines = getWinesByCountry(country.name)
-    .sort((a, b) => b.aggregateScore - a.aggregateScore);
-  const regions = getRegionsForCountry(country.name);
+  const [wines, regions] = await Promise.all([
+    getWinesByCountry(country.name),
+    getRegionsForCountry(country.name),
+  ]);
+
   const topWines = wines.slice(0, 12);
 
   // Collect key grapes from top wines

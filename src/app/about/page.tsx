@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
-import { getAllScoreSources, getScoreSourceInfo, getAllWines, getAllCountries } from '@/lib/wine-db';
+import { getAllScoreSources, getScoreSourceInfo, getTotalWineCount, getAllCountries } from '@/lib/wine-db';
 
 export const revalidate = 604800;
 
@@ -16,10 +16,13 @@ export const metadata: Metadata = {
   },
 };
 
-export default function AboutPage() {
+export default async function AboutPage() {
   const sources = getAllScoreSources();
-  const totalWines = getAllWines().length;
-  const totalCountries = getAllCountries().length;
+  const [totalWines, allCountries] = await Promise.all([
+    getTotalWineCount(),
+    getAllCountries(),
+  ]);
+  const totalCountries = allCountries.length;
 
   return (
     <>

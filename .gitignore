@@ -41,3 +41,4 @@ yarn-error.log*
 next-env.d.ts
 scraper/raw-data/
 *.csv.gz
+.env*.local
