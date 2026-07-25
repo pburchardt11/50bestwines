@@ -573,6 +573,24 @@ def main():
     # Sort by aggregate score (desc), then by rating count (desc)
     scored.sort(key=lambda x: (-x[0], -x[1]))
 
+    # Deduplicate: keep only the best vintage per wine name + producer
+    # This prevents "Vega Sicilia Unico" from occupying 20 top spots
+    seen_wine_names = {}  # (normalized_name, producer) -> best index
+    deduped = []
+    dupes_removed = 0
+    for agg, count, idx in scored:
+        raw = raw_data[idx]
+        name = (raw.get("name", "") or "").lower().strip()
+        producer = (raw.get("winery_name", "") or "").lower().strip()
+        key = (name, producer)
+        if key not in seen_wine_names:
+            seen_wine_names[key] = idx
+            deduped.append((agg, count, idx))
+        else:
+            dupes_removed += 1
+    print(f"  Deduplicated: {dupes_removed:,} vintage duplicates removed, {len(deduped):,} unique wines remain")
+    scored = deduped
+
     # Take top N
     top_indices = [idx for _, _, idx in scored[:TOP_N]]
     print(f"  Selected top {min(TOP_N, len(scored)):,} wines")
