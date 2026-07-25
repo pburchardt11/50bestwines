@@ -189,7 +189,7 @@ export default async function WineDetailPage({ params }: Props) {
                     <thead>
                       <tr className="border-b border-card-border">
                         <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Year</th>
-                        <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Aggregate</th>
+                        <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Ratings</th>
                         {sourceList.map(source => (
                           <th key={source} className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40 whitespace-nowrap">
                             {source}
@@ -205,7 +205,7 @@ export default async function WineDetailPage({ params }: Props) {
                             <td className="py-3 pr-4 font-serif font-bold text-text">{v.year}</td>
                             <td className="py-3 pr-4">
                               <span className="inline-flex h-8 w-8 items-center justify-center rounded-full border border-wine/30 bg-wine/5 font-serif text-sm font-bold text-wine">
-                                {v.aggregateScore}
+                                {v.ratingCount}
                               </span>
                             </td>
                             {sourceList.map(source => {

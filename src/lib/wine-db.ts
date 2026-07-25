@@ -44,7 +44,7 @@ function mapWineRow(row: Record<string, unknown>): Wine {
     pairings: (row.pairings as string[]) || [],
     servingTemp: (row.serving_temp as string) || '',
     aging: (row.aging as string) || '',
-    prosAndCons: (row.pros_and_cons as Wine['prosAndCons']) || { pros: [], cons: [] },
+    prosAndCons: { pros: (row.pros as string[]) || [], cons: (row.cons as string[]) || [] },
   };
 }
 
@@ -88,14 +88,13 @@ function mapGrapeRow(row: Record<string, unknown>): Grape {
 }
 
 function mapVintageRow(row: Record<string, unknown>): WineVintage {
+  const scores = typeof row.scores === 'string' ? JSON.parse(row.scores) : (row.scores || []);
   return {
     id: Number(row.id),
     wineId: Number(row.wine_id),
-    year: Number(row.year),
-    scores: (row.scores as WineVintage['scores']) || [],
-    aggregateScore: Number(row.aggregate_score) || 0,
-    tastingNotes: (row.tasting_notes as string) || '',
-    price: row.price ? Number(row.price) : null,
+    year: Number(row.vintage) || 0,
+    scores: scores as WineVintage['scores'],
+    ratingCount: Number(row.rating_count) || 0,
   };
 }
 
@@ -332,7 +331,7 @@ export async function getSimilarWines(wine: Wine, limit: number = 6): Promise<Wi
 
 export async function getWineVintages(wineId: number): Promise<WineVintage[]> {
   const rows = await sql`
-    SELECT * FROM wine_vintages WHERE wine_id = ${wineId} ORDER BY year DESC
+    SELECT * FROM wine_vintages WHERE wine_id = ${wineId} ORDER BY vintage DESC NULLS LAST
   `;
   return rows.map(mapVintageRow);
 }
@@ -342,7 +341,7 @@ export async function getWineVintagesBySlug(slug: string): Promise<WineVintage[]
     SELECT wv.* FROM wine_vintages wv
     JOIN wines w ON wv.wine_id = w.id
     WHERE w.slug = ${slug}
-    ORDER BY wv.year DESC
+    ORDER BY wv.vintage DESC NULLS LAST
   `;
   return rows.map(mapVintageRow);
 }

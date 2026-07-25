@@ -34,10 +34,8 @@ export interface WineVintage {
   id: number;
   wineId: number;
   year: number;
-  scores: { source: string; score: number; maxScore: number }[];
-  aggregateScore: number;
-  tastingNotes: string;
-  price: number | null;
+  scores: { source: string; score: number; maxScore: number; vintage?: number }[];
+  ratingCount: number;
 }
 
 export interface Country {
