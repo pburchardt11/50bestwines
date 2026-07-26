@@ -14,6 +14,63 @@ export function toSlug(str: string): string {
 }
 
 // ---------------------------------------------------------------------------
+// Quality threshold helpers
+// ---------------------------------------------------------------------------
+
+const GENERIC_BADGES = new Set([
+  'Top Rated',
+  'Staff Pick',
+  'Popular',
+  'Highly Rated',
+  'Best Seller',
+  'Editor\'s Choice',
+]);
+
+export function wineHasSufficientContent(wine: Wine): boolean {
+  const hasProducer = !!wine.producer && wine.producer.trim() !== '';
+  const hasRegion = !!wine.region && wine.region.trim() !== '';
+  const hasCountry = !!wine.country && wine.country.trim() !== '';
+  const hasHighScore = wine.aggregateScore > 80;
+  const hasScoreSources = wine.scores && wine.scores.length > 0;
+  const hasNonGenericBadges = wine.badges && wine.badges.some(b => !GENERIC_BADGES.has(b));
+
+  return hasProducer && hasRegion && hasCountry && hasHighScore && (hasScoreSources || hasNonGenericBadges);
+}
+
+// ---------------------------------------------------------------------------
+// Editorial generation
+// ---------------------------------------------------------------------------
+
+function getScoreTier(score: number): string {
+  if (score >= 97) return 'Legendary';
+  if (score >= 94) return 'Outstanding';
+  if (score >= 90) return 'Excellent';
+  if (score >= 85) return 'Very Good';
+  return 'Good';
+}
+
+export function generateWineEditorial(wine: Wine): string {
+  const tier = getScoreTier(wine.aggregateScore);
+  const nonGenericBadges = (wine.badges || []).filter(b => !GENERIC_BADGES.has(b));
+
+  if (nonGenericBadges.length > 0) {
+    const badgeText = nonGenericBadges.slice(0, 3).join(', ');
+    const grapeClause = wine.grape ? ` Made primarily from ${wine.grape}` : '';
+    const regionClause = wine.region ? ` in ${wine.region}` : '';
+    return `${wine.name} by ${wine.producer} is a ${tier.toLowerCase()} ${wine.type.toLowerCase()} that has earned recognition including ${badgeText}.${grapeClause}${regionClause}, this ${tier} wine scores ${wine.aggregateScore}/100 in aggregate.`;
+  }
+
+  if (wine.scores && wine.scores.length > 0) {
+    const topSource = wine.scores.reduce((a, b) => (b.score / b.maxScore) > (a.score / a.maxScore) ? b : a);
+    const grapeClause = wine.grape ? `, made from ${wine.grape},` : '';
+    return `${wine.name} by ${wine.producer} is a ${tier.toLowerCase()} ${wine.type.toLowerCase()} from ${wine.region}, ${wine.country}${grapeClause} rated ${topSource.score}/${topSource.maxScore} by ${topSource.source}. With an aggregate score of ${wine.aggregateScore}/100, it represents ${wine.region}'s ${wine.type.toLowerCase()} winemaking tradition.`;
+  }
+
+  const grapeClause = wine.grape ? ` made from ${wine.grape}` : '';
+  return `A ${wine.type.toLowerCase()} wine from ${wine.region}, ${wine.country},${grapeClause} by ${wine.producer}. Rated ${wine.aggregateScore}/100 by the community.`;
+}
+
+// ---------------------------------------------------------------------------
 // Row mappers
 // ---------------------------------------------------------------------------
 
@@ -38,7 +95,7 @@ function mapWineRow(row: Record<string, unknown>): Wine {
     (rawLabelUrl !== '' && !rawLabelUrl.includes('vivino.com/search'));
   const labelUrl = hasRealImage ? rawLabelUrl : `/api/label/${slug}`;
 
-  return {
+  const wine: Wine = {
     slug,
     name: row.name as string,
     producer: row.producer as string,
@@ -66,6 +123,10 @@ function mapWineRow(row: Record<string, unknown>): Wine {
     aging: (row.aging as string) || '',
     prosAndCons: { pros: (row.pros as string[]) || [], cons: (row.cons as string[]) || [] },
   };
+
+  wine.editorial = generateWineEditorial(wine);
+
+  return wine;
 }
 
 function mapCountryRow(row: Record<string, unknown>): Country {

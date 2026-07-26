@@ -1,6 +1,6 @@
 import type { MetadataRoute } from 'next';
+import { sql } from '@/lib/db';
 import {
-  getAllWineSlugs,
   getAllCountries,
   getAllRegions,
   getAllGrapes,
@@ -70,13 +70,14 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     },
   ];
 
-  // Fetch all slugs from Postgres in parallel
-  const [wineSlugs, countries, regions, grapes] = await Promise.all([
-    getAllWineSlugs(),
+  // Fetch quality wine slugs (matching noindex threshold) and taxonomy data in parallel
+  const [qualityWineRows, countries, regions, grapes] = await Promise.all([
+    sql`SELECT slug FROM wines WHERE aggregate_score > 80 AND producer != '' AND region != '' AND country != ''`,
     getAllCountries(),
     getAllRegions(),
     getAllGrapes(),
   ]);
+  const wineSlugs = qualityWineRows.map(r => r.slug as string);
 
   // Blog posts remain file-based
   const posts = getAllBlogPosts();

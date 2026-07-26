@@ -13,6 +13,7 @@ import {
   getWineBySlug,
   getSimilarWines,
   getWineVintagesBySlug,
+  wineHasSufficientContent,
 } from '@/lib/wine-db';
 
 export const revalidate = 86400;
@@ -29,7 +30,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `${wine.name} ${wine.vintage || ''} Review & Score | 50 Best Wines`.trim();
   const description = `${wine.name} ${wine.vintage || ''} by ${wine.producer} scores ${wine.aggregateScore}/100 aggregated from top critics. ${wine.tastingNotes?.slice(0, 120)}...`;
 
-  return {
+  const metadata: Metadata = {
     title,
     description,
     openGraph: {
@@ -39,6 +40,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       siteName: '50 Best Wines',
     },
   };
+
+  if (!wineHasSufficientContent(wine)) {
+    metadata.robots = { index: false, follow: true };
+  }
+
+  return metadata;
 }
 
 export default async function WineDetailPage({ params }: Props) {
@@ -166,6 +173,11 @@ export default async function WineDetailPage({ params }: Props) {
               <p className="mt-2 text-lg text-text/50">
                 {wine.producer} &middot; {wine.region}, {wine.country}
               </p>
+              {wine.editorial && (
+                <p className="mt-3 text-base leading-relaxed text-text/60">
+                  {wine.editorial}
+                </p>
+              )}
               <div className="mt-4">
                 <WineActions slug={wine.slug} />
               </div>
