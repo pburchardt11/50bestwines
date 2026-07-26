@@ -16,7 +16,7 @@ import {
   wineHasSufficientContent,
 } from '@/lib/wine-db';
 
-export const revalidate = 0; // No cache until vintage data is fixed
+export const revalidate = 3600; // Cache for 1 hour to conserve DB compute
 
 type Props = {
   params: Promise<{ slug: string }>;
