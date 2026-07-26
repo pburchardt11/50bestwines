@@ -66,9 +66,11 @@ export default async function WineDetailPage({ params }: Props) {
     for (let i = 1; i < vintages.length; i++) {
       const v = vintages[i];
       if (v.ratingCount !== first.ratingCount) return true;
-      // Compare scores arrays
-      const a = JSON.stringify(v.scores || []);
-      const b = JSON.stringify(first.scores || []);
+      // Compare scores ignoring the embedded vintage field (which always differs)
+      const stripVintage = (scores: typeof v.scores) =>
+        (scores || []).map(s => ({ source: s.source, score: s.score, maxScore: s.maxScore }));
+      const a = JSON.stringify(stripVintage(v.scores));
+      const b = JSON.stringify(stripVintage(first.scores));
       if (a !== b) return true;
     }
     return false;
