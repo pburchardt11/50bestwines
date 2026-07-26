@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { getUserProfile, type UserProfile } from '@/lib/user-store';
+import AdUnit from '@/components/AdUnit';
 
 interface ProfileWine {
   slug: string;
@@ -270,6 +271,7 @@ export default function ProfilePage() {
           })}
         </div>
       )}
+      <AdUnit format="horizontal" className="mt-8" />
     </section>
   );
 }
