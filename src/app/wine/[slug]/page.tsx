@@ -398,28 +398,39 @@ export default async function WineDetailPage({ params }: Props) {
                 Search for {wine.name} {wine.vintage || ''} across trusted online retailers.
               </p>
               <div className="grid gap-3 sm:grid-cols-2">
-                {[
-                  {
-                    name: 'Vivino',
-                    url: `https://www.vivino.com/search/wines?q=${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
-                    color: 'from-[#9b1d3a] to-[#7a1730]',
-                  },
-                  {
-                    name: 'Wine.com',
-                    url: `https://www.wine.com/search?q=${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
-                    color: 'from-[#8b2252] to-[#6b1a3f]',
-                  },
-                  {
-                    name: 'Wine-Searcher',
-                    url: `https://www.wine-searcher.com/find/${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
-                    color: 'from-[#5a3d6b] to-[#3d2a4d]',
-                  },
-                  {
-                    name: 'Total Wine',
-                    url: `https://www.totalwine.com/search/all?text=${encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim())}`,
-                    color: 'from-[#4a2838] to-[#3a1f2d]',
-                  },
-                ].map((retailer) => (
+                {(() => {
+                  const q = encodeURIComponent(`${wine.producer} ${wine.name} ${wine.vintage || ''}`.trim());
+                  const qShort = encodeURIComponent(`${wine.name} ${wine.vintage || ''}`.trim());
+                  // Affiliate-ready URLs — replace AFFILIATE_ID placeholders with your actual IDs
+                  // Wine.com: Sign up at CJ Affiliate (cj.com), get your PID and AID
+                  // Total Wine: Sign up at Impact (impact.com), get your tracking URL
+                  return [
+                    {
+                      name: 'Wine.com',
+                      url: process.env.NEXT_PUBLIC_WINECOM_AFFILIATE_ID
+                        ? `https://www.anrdoezrs.net/click-${process.env.NEXT_PUBLIC_WINECOM_AFFILIATE_ID}?url=${encodeURIComponent(`https://www.wine.com/search?q=${qShort}`)}`
+                        : `https://www.wine.com/search?q=${qShort}`,
+                      color: 'from-[#8b2252] to-[#6b1a3f]',
+                    },
+                    {
+                      name: 'Vivino',
+                      url: `https://www.vivino.com/search/wines?q=${q}`,
+                      color: 'from-[#9b1d3a] to-[#7a1730]',
+                    },
+                    {
+                      name: 'Total Wine',
+                      url: process.env.NEXT_PUBLIC_TOTALWINE_AFFILIATE_ID
+                        ? `https://totalwine.sjv.io/${process.env.NEXT_PUBLIC_TOTALWINE_AFFILIATE_ID}?u=${encodeURIComponent(`https://www.totalwine.com/search/all?text=${qShort}`)}`
+                        : `https://www.totalwine.com/search/all?text=${qShort}`,
+                      color: 'from-[#4a2838] to-[#3a1f2d]',
+                    },
+                    {
+                      name: 'Wine-Searcher',
+                      url: `https://www.wine-searcher.com/find/${qShort}`,
+                      color: 'from-[#5a3d6b] to-[#3d2a4d]',
+                    },
+                  ];
+                })().map((retailer) => (
                   <a
                     key={retailer.name}
                     href={retailer.url}
