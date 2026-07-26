@@ -199,8 +199,8 @@ export default async function WineDetailPage({ params }: Props) {
             {/* Score Comparison */}
             <ScoreComparison score={wine.aggregateScore} />
 
-            {/* Badges */}
-            {wine.badges && wine.badges.length > 0 && (
+            {/* Badges — only show section if there are real ranking badges */}
+            {wine.badges && wine.badges.some(b => !['Exceptional','Outstanding','Highly Rated','Popular Choice','Well Known','Best Value'].includes(b)) && (
               <div>
                 <h2 className="mb-3 font-serif text-lg font-bold text-text">Awards & Recognition</h2>
                 <BadgeDisplay badges={wine.badges} />

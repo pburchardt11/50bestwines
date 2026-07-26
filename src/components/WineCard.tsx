@@ -81,16 +81,9 @@ export default function WineCard({ wine, rank }: WineCardProps) {
                 {(() => {
                   const generic = ['Exceptional', 'Outstanding', 'Highly Rated', 'Popular Choice', 'Well Known', 'Best Value'];
                   const rankingBadges = wine.badges.filter(b => !generic.includes(b));
-                  const displayBadges = rankingBadges.length > 0
-                    ? rankingBadges.slice(0, 2)
-                    : wine.badges.slice(0, 2);
-                  return displayBadges.map((badge) => (
-                    <span key={badge} className={`rounded-full px-2 py-0.5 text-[10px] font-medium ${
-                      generic.includes(badge)
-                        ? 'bg-gold/10 text-gold/80'
-                        : 'bg-wine/15 text-wine-light border border-wine/20'
-                    }`}>
-                      {!generic.includes(badge) && <span className="mr-0.5">⭐</span>}
+                  return rankingBadges.slice(0, 2).map((badge) => (
+                    <span key={badge} className="rounded-full px-2 py-0.5 text-[10px] font-medium bg-wine/15 text-wine-light border border-wine/20">
+                      <span className="mr-0.5">⭐</span>
                       {badge}
                     </span>
                   ));

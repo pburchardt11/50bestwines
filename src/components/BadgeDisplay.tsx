@@ -30,25 +30,15 @@ export default function BadgeDisplay({ badges, size = 'md' }: BadgeDisplayProps)
 
   return (
     <div className="flex flex-wrap gap-1.5">
-      {/* Show ranking badges first, then generic */}
-      {[...badges].sort((a, b) => {
-        const aGeneric = genericBadges.includes(a) ? 1 : 0;
-        const bGeneric = genericBadges.includes(b) ? 1 : 0;
-        return aGeneric - bGeneric;
-      }).map((badge) => {
+      {/* Only show real ranking badges — filter out generic ones */}
+      {badges.filter(b => !genericBadges.includes(b)).map((badge) => {
         const colors = getBadgeStyle(badge);
-        const isRanking = !genericBadges.includes(badge);
         return (
           <span
             key={badge}
             className={`inline-flex items-center gap-1 rounded-full border font-medium ${colors} ${sizeClasses}`}
           >
-            <span className="text-[10px]">
-              {isRanking ? '⭐' :
-               badge === 'Exceptional' ? '🏆' :
-               badge === 'Outstanding' ? '🥇' :
-               badge === 'Best Value' ? '💎' : '🏅'}
-            </span>
+            <span className="text-[10px]">⭐</span>
             {badge}
           </span>
         );
