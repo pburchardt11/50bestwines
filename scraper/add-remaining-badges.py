@@ -10,8 +10,8 @@ import psycopg2
 import re
 import unicodedata
 
-DB_URL = "postgresql://neondb_owner:npg_PL8RkghoMxG6@ep-fancy-forest-awmd0h5i-pooler.c-12.us-east-1.aws.neon.tech/neondb?sslmode=require"
-DB_URL_UNPOOLED = "postgresql://neondb_owner:npg_PL8RkghoMxG6@ep-fancy-forest-awmd0h5i.c-12.us-east-1.aws.neon.tech/neondb?sslmode=require"
+import os; DB_URL = os.environ.get("DATABASE_URL", "")
+DB_URL_UNPOOLED = "postgresql://REDACTED:REDACTED@REDACTED.us-east-1.aws.neon.tech/neondb?sslmode=require"
 
 
 def normalize(s):

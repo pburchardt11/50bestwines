@@ -17,7 +17,7 @@ import urllib.parse
 import psycopg2
 import psycopg2.extras
 
-DB_URL = "postgresql://neondb_owner:npg_PL8RkghoMxG6@ep-fancy-forest-awmd0h5i-pooler.c-12.us-east-1.aws.neon.tech/neondb?sslmode=require"
+import os; DB_URL = os.environ.get("DATABASE_URL", "")
 TEXT_DATA = "/Users/mac/50bestwines/scraper/raw-data/cipher982-wine-text-126k.json"
 
 BATCH_SIZE = 200  # DB wines to process per batch for name lookup

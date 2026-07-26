@@ -7,6 +7,7 @@ import ScoreComparison from '@/components/ScoreComparison';
 import BadgeDisplay from '@/components/BadgeDisplay';
 import WineCard from '@/components/WineCard';
 import WishlistButton from '@/components/WishlistButton';
+import WineActions from '@/components/WineActions';
 import FAQSection from '@/components/FAQSection';
 import {
   getWineBySlug,
@@ -49,6 +50,22 @@ export default async function WineDetailPage({ params }: Props) {
     getSimilarWines(wine, 4),
     getWineVintagesBySlug(slug),
   ]);
+
+  // Detect fake vintage data: if ALL vintages share the same ratingCount AND same scores,
+  // it's duplicated aggregate data — don't show per-vintage table.
+  const hasUniqueVintageData = (() => {
+    if (vintages.length <= 1) return false;
+    const first = vintages[0];
+    for (let i = 1; i < vintages.length; i++) {
+      const v = vintages[i];
+      if (v.ratingCount !== first.ratingCount) return true;
+      // Compare scores arrays
+      const a = JSON.stringify(v.scores || []);
+      const b = JSON.stringify(first.scores || []);
+      if (a !== b) return true;
+    }
+    return false;
+  })();
 
   // Collect all unique score sources across vintages for the table header
   const allSources = new Set<string>();
@@ -149,6 +166,9 @@ export default async function WineDetailPage({ params }: Props) {
               <p className="mt-2 text-lg text-text/50">
                 {wine.producer} &middot; {wine.region}, {wine.country}
               </p>
+              <div className="mt-4">
+                <WineActions slug={wine.slug} />
+              </div>
             </div>
 
             {/* Aggregate Score */}
@@ -196,47 +216,69 @@ export default async function WineDetailPage({ params }: Props) {
             {vintages.length > 0 && (
               <div className="rounded-2xl border border-card-border bg-card-bg p-6">
                 <h2 className="mb-4 font-serif text-xl font-bold text-text">Vintages & Ratings</h2>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead>
-                      <tr className="border-b border-card-border">
-                        <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Year</th>
-                        <th className="pb-3 pr-4 text-right text-xs font-semibold uppercase tracking-wider text-text/40"># Ratings</th>
-                        {sourceList.map(source => (
-                          <th key={source} className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40 whitespace-nowrap">
-                            {source}
-                          </th>
-                        ))}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {vintages.map(v => {
-                        const scoreMap = new Map(v.scores?.map(s => [s.source, s]) || []);
-                        return (
-                          <tr key={v.year} className="border-b border-card-border/50 last:border-0">
-                            <td className="py-3 pr-4 font-serif font-bold text-text">{v.year || 'N.V.'}</td>
-                            <td className="py-3 pr-4 text-right text-text/50 text-xs">
-                              {v.ratingCount > 0 ? v.ratingCount.toLocaleString() : '--'}
-                            </td>
-                            {sourceList.map(source => {
-                              const s = scoreMap.get(source);
-                              return (
-                                <td key={source} className="py-3 pr-4">
-                                  {s ? (
-                                    <span className="inline-flex items-center gap-1">
-                                      <span className="font-serif font-bold text-wine">{s.score}</span>
-                                      <span className="text-text/30">/{s.maxScore}</span>
-                                    </span>
-                                  ) : <span className="text-text/20">--</span>}
-                                </td>
-                              );
-                            })}
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
+                {hasUniqueVintageData ? (
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="border-b border-card-border">
+                          <th className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40">Year</th>
+                          <th className="pb-3 pr-4 text-right text-xs font-semibold uppercase tracking-wider text-text/40"># Ratings</th>
+                          {sourceList.map(source => (
+                            <th key={source} className="pb-3 pr-4 text-left text-xs font-semibold uppercase tracking-wider text-text/40 whitespace-nowrap">
+                              {source}
+                            </th>
+                          ))}
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {vintages.map(v => {
+                          const scoreMap = new Map(v.scores?.map(s => [s.source, s]) || []);
+                          return (
+                            <tr key={v.year} className="border-b border-card-border/50 last:border-0">
+                              <td className="py-3 pr-4 font-serif font-bold text-text">{v.year || 'N.V.'}</td>
+                              <td className="py-3 pr-4 text-right text-text/50 text-xs">
+                                {v.ratingCount > 0 ? v.ratingCount.toLocaleString() : '--'}
+                              </td>
+                              {sourceList.map(source => {
+                                const s = scoreMap.get(source);
+                                return (
+                                  <td key={source} className="py-3 pr-4">
+                                    {s ? (
+                                      <span className="inline-flex items-center gap-1">
+                                        <span className="font-serif font-bold text-wine">{s.score}</span>
+                                        <span className="text-text/30">/{s.maxScore}</span>
+                                      </span>
+                                    ) : <span className="text-text/20">--</span>}
+                                  </td>
+                                );
+                              })}
+                            </tr>
+                          );
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                ) : (
+                  <div className="space-y-3">
+                    <p className="text-sm text-text/50">
+                      Vintage-specific ratings coming soon. Current aggregate:{' '}
+                      <span className="font-serif font-bold text-wine">{wine.aggregateScore}/100</span>{' '}
+                      based on{' '}
+                      <span className="font-medium text-text/70">{vintages[0]?.ratingCount?.toLocaleString() || 0}</span>{' '}
+                      ratings across all vintages.
+                    </p>
+                    <div className="flex flex-wrap gap-2">
+                      {vintages.map(v => (
+                        <span
+                          key={v.year}
+                          className="rounded-full border border-card-border bg-card-bg px-3 py-1 text-xs font-medium text-text/50"
+                        >
+                          {v.year || 'N.V.'}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                )}
               </div>
             )}
 
