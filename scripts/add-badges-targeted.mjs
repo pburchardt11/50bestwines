@@ -2,7 +2,9 @@
 // Targeted badge assignment using producer-name based SQL queries
 import { neon } from '@neondatabase/serverless';
 
-const sql = neon(process.env.DATABASE_URL);
+// Use unpooled connection — pooler has connect timeout issues with UPDATE
+const DB_URL = process.env.DATABASE_URL_UNPOOLED || process.env.DATABASE_URL;
+const sql = neon(DB_URL);
 
 function norm(str) {
   if (!str) return '';
@@ -505,8 +507,17 @@ async function findAndBadge(badge, producerSearch, country, hint1, hint2) {
   const existing = row.badges || [];
   if (existing.includes(badge)) return 'already';
 
-  const newBadges = [...existing, badge];
-  await sql`UPDATE wines SET badges = ${newBadges} WHERE id = ${row.id}`;
+  try {
+    await sql`
+      UPDATE wines
+      SET badges = array_append(COALESCE(badges, '{}'), ${badge}::text)
+      WHERE id = ${row.id}
+      AND NOT (badges @> ARRAY[${badge}]::text[])
+    `;
+  } catch(eUpd) {
+    console.error(`UPDATE failed for id=${row.id}:`, eUpd.message);
+    return false;
+  }
   return true;
 }
 
@@ -519,6 +530,7 @@ async function main() {
   for (let i = 0; i < ASSIGNMENTS.length; i++) {
     const [badge, producer, country, hint1, hint2] = ASSIGNMENTS[i];
 
+    if (i < 5 || i % 50 === 0) process.stdout.write(`[${i}] ${producer}...\n`);
     const result = await findAndBadge(badge, producer, country, hint1, hint2);
 
     if (result === true) { matched++; updated++; }
@@ -549,5 +561,7 @@ async function main() {
 
 main().catch(err => {
   console.error('Fatal:', err.message);
+  console.error('Stack:', err.stack);
+  if (err.cause) console.error('Cause:', err.cause?.message, err.cause?.stack);
   process.exit(1);
 });

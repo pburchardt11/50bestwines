@@ -114,26 +114,42 @@ def main():
         conn.close()
         return
 
-    # --- Apply updates in batches ---
+    # --- Apply updates in batches with reconnect on failure ---
     print(f"\nApplying {len(updates):,} updates in batches of {UPDATE_BATCH}...")
     total_updated = 0
-    update_cur = conn.cursor()
 
-    for i in range(0, len(updates), UPDATE_BATCH):
+    i = 0
+    while i < len(updates):
         batch = updates[i:i + UPDATE_BATCH]
-        psycopg2.extras.execute_batch(
-            update_cur,
-            "UPDATE wines SET label_url = %s WHERE id = %s",
-            batch,
-            page_size=UPDATE_BATCH
-        )
-        conn.commit()
-        total_updated += len(batch)
-        if total_updated % 5000 == 0 or total_updated == len(updates):
-            print(f"  ... {total_updated:,} / {len(updates):,} updated")
+        try:
+            update_cur = conn.cursor()
+            psycopg2.extras.execute_batch(
+                update_cur,
+                "UPDATE wines SET label_url = %s WHERE id = %s",
+                batch,
+                page_size=UPDATE_BATCH
+            )
+            conn.commit()
+            total_updated += len(batch)
+            i += len(batch)
+            if total_updated % 5000 == 0 or i >= len(updates):
+                print(f"  ... {total_updated:,} / {len(updates):,} updated")
+        except (psycopg2.OperationalError, psycopg2.InterfaceError) as e:
+            print(f"  Connection error at batch {i}: {e} — reconnecting...")
+            try:
+                conn.close()
+            except Exception:
+                pass
+            time.sleep(3)
+            conn = psycopg2.connect(DB_URL)
+            conn.autocommit = False
+            cur = conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+            # retry same batch
 
-    # --- After stats ---
-    cur.execute("""
+    # --- After stats (use a fresh connection) ---
+    conn2 = psycopg2.connect(DB_URL)
+    cur2 = conn2.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
+    cur2.execute("""
         SELECT
           COUNT(*) FILTER (WHERE label_url LIKE 'https://images.%%') AS real_images,
           COUNT(*) FILTER (WHERE label_url LIKE 'https://www.vivino.com/search/%%') AS vivino_search,
@@ -141,7 +157,7 @@ def main():
           COUNT(*) AS total
         FROM wines
     """)
-    stats_after = dict(cur.fetchone())
+    stats_after = dict(cur2.fetchone())
     print("\n=== AFTER stats ===")
     print(f"  Total wines:          {stats_after['total']:>10,}")
     print(f"  Real image URLs:      {stats_after['real_images']:>10,}")
@@ -149,16 +165,17 @@ def main():
     print(f"  Empty label_url:      {stats_after['empty']:>10,}")
 
     # Show a few sample updates
-    cur.execute("""
+    cur2.execute("""
         SELECT id, name, label_url
         FROM wines
         WHERE label_url LIKE 'https://www.vivino.com/search/%%'
         LIMIT 5
     """)
     print("\n=== Sample updated rows ===")
-    for row in cur.fetchall():
+    for row in cur2.fetchall():
         print(f"  [{row['id']}] {row['name']}")
         print(f"        {row['label_url']}")
+    conn2.close()
 
     conn.close()
     print("\nDone.")

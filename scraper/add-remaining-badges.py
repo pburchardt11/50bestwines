@@ -11,6 +11,7 @@ import re
 import unicodedata
 
 DB_URL = "postgresql://neondb_owner:npg_PL8RkghoMxG6@ep-fancy-forest-awmd0h5i-pooler.c-12.us-east-1.aws.neon.tech/neondb?sslmode=require"
+DB_URL_UNPOOLED = "postgresql://neondb_owner:npg_PL8RkghoMxG6@ep-fancy-forest-awmd0h5i.c-12.us-east-1.aws.neon.tech/neondb?sslmode=require"
 
 
 def normalize(s):
@@ -606,20 +607,19 @@ def get_conn():
 
 
 def load_all_wines(conn):
-    """Load all wines into memory for fast local matching."""
+    """Load all wines into memory for fast local matching (without badges to save bandwidth)."""
     cur = conn.cursor()
-    cur.execute("SELECT id, name, producer, country, aggregate_score, badges FROM wines")
+    cur.execute("SELECT id, name, producer, country, aggregate_score FROM wines")
     rows = cur.fetchall()
     wines = []
     for row in rows:
-        wid, name, producer, country, score, badges = row
+        wid, name, producer, country, score = row
         wines.append({
             "id": wid,
             "name": name or "",
             "producer": producer or "",
             "country": country or "",
             "score": float(score) if score else 0.0,
-            "badges": badges or [],
             "norm_name": normalize(name or ""),
             "norm_producer": normalize(producer or ""),
             "norm_country": (country or "").lower().strip(),
@@ -671,14 +671,14 @@ def main():
     print(f"Loaded {len(all_wines)} wines into memory.")
     conn.close()
 
+    # First pass: find all matches locally (fast)
+    matched_ids = set()
+    match_plan = []  # (wine_id, badge, boost, producer, name, rank)
+
     total_matched = 0
     total_not_found = 0
-    total_badges_added = 0
-    total_already_has = 0
-    total_score_boosts = 0
     list_stats = {}
     not_found_list = []
-    updates = []  # collect all updates
 
     for ranking in RANKINGS:
         list_name = ranking["list"]
@@ -700,33 +700,15 @@ def main():
             match = match_wine_local(all_wines, name, producer, country)
 
             if match:
-                current_badges = match["badges"]
-                score = match["score"]
-
                 if rank > 0:
                     badge = f"{list_name} #{rank} ({year})"
                 else:
                     badge = f"{list_name} ({year})"
+                boost = 1.0 if rank > 0 and rank <= 10 else 0.5
 
-                if badge not in current_badges:
-                    new_badges = current_badges + [badge]
-                    boost = 1.0 if rank > 0 and rank <= 10 else 0.5
-                    new_score = min(99.0, score + boost)
-
-                    # Update in-memory too so subsequent matches see updated badges
-                    match["badges"] = new_badges
-                    match["score"] = new_score
-
-                    updates.append((new_badges, new_score, match["id"]))
-                    total_badges_added += 1
-                    if new_score > score:
-                        total_score_boosts += 1
-
-                    print(f"  + {match['producer']} - {match['name']} (score: {score} -> {new_score}) [{badge}]")
-                else:
-                    print(f"  = Already has: {match['producer']} - {match['name']}")
-                    total_already_has += 1
-
+                match_plan.append((match["id"], badge, boost, match["producer"], match["name"]))
+                matched_ids.add(match["id"])
+                print(f"  + {match['producer']} - {match['name']} [{badge}]")
                 total_matched += 1
                 list_matched += 1
             else:
@@ -737,23 +719,83 @@ def main():
 
         list_stats[list_key] = {"matched": list_matched, "missed": list_missed}
 
-    # Now apply all updates to the database in batches
-    print(f"\nApplying {len(updates)} updates to database...")
-    conn = get_conn()
+    # Second pass: fetch current badges for matched wines, then apply updates
+    print(f"\nFetching current badges for {len(matched_ids)} matched wines...")
+    conn = psycopg2.connect(DB_URL_UNPOOLED, connect_timeout=30)
     cur = conn.cursor()
-    batch_size = 20
-    for i in range(0, len(updates), batch_size):
-        batch = updates[i:i+batch_size]
-        for new_badges, new_score, wine_id in batch:
-            cur.execute(
-                "UPDATE wines SET badges = %s, aggregate_score = %s WHERE id = %s",
-                (new_badges, new_score, wine_id)
-            )
-        conn.commit()
-        if (i // batch_size) % 5 == 0:
-            print(f"  ... committed {min(i+batch_size, len(updates))}/{len(updates)} updates")
+
+    # Fetch badges for all matched IDs
+    id_list = list(matched_ids)
+    badges_map = {}
+    scores_map = {}
+    batch_size = 500
+    for i in range(0, len(id_list), batch_size):
+        batch_ids = id_list[i:i+batch_size]
+        cur.execute(
+            "SELECT id, badges, aggregate_score FROM wines WHERE id = ANY(%s)",
+            (batch_ids,)
+        )
+        for row in cur.fetchall():
+            badges_map[row[0]] = row[1] or []
+            scores_map[row[0]] = float(row[2]) if row[2] else 0.0
+
+    print(f"Fetched badges for {len(badges_map)} wines.")
+
+    # Apply updates
+    total_badges_added = 0
+    total_already_has = 0
+    total_score_boosts = 0
+    updates = []
+
+    for wine_id, badge, boost, db_producer, db_name in match_plan:
+        current_badges = badges_map.get(wine_id, [])
+        current_score = scores_map.get(wine_id, 0.0)
+
+        if badge not in current_badges:
+            new_badges = current_badges + [badge]
+            new_score = min(99.0, current_score + boost)
+            updates.append((new_badges, new_score, wine_id))
+            # Update local maps so subsequent entries for same wine see new badges
+            badges_map[wine_id] = new_badges
+            scores_map[wine_id] = new_score
+            total_badges_added += 1
+            if new_score > current_score:
+                total_score_boosts += 1
+        else:
+            total_already_has += 1
+
+    print(f"Applying {len(updates)} updates via unpooled connection...")
+    import time
+    applied = 0
+    conn = psycopg2.connect(DB_URL_UNPOOLED, connect_timeout=30)
+    cur = conn.cursor()
+    for i, (new_badges, new_score, wine_id) in enumerate(updates):
+        for attempt in range(3):
+            try:
+                cur.execute(
+                    "UPDATE wines SET badges = %s, aggregate_score = %s WHERE id = %s",
+                    (new_badges, new_score, wine_id)
+                )
+                applied += 1
+                break
+            except Exception as e:
+                try:
+                    conn.close()
+                except Exception:
+                    pass
+                time.sleep(1)
+                conn = psycopg2.connect(DB_URL_UNPOOLED, connect_timeout=30)
+                cur = conn.cursor()
+                if attempt == 2:
+                    print(f"  ! Failed after 3 attempts for wine id {wine_id}: {e}")
+        # Commit every 10 updates
+        if (i + 1) % 10 == 0:
+            conn.commit()
+        if (i + 1) % 50 == 0:
+            print(f"  ... applied {applied}/{len(updates)}")
+    conn.commit()
     conn.close()
-    print(f"All updates committed.")
+    print(f"Applied {applied}/{len(updates)} updates.")
 
     # Per-list summary
     print(f"\n{'='*60}")
@@ -780,7 +822,9 @@ def main():
         print(f"  Overall match rate:       {total_matched/grand_total*100:.1f}%")
 
     # Show top wines with most badges
-    cur.execute("""
+    conn2 = psycopg2.connect(DB_URL_UNPOOLED, connect_timeout=30)
+    cur2 = conn2.cursor()
+    cur2.execute("""
         SELECT name, producer, aggregate_score, badges, array_length(badges, 1) as badge_count
         FROM wines
         WHERE array_length(badges, 1) >= 2
@@ -790,11 +834,12 @@ def main():
     print(f"\n{'='*60}")
     print(f"  TOP WINES BY BADGE COUNT")
     print(f"{'='*60}")
-    for row in cur.fetchall():
+    for row in cur2.fetchall():
         name, producer, score, badges, count = row
         print(f"  [{count} badges] {producer} - {name} (score: {score})")
         for b in badges:
             print(f"           - {b}")
+    conn2.close()
 
     # Print not-found wines for reference
     if not_found_list:
@@ -804,7 +849,6 @@ def main():
         for w in not_found_list:
             print(f"  - {w}")
 
-    conn.close()
     print(f"\nDone.")
 
 

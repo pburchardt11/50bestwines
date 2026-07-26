@@ -3,6 +3,8 @@
 Vivino label image scraper.
 Queries Vivino's explore API across countries and wine types to collect label image URLs,
 then matches results to wines in the database and updates label_url.
+
+Resilient against dropped DB connections — opens a fresh connection per page batch.
 """
 
 import re
@@ -27,6 +29,8 @@ HEADERS = {
 DELAY = 1.5
 PER_PAGE = 25
 MAX_PAGES = 100  # 2500 wines max per country+type combo
+# Commit every N pages to keep transactions short
+COMMIT_EVERY = 5
 
 
 def normalize(text: str) -> str:
@@ -39,8 +43,8 @@ def normalize(text: str) -> str:
     return text
 
 
-def fetch_page(country: str, wine_type: int, page: int) -> list:
-    """Fetch one page from Vivino explore API. Returns list of match dicts."""
+def fetch_page(country: str, wine_type: int, page: int, retries: int = 2):
+    """Fetch one page from Vivino explore API. Returns list of match dicts or None on error."""
     params = {
         "country_code": country,
         "currency_code": "USD",
@@ -53,21 +57,28 @@ def fetch_page(country: str, wine_type: int, page: int) -> list:
     }
     url = API_BASE + "?" + urllib.parse.urlencode(params)
     req = urllib.request.Request(url, headers=HEADERS)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode("utf-8"))
-        return data.get("explore_vintage", {}).get("matches", [])
-    except Exception as e:
-        print(f"    ERROR fetching page {page} ({country}/{wine_type}): {e}")
-        return None  # None = stop paginating
+    for attempt in range(retries + 1):
+        try:
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            return data.get("explore_vintage", {}).get("matches", [])
+        except Exception as e:
+            msg = str(e)
+            if attempt < retries:
+                # Back off and retry
+                wait = 10 * (attempt + 1)
+                print(f"    Vivino error on page {page} (attempt {attempt+1}): {msg[:80]} — retrying in {wait}s", flush=True)
+                time.sleep(wait)
+            else:
+                print(f"    ERROR fetching page {page} ({country}/{wine_type}) after {retries+1} attempts: {msg[:100]}", flush=True)
+                return None  # Stop paginating this combo
 
 
-def extract_image_url(match: dict) -> str | None:
+def extract_image_url(match: dict):
     """Pull the best label image URL from a Vivino match dict."""
     vintage = match.get("vintage", {})
     image = vintage.get("image", {})
     variations = image.get("variations", {})
-    # Prefer label_large, fall back to label, then location
     url = (
         variations.get("label_large")
         or variations.get("label")
@@ -78,23 +89,17 @@ def extract_image_url(match: dict) -> str | None:
     return None
 
 
-def extract_wine_info(match: dict) -> tuple[str, str, str]:
+def extract_wine_info(match: dict):
     """Return (vintage_name, wine_name, winery_name) for matching."""
     vintage = match.get("vintage", {})
     wine = vintage.get("wine", {})
     winery = wine.get("winery", {})
-    vintage_name = vintage.get("name", "")
-    wine_name = wine.get("name", "")
-    winery_name = winery.get("name", "")
-    return vintage_name, wine_name, winery_name
+    return vintage.get("name", ""), wine.get("name", ""), winery.get("name", "")
 
 
-def load_db_wines(conn) -> dict:
-    """
-    Load wines that need labels from DB.
-    Returns dict keyed by normalized (name, producer) tuples and also by normalized name alone.
-    Structure: {norm_key: [row_dict, ...]}
-    """
+def load_db_wines():
+    """Load wines that need labels. Returns (by_name_producer, by_name) dicts."""
+    conn = psycopg2.connect(DB_URL)
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
     cur.execute("""
         SELECT id, name, producer
@@ -106,61 +111,40 @@ def load_db_wines(conn) -> dict:
     """)
     rows = cur.fetchall()
     cur.close()
+    conn.close()
 
     by_name_producer = {}
     by_name = {}
-
     for row in rows:
         name = normalize(row["name"])
         producer = normalize(row["producer"])
-
         key_np = (name, producer)
         by_name_producer.setdefault(key_np, []).append(dict(row))
-
         by_name.setdefault(name, []).append(dict(row))
 
-    print(f"Loaded {len(rows)} wines from DB that need labels.")
+    print(f"Loaded {len(rows)} wines from DB that need labels.", flush=True)
     return by_name_producer, by_name
 
 
-def needs_update(label_url: str | None) -> bool:
-    if not label_url:
-        return True
-    if label_url.startswith("https://images.") or label_url.startswith("http://images."):
-        return False
-    return True
-
-
-def match_wine(vintage_name, wine_name, winery_name, by_name_producer, by_name) -> list[int]:
-    """
-    Try to match Vivino wine to DB rows. Returns list of matching wine IDs.
-    Strategy:
-      1. Try (full vintage name, winery) key
-      2. Try (wine name, winery) key
-      3. Try vintage name alone
-      4. Try wine name alone
-    """
+def match_wine(vintage_name, wine_name, winery_name, by_name_producer, by_name):
+    """Match Vivino result to DB wine IDs."""
     vn = normalize(vintage_name)
     wn = normalize(wine_name)
     wr = normalize(winery_name)
 
-    # Strategy 1: full vintage name + winery
     candidates = by_name_producer.get((vn, wr), [])
     if candidates:
         return [r["id"] for r in candidates]
 
-    # Strategy 2: wine name + winery
     candidates = by_name_producer.get((wn, wr), [])
     if candidates:
         return [r["id"] for r in candidates]
 
-    # Strategy 3: vintage name alone (only if unambiguous enough — name > 10 chars)
     if len(vn) > 10:
         candidates = by_name.get(vn, [])
         if candidates:
             return [r["id"] for r in candidates]
 
-    # Strategy 4: wine name alone
     if len(wn) > 10:
         candidates = by_name.get(wn, [])
         if candidates:
@@ -169,24 +153,51 @@ def match_wine(vintage_name, wine_name, winery_name, by_name_producer, by_name) 
     return []
 
 
-def main():
-    print("Connecting to database...")
-    conn = psycopg2.connect(DB_URL)
-    conn.autocommit = False
+def flush_updates(pending: list):
+    """Write pending (image_url, wine_id) updates to DB. Opens fresh connection per call."""
+    if not pending:
+        return 0
 
-    by_name_producer, by_name = load_db_wines(conn)
+    retry_delays = [5, 15, 30]
+    for attempt in range(4):
+        try:
+            conn = psycopg2.connect(DB_URL, connect_timeout=30)
+            cur = conn.cursor()
+            for image_url, wid in pending:
+                cur.execute(
+                    "UPDATE wines SET label_url = %s WHERE id = %s",
+                    (image_url, wid)
+                )
+            conn.commit()
+            cur.close()
+            conn.close()
+            return len(pending)
+        except Exception as e:
+            print(f"  DB write error (attempt {attempt+1}/4): {type(e).__name__}: {e}", flush=True)
+            if attempt < 3:
+                delay = retry_delays[min(attempt, len(retry_delays)-1)]
+                print(f"  Retrying in {delay}s...", flush=True)
+                time.sleep(delay)
+            else:
+                print(f"  Giving up on {len(pending)} updates for this batch.", flush=True)
+                return 0
+    return 0
+
+
+def main():
+    print("Loading wines from database...", flush=True)
+    by_name_producer, by_name = load_db_wines()
 
     total_api_calls = 0
-    total_matches = 0
     total_updates = 0
     updated_ids = set()
 
-    cur = conn.cursor()
+    pending_updates = []  # accumulate (image_url, wine_id) pairs
 
     for country in COUNTRIES:
         for wine_type in WINE_TYPES:
             type_name = WINE_TYPE_NAMES.get(wine_type, str(wine_type))
-            print(f"\n--- Country: {country.upper()}  Type: {type_name} ---")
+            print(f"\n--- Country: {country.upper()}  Type: {type_name} ---", flush=True)
             combo_updates = 0
 
             for page in range(1, MAX_PAGES + 1):
@@ -194,12 +205,10 @@ def main():
                 total_api_calls += 1
 
                 if matches is None:
-                    # Error — skip rest of this combo
-                    break
+                    break  # API error, skip rest of combo
 
                 if len(matches) == 0:
-                    # No more results
-                    break
+                    break  # No more results
 
                 for match in matches:
                     image_url = extract_image_url(match)
@@ -209,41 +218,43 @@ def main():
                     vintage_name, wine_name, winery_name = extract_wine_info(match)
                     wine_ids = match_wine(vintage_name, wine_name, winery_name, by_name_producer, by_name)
 
-                    if wine_ids:
-                        total_matches += len(wine_ids)
-                        for wid in wine_ids:
-                            if wid not in updated_ids:
-                                cur.execute(
-                                    "UPDATE wines SET label_url = %s WHERE id = %s",
-                                    (image_url, wid)
-                                )
-                                updated_ids.add(wid)
-                                total_updates += 1
-                                combo_updates += 1
+                    for wid in wine_ids:
+                        if wid not in updated_ids:
+                            pending_updates.append((image_url, wid))
+                            updated_ids.add(wid)
 
-                if page % 10 == 0:
-                    conn.commit()
-                    print(f"  Page {page}: {combo_updates} updates so far (total {total_updates})")
+                # Flush to DB every COMMIT_EVERY pages
+                if page % COMMIT_EVERY == 0 and pending_updates:
+                    saved = flush_updates(pending_updates)
+                    combo_updates += saved
+                    total_updates += saved
+                    pending_updates = []
+                    print(f"  Page {page}: {combo_updates} updates this combo (total {total_updates})", flush=True)
 
                 if len(matches) < PER_PAGE:
-                    # Last page
-                    break
+                    break  # Last page for this combo
 
                 time.sleep(DELAY)
 
-            conn.commit()
-            print(f"  Done {country.upper()}/{type_name}: {combo_updates} updates")
+            # Flush remaining for this combo
+            if pending_updates:
+                saved = flush_updates(pending_updates)
+                combo_updates += saved
+                total_updates += saved
+                pending_updates = []
 
-    conn.commit()
-    cur.close()
-    conn.close()
+            print(f"  Done {country.upper()}/{type_name}: {combo_updates} updates", flush=True)
 
-    print("\n" + "="*60)
-    print(f"FINISHED")
-    print(f"  Total API calls:  {total_api_calls}")
-    print(f"  Total matches:    {total_matches}")
-    print(f"  Unique wines updated: {total_updates}")
-    print("="*60)
+    # Final flush (shouldn't be needed but safety net)
+    if pending_updates:
+        saved = flush_updates(pending_updates)
+        total_updates += saved
+
+    print("\n" + "="*60, flush=True)
+    print("FINISHED", flush=True)
+    print(f"  Total API calls:      {total_api_calls}", flush=True)
+    print(f"  Unique wines updated: {total_updates}", flush=True)
+    print("="*60, flush=True)
 
 
 if __name__ == "__main__":
