@@ -131,7 +131,7 @@ export default function Nav() {
           {/* Search Bar - always visible */}
           <div ref={searchRef} className="relative flex-1 max-w-md mx-auto">
             <div className="flex items-center overflow-hidden rounded-full border border-card-border bg-[#111] transition-colors focus-within:border-wine/40">
-              <svg xmlns="http://www.w3.org/2000/svg" className="ml-3 h-4 w-4 shrink-0 text-text/30" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg xmlns="http://www.w3.org/2000/svg" className="ml-3 h-4 w-4 shrink-0 text-text/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
               <input
@@ -149,7 +149,7 @@ export default function Nav() {
             {/* Search dropdown */}
             {isSearchOpen && results.length > 0 && (
               <div className="absolute left-0 right-0 top-full z-50 mt-2 max-h-[70vh] overflow-y-auto rounded-xl border border-card-border bg-[#111] shadow-2xl">
-                <div className="px-4 pt-3 pb-1 text-[11px] font-semibold uppercase tracking-widest text-text/30">Wines</div>
+                <div className="px-4 pt-3 pb-1 text-[11px] font-semibold uppercase tracking-widest text-text/40">Wines</div>
                 {results.map((r, idx) => (
                   <Link
                     key={r.slug}
@@ -207,7 +207,7 @@ export default function Nav() {
           {/* Hamburger menu button */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
-            className="shrink-0 text-text/70 transition-colors hover:text-wine md:hidden"
+            className="shrink-0 min-h-[44px] min-w-[44px] flex items-center justify-center text-text/70 transition-colors hover:text-wine md:hidden"
             aria-label="Toggle menu"
           >
             {menuOpen ? (
@@ -232,21 +232,21 @@ export default function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block rounded-lg px-3 py-2 text-text/70 transition-colors hover:bg-card-bg hover:text-wine"
+                className="block rounded-lg px-3 py-3 min-h-[44px] text-text/70 transition-colors hover:bg-card-bg hover:text-wine"
               >
                 {link.label}
               </Link>
             ))}
 
-            <div className="px-3 py-2">
-              <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-text/30">Wine Types</p>
+            <div className="px-3 py-3">
+              <p className="mb-2 text-xs font-semibold uppercase tracking-wider text-text/40">Wine Types</p>
               <div className="space-y-1 pl-2">
                 {wineTypes.map((type) => (
                   <Link
                     key={type}
                     href={`/rankings?type=${type.toLowerCase()}`}
                     onClick={() => setMenuOpen(false)}
-                    className="block rounded-lg px-3 py-1.5 text-sm text-text/50 transition-colors hover:bg-card-bg hover:text-wine"
+                    className="block rounded-lg px-3 py-3 min-h-[44px] text-sm text-text/50 transition-colors hover:bg-card-bg hover:text-wine"
                   >
                     {type}
                   </Link>
@@ -259,7 +259,7 @@ export default function Nav() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMenuOpen(false)}
-                className="block rounded-lg px-3 py-2 text-text/70 transition-colors hover:bg-card-bg hover:text-wine"
+                className="block rounded-lg px-3 py-3 min-h-[44px] text-text/70 transition-colors hover:bg-card-bg hover:text-wine"
               >
                 {link.label}
               </Link>

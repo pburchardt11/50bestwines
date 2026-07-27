@@ -129,11 +129,11 @@ export default async function HomePage() {
       {/* Hero */}
       <section className="relative overflow-hidden border-b border-card-border bg-gradient-to-b from-[#1a0a10] via-[#080808] to-[#080808]">
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(139,34,82,0.15)_0%,transparent_70%)]" />
-        <div className="relative mx-auto max-w-7xl px-4 py-20 text-center sm:px-6 sm:py-28 lg:px-8 lg:py-36">
-          <h1 className="font-serif text-5xl font-bold leading-tight tracking-tighter text-text sm:text-6xl lg:text-7xl">
+        <div className="relative mx-auto max-w-7xl px-4 py-14 text-center sm:px-6 sm:py-20 lg:px-8 lg:py-36">
+          <h1 className="font-serif text-3xl font-bold leading-tight tracking-tighter text-text sm:text-5xl lg:text-7xl">
             The World&apos;s Finest Wines,<br className="hidden sm:block" /> Ranked by the Community
           </h1>
-          <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-text/60">
+          <p className="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-text/60 sm:text-lg">
             {totalWines.toLocaleString()}+ wines rated by community critics and wine enthusiasts worldwide. One score to trust.
           </p>
           <p className="mt-4 inline-flex items-center gap-1.5 rounded-full border border-wine/20 bg-wine/5 px-4 py-1.5 text-xs font-medium text-wine/80">
@@ -141,7 +141,7 @@ export default async function HomePage() {
             Last updated: July 2026
           </p>
 
-          <div className="mx-auto mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-base text-text/60">
+          <div className="mx-auto mt-10 flex flex-col items-center gap-3 text-base text-text/60 sm:flex-row sm:flex-wrap sm:justify-center sm:gap-x-8 sm:gap-y-3">
             <div className="flex items-center gap-2">
               <span className="font-serif text-2xl font-bold text-wine">{totalWines.toLocaleString()}+</span>
               <span>Wines Scored</span>
@@ -163,7 +163,7 @@ export default async function HomePage() {
             </div>
           </div>
 
-          <div className="mx-auto mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-text/30">
+          <div className="mx-auto mt-8 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-xs text-text/40">
             <span>Vivino</span><span>&middot;</span>
             <span>X-Wines</span><span>&middot;</span>
             <span>Community Ratings</span><span>&middot;</span>
@@ -173,7 +173,7 @@ export default async function HomePage() {
       </section>
 
       {/* Editor's Top Picks */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="mb-12 text-center">
           <p className="mb-2 text-xs font-semibold uppercase tracking-[0.25em] text-wine/70">Editor&apos;s Choice</p>
           <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Top 5 Wines of 2026</h2>
@@ -182,7 +182,7 @@ export default async function HomePage() {
 
         <div className="space-y-4">
           {top5.map((wine, i) => (
-            <div key={wine.slug} className="relative overflow-hidden rounded-2xl border border-card-border bg-card-bg p-6 transition-all duration-300 hover:border-wine/30 hover:shadow-[0_0_40px_rgba(139,34,82,0.08)] sm:p-8">
+            <div key={wine.slug} className="relative overflow-hidden rounded-2xl border border-card-border bg-card-bg p-4 transition-all duration-300 hover:border-wine/30 hover:shadow-[0_0_40px_rgba(139,34,82,0.08)] sm:p-6 lg:p-8">
               <div className="flex flex-col gap-6 sm:flex-row sm:items-center">
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-wine to-wine-light font-serif text-2xl font-bold text-white">{i + 1}</div>
                 <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-full border-2 border-wine/30 bg-wine/5">
@@ -208,10 +208,10 @@ export default async function HomePage() {
                 </div>
                 <div className="flex shrink-0 flex-col items-end gap-3">
                   {wine.price > 0 && <span className="rounded-full bg-wine/10 px-3 py-1 text-xs font-medium text-wine/80">${wine.price}</span>}
-                  <a href={wine.buyUrl} target="_blank" rel="nofollow sponsored noopener" className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-wine to-wine-light px-5 py-2.5 text-sm font-bold text-white transition-opacity hover:opacity-90">
+                  <a href={wine.buyUrl} target="_blank" rel="nofollow sponsored noopener" className="inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-wine to-wine-light px-5 py-2.5 text-sm font-bold text-white transition-opacity hover:opacity-90 min-h-[44px]">
                     Buy Now <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" /></svg>
                   </a>
-                  <Link href={`/wine/${wine.slug}`} className="text-sm font-medium text-text/50 transition-colors hover:text-wine">Read Review &rarr;</Link>
+                  <Link href={`/wine/${wine.slug}`} className="text-sm font-medium text-text/50 transition-colors hover:text-wine min-h-[44px] flex items-center">Read Review &rarr;</Link>
                 </div>
               </div>
             </div>
@@ -219,7 +219,7 @@ export default async function HomePage() {
         </div>
 
         <div className="mt-8 text-center">
-          <Link href="/rankings" className="inline-flex items-center gap-2 rounded-full bg-wine px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:bg-wine-light hover:shadow-xl">
+          <Link href="/rankings" className="inline-flex items-center gap-2 rounded-full bg-wine px-8 py-4 text-lg font-semibold text-white shadow-lg transition-all hover:bg-wine-light hover:shadow-xl min-h-[44px]">
             View All Rankings <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" /></svg>
           </Link>
         </div>
@@ -228,7 +228,7 @@ export default async function HomePage() {
       <AdUnit format="horizontal" className="mx-auto max-w-4xl px-4" />
 
       {/* Top 50 Rankings */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="mb-12 text-center">
           <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Top 50 Wines</h2>
           <p className="mt-3 text-text/50">Ranked by aggregated critic scores. Show more to explore all {totalWines.toLocaleString()} wines.</p>
@@ -237,7 +237,7 @@ export default async function HomePage() {
         <div className="mt-10 text-center">
           <Link
             href="/rankings?page=2"
-            className="inline-flex items-center gap-2 rounded-xl border border-wine/30 bg-wine/10 px-8 py-3.5 font-serif text-lg font-bold text-wine transition-all hover:bg-wine/20 hover:border-wine/50"
+            className="inline-flex w-full items-center justify-center gap-2 rounded-xl border border-wine/30 bg-wine/10 px-8 py-4 font-serif text-base font-bold text-wine transition-all hover:bg-wine/20 hover:border-wine/50 sm:w-auto sm:py-3.5 sm:text-lg"
           >
             Next 50 Wines
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -255,7 +255,7 @@ export default async function HomePage() {
       </div>
 
       {/* Browse by Type */}
-      <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
         <div className="mb-12 text-center">
           <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Browse by Wine Type</h2>
           <p className="mt-3 text-text/50">Explore the world&apos;s best wines by category.</p>
@@ -280,14 +280,14 @@ export default async function HomePage() {
 
       {/* Browse by Country */}
       <section className="border-t border-card-border bg-[#0a0a0a]">
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
           <div className="mb-12 text-center">
             <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Explore by Country</h2>
             <p className="mt-3 text-text/50">Discover wines from the world&apos;s top wine-producing nations.</p>
           </div>
           <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
             {countries.slice(0, 12).map((country) => (
-              <Link key={country.slug} href={`/country/${country.slug}`} className="group flex items-center gap-3 rounded-xl border border-card-border bg-card-bg p-4 transition-all duration-300 hover:border-wine/30">
+              <Link key={country.slug} href={`/country/${country.slug}`} className="group flex items-center gap-3 rounded-xl border border-card-border bg-card-bg p-4 transition-all duration-300 hover:border-wine/30 min-h-[44px]">
                 <span className="text-3xl">{country.emoji}</span>
                 <div>
                   <h3 className="font-serif text-base font-bold text-text group-hover:text-wine transition-colors">{country.name}</h3>
@@ -301,7 +301,7 @@ export default async function HomePage() {
 
       {/* How We Score */}
       <section className="border-t border-card-border">
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
           <div className="mb-12 text-center">
             <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">How We Aggregate Scores</h2>
             <p className="mt-3 text-text/50">Our methodology ensures every ranking reflects global consensus.</p>
@@ -313,7 +313,7 @@ export default async function HomePage() {
               { icon: '🏅', title: 'Award Badges', description: 'Wines that stand out in our dataset — top-rated in their region, grape, or category — earn badges highlighting their status.' },
               { icon: '🔄', title: 'Update Regularly', description: 'Rankings are refreshed as new community ratings are collected, ensuring scores stay current.' },
             ].map((card) => (
-              <div key={card.title} className="rounded-xl border border-card-border bg-card-bg p-6 transition-all duration-300 hover:border-wine/20">
+              <div key={card.title} className="rounded-xl border border-card-border bg-card-bg p-4 transition-all duration-300 hover:border-wine/20 sm:p-6">
                 <span className="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-lg bg-wine/5 text-2xl">{card.icon}</span>
                 <h3 className="mb-2 font-serif text-lg font-bold text-text">{card.title}</h3>
                 <p className="text-sm leading-relaxed text-text/50">{card.description}</p>
@@ -325,7 +325,7 @@ export default async function HomePage() {
 
       {/* Popular Grapes */}
       <section className="border-t border-card-border bg-[#0a0a0a]">
-        <div className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
           <div className="mb-12 text-center">
             <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Browse by Grape Variety</h2>
             <p className="mt-3 text-text/50">Find the best wines by your favourite grape.</p>
@@ -342,7 +342,7 @@ export default async function HomePage() {
 
       {/* Blog */}
       {blogPosts.length > 0 && (
-        <section className="mx-auto max-w-7xl px-4 py-20 sm:px-6 lg:px-8">
+        <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
           <div className="mb-12 text-center">
             <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Latest from the Blog</h2>
             <p className="mt-3 text-text/50">Expert guides, tasting notes, and industry analysis.</p>
@@ -351,15 +351,15 @@ export default async function HomePage() {
             {blogPosts.map((post) => (
               <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
                 <article className="overflow-hidden rounded-xl border border-card-border bg-card-bg transition-all duration-200 hover:border-wine/30 hover:-translate-y-1">
-                  <div className="p-6">
+                  <div className="p-4 sm:p-6">
                     <div className="mb-3 flex items-center gap-3">
                       <span className="rounded-full bg-wine/20 px-2.5 py-0.5 text-[11px] font-medium uppercase tracking-wider text-wine">{post.category}</span>
-                      <span className="text-xs text-text/30">{post.readTime}</span>
+                      <span className="text-xs text-text/40">{post.readTime}</span>
                     </div>
                     <h3 className="font-serif text-xl font-bold leading-snug text-text group-hover:text-wine transition-colors">{post.title}</h3>
                     <p className="mt-2 line-clamp-3 text-sm leading-relaxed text-text/50">{post.excerpt}</p>
                     <div className="mt-4 flex items-center justify-between">
-                      <span className="text-xs text-text/30">{post.date}</span>
+                      <span className="text-xs text-text/40">{post.date}</span>
                       <span className="inline-flex items-center gap-1 rounded-full bg-wine/10 px-3 py-1 text-xs font-semibold text-wine group-hover:bg-wine group-hover:text-white transition-colors">Read &rarr;</span>
                     </div>
                   </div>
@@ -401,7 +401,7 @@ export default async function HomePage() {
 
       {/* FAQ */}
       <section className="border-t border-card-border bg-[#0a0a0a]">
-        <div className="mx-auto max-w-3xl px-4 py-20 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-3xl px-4 py-12 sm:px-6 sm:py-16 lg:px-8 lg:py-20">
           <div className="mb-12 text-center">
             <h2 className="font-serif text-3xl font-bold text-text sm:text-4xl">Frequently Asked Questions</h2>
             <p className="mt-3 text-text/50">Everything you need to know about our wine rankings.</p>

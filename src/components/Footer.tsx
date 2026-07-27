@@ -35,9 +35,9 @@ export default function Footer() {
   return (
     <footer className="border-t border-card-border bg-[#050505]">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
-        <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-5 lg:divide-x lg:divide-card-border [&>div]:lg:pl-8 [&>div:first-child]:lg:pl-0">
+        <div className="grid grid-cols-2 gap-8 sm:gap-12 lg:grid-cols-5 lg:divide-x lg:divide-card-border [&>div]:lg:pl-8 [&>div:first-child]:lg:pl-0">
           {/* Branding */}
-          <div>
+          <div className="col-span-2 lg:col-span-1">
             <Link href="/" className="inline-flex items-center gap-2">
               <span className="font-serif text-2xl font-bold text-wine" style={{ letterSpacing: -1, lineHeight: 1 }}>
                 50
@@ -111,14 +111,14 @@ export default function Footer() {
 
         {/* Bottom bar */}
         <div className="mt-6 flex flex-col items-center justify-between gap-4 border-t border-card-border pt-6 sm:flex-row">
-          <p className="text-xs text-text/30">
+          <p className="text-xs text-text/40">
             &copy; 2026 50 Best Limited. All rights reserved.
           </p>
           <p className="inline-flex items-center gap-2 rounded-full border border-wine/20 bg-wine/5 px-3 py-1 text-xs font-medium text-wine">
             <span className="h-1.5 w-1.5 rounded-full bg-wine animate-pulse" />
             Updated: July 2026
           </p>
-          <p className="text-xs text-text/30">
+          <p className="text-xs text-text/40">
             Rankings aggregated from independent critics. We may earn a commission
             from partner links.
           </p>

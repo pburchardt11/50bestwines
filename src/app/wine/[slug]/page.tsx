@@ -156,6 +156,32 @@ export default async function WineDetailPage({ params }: Props) {
 
       <div className="mx-auto max-w-7xl px-4 pb-20 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-3">
+          {/* Key Facts sidebar - shown first on mobile, hidden on desktop (shown in sidebar) */}
+          <div className="lg:hidden">
+            <div className="rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
+              <h2 className="mb-4 font-serif text-lg font-bold text-text">Key Facts</h2>
+              <dl className="space-y-3">
+                {[
+                  { label: 'Producer', value: wine.producer },
+                  { label: 'Region', value: wine.region },
+                  { label: 'Sub-Region', value: wine.subRegion },
+                  { label: 'Country', value: wine.country },
+                  { label: 'Grape', value: wine.grapes?.join(', ') || wine.grape },
+                  { label: 'Appellation', value: wine.appellation },
+                  { label: 'Type', value: wine.type },
+                  { label: 'Alcohol', value: wine.alcoholContent },
+                  { label: 'Price', value: wine.price > 0 ? `$${wine.price}` : undefined },
+                  { label: 'Price Range', value: wine.price > 0 ? wine.priceRange : undefined },
+                ].filter((f) => f.value).map((fact) => (
+                  <div key={fact.label} className="flex items-center justify-between border-b border-card-border pb-2 last:border-0 last:pb-0">
+                    <dt className="text-xs font-medium uppercase tracking-wider text-text/40">{fact.label}</dt>
+                    <dd className="text-sm font-medium text-text/70">{fact.value}</dd>
+                  </div>
+                ))}
+              </dl>
+            </div>
+          </div>
+
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-8">
             {/* Header */}
@@ -186,7 +212,7 @@ export default async function WineDetailPage({ params }: Props) {
             </div>
 
             {/* Aggregate Score */}
-            <div className="flex items-center gap-6 rounded-2xl border border-card-border bg-card-bg p-6">
+            <div className="flex items-center gap-6 rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
               <div className="flex h-24 w-24 shrink-0 items-center justify-center rounded-full border-4 border-wine/40 bg-wine/10 shadow-[0_0_30px_rgba(139,34,82,0.2)]">
                 <span className="font-serif text-4xl font-bold text-wine">{wine.aggregateScore}</span>
               </div>
@@ -211,7 +237,7 @@ export default async function WineDetailPage({ params }: Props) {
 
             {/* Individual Scores */}
             {wine.scores && wine.scores.length > 0 && (
-              <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+              <div className="rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
                 <h2 className="mb-4 font-serif text-xl font-bold text-text">Critic Scores</h2>
                 <div className="space-y-4">
                   {wine.scores.map((s) => (
@@ -228,7 +254,7 @@ export default async function WineDetailPage({ params }: Props) {
 
             {/* Vintages & Ratings */}
             {vintages.length > 0 && (
-              <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+              <div className="rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
                 <h2 className="mb-4 font-serif text-xl font-bold text-text">Vintages & Ratings</h2>
                 {hasUniqueVintageData ? (
                   <div className="overflow-x-auto">
@@ -260,7 +286,7 @@ export default async function WineDetailPage({ params }: Props) {
                                     {s ? (
                                       <span className="inline-flex items-center gap-1">
                                         <span className="font-serif font-bold text-wine">{s.score}</span>
-                                        <span className="text-text/30">/{s.maxScore}</span>
+                                        <span className="text-text/40">/{s.maxScore}</span>
                                       </span>
                                     ) : <span className="text-text/20">--</span>}
                                   </td>
@@ -379,7 +405,7 @@ export default async function WineDetailPage({ params }: Props) {
             )}
 
             {/* Why This Score? */}
-            <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+            <div className="rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
               <h2 className="mb-3 font-serif text-xl font-bold text-text">Why This Score?</h2>
               <p className="text-sm leading-relaxed text-text/50">
                 This wine&apos;s score of <span className="font-bold text-wine">{wine.aggregateScore}</span> is
@@ -392,7 +418,7 @@ export default async function WineDetailPage({ params }: Props) {
             </div>
 
             {/* Find & Buy This Wine */}
-            <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+            <div className="rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
               <h2 className="mb-4 font-serif text-xl font-bold text-text">Find & Buy This Wine</h2>
               <p className="mb-4 text-sm text-text/40">
                 Search for {wine.name} {wine.vintage || ''} across trusted online retailers.
@@ -462,7 +488,7 @@ export default async function WineDetailPage({ params }: Props) {
           {/* Sidebar */}
           <div className="space-y-6">
             {/* Wine Label */}
-            <div className="flex justify-center rounded-2xl border border-card-border bg-card-bg p-6">
+            <div className="flex justify-center rounded-2xl border border-card-border bg-card-bg p-4 sm:p-6">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={wine.labelUrl}
@@ -473,8 +499,8 @@ export default async function WineDetailPage({ params }: Props) {
               />
             </div>
 
-            {/* Key Facts */}
-            <div className="rounded-2xl border border-card-border bg-card-bg p-6">
+            {/* Key Facts - hidden on mobile (shown above the main content) */}
+            <div className="hidden lg:block rounded-2xl border border-card-border bg-card-bg p-6">
               <h2 className="mb-4 font-serif text-lg font-bold text-text">Key Facts</h2>
               <dl className="space-y-3">
                 {[
@@ -513,7 +539,7 @@ export default async function WineDetailPage({ params }: Props) {
                     <path strokeLinecap="round" strokeLinejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
                 </a>
-                <p className="mt-2 text-[10px] text-text/30">Affiliate link. We may earn a commission.</p>
+                <p className="mt-2 text-[10px] text-text/40">Affiliate link. We may earn a commission.</p>
               </div>
             )}
 

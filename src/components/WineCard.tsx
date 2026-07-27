@@ -35,7 +35,7 @@ const typeEmoji: Record<string, string> = {
 export default function WineCard({ wine, rank }: WineCardProps) {
   return (
     <Link href={`/wine/${wine.slug}`} className="group block">
-      <div className="relative cursor-pointer overflow-hidden rounded-xl border border-card-border bg-card-bg p-5 transition-all duration-200 hover:border-wine/30 hover:shadow-lg hover:shadow-wine/5">
+      <div className="relative cursor-pointer overflow-hidden rounded-xl border border-card-border bg-card-bg p-4 transition-all duration-200 hover:border-wine/30 hover:shadow-lg hover:shadow-wine/5 sm:p-5">
         {rank && (
           <div className="absolute top-0 left-0 flex h-8 w-8 items-center justify-center rounded-br-xl bg-wine/20 font-serif text-sm font-bold text-wine">
             {rank}
@@ -71,7 +71,7 @@ export default function WineCard({ wine, rank }: WineCardProps) {
             </div>
 
             <p className="mt-0.5 text-sm text-text/50">{wine.producer}</p>
-            <p className="mt-0.5 text-xs text-text/30">{wine.region}, {wine.country} &middot; {wine.grape}</p>
+            <p className="mt-0.5 text-xs text-text/40">{wine.region}, {wine.country} &middot; {wine.grape}</p>
 
             <div className="mt-3 flex items-center gap-3">
               <span className="inline-flex h-10 w-10 items-center justify-center rounded-full border-2 border-wine/30 bg-wine/5 font-serif text-lg font-bold text-wine shadow-[0_0_12px_rgba(139,34,82,0.15)]">
@@ -82,7 +82,7 @@ export default function WineCard({ wine, rank }: WineCardProps) {
                   const generic = ['Exceptional', 'Outstanding', 'Highly Rated', 'Popular Choice', 'Well Known', 'Best Value'];
                   const rankingBadges = wine.badges.filter(b => !generic.includes(b));
                   return rankingBadges.slice(0, 2).map((badge) => (
-                    <span key={badge} className="rounded-full px-2 py-0.5 text-[10px] font-medium bg-wine/15 text-wine-light border border-wine/20">
+                    <span key={badge} className="rounded-full px-3 py-1.5 text-[10px] font-medium bg-wine/15 text-wine-light border border-wine/20">
                       <span className="mr-0.5">⭐</span>
                       {badge}
                     </span>
