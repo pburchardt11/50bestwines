@@ -91,6 +91,13 @@ export default async function WineDetailPage({ params }: Props) {
       name: `${wine.name} ${wine.vintage || ''}`.trim(),
       brand: { '@type': 'Brand', name: wine.producer },
       category: 'Wine',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: wine.aggregateScore,
+        bestRating: 100,
+        worstRating: 0,
+        ratingCount: wine.scores?.length || 1,
+      },
     },
     reviewRating: {
       '@type': 'Rating',
