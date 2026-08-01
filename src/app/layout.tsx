@@ -107,3 +107,4 @@ export default function RootLayout({
     </html>
   );
 }
+// Last content review: 2026-08-01
