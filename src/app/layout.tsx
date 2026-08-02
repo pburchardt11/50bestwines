@@ -129,6 +129,29 @@ export default function RootLayout({
           </div>
           {children}
         </main>
+        {/* The Tribe Manager - Mid-Page Ad */}
+        <div style={{ background: 'linear-gradient(135deg, #0c1a0c, #0a0f0a)', padding: '32px 0', borderTop: '2px solid rgba(34,197,94,0.2)', borderBottom: '2px solid rgba(34,197,94,0.2)' }}>
+          <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 24px' }}>
+            <a
+              href="https://www.amazon.com/s?k=The+Tribe+Manager+Peter+Burchardt"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ display: 'flex', alignItems: 'center', gap: '28px', textDecoration: 'none', background: 'linear-gradient(135deg, rgba(16,32,16,0.95), rgba(10,20,10,0.98))', border: '1px solid rgba(34,197,94,0.25)', borderRadius: '14px', padding: '24px 32px', flexWrap: 'wrap' }}
+            >
+              <img src="https://peterburchardt.com/covers/tribe-manager.jpg" alt="The Tribe Manager by Peter Burchardt" style={{ width: '80px', height: '120px', objectFit: 'cover', borderRadius: '8px', flexShrink: 0, boxShadow: '0 6px 24px rgba(0,0,0,0.6)' }} />
+              <div style={{ flex: 1, minWidth: '220px' }}>
+                <div style={{ fontSize: '9px', fontWeight: 800, letterSpacing: '2px', textTransform: 'uppercase', color: '#22c55e', marginBottom: '8px' }}>The Leadership Companion</div>
+                <div style={{ fontSize: '1.25rem', fontWeight: 700, color: '#f0fdf4', fontFamily: 'Georgia, serif', marginBottom: '8px', lineHeight: 1.3 }}>The Tribe Manager</div>
+                <div style={{ fontSize: '0.85rem', color: '#86efac', marginBottom: '10px', lineHeight: 1.5 }}>Your employees are running stone-age software. Manage <em>with</em> it, you get loyalty and performance. Manage <em>against</em> it, you get quiet quitting and turnover.</div>
+                <div style={{ fontSize: '0.75rem', color: '#4ade80', opacity: 0.7 }}>Leading People the Way Evolution Intended — by Peter Burchardt</div>
+              </div>
+              <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px', flexShrink: 0 }}>
+                <span style={{ display: 'inline-block', background: 'linear-gradient(135deg, #22c55e, #16a34a)', color: '#052e16', fontSize: '0.8rem', fontWeight: 800, letterSpacing: '0.06em', textTransform: 'uppercase', padding: '12px 24px', borderRadius: '8px', whiteSpace: 'nowrap' }}>Get It on Amazon &rarr;</span>
+                <span style={{ fontSize: '0.62rem', color: '#4ade80', opacity: 0.5 }}>Paperback &amp; Kindle</span>
+              </div>
+            </a>
+          </div>
+        </div>
         <Footer />
         <LanguageToggle />
 
