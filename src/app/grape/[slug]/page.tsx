@@ -8,7 +8,7 @@ import {
   getWinesByGrape,
 } from '@/lib/wine-db';
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -48,8 +48,33 @@ export default async function GrapePage({ params }: Props) {
     .sort(([, a], [, b]) => b - a)
     .slice(0, 10);
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://50bestwines.com' },
+      { '@type': 'ListItem', position: 2, name: grape.name, item: `https://50bestwines.com/grape/${grape.slug}` },
+    ],
+  };
+
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Best ${grape.name} Wines`,
+    numberOfItems: topWines.length,
+    itemListElement: topWines.map((wine, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `${wine.name} ${wine.vintage || ''}`.trim(),
+      url: `https://50bestwines.com/wine/${wine.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
+
       {/* Breadcrumb */}
       <nav className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <ol className="flex items-center gap-1.5 text-sm text-text/40">

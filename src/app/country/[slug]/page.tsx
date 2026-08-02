@@ -9,7 +9,7 @@ import {
   getRegionsForCountry,
 } from '@/lib/wine-db';
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 type Props = {
   params: Promise<{ slug: string }>;
@@ -62,9 +62,23 @@ export default async function CountryPage({ params }: Props) {
     ],
   };
 
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: `Best Wines from ${country.name}`,
+    numberOfItems: topWines.length,
+    itemListElement: topWines.map((wine, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: `${wine.name} ${wine.vintage || ''}`.trim(),
+      url: `https://50bestwines.com/wine/${wine.slug}`,
+    })),
+  };
+
   return (
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
 
       {/* Breadcrumb */}
       <nav className="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">

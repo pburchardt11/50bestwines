@@ -5,7 +5,7 @@ import AdUnit from '@/components/AdUnit';
 import FAQSection from '@/components/FAQSection';
 import { getAllBlogPosts, getBlogPostBySlug } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 3600;
 
 type Props = {
   params: Promise<{ slug: string }>;

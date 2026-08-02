@@ -3,7 +3,7 @@ import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
 import { getAllBlogPosts } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Wine Blog | Expert Guides & Analysis | 50 Best Wines',

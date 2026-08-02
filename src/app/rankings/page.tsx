@@ -10,7 +10,7 @@ import {
   getAllTypes,
 } from '@/lib/wine-db';
 
-export const revalidate = 86400;
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Wine Rankings | 50 Best Wines',
@@ -69,8 +69,33 @@ export default async function RankingsPage({ searchParams }: Props) {
     return `/rankings${qs ? `?${qs}` : ''}`;
   }
 
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://50bestwines.com' },
+      { '@type': 'ListItem', position: 2, name: 'Rankings', item: 'https://50bestwines.com/rankings' },
+    ],
+  };
+
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Wine Rankings 2026',
+    numberOfItems: wines.length,
+    itemListElement: wines.map((wine, i) => ({
+      '@type': 'ListItem',
+      position: offset + i + 1,
+      name: `${wine.name} ${wine.vintage || ''}`.trim(),
+      url: `https://50bestwines.com/wine/${wine.slug}`,
+    })),
+  };
+
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }} />
+
       <section className="border-b border-card-border bg-gradient-to-b from-[#1a0a10] via-[#080808] to-[#080808]">
         <div className="mx-auto max-w-7xl px-4 py-14 text-center sm:px-6 lg:px-8">
           <h1 className="font-serif text-4xl font-bold text-text sm:text-5xl">Wine Rankings</h1>

@@ -21,6 +21,7 @@ const outfit = Outfit({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://50bestwines.com'),
   title: '50 Best Wines | Expert Rankings & Reviews 2026',
   description:
     'Discover the world\'s finest wines with community-driven rankings covering 241,457+ wines rated by enthusiasts worldwide. Independent scores and where to buy.',
@@ -40,6 +41,26 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_US',
     siteName: '50 Best Wines',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: '50 Best Wines | Expert Rankings & Reviews 2026',
+    description:
+      'The world\'s finest wines ranked by aggregated community ratings. 241,457+ wines scored by enthusiasts worldwide.',
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  alternates: {
+    canonical: 'https://50bestwines.com',
   },
 };
 
@@ -82,9 +103,58 @@ export default function RootLayout({
       </head>
       <body className="min-h-full flex flex-col font-sans">
         <Nav />
-        <main className="flex-1 pt-16">{children}</main>
+        <main className="flex-1 pt-16">
+          {/* Book Promotion - All Pages */}
+          <div style={{ background: 'linear-gradient(135deg, #1a1408, #0f0c06)', padding: '24px 0', borderBottom: '2px solid rgba(196,168,124,0.2)' }}>
+            <div style={{ maxWidth: '960px', margin: '0 auto', padding: '0 24px' }}>
+              <a
+                href="https://www.amazon.com/s?k=Designed+to+Feel+Peter+Burchardt"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ display: 'flex', alignItems: 'center', gap: '24px', textDecoration: 'none', background: 'linear-gradient(135deg, rgba(30,24,16,0.95), rgba(20,16,10,0.98))', border: '1px solid rgba(212,175,55,0.3)', borderRadius: '14px', padding: '20px 28px', flexWrap: 'wrap' }}
+              >
+                <img src="https://peterburchardt.com/covers/designed-to-feel.jpg" alt="Designed to Feel" style={{ width: '64px', height: '96px', objectFit: 'cover', borderRadius: '6px', flexShrink: 0, boxShadow: '0 4px 20px rgba(0,0,0,0.6)' }} />
+                <div style={{ flex: 1, minWidth: '200px' }}>
+                  <div style={{ fontSize: '9px', fontWeight: 700, letterSpacing: '2px', textTransform: 'uppercase', color: '#d4af37', marginBottom: '6px' }}>Bestseller by Peter Burchardt</div>
+                  <div style={{ fontSize: '1.15rem', fontWeight: 700, color: '#f5f0e8', fontFamily: 'Georgia, serif', marginBottom: '6px', lineHeight: 1.3 }}>Designed to Feel</div>
+                  <div style={{ fontSize: '0.82rem', color: '#a09888', marginBottom: '8px', lineHeight: 1.5 }}>Your anxiety, jealousy, and anger aren&apos;t broken — they&apos;re ancient software running in a world they weren&apos;t built for. This book is the missing manual.</div>
+                  <div style={{ fontSize: '0.72rem', color: '#7a6e62', fontStyle: 'italic' }}>&ldquo;The most eye-opening book on emotions I&apos;ve ever read.&rdquo;</div>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px', flexShrink: 0 }}>
+                  <span style={{ display: 'inline-block', background: 'linear-gradient(135deg, #d4af37, #c4a87c)', color: '#0a0a0a', fontSize: '0.78rem', fontWeight: 800, letterSpacing: '0.06em', textTransform: 'uppercase', padding: '10px 20px', borderRadius: '8px', whiteSpace: 'nowrap' }}>Get It on Amazon &rarr;</span>
+                  <span style={{ fontSize: '0.62rem', color: '#5a5550' }}>Available in paperback &amp; Kindle</span>
+                </div>
+              </a>
+            </div>
+          </div>
+          {children}
+        </main>
         <Footer />
         <LanguageToggle />
+
+        {/* Happiness Blueprint - Sticky Side Ad */}
+        <style dangerouslySetInnerHTML={{ __html: '@media(min-width:1400px){.hb-side-ad{display:flex!important}}' }} />
+        <a
+          className="hb-side-ad"
+          href="https://www.amazon.com/s?k=The+Happiness+Blueprint+Peter+Burchardt"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{ position: 'fixed', right: '20px', top: '50%', transform: 'translateY(-50%)', zIndex: 40, display: 'none', flexDirection: 'column', alignItems: 'center', gap: '12px', textDecoration: 'none', background: 'linear-gradient(180deg, #1a1408, #0f0c06)', border: '1px solid rgba(212,175,55,0.3)', borderRadius: '14px', padding: '20px 16px', width: '160px', boxShadow: '0 8px 40px rgba(0,0,0,0.5)' }}
+        >
+            <div style={{ fontSize: '8px', fontWeight: 800, letterSpacing: '2px', textTransform: 'uppercase', color: '#d4af37', textAlign: 'center' }}>New Release</div>
+            <img
+              src="https://peterburchardt.com/covers/happiness-blueprint.jpg"
+              alt="The Happiness Blueprint by Peter Burchardt"
+              style={{ width: '120px', height: '180px', objectFit: 'cover', borderRadius: '6px', boxShadow: '0 6px 24px rgba(0,0,0,0.6)' }}
+            />
+            <div style={{ textAlign: 'center' }}>
+              <div style={{ fontSize: '0.82rem', fontWeight: 700, color: '#f5f0e8', fontFamily: 'Georgia, serif', lineHeight: 1.3, marginBottom: '6px' }}>The Happiness Blueprint</div>
+              <div style={{ fontSize: '0.65rem', color: '#a09888', lineHeight: 1.5, marginBottom: '4px' }}>Stop chasing happiness. Start understanding it.</div>
+              <div style={{ fontSize: '0.58rem', color: '#7a6e62', fontStyle: 'italic', lineHeight: 1.4 }}>The practical sequel to Designed to Feel</div>
+            </div>
+            <span style={{ display: 'inline-block', background: 'linear-gradient(135deg, #d4af37, #c4a87c)', color: '#0a0a0a', fontSize: '0.68rem', fontWeight: 800, letterSpacing: '0.06em', textTransform: 'uppercase', padding: '8px 16px', borderRadius: '6px', whiteSpace: 'nowrap' }}>Get Book &rarr;</span>
+            <div style={{ fontSize: '0.55rem', color: '#5a5550' }}>By Peter Burchardt</div>
+        </a>
 
         {/* Google Translate */}
         <div id="google_translate_element" className="hidden" />

@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 
-export const revalidate = 604800;
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Terms of Use | 50 Best Wines',

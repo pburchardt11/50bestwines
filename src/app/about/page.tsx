@@ -3,7 +3,7 @@ import Link from 'next/link';
 import AdUnit from '@/components/AdUnit';
 import { getAllScoreSources, getScoreSourceInfo, getTotalWineCount, getAllCountries } from '@/lib/wine-db';
 
-export const revalidate = 604800;
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'About Us | Our Methodology | 50 Best Wines',

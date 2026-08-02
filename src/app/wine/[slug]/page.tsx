@@ -33,11 +33,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const metadata: Metadata = {
     title,
     description,
+    alternates: {
+      canonical: `https://50bestwines.com/wine/${slug}`,
+    },
     openGraph: {
       title,
       description,
       type: 'article',
       siteName: '50 Best Wines',
+      url: `https://50bestwines.com/wine/${slug}`,
+    },
+    twitter: {
+      card: 'summary',
+      title,
+      description,
     },
   };
 
@@ -82,6 +91,17 @@ export default async function WineDetailPage({ params }: Props) {
     v.scores?.forEach(s => allSources.add(s.source));
   });
   const sourceList = Array.from(allSources);
+
+  const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://50bestwines.com' },
+      { '@type': 'ListItem', position: 2, name: 'Rankings', item: 'https://50bestwines.com/rankings' },
+      { '@type': 'ListItem', position: 3, name: wine.country, item: `https://50bestwines.com/country/${wine.countryCode?.toLowerCase() || wine.country?.toLowerCase().replace(/\s+/g, '-')}` },
+      { '@type': 'ListItem', position: 4, name: `${wine.name} ${wine.vintage || ''}`.trim(), item: `https://50bestwines.com/wine/${wine.slug}` },
+    ],
+  };
 
   const reviewJsonLd = {
     '@context': 'https://schema.org',
@@ -145,6 +165,7 @@ export default async function WineDetailPage({ params }: Props) {
 
   return (
     <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewJsonLd) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }} />
 

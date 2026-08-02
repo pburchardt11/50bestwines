@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import AdUnit from '@/components/AdUnit';
 
-export const revalidate = 604800;
+export const revalidate = 3600;
 
 export const metadata: Metadata = {
   title: 'Contact Us | 50 Best Wines',
