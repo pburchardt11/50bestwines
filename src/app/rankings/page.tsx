@@ -13,8 +13,8 @@ import {
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: 'Wine Rankings | 50 Best Wines',
-  description: 'All wines ranked by aggregated critic scores. Filter by type, country, region, and grape variety.',
+  title: 'Wine Rankings 2026 — 241,000+ Wines Ranked by Score',
+  description: 'Every wine ranked by aggregated critic and community scores. Filter by red, white, rosé, sparkling — or by country, region and grape variety. Updated for 2026.',
 };
 
 const PAGE_SIZE = 50;

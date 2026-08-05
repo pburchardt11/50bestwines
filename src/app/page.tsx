@@ -15,6 +15,13 @@ import {
 
 export const revalidate = 3600;
 
+export const metadata = {
+  title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
+  description:
+    'Explore the world\'s top-rated wines for 2026. 241,457+ wines ranked by aggregated critic and community scores — filter by grape, region, country or price. Tasting notes, scores and where to buy.',
+  alternates: { canonical: 'https://50bestwines.com' },
+};
+
 export default async function HomePage() {
   const [top5, top50, totalWines, countries, grapes, blogPostsAll, types] = await Promise.all([
     getTopWinesGlobal(5),

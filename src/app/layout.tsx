@@ -22,9 +22,9 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://50bestwines.com'),
-  title: '50 Best Wines | Expert Rankings & Reviews 2026',
+  title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
   description:
-    'Discover the world\'s finest wines with community-driven rankings covering 241,457+ wines rated by enthusiasts worldwide. Independent scores and where to buy.',
+    'The world\'s finest wines ranked by aggregated critic and community scores. 241,457+ wines with tasting notes, scores, producer info and where to buy.',
   keywords: [
     'best wines',
     'wine rankings',
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
     'wine ratings 2026',
   ],
   openGraph: {
-    title: '50 Best Wines | Expert Rankings & Reviews 2026',
+    title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
     description:
-      'The world\'s finest wines ranked by aggregated community ratings. 241,457+ wines scored by enthusiasts worldwide.',
+      'The world\'s finest wines ranked by aggregated critic and community scores. 241,457+ wines with tasting notes and where to buy.',
     type: 'website',
     locale: 'en_US',
     siteName: '50 Best Wines',
   },
   twitter: {
     card: 'summary_large_image',
-    title: '50 Best Wines | Expert Rankings & Reviews 2026',
+    title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
     description:
-      'The world\'s finest wines ranked by aggregated community ratings. 241,457+ wines scored by enthusiasts worldwide.',
+      'The world\'s finest wines ranked by aggregated critic and community scores. 241,457+ wines with tasting notes and where to buy.',
   },
   robots: {
     index: true,
