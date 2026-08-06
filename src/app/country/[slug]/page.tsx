@@ -21,11 +21,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!country) return { title: 'Country Not Found | 50 Best Wines' };
 
   return {
-    title: `Best ${country.name} Wines | Rankings & Reviews | 50 Best Wines`,
-    description: `Discover the top-rated wines from ${country.name}. Expert rankings, tasting notes, and reviews of the best ${country.name} wines from ${country.regions?.length || 0} regions.`,
+    title: `Best Wines From ${country.name} (2026) — ${country.regions?.length || 0} Regions Ranked`,
+    description: `What are the best ${country.name} wines right now? Rankings across ${country.regions?.length || 0} regions with scores, tasting notes and honest picks.`,
     openGraph: {
-      title: `Best ${country.name} Wines | 50 Best Wines`,
-      description: `Top-rated wines from ${country.name}, ranked by aggregated critic scores.`,
+      title: `Best Wines From ${country.name} (2026) — ${country.regions?.length || 0} Regions Ranked`,
+      description: `What are the best ${country.name} wines right now? Rankings across ${country.regions?.length || 0} regions with scores and honest picks.`,
       type: 'website',
       siteName: '50 Best Wines',
     },

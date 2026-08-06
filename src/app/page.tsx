@@ -16,9 +16,9 @@ import {
 export const revalidate = 3600;
 
 export const metadata = {
-  title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
+  title: 'Which Wines Are Actually Worth It in 2026? 241,000+ Ranked',
   description:
-    'Explore the world\'s top-rated wines for 2026. 241,457+ wines ranked by aggregated critic and community scores — filter by grape, region, country or price. Tasting notes, scores and where to buy.',
+    'Not sure what to drink? 241,457 wines scored by critics and real drinkers. Filter by grape, region or price — with honest tasting notes and buy links.',
   alternates: { canonical: 'https://50bestwines.com' },
 };
 

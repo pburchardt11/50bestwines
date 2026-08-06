@@ -27,8 +27,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const wine = await getWineBySlug(slug);
   if (!wine) return { title: 'Wine Not Found | 50 Best Wines' };
 
-  const title = `${wine.name} ${wine.vintage || ''} Review & Score | 50 Best Wines`.trim();
-  const description = `${wine.name} ${wine.vintage || ''} by ${wine.producer} scores ${wine.aggregateScore}/100 aggregated from top critics. ${wine.tastingNotes?.slice(0, 120)}...`;
+  const title = `${wine.name} ${wine.vintage || ''} — Worth ${wine.aggregateScore}/100? Honest Review (2026)`.trim();
+  const description = `Is ${wine.name} ${wine.vintage || ''} by ${wine.producer} worth it? Scored ${wine.aggregateScore}/100 by critics. Tasting notes, price context and similar picks inside.`.trim();
 
   const metadata: Metadata = {
     title,

@@ -20,11 +20,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!grape) return { title: 'Grape Not Found | 50 Best Wines' };
 
   return {
-    title: `Best ${grape.name} Wines | Rankings & Reviews | 50 Best Wines`,
-    description: `Discover the top-rated ${grape.name} wines from around the world. Expert scores, tasting notes, and food pairings for the best ${grape.name} bottles.`,
+    title: `Best ${grape.name} Wines in 2026 — Ranked by Critics & Drinkers`,
+    description: `Which ${grape.name} wines are actually worth buying? Ranked by real scores with tasting notes, food pairings and price tips.`,
     openGraph: {
-      title: `Best ${grape.name} Wines | 50 Best Wines`,
-      description: `Top-rated ${grape.name} wines ranked by aggregated critic scores.`,
+      title: `Best ${grape.name} Wines in 2026 — Ranked by Critics & Drinkers`,
+      description: `Which ${grape.name} wines are actually worth buying? Ranked with tasting notes and food pairings.`,
       type: 'website',
       siteName: '50 Best Wines',
     },

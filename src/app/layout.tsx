@@ -22,9 +22,9 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://50bestwines.com'),
-  title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
+  title: 'Which Wines Are Actually Worth It in 2026? 241,000+ Ranked',
   description:
-    'The world\'s finest wines ranked by aggregated critic and community scores. 241,457+ wines with tasting notes, scores, producer info and where to buy.',
+    'Not sure what to drink? 241,457 wines scored by critics and real drinkers. Filter by grape, region or price — with honest tasting notes and buy links.',
   keywords: [
     'best wines',
     'wine rankings',
@@ -35,18 +35,18 @@ export const metadata: Metadata = {
     'wine ratings 2026',
   ],
   openGraph: {
-    title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
+    title: 'Which Wines Are Actually Worth It in 2026? 241,000+ Ranked',
     description:
-      'The world\'s finest wines ranked by aggregated critic and community scores. 241,457+ wines with tasting notes and where to buy.',
+      'Not sure what to drink? 241,457 wines scored by critics and real drinkers. Filter by grape, region or price — with honest tasting notes and buy links.',
     type: 'website',
     locale: 'en_US',
     siteName: '50 Best Wines',
   },
   twitter: {
     card: 'summary_large_image',
-    title: '50 Best Wines (2026) — 241,000+ Wines Ranked by Critics & Community',
+    title: 'Which Wines Are Actually Worth It in 2026? 241,000+ Ranked',
     description:
-      'The world\'s finest wines ranked by aggregated critic and community scores. 241,457+ wines with tasting notes and where to buy.',
+      'Not sure what to drink? 241,457 wines scored by critics and real drinkers. Filter by grape, region or price — with honest tasting notes and buy links.',
   },
   robots: {
     index: true,
